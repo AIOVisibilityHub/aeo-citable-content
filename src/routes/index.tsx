@@ -14,11 +14,11 @@ export const Route = createFileRoute("/")({
         content:
           "AE Optimizer builds the machine-readable layer your website needs to get picked up by Google AI Overviews, ChatGPT, Perplexity, Gemini, Grok, Claude and DeepSeek — plus organic search.",
       },
-      { property: "og:title", content: "AE Optimizer — Answer Engine Optimization Software" },
+      { property: "og:title", content: "AE Optimizer — Answer Engine Optimization for Google AI Overviews, ChatGPT, Perplexity & More" },
       {
         property: "og:description",
         content:
-          "Get cited by Google AI Overviews and answer engines. FAQs, Q&As, help articles, schema and a 12-repository authority network — built for you.",
+          "AE Optimizer builds the machine-readable layer your website needs to get picked up by Google AI Overviews, ChatGPT, Perplexity, Gemini, Grok, Claude and DeepSeek — plus organic search.",
       },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "/" },
