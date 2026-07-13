@@ -374,15 +374,36 @@ function IntroStory() {
   return (
     <section id="story" className="relative py-24 lg:py-32">
       <div className="mx-auto max-w-5xl px-6">
-        <div className="grid gap-12 lg:grid-cols-[1.1fr_1fr] lg:gap-16 items-start">
-          {/* LEFT — sticky headline block */}
+        <div className="grid items-start gap-12 lg:grid-cols-[1.1fr_1fr] lg:gap-16">
+          {/* LEFT — headline block */}
           <div className="lg:sticky lg:top-32">
             <span className="text-xs font-medium uppercase tracking-[0.2em] text-[color:var(--gold)]">Why AEO now?</span>
             <h2 className="mt-4 font-display text-4xl font-semibold leading-[1.05] text-foreground md:text-6xl">
               Google has always been AI.
             </h2>
             <p className="mt-5 text-xl leading-relaxed text-muted-foreground">
-              The only thing that changed?{
+              The only thing that changed is now you can <em className="text-foreground not-italic">see</em> it answer.
+              Here's what that means for your website — and why the way you've been optimizing is no longer enough.
+            </p>
+          </div>
+
+          {/* RIGHT — broken-up story */}
+          <div className="space-y-8 text-base leading-relaxed text-muted-foreground lg:pt-2">
+            <p>
+              Everyone's talking about AI search like it's brand new. It isn't. What changed is that the
+              results now show up as a single answer, not ten blue links. That's why Google rolled out AI
+              Overviews — so your question gets answered first. And why ChatGPT, Perplexity, Gemini, Grok,
+              Claude and DeepSeek are doing the same.
+            </p>
+
+            <div className="rounded-xl border border-border bg-[color:var(--surface)] p-5">
+              <p className="font-display text-lg italic text-foreground">
+                "You're not optimizing for Google anymore. You're optimizing for Google's AI — and every answer engine that follows it."
+              </p>
+            </div>
+
+            <p>
+              The shift matters because{
 
 function ContentEngine() {
   return (
