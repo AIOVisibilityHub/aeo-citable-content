@@ -238,57 +238,131 @@ function Nav() {
 
 function Hero() {
   return (
-    <section id="top" className="relative overflow-hidden">
-      <div className="absolute inset-0 grid-bg opacity-40" aria-hidden />
-      <div className="relative mx-auto max-w-7xl px-6 pt-20 pb-16 md:pt-28 md:pb-24">
-        <div className="mx-auto max-w-4xl text-center">
-          <span className="inline-flex items-center gap-2 rounded-full border border-[color:var(--gold)]/40 bg-[color:var(--gold)]/10 px-4 py-1.5 text-xs font-medium uppercase tracking-widest text-[color:var(--gold)]">
-            Answer Engine Optimization Software
-          </span>
-          <h1 className="mt-6 font-display text-5xl font-semibold leading-[1.05] tracking-tight text-foreground md:text-7xl">
-            Get picked up by{" "}
-            <span className="gold-gradient">Google AI Overviews</span> — and every answer engine after it.
-          </h1>
-          <p className="mx-auto mt-6 max-w-2xl text-lg text-muted-foreground md:text-xl">
-            AE Optimizer builds the machine-readable layer your website is missing, so AI can discover,
-            verify, and recommend your business — on Google, ChatGPT, Perplexity, Gemini, Grok, Claude, and DeepSeek.
-          </p>
+    <section id="top" className="relative overflow-hidden border-b border-border/60">
+      <div className="absolute inset-0 grid-bg opacity-30" aria-hidden />
+      <div
+        className="absolute -top-40 -left-40 h-[520px] w-[520px] rounded-full opacity-30 blur-3xl"
+        style={{ background: "radial-gradient(closest-side, var(--gold), transparent)" }}
+        aria-hidden
+      />
+      <div
+        className="absolute -bottom-40 -right-40 h-[520px] w-[520px] rounded-full opacity-20 blur-3xl"
+        style={{ background: "radial-gradient(closest-side, var(--accent), transparent)" }}
+        aria-hidden
+      />
 
-          <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
-            <a
-              href="#pricing"
-              className="rounded-lg bg-[color:var(--gold)] px-6 py-3 text-base font-semibold text-primary-foreground shadow-gold transition hover:brightness-110"
-            >
-              Get AE Optimizer
-            </a>
-            <a
-              href="#demo"
-              className="rounded-lg border border-border bg-[color:var(--surface-elevated)] px-6 py-3 text-base font-semibold text-foreground transition hover:border-[color:var(--gold)]"
-            >
-              Watch the Demo
-            </a>
-          </div>
+      <div className="relative mx-auto max-w-7xl px-6 pt-16 pb-20 md:pt-24 md:pb-28">
+        <div className="grid items-center gap-12 lg:grid-cols-[1.05fr_1fr]">
+          {/* LEFT — headline column */}
+          <div>
+            <span className="inline-flex items-center gap-2 rounded-full border border-[color:var(--gold)]/40 bg-[color:var(--gold)]/10 px-3 py-1.5 text-[11px] font-medium uppercase tracking-[0.18em] text-[color:var(--gold)]">
+              <span className="h-1.5 w-1.5 rounded-full bg-[color:var(--gold)]" />
+              Answer Engine Optimization Software
+            </span>
 
-          <div className="mt-6 flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-xs text-muted-foreground">
-            <span className="uppercase tracking-widest">Optimized for</span>
-            {ENGINES.map((e) => (
-              <span key={e} className="rounded-full border border-border px-3 py-1">
-                {e}
+            <h1 className="mt-6 font-display text-[2.75rem] font-semibold leading-[1.02] tracking-tight text-foreground sm:text-6xl lg:text-[4.25rem]">
+              Get cited by{" "}
+              <span className="gold-gradient">Google AI Overviews</span>
+              <span className="block text-foreground/90">
+                — then every answer engine after it.
               </span>
-            ))}
-          </div>
-        </div>
+            </h1>
 
-        <div className="mx-auto mt-14 max-w-5xl">
-          <div className="relative overflow-hidden rounded-2xl border border-border bg-[color:var(--surface)] shadow-elevated">
-            <div className="aspect-video">
-              <iframe
-                className="h-full w-full"
-                src="https://www.youtube.com/embed/7j0RyhGKwMg"
-                title="AE Optimizer intro"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              />
+            <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted-foreground">
+              AE Optimizer builds the machine-readable layer your website is missing, so AI can
+              discover, verify and recommend your business — on Google, ChatGPT, Perplexity,
+              Gemini, Grok, Claude and DeepSeek.
+            </p>
+
+            <div className="mt-8 flex flex-wrap items-center gap-3">
+              <a
+                href="#pricing"
+                className="rounded-lg bg-[color:var(--gold)] px-6 py-3 text-base font-semibold text-primary-foreground shadow-gold transition hover:brightness-110"
+              >
+                Get AE Optimizer
+              </a>
+              <Link
+                to="/articles/$slug"
+                params={{ slug: "aeo-tools-guide" }}
+                className="group inline-flex items-center gap-2 rounded-lg border border-border bg-[color:var(--surface-elevated)]/70 px-6 py-3 text-base font-semibold text-foreground transition hover:border-[color:var(--gold)]"
+              >
+                Read the AEO Tools for Websites Guide
+                <span aria-hidden className="transition group-hover:translate-x-0.5">→</span>
+              </Link>
+            </div>
+
+            <div className="mt-10 border-t border-border/60 pt-6">
+              <p className="text-[11px] uppercase tracking-[0.22em] text-muted-foreground">
+                Optimized for
+              </p>
+              <div className="mt-3 flex flex-wrap gap-2">
+                {ENGINES.map((e, i) => (
+                  <span
+                    key={e}
+                    className={
+                      "rounded-full border px-3 py-1 text-xs " +
+                      (i === 0
+                        ? "border-[color:var(--gold)]/60 bg-[color:var(--gold)]/10 text-[color:var(--gold)]"
+                        : "border-border text-muted-foreground")
+                    }
+                  >
+                    {e}
+                  </span>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          {/* RIGHT — video card */}
+          <div className="relative">
+            <div
+              className="absolute -inset-3 rounded-3xl opacity-70 blur-2xl"
+              style={{
+                background:
+                  "linear-gradient(135deg, color-mix(in oklab, var(--gold) 35%, transparent), color-mix(in oklab, var(--accent) 30%, transparent))",
+              }}
+              aria-hidden
+            />
+            <div className="relative overflow-hidden rounded-2xl border border-border bg-[color:var(--surface)] shadow-elevated">
+              <div className="flex items-center justify-between border-b border-border/70 bg-[color:var(--surface-elevated)]/60 px-4 py-2.5">
+                <div className="flex items-center gap-1.5">
+                  <span className="h-2.5 w-2.5 rounded-full bg-[color:var(--gold)]/70" />
+                  <span className="h-2.5 w-2.5 rounded-full bg-muted-foreground/40" />
+                  <span className="h-2.5 w-2.5 rounded-full bg-muted-foreground/30" />
+                </div>
+                <span className="text-[11px] uppercase tracking-[0.2em] text-muted-foreground">
+                  Intro · 2 min
+                </span>
+              </div>
+              <div className="aspect-video">
+                <iframe
+                  className="h-full w-full"
+                  src="https://www.youtube.com/embed/7j0RyhGKwMg"
+                  title="AE Optimizer intro"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
+              </div>
+            </div>
+
+            <div className="mt-4 grid grid-cols-3 gap-3 text-center">
+              {[
+                { k: "13", v: "Content generators" },
+                { k: "12", v: "Authority mirrors" },
+                { k: "15", v: "Authority tools" },
+              ].map((s) => (
+                <div
+                  key={s.v}
+                  className="rounded-xl border border-border bg-[color:var(--surface)]/70 px-3 py-3"
+                >
+                  <div className="font-display text-2xl font-semibold text-[color:var(--gold)]">
+                    {s.k}
+                  </div>
+                  <div className="text-[11px] uppercase tracking-widest text-muted-foreground">
+                    {s.v}
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         </div>
