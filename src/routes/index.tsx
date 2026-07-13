@@ -666,14 +666,8 @@ function EntitySection() {
           </p>
         </div>
 
-        <div className="mt-14 grid gap-10 lg:grid-cols-2">
-          <figure className="overflow-hidden rounded-2xl border border-border bg-[color:var(--surface)]">
-            <img src={entityRepos.url} alt="Business entity distributed to 12 repositories" loading="lazy" className="w-full" />
-            <figcaption className="border-t border-border p-4 text-center text-sm text-muted-foreground">
-              Your website at the center — mirrored to a 12-node authority network.
-            </figcaption>
-          </figure>
-          <figure className="overflow-hidden rounded-2xl border border-border bg-[color:var(--surface)]">
+        <div className="mx-auto mt-14 max-w-3xl">
+          <figure className="overflow-hidden rounded-2xl border border-border bg-[color:var(--surface)] shadow-elevated">
             <img src={aiDistribution.url} alt="AI distribution across an authority network" loading="lazy" className="w-full" />
             <figcaption className="border-t border-border p-4 text-center text-sm text-muted-foreground">
               GitHub Pages leads, then GitLab, Hugging Face, Kaggle, Codeberg, Sourcehut, Gitea, Zenodo,
