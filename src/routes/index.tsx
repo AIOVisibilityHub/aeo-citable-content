@@ -372,69 +372,17 @@ function Hero() {
 
 function IntroStory() {
   return (
-    <section id="story" className="relative py-24">
-      <div className="mx-auto max-w-3xl px-6">
-        <h2 className="font-display text-3xl font-semibold leading-tight text-foreground md:text-5xl">
-          Google has always been AI. People just never realized it until other answer engines began
-          surfacing — and that changes how your website needs to be optimized.
-        </h2>
-
-        <div className="mt-10 space-y-6 text-lg leading-relaxed text-muted-foreground">
-          <p>
-            Everyone's talking about AI search like it is brand new. It isn't. What actually changed is that{" "}
-            <span className="text-foreground">now you can see it in action.</span> Answer engines don't hand
-            you ten blue links like Google — they hand you an answer. That's why Google rolled out AI
-            Overviews, so they can attempt to answer your question first, and why Microsoft and other search
-            engines did the same, and why even browsers like Brave let you type your question into the
-            address bar and get an answer before the page finishes loading.
-          </p>
-          <p>
-            This changes what your website needs in order to show up in Google <u>and</u> answer engines.
-            You're not just optimizing for Google (SEO) anymore — now you need to optimize for all of them
-            (AEO), or AI search + organic search (AI SEO).
-          </p>
-          <p>
-            These <span className="text-foreground">AI systems don't read your site the way we do</span>, or
-            the way Google used to crawl looking for keywords. AI doesn't care how it looks or feels — it's a
-            machine. It's not skimming your content or reading your headlines. AI systems are scanning
-            underneath it for specific, structured information that spells out what you do, what questions
-            you answer, how you help people, and when you should be recommended.
-          </p>
-          <p>
-            Most websites don't have a machine-readable layer built in to convey that information to AI.
-            That's why you can have a beautiful site, provide a fantastic service, and do everything right —
-            and still never show up when someone asks:
-          </p>
-
-          <div className="rounded-xl border border-border bg-[color:var(--surface)] p-6 space-y-3">
-            <p className="font-display text-xl italic text-foreground">"Who's the best [your service] near me?"</p>
-            <p className="font-display text-xl italic text-foreground">"What's a good company for [what you do]?"</p>
-          </div>
-
-          <p>
-            It's not because you aren't a good — or even the best — option. It's because the system doesn't{" "}
-            <span className="text-foreground">know</span> you. It can't actually read your site.
-          </p>
-
-          <p className="border-l-2 border-[color:var(--gold)] pl-5 text-foreground italic">
-            Here's how I usually explain it: your website already displays what you do and how you present
-            it to your visitors. You even use certain keywords to get found by Google. It just doesn't
-            convey that information in the machine-readable language AI needs to actually read and
-            understand it.
-          </p>
-
-          <p>
-            The good news? There's a "translation layer" you can add — one that turns your services, your
-            about pages, and your expertise into an invisible format (behind the scenes) that these AI
-            systems actually understand. Once that's in place, your site goes from something AI skips over
-            to something it can pull from, reference when people are asking, and recommend in your service
-            area.
-          </p>
-        </div>
-      </div>
-    </section>
-  );
-}
+    <section id="story" className="relative py-24 lg:py-32">
+      <div className="mx-auto max-w-5xl px-6">
+        <div className="grid gap-12 lg:grid-cols-[1.1fr_1fr] lg:gap-16 items-start">
+          {/* LEFT — sticky headline block */}
+          <div className="lg:sticky lg:top-32">
+            <span className="text-xs font-medium uppercase tracking-[0.2em] text-[color:var(--gold)]">Why AEO now?</span>
+            <h2 className="mt-4 font-display text-4xl font-semibold leading-[1.05] text-foreground md:text-6xl">
+              Google has always been AI.
+            </h2>
+            <p className="mt-5 text-xl leading-relaxed text-muted-foreground">
+              The only thing that changed?{
 
 function ContentEngine() {
   return (
