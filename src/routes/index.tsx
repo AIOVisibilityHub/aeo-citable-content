@@ -4,6 +4,7 @@ import helpArticles from "@/assets/help-articles.png.asset.json";
 import priceComparison from "@/assets/price-comparison.png.asset.json";
 import entityRepos from "@/assets/entity-repos.png.asset.json";
 import authoritySuite from "@/assets/authority-suite.png.asset.json";
+import aeMark from "@/assets/ae-mark.png.asset.json";
 import { ARTICLES } from "@/lib/articles";
 
 export const Route = createFileRoute("/")({
@@ -213,10 +214,8 @@ function Nav() {
   return (
     <header className="sticky top-0 z-40 border-b border-border/60 backdrop-blur-md bg-background/70">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-        <a href="#top" className="flex items-center gap-2">
-          <div className="h-8 w-8 rounded-md bg-gradient-to-br from-[color:var(--gold)] to-[color:var(--gold-soft)] grid place-items-center text-primary-foreground font-display font-black">
-            Æ
-          </div>
+        <a href="#top" className="flex items-center gap-2.5">
+          <img src={aeMark.url} alt="AE Optimizer" width={32} height={32} className="h-8 w-8 object-contain" />
           <span className="font-display text-lg font-semibold tracking-tight">AE Optimizer</span>
         </a>
         <nav className="hidden gap-8 text-sm text-muted-foreground md:flex">
@@ -767,9 +766,7 @@ function Footer() {
     <footer className="border-t border-border py-12">
       <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-6 md:flex-row">
         <div className="flex items-center gap-2">
-          <div className="h-7 w-7 rounded bg-gradient-to-br from-[color:var(--gold)] to-[color:var(--gold-soft)] grid place-items-center text-primary-foreground font-display font-black text-sm">
-            Æ
-          </div>
+          <img src={aeMark.url} alt="AE Optimizer" width={28} height={28} loading="lazy" className="h-7 w-7 object-contain" />
           <span className="font-display font-semibold">AE Optimizer</span>
         </div>
         <div className="flex items-center gap-6 text-sm">
