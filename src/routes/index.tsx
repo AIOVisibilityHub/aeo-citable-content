@@ -403,9 +403,34 @@ function IntroStory() {
             </div>
 
             <p>
-              The shift matters because{
+              The shift matters because AI systems do not read your site the way humans do. They scan underneath the design for structured information that explains what you do, what questions you answer, and when you should be recommended.
+            </p>
 
-function ContentEngine() {
+            <div className="grid gap-4 sm:grid-cols-2">
+              <div className="rounded-lg border border-border/70 bg-[color:var(--surface)]/60 p-4">
+                <div className="text-[color:var(--gold)] font-display text-lg font-semibold">Before</div>
+                <p className="mt-1 text-sm text-muted-foreground">A beautiful website that AI skips over because it cannot decode the meaning.</p>
+              </div>
+              <div className="rounded-lg border border-[color:var(--gold)]/30 bg-[color:var(--surface)]/60 p-4">
+                <div className="text-[color:var(--gold)] font-display text-lg font-semibold">After</div>
+                <p className="mt-1 text-sm text-muted-foreground">A machine-readable layer that tells AI exactly who to recommend and why.</p>
+              </div>
+            </div>
+
+            <p className="border-l-2 border-[color:var(--gold)] pl-5 text-foreground italic">
+              Think of it as a translation layer. Your site already shows visitors what you do. AE Optimizer converts that into the invisible language AI actually understands.
+            </p>
+
+            <p>
+              Once that layer is in place, your site moves from invisible to citable — referenced when people ask questions and recommended in your service area, on Google AI Overviews and every answer engine that follows.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
   return (
     <section id="engine" className="relative border-t border-border bg-[color:var(--surface)]/40 py-24">
       <div className="mx-auto max-w-7xl px-6">
