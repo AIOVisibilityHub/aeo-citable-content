@@ -49,7 +49,21 @@ function ArticlePage() {
   const { article } = Route.useLoaderData();
   const isPillar = article.slug === PILLAR_SLUG;
   const pillar = ARTICLES.find((a) => a.slug === PILLAR_SLUG)!;
-  const related: Article[] = ARTICLES.filter((a) => a.slug !== article.slug && a.slug !== PILLAR_SLUG).slice(0, 4);
+
+  const sameKind: Article[] = ARTICLES.filter(
+    (a) => a.slug !== article.slug && a.kind === article.kind && a.slug !== PILLAR_SLUG,
+  );
+  const otherKind: Article[] = ARTICLES.filter(
+    (a) => a.slug !== article.slug && a.kind !== article.kind && a.slug !== PILLAR_SLUG,
+  );
+  const related = [...sameKind, ...otherKind].slice(0, 6);
+
+  const kindLabel =
+    article.kind === "pillar"
+      ? "Pillar Guide"
+      : article.kind === "fundamentals"
+        ? "AEO Fundamentals"
+        : "AEO Buyer's Guide";
 
   return (
     <div className="min-h-screen bg-background">
@@ -57,12 +71,12 @@ function ArticlePage() {
         <div className="flex gap-4 text-sm">
           <Link to="/" className="text-muted-foreground hover:text-foreground">← AE Optimizer</Link>
           <span className="text-muted-foreground">/</span>
-          <Link to="/articles" className="text-muted-foreground hover:text-foreground">Guides</Link>
+          <Link to="/articles" className="text-muted-foreground hover:text-foreground">Library</Link>
         </div>
 
         <article className="mt-8">
-          <p className="text-xs uppercase tracking-widest text-primary font-semibold">
-            {isPillar ? "Pillar Guide" : "AEO Buyer's Guide"}
+          <p className="text-xs uppercase tracking-widest text-[color:var(--gold)] font-semibold">
+            {kindLabel}
           </p>
           <h1 className="mt-3 text-4xl md:text-5xl font-bold tracking-tight leading-tight">
             {article.title}
@@ -73,7 +87,7 @@ function ArticlePage() {
             <Markdown source={article.body} />
           </div>
 
-          <div className="mt-12 rounded-2xl border border-primary/30 bg-primary/5 p-8 text-center">
+          <div className="mt-12 rounded-2xl border border-[color:var(--gold)]/40 bg-card p-8 text-center">
             <h3 className="text-xl md:text-2xl font-semibold tracking-tight">
               See how AE Optimizer sets this up for your site
             </h3>
@@ -83,7 +97,7 @@ function ArticlePage() {
             </p>
             <Link
               to="/"
-              className="mt-5 inline-flex items-center justify-center rounded-full bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground transition hover:opacity-90"
+              className="mt-5 inline-flex items-center justify-center rounded-full bg-[color:var(--gold)] px-6 py-3 text-sm font-semibold text-primary-foreground transition hover:opacity-90"
             >
               Explore AE Optimizer →
             </Link>
@@ -92,9 +106,13 @@ function ArticlePage() {
 
         {!isPillar && (
           <section className="mt-16 rounded-xl border border-border bg-card p-6">
-            <p className="text-xs uppercase tracking-widest text-muted-foreground font-semibold">Pillar Guide</p>
+            <p className="text-xs uppercase tracking-widest text-muted-foreground font-semibold">
+              Pillar Guide
+            </p>
             <Link to="/articles/$slug" params={{ slug: pillar.slug }} className="mt-2 block">
-              <h3 className="text-lg font-semibold text-foreground hover:text-primary">{pillar.title}</h3>
+              <h3 className="text-lg font-semibold text-foreground hover:text-[color:var(--gold)]">
+                {pillar.title}
+              </h3>
               <p className="mt-1 text-sm text-muted-foreground">{pillar.description}</p>
             </Link>
           </section>
@@ -108,14 +126,14 @@ function ArticlePage() {
                 key={a.slug}
                 to="/articles/$slug"
                 params={{ slug: a.slug }}
-                className="rounded-xl border border-border bg-card p-5 transition hover:border-primary/50"
+                className="rounded-xl border border-border bg-card p-5 transition hover:border-[color:var(--gold)]/60"
               >
                 <h3 className="text-base font-semibold text-foreground">{a.title}</h3>
                 <p className="mt-1 text-sm text-muted-foreground">{a.description}</p>
               </Link>
             ))}
           </div>
-          <Link to="/articles" className="mt-6 inline-block text-sm text-primary">
+          <Link to="/articles" className="mt-6 inline-block text-sm text-[color:var(--gold)]">
             See all articles →
           </Link>
         </section>
