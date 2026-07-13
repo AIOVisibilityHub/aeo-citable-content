@@ -5,6 +5,8 @@ import priceComparison from "@/assets/price-comparison.png.asset.json";
 import entityRepos from "@/assets/entity-repos.png.asset.json";
 import authoritySuite from "@/assets/authority-suite.png.asset.json";
 import perplexitySonar from "@/assets/perplexity-sonar-models.png.asset.json";
+import sourceBackedStats from "@/assets/source-backed-stats.png.asset.json";
+import keywordRecommendations from "@/assets/keyword-recommendations.png.asset.json";
 import aeMark from "@/assets/ae-mark.png.asset.json";
 import { ARTICLES } from "@/lib/articles";
 
