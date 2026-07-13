@@ -203,6 +203,7 @@ function Home() {
       <EntitySection />
       <PricingCompare />
       <Pricing />
+      <ArticlesTeaser />
       <Footer />
     </div>
   );
