@@ -1,9 +1,10 @@
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, Link } from "@tanstack/react-router";
 import aiDistribution from "@/assets/ai-distribution.png.asset.json";
 import helpArticles from "@/assets/help-articles.png.asset.json";
 import priceComparison from "@/assets/price-comparison.png.asset.json";
 import entityRepos from "@/assets/entity-repos.png.asset.json";
 import authoritySuite from "@/assets/authority-suite.png.asset.json";
+import { ARTICLES } from "@/lib/articles";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -202,6 +203,7 @@ function Home() {
       <EntitySection />
       <PricingCompare />
       <Pricing />
+      <ArticlesTeaser />
       <Footer />
     </div>
   );
@@ -642,6 +644,50 @@ function PriceFeature({ children, primary }: { children: React.ReactNode; primar
   );
 }
 
+function ArticlesTeaser() {
+  const featured = ARTICLES.slice(0, 3);
+  return (
+    <section className="border-t border-border py-20">
+      <div className="mx-auto max-w-6xl px-6">
+        <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-4">
+          <div>
+            <p className="text-xs uppercase tracking-widest text-[color:var(--gold)] font-semibold">
+              The AEO Buyer's Guide
+            </p>
+            <h2 className="mt-2 text-3xl md:text-4xl font-semibold tracking-tight">
+              How AE Optimizer compares in this category
+            </h2>
+            <p className="mt-3 max-w-2xl text-muted-foreground">
+              Plain-English breakdowns of every AEO and AI visibility tool on the market — pricing,
+              what each one actually does, and what to buy first.
+            </p>
+          </div>
+          <Link
+            to="/articles"
+            className="inline-flex items-center rounded-full border border-border px-5 py-2 text-sm font-medium text-foreground hover:border-[color:var(--gold)]"
+          >
+            Browse all guides →
+          </Link>
+        </div>
+        <div className="mt-10 grid gap-5 md:grid-cols-3">
+          {featured.map((a) => (
+            <Link
+              key={a.slug}
+              to="/articles/$slug"
+              params={{ slug: a.slug }}
+              className="rounded-xl border border-border bg-card p-6 transition hover:border-[color:var(--gold)]/60"
+            >
+              <h3 className="text-base font-semibold text-foreground">{a.title}</h3>
+              <p className="mt-2 text-sm text-muted-foreground line-clamp-3">{a.description}</p>
+              <span className="mt-3 inline-block text-sm font-medium text-[color:var(--gold)]">Read →</span>
+            </Link>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
 function Footer() {
   return (
     <footer className="border-t border-border py-12">
@@ -652,9 +698,14 @@ function Footer() {
           </div>
           <span className="font-display font-semibold">AE Optimizer</span>
         </div>
-        <p className="text-sm text-muted-foreground">
-          Built for Google AI Overviews, ChatGPT, Perplexity, Gemini, Grok, Claude & DeepSeek.
-        </p>
+        <div className="flex items-center gap-6 text-sm">
+          <Link to="/articles" className="text-muted-foreground hover:text-foreground">
+            AEO Buyer's Guide
+          </Link>
+          <p className="text-muted-foreground hidden md:block">
+            Google AI Overviews · ChatGPT · Perplexity · Gemini · Grok · Claude · DeepSeek
+          </p>
+        </div>
         <p className="text-xs text-muted-foreground">© {new Date().getFullYear()} AE Optimizer.</p>
       </div>
     </footer>
