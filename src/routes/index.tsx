@@ -582,7 +582,7 @@ function ContentEngineItem({
           <div className={isEven ? "" : "lg:col-start-1"}>
             {item.image ? (
               <figure className="overflow-hidden rounded-2xl border border-border bg-[color:var(--surface)] shadow-elevated">
-                <img src={item.image} alt={item.imageAlt ?? item.title} loading="lazy" className="w-full" />
+                <img src={item.image} alt={item.imageAlt} loading="lazy" className="w-full" />
                 <figcaption className="border-t border-border px-4 py-3 text-center text-xs text-muted-foreground">
                   {item.imageAlt}
                 </figcaption>
