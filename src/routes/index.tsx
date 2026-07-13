@@ -5,6 +5,8 @@ import priceComparison from "@/assets/price-comparison.png.asset.json";
 import entityRepos from "@/assets/entity-repos.png.asset.json";
 import authoritySuite from "@/assets/authority-suite.png.asset.json";
 import perplexitySonar from "@/assets/perplexity-sonar-models.png.asset.json";
+import sourceBackedStats from "@/assets/source-backed-stats.png.asset.json";
+import keywordRecommendations from "@/assets/keyword-recommendations.png.asset.json";
 import aeMark from "@/assets/ae-mark.png.asset.json";
 import { ARTICLES } from "@/lib/articles";
 
@@ -129,20 +131,24 @@ const CONTENT_ENGINE = [
     tag: "10",
     title: "Source-Backed Topic Research",
     headline: "Ground your content in sources AI already trusts.",
+    image: sourceBackedStats.url,
+    imageAlt: "Source-Backed Topic Research with Prioritize statistics & data points option enabled",
     description: [
       "Answer engines don't just want opinions; they want answers supported by recognized sources. AE Optimizer's source-backed research uses Perplexity Sonar Pro to generate citation-backed topic research grounded in industry standards, regulations, studies and expert guidance.",
-      "Each output is stored as TechArticle schema — the format AI systems prefer for technical, authoritative content. This applies RAG principles (retrieval-augmented generation) to your site: proprietary insight paired with trusted third-party validation.",
-      "For regulated industries like law, finance and healthcare, this is especially powerful. Credibility isn't optional; it's the price of admission.",
+      "Toggle on 'Prioritize statistics & data points' and the Perplexity prompt shifts into stat-based content mode — demanding concrete stats, benchmarks, percentages and cited figures from reputable sources like BLS, CDC, industry reports and peer-reviewed studies. At least 60% of items will center on a specific statistic, which is exactly the kind of anchor AI Overviews love to quote.",
+      "Each output is stored as TechArticle schema — the format AI systems prefer for technical, authoritative content. For regulated industries like law, finance and healthcare, this is especially powerful. Credibility isn't optional; it's the price of admission.",
     ],
   },
   {
     tag: "11",
     title: "Keyword Recommendations",
     headline: "Move from keyword guessing to intent targeting.",
+    image: keywordRecommendations.url,
+    imageAlt: "AE Optimizer Keyword Recommendations tool with intent and campaign type options",
     description: [
-      "Keywords still matter — but the game has shifted from volume to intent. AE Optimizer generates high-intent keyword ideas for transactional and informational content, feeding your PPC campaigns, landing pages, blog calendar and AI-driven subsearches.",
+      "Keywords still matter — but the game has shifted from volume to intent. AE Optimizer generates high-intent keyword ideas tuned to the campaign you're actually running: PPC (Google Ads / Bing Ads), SEO content and blog posts, local SEO, landing page copy, social media ads, YouTube targeting, long-tail featured snippets, or a general mix.",
+      "Pick your intent — transactional, informational or mixed — and the list size, and the tool grows the pool on demand. Duplicates filter automatically so every generation adds fresh ideas, and stat-based angles surface the phrases people use when they want a number, benchmark or comparison, not just a definition.",
       "Instead of chasing a single head term, you build topical authority: clusters of related questions, services and contexts that signal to both search engines and answer engines that you genuinely cover the subject.",
-      "Click 'Generate' to grow the list; duplicates filter automatically. It's research that keeps up with how people actually search today.",
     ],
   },
   {
