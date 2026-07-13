@@ -214,10 +214,8 @@ function Nav() {
   return (
     <header className="sticky top-0 z-40 border-b border-border/60 backdrop-blur-md bg-background/70">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-        <a href="#top" className="flex items-center gap-2">
-          <div className="h-8 w-8 rounded-md bg-gradient-to-br from-[color:var(--gold)] to-[color:var(--gold-soft)] grid place-items-center text-primary-foreground font-display font-black">
-            Æ
-          </div>
+        <a href="#top" className="flex items-center gap-2.5">
+          <img src={aeMark.url} alt="AE Optimizer" width={32} height={32} className="h-8 w-8 object-contain" />
           <span className="font-display text-lg font-semibold tracking-tight">AE Optimizer</span>
         </a>
         <nav className="hidden gap-8 text-sm text-muted-foreground md:flex">
