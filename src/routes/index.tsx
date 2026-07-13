@@ -4,6 +4,7 @@ import helpArticles from "@/assets/help-articles.png.asset.json";
 import priceComparison from "@/assets/price-comparison.png.asset.json";
 import entityRepos from "@/assets/entity-repos.png.asset.json";
 import authoritySuite from "@/assets/authority-suite.png.asset.json";
+import perplexitySonar from "@/assets/perplexity-sonar-models.png.asset.json";
 import aeMark from "@/assets/ae-mark.png.asset.json";
 import { ARTICLES } from "@/lib/articles";
 
@@ -160,6 +161,8 @@ const CONTENT_ENGINE = [
     tag: "13",
     title: "Perplexity API Manager",
     headline: "Use the AI search engine that other answer engines also respect.",
+    image: perplexitySonar.url,
+    imageAlt: "The Perplexity Sonar model family — Sonar, Sonar Pro, Sonar Reasoning, Sonar Reasoning Pro and Sonar Deep Research",
     description: [
       "Perplexity isn't just another answer engine — it's an AI search engine built on real-time web sources. That makes it both a destination and a research layer. AE Optimizer lets you bring your own Perplexity API key (roughly $10 every 3–6 months) and choose the exact model strength you need.",
       "Pick from Sonar, Sonar Pro, Sonar Reasoning, Sonar Reasoning Pro or Sonar Deep Research — each explained in plain language so you're not buried in API jargon. Use lighter models for fast answers and deeper models for complex research.",
