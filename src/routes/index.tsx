@@ -31,88 +31,140 @@ export const Route = createFileRoute("/")({
   component: Home,
 });
 
-const CONTENT_TYPES = [
+const CONTENT_ENGINE = [
   {
     tag: "01",
     title: "FAQs",
-    body:
-      "Commonly asked questions your prospects are searching for right now. Our research tool pulls additional and trending questions from People Also Ask, Quora, Reddit and more — then packages them as schema AI can actually parse.",
+    headline: "Answer the questions your prospects are already typing.",
+    description: [
+      "Google AI Overviews don't appear out of thin air — they pull from the clearest, most direct answer on the web. Frequently asked questions, formatted as FAQ schema, are one of the fastest paths into those overviews because they're already in the exact shape AI is looking for: question, then answer.",
+      "AE Optimizer researches real questions from People Also Ask, Quora, Reddit and search autocomplete — the places your prospects actually type — then packages each one as structured FAQ data a machine can parse. You're not guessing at keywords; you're answering intent.",
+      "This same FAQ layer also feeds ChatGPT, Perplexity, Gemini and Claude when they synthesize recommendations. One well-structured answer can show up in organic search, AI Overviews, and answer engines at the same time.",
+    ],
   },
   {
     tag: "02",
     title: "Competitive Question Gaps",
-    body:
-      "Powered by Perplexity Sonar Pro. We identify high-intent questions where competitors and industry sites are weak, generic, or silent — then fill the gap with concrete answers stored as TechArticle schema.",
+    headline: "Find the questions competitors are too lazy to answer.",
+    description: [
+      "Most businesses optimize for the same crowded keywords and ignore the long-tail questions where real buying intent lives. Powered by Perplexity Sonar Pro, AE Optimizer finds those gaps — high-intent questions where competitors, directories and industry sites are weak, generic or silent.",
+      "Each gap becomes a concrete, source-backed answer stored as TechArticle schema. That matters because AI systems don't just want content; they want confidence. A direct answer with clear structure beats a vague page every time.",
+      "This is how you move from competing on backlinks to earning mentions: by being the only clear answer in a space everyone else overlooked.",
+    ],
   },
   {
     tag: "03",
     title: "Unanswered Q&As for AI Overviews",
-    body:
-      "Researched Q&A datasets targeting Google's Unanswered Questions. Uses Perplexity Sonar Reasoning Pro (multi-step) to surface specific gaps that qualify for Google AI Overviews and featured snippets.",
+    headline: "Target Google's unanswered questions before your competitors do.",
+    description: [
+      "Google explicitly surfaces unanswered questions — queries where no single source has provided a complete, trusted answer yet. That's an open invitation to become the source. AE Optimizer uses Perplexity Sonar Reasoning Pro (multi-step) to identify these specific gaps before they become crowded.",
+      "The tool then produces structured Q&A content in the format AI Overviews consume best: clear question, direct answer, supporting context. It's the difference between hoping Google notices you and feeding it exactly what it's asking for.",
+      "Win enough of these unanswered Q&A spots and your site becomes a citation pattern — referenced again and again as AI systems train on the open web.",
+    ],
   },
   {
     tag: "04",
     title: "Help Articles",
-    body:
-      "Formatted to qualify for Google AI Overviews and to get cited across answer engines. Choose from Listicle, HowTo Process, Checklist, Comparison, Guide, Mistakes to Avoid, Timeline, Q&A, When to Call, Myths vs Facts — or add custom services and topics.",
+    headline: "Publish help content AI wants to recommend.",
     image: helpArticles.url,
     imageAlt: "AE Optimizer help article type selection interface",
+    description: [
+      "Help articles are some of the most citable content formats on the internet because they're already built to answer. How-to, listicle, checklist, comparison, guide, mistakes to avoid, timeline, myth vs. fact — these are the shapes ChatGPT, Perplexity and Gemini lift answers from every day.",
+      "AE Optimizer lets you choose the article type, then generates schema-ready output formatted for Google AI Overviews and answer engines. You can also layer in custom services and topics so the content speaks directly to what you offer.",
+      "When AI systems need a trustworthy explanation, they prefer a dedicated help article over a generic service page. This is how you become that preferred source.",
+    ],
   },
   {
     tag: "05",
     title: "Services + Cities Pages",
-    body:
-      "A dedicated page per service in each of your service-area cities. Focused main city, full service description, contact info and surrounding cities — so bots zoom in locally but understand your full footprint.",
+    headline: "Own local service intent across every city you serve.",
+    description: [
+      "Answer engines are local now. People ask 'who offers X near me' and get a direct recommendation — no scroll, no click. If your service-area coverage isn't machine-readable, you're invisible in that answer.",
+      "AE Optimizer builds a dedicated, schema-rich page for each service in each city you serve: focused main city, full service description, contact information and surrounding areas. Bots see your footprint clearly; prospects get the exact signal they need.",
+      "This bridges classic SEO and generative AI: it protects your organic local rankings while also feeding the structured facts AI Overviews and answer engines use when recommending a provider.",
+    ],
   },
   {
     tag: "06",
     title: "Team Members Schema",
-    body:
-      "Builds out your organization for AI trust signals — each team member's expertise, contact and bio surfaced as structured data. Edit and save before publishing.",
+    headline: "Turn your people into trust signals.",
+    description: [
+      "AI systems trust organizations they can verify. Team member schema exposes each person's expertise, credentials, role and contact information as structured data — not buried on an about page, but explicitly labeled for machines.",
+      "This builds E-E-A-T signals (experience, expertise, authoritativeness, trust) that make your company more retrievable by both SERPs and LLMs. When an answer engine needs to decide who is credible enough to cite, clear entity data tips the scale.",
+      "You review and edit every profile before publishing, so the layer AI reads matches the real people behind your business.",
+    ],
   },
   {
     tag: "07",
     title: "Testimonials & Reviews",
-    body:
-      "Uses Perplexity to pull social proof from Google, Avvo, Yelp and beyond, then distributes it across your AI network so trust signals show up everywhere AI looks.",
+    headline: "Let third-party proof follow you into AI answers.",
+    description: [
+      "LLMs are memory machines. They train on the internet — including reviews, mentions and sentiment — and they use what they find to judge credibility. Consistent, positive proof across trusted sources tells an AI system you're worth mentioning.",
+      "AE Optimizer uses Perplexity to gather social proof from Google, Avvo, Yelp and other review platforms, then distributes those trust signals across your AI authority network. The result isn't just a testimonial page; it's a reputation layer AI can corroborate.",
+      "As AI search shifts focus from backlinks to mentions and sentiment, this becomes one of the most defensible advantages you can build.",
+    ],
   },
   {
     tag: "08",
     title: "Schema Webpages",
-    body:
-      "Full AI-optimized webpages built for distribution — service + city pages loaded with the depth AI systems consume when deciding who to recommend.",
+    headline: "Ship full AI-optimized pages, not just fragments.",
+    description: [
+      "A schema file is useful; a full webpage built around that schema is powerful. AE Optimizer generates complete AI-optimized webpages — service + city pages loaded with the depth AI systems consume when deciding who to recommend.",
+      "Each page includes the structured data, headers, context and internal references answer engines need. It's not a trick or a hack; it's a page designed from the ground up to be understood.",
+      "This gives you both distribution and destination: the content can be cited by AI, and the page can still rank and convert in traditional organic search.",
+    ],
   },
   {
     tag: "09",
     title: "HTML Accordion Pages",
-    body:
-      "Matches your brand colors and converts a zip of FAQ / Q&A / Help Article schemas into a ready-to-upload accordion page. Hundreds of schema files become a real page your human visitors can browse.",
+    headline: "Turn hundreds of schema files into one human-readable page.",
+    description: [
+      "AI crawlers love structured data; human visitors love browsable pages. AE Optimizer's HTML Accordion Pages bridge both: upload a zip of FAQ, Q&A or Help Article schemas and convert them into a brand-styled accordion page your visitors can actually read.",
+      "The colors match your brand, the structure is clean, and the content is the exact same schema AI already consumes. No duplicated work, no conflicting versions.",
+      "This is how you serve two audiences from one source of truth — humans and machines — without building everything twice.",
+    ],
   },
   {
     tag: "10",
     title: "Source-Backed Topic Research",
-    body:
-      "Perplexity Sonar Pro generates citation-backed research grounded in industry standards, regulations, studies and expert guidance — each stored as a TechArticle schema. Especially powerful for law firms and regulated industries.",
+    headline: "Ground your content in sources AI already trusts.",
+    description: [
+      "Answer engines don't just want opinions; they want answers supported by recognized sources. AE Optimizer's source-backed research uses Perplexity Sonar Pro to generate citation-backed topic research grounded in industry standards, regulations, studies and expert guidance.",
+      "Each output is stored as TechArticle schema — the format AI systems prefer for technical, authoritative content. This applies RAG principles (retrieval-augmented generation) to your site: proprietary insight paired with trusted third-party validation.",
+      "For regulated industries like law, finance and healthcare, this is especially powerful. Credibility isn't optional; it's the price of admission.",
+    ],
   },
   {
     tag: "11",
     title: "Keyword Recommendations",
-    body:
-      "High-intent keyword ideas for transactional or informational content — PPC, SEO, landing pages, campaigns. Click Generate repeatedly to grow the list; duplicates filter automatically.",
+    headline: "Move from keyword guessing to intent targeting.",
+    description: [
+      "Keywords still matter — but the game has shifted from volume to intent. AE Optimizer generates high-intent keyword ideas for transactional and informational content, feeding your PPC campaigns, landing pages, blog calendar and AI-driven subsearches.",
+      "Instead of chasing a single head term, you build topical authority: clusters of related questions, services and contexts that signal to both search engines and answer engines that you genuinely cover the subject.",
+      "Click 'Generate' to grow the list; duplicates filter automatically. It's research that keeps up with how people actually search today.",
+    ],
   },
   {
     tag: "12",
     title: "15-Tool Authority Suite",
-    body:
-      "AI Visibility Score, Entity Expertise Builder, Topic Expansion, Content Gap Map, Authority Signal Generator (E-E-A-T), Trust Signals Scorecard, Industry Knowledge Files, Topic Depth Checker and more. Run every 3 months to keep your authority current.",
+    headline: "Run a quarterly authority audit that keeps you current.",
     image: authoritySuite.url,
     imageAlt: "AE Optimizer 15-tool Authority Suite dashboard",
+    description: [
+      "Authority isn't a one-time event; it's a signal you maintain. The 15-Tool Authority Suite measures your AI visibility score, entity expertise, topic expansion opportunities, content gaps, E-E-A-T signals, trust signals, industry knowledge coverage and more.",
+      "Run it every three months and you'll know exactly where your authority is strengthening and where it's slipping. This shifts your KPIs from clicks alone to awareness and sentiment — the signals AI engines actually train on.",
+      "Combine this with traditional SEO and you have a complete picture: how humans find you, and how machines talk about you.",
+    ],
   },
   {
     tag: "13",
     title: "Perplexity API Manager",
-    body:
-      "Perplexity isn't just an answer engine — it's an AI search engine. Bring your own key (roughly $10 every 3–6 months) and choose between Sonar, Sonar Pro, Sonar Reasoning, Sonar Reasoning Pro, or Sonar Deep Research — each explained in plain language.",
+    headline: "Use the AI search engine that other answer engines also respect.",
+    description: [
+      "Perplexity isn't just another answer engine — it's an AI search engine built on real-time web sources. That makes it both a destination and a research layer. AE Optimizer lets you bring your own Perplexity API key (roughly $10 every 3–6 months) and choose the exact model strength you need.",
+      "Pick from Sonar, Sonar Pro, Sonar Reasoning, Sonar Reasoning Pro or Sonar Deep Research — each explained in plain language so you're not buried in API jargon. Use lighter models for fast answers and deeper models for complex research.",
+      "This keeps you in control of cost and quality, with no ongoing SaaS markup just to access the engine doing the work.",
+    ],
   },
 ];
 
@@ -447,78 +499,112 @@ function IntroStory() {
 
 function ContentEngine() {
   return (
-
-    <section id="engine" className="relative border-t border-border bg-[color:var(--surface)]/40 py-24">
-      <div className="mx-auto max-w-7xl px-6">
+    <section id="engine" className="relative border-t border-border bg-[color:var(--surface)]/40">
+      {/* Intro */}
+      <div className="mx-auto max-w-6xl px-6 py-24">
         <div className="mx-auto max-w-3xl text-center">
           <span className="text-xs font-medium uppercase tracking-widest text-[color:var(--gold)]">
             The Content Engine
           </span>
           <h2 className="mt-4 font-display text-4xl font-semibold leading-tight text-foreground md:text-5xl">
-            Multiple ways AE Optimizer generates citable AI content.
+            13 ways AE Optimizer builds the content AI systems cite.
           </h2>
           <p className="mt-5 text-lg text-muted-foreground">
-            AEO software (also called GEO, LLMO, or AI search monitoring) helps brands measure how they
-            appear in AI answers. Most miss the harder part: <em className="text-foreground">actually
-            optimizing your website</em> and <em className="text-foreground">generating the content</em>{" "}
-            LLMs will pick up for Google AI Overviews, snippets, and answer engines. AE Optimizer does both.
+            AI search isn't a single channel. Google AI Overviews, ChatGPT, Perplexity, Gemini, Grok,
+            Claude, DeepSeek — each one answers questions in its own way, but they all pull from the same
+            thing: clearly structured, trustworthy content. AE Optimizer generates that content for every
+            layer of your business.
           </p>
-          <div className="mt-6 grid gap-3 text-left sm:grid-cols-2">
-            <FoundationCard
-              step="Foundation"
-              title="Website AI visibility files"
-              body="The single biggest lever for AI visibility — the root-directory files that let bots crawl, consume, and understand the whole site."
-            />
-            <FoundationCard
-              step="Per-page"
-              title="On-page AI markup"
-              body="Every page is optimized for AI crawlers so each one clearly signals what it's about."
-            />
-          </div>
         </div>
 
-        <div className="mt-16 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-          {CONTENT_TYPES.map((c) => (
-            <FeatureCard key={c.tag} feature={c} />
-          ))}
+        <div className="mt-14 grid gap-6 lg:grid-cols-2">
+          <div className="rounded-2xl border border-[color:var(--gold)]/30 bg-[color:var(--surface-elevated)]/60 p-6">
+            <div className="text-xs font-semibold uppercase tracking-widest text-[color:var(--gold)]">Foundation</div>
+            <h3 className="mt-2 font-display text-xl font-semibold text-foreground">Website AI visibility files</h3>
+            <p className="mt-3 text-muted-foreground leading-relaxed">
+              The single biggest lever for AI visibility — root-directory files that tell bots how to crawl,
+              consume and understand your whole site. This is the translation layer every answer engine reads first.
+            </p>
+          </div>
+          <div className="rounded-2xl border border-[color:var(--gold)]/30 bg-[color:var(--surface-elevated)]/60 p-6">
+            <div className="text-xs font-semibold uppercase tracking-widest text-[color:var(--gold)]">Per-page</div>
+            <h3 className="mt-2 font-display text-xl font-semibold text-foreground">On-page AI markup</h3>
+            <p className="mt-3 text-muted-foreground leading-relaxed">
+              Every page is optimized for AI crawlers with structured data, breadcrumbs and meta context so
+              each one clearly signals what it's about — no page is left invisible.
+            </p>
+          </div>
         </div>
       </div>
+
+      {/* Feature sections */}
+      {CONTENT_ENGINE.map((item, index) => (
+        <ContentEngineItem key={item.tag} item={item} index={index} />
+      ))}
     </section>
   );
 }
 
-function FoundationCard({ step, title, body }: { step: string; title: string; body: string }) {
-  return (
-    <div className="rounded-xl border border-[color:var(--gold)]/30 bg-[color:var(--surface-elevated)] p-5">
-      <div className="text-xs font-medium uppercase tracking-widest text-[color:var(--gold)]">{step}</div>
-      <div className="mt-2 font-display text-lg font-semibold text-foreground">{title}</div>
-      <p className="mt-1 text-sm text-muted-foreground">{body}</p>
-    </div>
-  );
-}
 
-function FeatureCard({
-  feature,
+function ContentEngineItem({
+  item,
+  index,
 }: {
-  feature: { tag: string; title: string; body: string; image?: string; imageAlt?: string };
+  item: (typeof CONTENT_ENGINE)[number];
+  index: number;
 }) {
+  const isEven = index % 2 === 0;
   return (
-    <article
-      className={`group flex flex-col rounded-2xl border border-border bg-[color:var(--surface)] p-6 transition hover:border-[color:var(--gold)]/60 hover:shadow-gold ${
-        feature.image ? "md:col-span-2" : ""
-      }`}
-    >
-      <div className="flex items-center gap-3">
-        <span className="font-display text-sm text-[color:var(--gold)]">{feature.tag}</span>
-        <span className="h-px flex-1 bg-border" />
-      </div>
-      <h3 className="mt-3 font-display text-2xl font-semibold text-foreground">{feature.title}</h3>
-      <p className="mt-3 text-muted-foreground">{feature.body}</p>
-      {feature.image && (
-        <div className="mt-5 overflow-hidden rounded-lg border border-border">
-          <img src={feature.image} alt={feature.imageAlt ?? feature.title} loading="lazy" className="w-full" />
+    <article className="border-t border-border/60 bg-[color:var(--surface)]/30 py-20 lg:py-28">
+      <div className="mx-auto max-w-6xl px-6">
+        <div
+          className={`grid items-center gap-10 lg:grid-cols-2 lg:gap-16 ${
+            isEven ? "" : "lg:grid-flow-dense"
+          }`}
+        >
+          <div className={isEven ? "" : "lg:col-start-2"}>
+            <div className="flex items-center gap-4">
+              <span className="font-display text-6xl font-semibold text-[color:var(--gold)]/25">{item.tag}</span>
+              <span className="text-xs font-semibold uppercase tracking-widest text-[color:var(--gold)]">
+                {item.title}
+              </span>
+            </div>
+            <h3 className="mt-5 font-display text-3xl font-semibold leading-tight text-foreground md:text-4xl">
+              {item.headline}
+            </h3>
+            <div className="mt-6 space-y-4 text-base leading-relaxed text-muted-foreground">
+              {item.description.map((paragraph, i) => (
+                <p key={i}>{paragraph}</p>
+              ))}
+            </div>
+          </div>
+
+          <div className={isEven ? "" : "lg:col-start-1"}>
+            {item.image ? (
+              <figure className="overflow-hidden rounded-2xl border border-border bg-[color:var(--surface)] shadow-elevated">
+                <img src={item.image} alt={item.imageAlt} loading="lazy" className="w-full" />
+                <figcaption className="border-t border-border px-4 py-3 text-center text-xs text-muted-foreground">
+                  {item.imageAlt}
+                </figcaption>
+              </figure>
+            ) : (
+              <div className="relative flex aspect-[4/3] items-center justify-center rounded-2xl border border-dashed border-border bg-[color:var(--surface)]/60 px-8 text-center">
+                <div
+                  className="absolute inset-0 rounded-2xl opacity-40"
+                  style={{
+                    background:
+                      "radial-gradient(closest-side, color-mix(in oklab, var(--gold) 25%, transparent), transparent)",
+                  }}
+                  aria-hidden
+                />
+                <p className="relative text-xs uppercase tracking-widest text-muted-foreground/60">
+                  {item.title} visual
+                </p>
+              </div>
+            )}
+          </div>
         </div>
-      )}
+      </div>
     </article>
   );
 }
