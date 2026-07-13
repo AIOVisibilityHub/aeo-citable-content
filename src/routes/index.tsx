@@ -766,9 +766,7 @@ function Footer() {
     <footer className="border-t border-border py-12">
       <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-6 md:flex-row">
         <div className="flex items-center gap-2">
-          <div className="h-7 w-7 rounded bg-gradient-to-br from-[color:var(--gold)] to-[color:var(--gold-soft)] grid place-items-center text-primary-foreground font-display font-black text-sm">
-            Æ
-          </div>
+          <img src={aeMark.url} alt="AE Optimizer" width={28} height={28} loading="lazy" className="h-7 w-7 object-contain" />
           <span className="font-display font-semibold">AE Optimizer</span>
         </div>
         <div className="flex items-center gap-6 text-sm">
