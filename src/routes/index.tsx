@@ -4,6 +4,7 @@ import helpArticles from "@/assets/help-articles.png.asset.json";
 import priceComparison from "@/assets/price-comparison.png.asset.json";
 import entityRepos from "@/assets/entity-repos.png.asset.json";
 import authoritySuite from "@/assets/authority-suite.png.asset.json";
+import aeMark from "@/assets/ae-mark.png.asset.json";
 import { ARTICLES } from "@/lib/articles";
 
 export const Route = createFileRoute("/")({
