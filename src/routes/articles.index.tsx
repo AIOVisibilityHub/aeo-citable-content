@@ -1,7 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ARTICLES, PILLAR_SLUG } from "@/lib/articles";
 
-export const Route = createFileRoute("/articles")({
+export const Route = createFileRoute("/articles/")({
   head: () => ({
     meta: [
       { title: "AEO & AI Visibility Tool Guides — AE Optimizer" },
