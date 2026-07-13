@@ -198,6 +198,7 @@ function Home() {
     <div className="min-h-screen">
       <Nav />
       <Hero />
+      <ProblemBand />
       <IntroStory />
       <ContentEngine />
       <DemoSection />
@@ -365,6 +366,19 @@ function Hero() {
             </div>
           </div>
         </div>
+      </div>
+    </section>
+  );
+}
+
+function ProblemBand() {
+  return (
+    <section className="border-y border-border bg-muted/60 py-10">
+      <div className="mx-auto max-w-6xl px-6 text-center lg:px-10">
+        <p className="font-display text-xl italic leading-relaxed text-foreground/80 md:text-2xl">
+          “When someone asks Google, ChatGPT or Perplexity for a recommendation in your industry —
+          <span className="text-gold">is your business in the answer?</span>”
+        </p>
       </div>
     </section>
   );
