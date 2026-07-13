@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { ARTICLES, PILLAR_SLUG } from "@/lib/articles";
+import { ARTICLES, GUIDE_SLUG } from "@/lib/articles";
 
 export const Route = createFileRoute("/articles/")({
   head: () => ({
@@ -8,7 +8,7 @@ export const Route = createFileRoute("/articles/")({
       {
         name: "description",
         content:
-          "The complete AEO library: the pillar guide, fundamentals explainers (llms.txt, JSON-LD, schema, topical authority), and the 2026 AEO tool buyer's guide.",
+          "The complete AEO library: the AEO Tools for Websites Guide, fundamentals explainers (llms.txt, JSON-LD, schema, topical authority), and the 2026 AEO tool buyer's guide.",
       },
       { property: "og:title", content: "AEO Guides — Answer Engine Optimization Library" },
       {
@@ -38,7 +38,7 @@ function Card({ slug, title, description }: { slug: string; title: string; descr
 }
 
 function ArticlesIndex() {
-  const pillar = ARTICLES.find((a) => a.slug === PILLAR_SLUG)!;
+  const pillar = ARTICLES.find((a) => a.slug === GUIDE_SLUG)!;
   const fundamentals = ARTICLES.filter((a) => a.kind === "fundamentals");
   const listicles = ARTICLES.filter((a) => a.kind === "listicle");
 
@@ -50,13 +50,13 @@ function ArticlesIndex() {
         </Link>
         <h1 className="mt-6 text-4xl md:text-5xl font-bold tracking-tight">The AEO Library</h1>
         <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
-          Plain-English guides to answer engine optimization: the pillar guide, fundamentals
+          Plain-English guides to answer engine optimization: the AEO Tools for Websites Guide, fundamentals
           explainers, and a full 2026 buyer's guide to AEO and AI visibility tools.
         </p>
 
         <section className="mt-14">
           <p className="text-xs uppercase tracking-widest text-[color:var(--gold)] font-semibold">
-            Start Here — Pillar Guide
+            Start Here — AEO Tools for Websites Guide
           </p>
           <Link
             to="/articles/$slug"
@@ -66,7 +66,7 @@ function ArticlesIndex() {
             <h2 className="text-2xl md:text-3xl font-semibold tracking-tight">{pillar.title}</h2>
             <p className="mt-3 text-muted-foreground">{pillar.description}</p>
             <span className="mt-4 inline-block text-sm font-medium text-[color:var(--gold)]">
-              Read the pillar guide →
+              Read the AEO Tools for Websites Guide →
             </span>
           </Link>
         </section>
