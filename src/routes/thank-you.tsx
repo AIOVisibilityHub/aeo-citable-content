@@ -1,0 +1,98 @@
+import { createFileRoute, Link } from "@tanstack/react-router";
+
+export const Route = createFileRoute("/thank-you")({
+  head: () => ({
+    meta: [
+      { title: "Thank You — AE Optimizer Order Received" },
+      {
+        name: "description",
+        content:
+          "Thank you for your AE Optimizer order. We received your request and will follow up within 24 hours to confirm your order.",
+      },
+      { property: "og:title", content: "Thank You — AE Optimizer Order Received" },
+      {
+        property: "og:description",
+        content:
+          "Thank you for your AE Optimizer order. We received your request and will follow up within 24 hours to confirm your order.",
+      },
+      { property: "og:type", content: "website" },
+      { property: "og:url", content: "/thank-you" },
+      { name: "twitter:card", content: "summary_large_image" },
+    ],
+    links: [{ rel: "canonical", href: "/thank-you" }],
+  }),
+  component: ThankYou,
+});
+
+function ThankYou() {
+  return (
+    <div className="min-h-screen">
+      <header className="sticky top-0 z-40 border-b border-border/60 backdrop-blur-md bg-background/70">
+        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
+          <Link to="/" className="flex items-center gap-2">
+            <div className="h-8 w-8 rounded-md bg-gradient-to-br from-[color:var(--gold)] to-[color:var(--gold-soft)] grid place-items-center text-primary-foreground font-display font-black">
+              Æ
+            </div>
+            <span className="font-display text-lg font-semibold tracking-tight">AE Optimizer</span>
+          </Link>
+        </div>
+      </header>
+
+      <main className="relative mx-auto max-w-3xl px-6 py-24 md:py-32">
+        <div className="mx-auto max-w-2xl text-center">
+          <div className="mx-auto mb-8 grid h-20 w-20 place-items-center rounded-full border border-[color:var(--gold)]/30 bg-[color:var(--gold)]/10">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-10 w-10 text-[color:var(--gold)]"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              aria-hidden="true"
+            >
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+              <polyline points="22 4 12 14.01 9 11.01" />
+            </svg>
+          </div>
+
+          <h1 className="font-display text-4xl font-semibold leading-tight text-foreground md:text-5xl">
+            Thank you — we received your request.
+          </h1>
+
+          <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
+            Your AE Optimizer order is in our system. We will review the details and get back to you within{" "}
+            <span className="text-foreground">24 hours</span> to confirm your order and let you know the next steps.
+          </p>
+
+          <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
+            If you have any questions in the meantime, you can contact us anytime at{" "}
+            <a
+              href="mailto:support@aeoptimizer.com"
+              className="font-semibold text-[color:var(--gold)] underline underline-offset-4 hover:brightness-110"
+            >
+              support@aeoptimizer.com
+            </a>
+            .
+          </p>
+
+          <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
+            <Link
+              to="/"
+              className="rounded-lg bg-[color:var(--gold)] px-6 py-3 text-base font-semibold text-primary-foreground shadow-gold transition hover:brightness-110"
+            >
+              Back to homepage
+            </Link>
+            <a
+              href="mailto:support@aeoptimizer.com"
+              className="rounded-lg border border-border bg-[color:var(--surface-elevated)] px-6 py-3 text-base font-semibold text-foreground transition hover:border-[color:var(--gold)]"
+            >
+              Email support
+            </a>
+          </div>
+        </div>
+      </main>
+    </div>
+  );
+}
