@@ -166,6 +166,18 @@ const CONTENT_ENGINE = [
       "This keeps you in control of cost and quality, with no ongoing SaaS markup just to access the engine doing the work.",
     ],
   },
+  {
+    tag: "14",
+    title: "Publishing to the AI Authority Network",
+    headline: "Build authority by publishing where AI bots already crawl.",
+    image: entityRepos.url,
+    imageAlt: "AE Optimizer distributing a business entity to 12 authority repositories",
+    description: [
+      "Great content that only lives on your website is a single point of failure. To build real authority in the age of AI, your business entity and structured data have to exist in the same places AI systems already trust and crawl — repeatedly, consistently, and in the exact machine-readable shape they prefer.",
+      "AE Optimizer publishes your entity to a 12-node authority network: GitHub Pages, GitLab, Hugging Face, Kaggle, Codeberg, Sourcehut, Gitea, Zenodo, Internet Archive, Forgejo, OSF and Archive.org. Each mirror corroborates the last, so when Google AI Overviews, ChatGPT, Perplexity, Gemini, Grok, Claude or DeepSeek encounter your name, they find the same facts everywhere they look.",
+      "This is the difference between hoping to be discovered and engineering discovery. Your website stays the canonical source of truth — and every other node reinforces it, quietly, on the platforms AI already reads.",
+    ],
+  },
 ];
 
 const ENGINES = ["Google AI Overviews", "ChatGPT", "Perplexity", "Google Gemini", "Grok", "Claude", "DeepSeek"];
@@ -654,14 +666,8 @@ function EntitySection() {
           </p>
         </div>
 
-        <div className="mt-14 grid gap-10 lg:grid-cols-2">
-          <figure className="overflow-hidden rounded-2xl border border-border bg-[color:var(--surface)]">
-            <img src={entityRepos.url} alt="Business entity distributed to 12 repositories" loading="lazy" className="w-full" />
-            <figcaption className="border-t border-border p-4 text-center text-sm text-muted-foreground">
-              Your website at the center — mirrored to a 12-node authority network.
-            </figcaption>
-          </figure>
-          <figure className="overflow-hidden rounded-2xl border border-border bg-[color:var(--surface)]">
+        <div className="mx-auto mt-14 max-w-3xl">
+          <figure className="overflow-hidden rounded-2xl border border-border bg-[color:var(--surface)] shadow-elevated">
             <img src={aiDistribution.url} alt="AI distribution across an authority network" loading="lazy" className="w-full" />
             <figcaption className="border-t border-border p-4 text-center text-sm text-muted-foreground">
               GitHub Pages leads, then GitLab, Hugging Face, Kaggle, Codeberg, Sourcehut, Gitea, Zenodo,
