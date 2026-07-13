@@ -9,17 +9,17 @@ import { ARTICLES } from "@/lib/articles";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "AE Optimizer — Answer Engine Optimization for Google AI Overviews, ChatGPT, Perplexity & More" },
+      { title: "AE Optimizer — Answer Engine Optimization for Websites to Show Up in Google AI Overviews, ChatGPT, Perplexity & More" },
       {
         name: "description",
         content:
           "AE Optimizer builds the machine-readable layer your website needs to get picked up by Google AI Overviews, ChatGPT, Perplexity, Gemini, Grok, Claude and DeepSeek — plus organic search.",
       },
-      { property: "og:title", content: "AE Optimizer — Answer Engine Optimization for Google AI Overviews, ChatGPT, Perplexity & More" },
+      { property: "og:title", content: "AE Optimizer — Answer Engine Optimization for Websites to Show Up in Google AI Overviews, ChatGPT, Perplexity & More" },
       {
         property: "og:description",
         content:
-          "AE Optimizer builds the machine-readable layer your website needs to get picked up by Google AI Overviews, ChatGPT, Perplexity, Gemini, Grok, Claude and DeepSeek — plus organic search.",
+          "AE Optimizer builds the machine-readable layer your website needs for AI visibility to get picked up by Google AI Overviews and answer engines like ChatGPT, Perplexity, Gemini, Grok, Claude and DeepSeek — plus organic search.",
       },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "/" },
@@ -118,7 +118,7 @@ const CONTENT_TYPES = [
 const ENGINES = ["Google AI Overviews", "ChatGPT", "Perplexity", "Google Gemini", "Grok", "Claude", "DeepSeek"];
 
 const CORE_FEATURES = [
-  "Single business location",
+  "Single business profile",
   "Crawl unlimited pages on your site",
   "Website AI visibility files for root directory",
   "Per-page code with breadcrumbs & meta tags",
@@ -130,7 +130,7 @@ const CORE_FEATURES = [
   "Missed opportunities + Visibility gap analysis",
   "Assistance uploading website AI visibility files, if needed",
   "Human support via email, video instructions & phone",
-  "Option for add'l schema, as needed",
+  "Option to generate add'l schema, as needed",
 ];
 
 const TIERS = [
@@ -303,7 +303,7 @@ function IntroStory() {
       <div className="mx-auto max-w-3xl px-6">
         <h2 className="font-display text-3xl font-semibold leading-tight text-foreground md:text-5xl">
           Google has always been AI. People just never realized it until other answer engines began
-          surfacing — and that changes what your website needs.
+          surfacing — and that changes how your website needs to be optimized.
         </h2>
 
         <div className="mt-10 space-y-6 text-lg leading-relaxed text-muted-foreground">
@@ -372,7 +372,7 @@ function ContentEngine() {
             The Content Engine
           </span>
           <h2 className="mt-4 font-display text-4xl font-semibold leading-tight text-foreground md:text-5xl">
-            Every way AE Optimizer generates citable AI content.
+            Multiple ways AE Optimizer generates citable AI content.
           </h2>
           <p className="mt-5 text-lg text-muted-foreground">
             AEO software (also called GEO, LLMO, or AI search monitoring) helps brands measure how they
@@ -477,7 +477,7 @@ function EntitySection() {
             Authority Network
           </span>
           <h2 className="mt-4 font-display text-4xl font-semibold text-foreground md:text-5xl">
-            Your website is the source of truth. We mirror it where AI already looks.
+            Your website is the source of truth. We mirror it and distribute where AI crawls for discovery.
           </h2>
           <p className="mt-5 text-lg text-muted-foreground">
             AE Optimizer distributes your structured entity data across 12 trusted repositories so AI can
@@ -537,7 +537,7 @@ function Pricing() {
             Launch Special
           </span>
           <h2 className="mt-4 font-display text-4xl font-semibold text-foreground md:text-5xl">
-            Own your AI visibility. One payment. Forever.
+            Own your AI visibility. One payment. Additional generated content when you need it.
           </h2>
           <p className="mt-5 text-lg text-muted-foreground">
             Pick your foundation. Every tier includes the full content engine — differences are in schema
@@ -703,7 +703,7 @@ function Footer() {
             AEO Buyer's Guide
           </Link>
           <p className="text-muted-foreground hidden md:block">
-            Google AI Overviews · ChatGPT · Perplexity · Gemini · Grok · Claude · DeepSeek
+            Get Cited on Google AI Overviews · ChatGPT · Perplexity · Gemini · Grok · Claude · DeepSeek
           </p>
         </div>
         <p className="text-xs text-muted-foreground">© {new Date().getFullYear()} AE Optimizer.</p>
