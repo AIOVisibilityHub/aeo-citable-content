@@ -14,7 +14,7 @@ export const Route = createFileRoute("/articles/")({
       {
         property: "og:description",
         content:
-          "Pillar guide, fundamentals explainers, and the 2026 AEO tool buyer's guide — all in plain English.",
+          "AEO Tools for Websites Guide, fundamentals explainers, and the 2026 AEO tool buyer's guide — all in plain English.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -38,7 +38,7 @@ function Card({ slug, title, description }: { slug: string; title: string; descr
 }
 
 function ArticlesIndex() {
-  const pillar = ARTICLES.find((a) => a.slug === GUIDE_SLUG)!;
+  const guide = ARTICLES.find((a) => a.slug === GUIDE_SLUG)!;
   const fundamentals = ARTICLES.filter((a) => a.kind === "fundamentals");
   const listicles = ARTICLES.filter((a) => a.kind === "listicle");
 
@@ -60,11 +60,11 @@ function ArticlesIndex() {
           </p>
           <Link
             to="/articles/$slug"
-            params={{ slug: pillar.slug }}
+            params={{ slug: guide.slug }}
             className="mt-3 block rounded-2xl border border-[color:var(--gold)]/40 bg-card p-8 transition hover:border-[color:var(--gold)]"
           >
-            <h2 className="text-2xl md:text-3xl font-semibold tracking-tight">{pillar.title}</h2>
-            <p className="mt-3 text-muted-foreground">{pillar.description}</p>
+            <h2 className="text-2xl md:text-3xl font-semibold tracking-tight">{guide.title}</h2>
+            <p className="mt-3 text-muted-foreground">{guide.description}</p>
             <span className="mt-4 inline-block text-sm font-medium text-[color:var(--gold)]">
               Read the AEO Tools for Websites Guide →
             </span>

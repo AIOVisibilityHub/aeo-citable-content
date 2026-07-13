@@ -1,5 +1,5 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
-import { ARTICLES, PILLAR_SLUG, type Article } from "@/lib/articles";
+import { ARTICLES, GUIDE_SLUG, type Article } from "@/lib/articles";
 import { Markdown } from "@/components/Markdown";
 
 export const Route = createFileRoute("/articles/$slug")({
@@ -47,20 +47,20 @@ export const Route = createFileRoute("/articles/$slug")({
 
 function ArticlePage() {
   const { article } = Route.useLoaderData();
-  const isPillar = article.slug === PILLAR_SLUG;
-  const pillar = ARTICLES.find((a) => a.slug === PILLAR_SLUG)!;
+  const isGuide = article.slug === GUIDE_SLUG;
+  const guide = ARTICLES.find((a) => a.slug === GUIDE_SLUG)!;
 
   const sameKind: Article[] = ARTICLES.filter(
-    (a) => a.slug !== article.slug && a.kind === article.kind && a.slug !== PILLAR_SLUG,
+    (a) => a.slug !== article.slug && a.kind === article.kind && a.slug !== GUIDE_SLUG,
   );
   const otherKind: Article[] = ARTICLES.filter(
-    (a) => a.slug !== article.slug && a.kind !== article.kind && a.slug !== PILLAR_SLUG,
+    (a) => a.slug !== article.slug && a.kind !== article.kind && a.slug !== GUIDE_SLUG,
   );
   const related = [...sameKind, ...otherKind].slice(0, 6);
 
   const kindLabel =
-    article.kind === "pillar"
-      ? "Pillar Guide"
+    article.kind === "aeo-tools-guide"
+      ? "AEO Tools for Websites Guide"
       : article.kind === "fundamentals"
         ? "AEO Fundamentals"
         : "AEO Buyer's Guide";
@@ -104,16 +104,16 @@ function ArticlePage() {
           </div>
         </article>
 
-        {!isPillar && (
+        {!isGuide && (
           <section className="mt-16 rounded-xl border border-border bg-card p-6">
             <p className="text-xs uppercase tracking-widest text-muted-foreground font-semibold">
-              Pillar Guide
+              AEO Tools for Websites Guide
             </p>
-            <Link to="/articles/$slug" params={{ slug: pillar.slug }} className="mt-2 block">
+            <Link to="/articles/$slug" params={{ slug: guide.slug }} className="mt-2 block">
               <h3 className="text-lg font-semibold text-foreground hover:text-[color:var(--gold)]">
-                {pillar.title}
+                {guide.title}
               </h3>
-              <p className="mt-1 text-sm text-muted-foreground">{pillar.description}</p>
+              <p className="mt-1 text-sm text-muted-foreground">{guide.description}</p>
             </Link>
           </section>
         )}
