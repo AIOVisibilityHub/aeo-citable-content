@@ -431,7 +431,9 @@ function IntroStory() {
   );
 }
 
+function ContentEngine() {
   return (
+
     <section id="engine" className="relative border-t border-border bg-[color:var(--surface)]/40 py-24">
       <div className="mx-auto max-w-7xl px-6">
         <div className="mx-auto max-w-3xl text-center">
