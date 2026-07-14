@@ -599,7 +599,7 @@ function ContentEngine() {
             The Content Engine
           </span>
           <h2 className="mt-4 font-display text-4xl font-semibold leading-tight text-foreground md:text-5xl">
-            13 ways AE Optimizer builds the content AI systems cite.
+            18 ways AE Optimizer builds the content AI systems cite — and voice assistants read aloud.
           </h2>
           <p className="mt-5 text-lg text-muted-foreground">
             AI search isn't a single channel. Google AI Overviews, ChatGPT, Perplexity, Gemini, Grok,
