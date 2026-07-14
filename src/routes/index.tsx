@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import aiDistribution from "@/assets/ai-distribution.png.asset.json";
-import helpArticles from "@/assets/help-articles.png.asset.json";
+import helpArticles from "@/assets/help_articles_speakable.png.asset.json";
 import priceComparison from "@/assets/price-comparison.png.asset.json";
 import entityRepos from "@/assets/entity-repos.png.asset.json";
 import authoritySuite from "@/assets/authority-suite.png.asset.json";
