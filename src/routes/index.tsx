@@ -7,6 +7,14 @@ import authoritySuite from "@/assets/authority-suite.png.asset.json";
 import perplexitySonar from "@/assets/perplexity-sonar-models.png.asset.json";
 import sourceBackedStats from "@/assets/source-backed-stats.png.asset.json";
 import keywordRecommendations from "@/assets/keyword-recommendations.png.asset.json";
+import faqsImg from "@/assets/faqs_specific_services_and_topics.png.asset.json";
+import competitiveGapsImg from "@/assets/competitive_question_gaps.png.asset.json";
+import unansweredImg from "@/assets/google_unanswered_questions.png.asset.json";
+import servicesImg from "@/assets/services_schema.png.asset.json";
+import teamImg from "@/assets/team_members_schema.png.asset.json";
+import testimonialsImg from "@/assets/testimonials_and_reviews.png.asset.json";
+import schemaPagesImg from "@/assets/schema_ai_webpages.png.asset.json";
+import htmlAccordionImg from "@/assets/html_accordion_site_pages.png.asset.json";
 import aeMark from "@/assets/ae-mark.png.asset.json";
 import { ARTICLES } from "@/lib/articles";
 
@@ -38,6 +46,8 @@ const CONTENT_ENGINE = [
   {
     tag: "01",
     title: "FAQs",
+    image: faqsImg.url,
+    imageAlt: "AE Optimizer Research & Add FAQs interface with specific services and topics input",
     headline: "Answer the questions your prospects are already typing.",
     description: [
       "Google AI Overviews don't appear out of thin air — they pull from the clearest, most direct answer on the web. Frequently asked questions, formatted as FAQ schema, are one of the fastest paths into those overviews because they're already in the exact shape AI is looking for: question, then answer.",
@@ -48,6 +58,8 @@ const CONTENT_ENGINE = [
   {
     tag: "02",
     title: "Competitive Question Gaps",
+    image: competitiveGapsImg.url,
+    imageAlt: "AE Optimizer Competitive Question Gaps tool powered by Perplexity Sonar Pro",
     headline: "Find the questions competitors are too lazy to answer.",
     description: [
       "Most businesses optimize for the same crowded keywords and ignore the long-tail questions where real buying intent lives. Powered by Perplexity Sonar Pro, AE Optimizer finds those gaps — high-intent questions where competitors, directories and industry sites are weak, generic or silent.",
@@ -58,6 +70,8 @@ const CONTENT_ENGINE = [
   {
     tag: "03",
     title: "Unanswered Q&As for AI Overviews",
+    image: unansweredImg.url,
+    imageAlt: "AE Optimizer Google Unanswered Questions finder for AI Overviews and featured snippets",
     headline: "Target Google's unanswered questions before your competitors do.",
     description: [
       "Google explicitly surfaces unanswered questions — queries where no single source has provided a complete, trusted answer yet. That's an open invitation to become the source. AE Optimizer uses Perplexity Sonar Reasoning Pro (multi-step) to identify these specific gaps before they become crowded.",
@@ -80,6 +94,8 @@ const CONTENT_ENGINE = [
   {
     tag: "05",
     title: "Services + Cities Pages",
+    image: servicesImg.url,
+    imageAlt: "AE Optimizer Services schema generator — one schema per service × city",
     headline: "Own local service intent across every city you serve.",
     description: [
       "Answer engines are local now. People ask 'who offers X near me' and get a direct recommendation — no scroll, no click. If your service-area coverage isn't machine-readable, you're invisible in that answer.",
@@ -90,6 +106,8 @@ const CONTENT_ENGINE = [
   {
     tag: "06",
     title: "Team Members Schema",
+    image: teamImg.url,
+    imageAlt: "AE Optimizer Team Members Person schema generator",
     headline: "Turn your people into trust signals.",
     description: [
       "AI systems trust organizations they can verify. Team member schema exposes each person's expertise, credentials, role and contact information as structured data — not buried on an about page, but explicitly labeled for machines.",
@@ -100,6 +118,8 @@ const CONTENT_ENGINE = [
   {
     tag: "07",
     title: "Testimonials & Reviews",
+    image: testimonialsImg.url,
+    imageAlt: "AE Optimizer Testimonials & Reviews aggregated from Google, Avvo, Yelp and more",
     headline: "Let third-party proof follow you into AI answers.",
     description: [
       "LLMs are memory machines. They train on the internet — including reviews, mentions and sentiment — and they use what they find to judge credibility. Consistent, positive proof across trusted sources tells an AI system you're worth mentioning.",
@@ -110,6 +130,8 @@ const CONTENT_ENGINE = [
   {
     tag: "08",
     title: "Schema Webpages",
+    image: schemaPagesImg.url,
+    imageAlt: "AE Optimizer Schema Web Pages generator — one AI-ready page per service × city",
     headline: "Ship full AI-optimized pages, not just fragments.",
     description: [
       "A schema file is useful; a full webpage built around that schema is powerful. AE Optimizer generates complete AI-optimized webpages — service + city pages loaded with the depth AI systems consume when deciding who to recommend.",
@@ -120,6 +142,8 @@ const CONTENT_ENGINE = [
   {
     tag: "09",
     title: "HTML Accordion Pages",
+    image: htmlAccordionImg.url,
+    imageAlt: "AE Optimizer HTML Site Pages — ZIP-to-accordion converter with brand color matching",
     headline: "Turn hundreds of schema files into one human-readable page.",
     description: [
       "AI crawlers love structured data; human visitors love browsable pages. AE Optimizer's HTML Accordion Pages bridge both: upload a zip of FAQ, Q&A or Help Article schemas and convert them into a brand-styled accordion page your visitors can actually read.",
