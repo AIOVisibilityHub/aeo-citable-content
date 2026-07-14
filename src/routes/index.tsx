@@ -50,7 +50,7 @@ const CONTENT_ENGINE = [
     tag: "01",
     title: "Foundation Site Files (Root Directory)",
     image: siteFilesRoot.url,
-    imageAlt: "AE Optimizer AEO Site Files — root directory downloads including sitemap, robots, llms.txt, ai-plugin.json, knowledge graph, AI Overview Q&A and long-form LLM context",
+    imageAlt: "AE Optimizer AEO Site Files — root directory downloads including ai-data, ai-sitemap, robots, humans, security, publishing-manifest, source-provenance, knowledge graph, FAQs, AI Overview Q&A, long-form LLM context, entity, organization, locations, services, team, and more",
     headline: "Lay the AI-readable foundation before you optimize a single page.",
     description: [
       "Before Google AI Overviews, ChatGPT, Perplexity, Gemini, Grok, Claude or DeepSeek can cite you, they need permission and a map. AE Optimizer generates the full root-directory package every AI-ready website needs: sitemap.xml, robots.txt, ai-sitemap.xml, llms.txt, ai-plugin.json, LLM context files, a cross-linked knowledge graph, AI Overview FAQPage markup, Markdown + YAML entity pages and a long-form LLM context narrative.",
@@ -63,7 +63,7 @@ const CONTENT_ENGINE = [
     title: "Per-Page Schema Code",
     image: perPageCode.url,
     imageAlt: "AE Optimizer Per Page Code — crawl any page or entire site to generate JSON-LD, AI citations, breadcrumbs, meta tags and Speakable schema",
-    headline: "Give every page the structured data AI systems need to cite it.",
+    headline: "Give every page the structured data AI systems need to cite it in AI search and voice search.",
     description: [
       "A homepage that's AI-ready isn't enough. Every service page, blog post, help article and landing page needs its own layer of JSON-LD, breadcrumbs, meta tags and AI citations so it can stand on its own in an AI answer. AE Optimizer's Per Page Code crawls your entire site (or any single URL) and generates that layer page by page.",
       "Results are saved to your profile — you can regenerate any page any time, download the schema, edit it, and toggle Speakable schema on for the specific CSS selectors voice assistants should read aloud. Every crawled page becomes a self-contained AI citation candidate.",
@@ -260,7 +260,7 @@ const CONTENT_ENGINE = [
   },
 ];
 
-const ENGINES = ["Google AI Overviews", "ChatGPT", "Perplexity", "Google Gemini", "Grok", "Claude", "DeepSeek"];
+const ENGINES = ["Google AI Overviews", "ChatGPT", "Perplexity", "Google Gemini", "Grok", "Claude"];
 
 const CORE_FEATURES = [
   "Single business profile",
@@ -373,7 +373,7 @@ function Nav() {
           href="#pricing"
           className="rounded-md bg-[color:var(--gold)] px-4 py-2 text-sm font-semibold text-primary-foreground shadow-gold transition hover:brightness-110"
         >
-          Get AE Optimizer
+          Get AE Optimizer →
         </a>
       </div>
     </header>
@@ -413,9 +413,7 @@ function Hero() {
             </h1>
 
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted-foreground">
-              AE Optimizer builds the machine-readable layer your website is missing, so AI can
-              discover, verify and recommend your business — on Google, ChatGPT, Perplexity,
-              Gemini, Grok, Claude and DeepSeek.
+              For your business to be recommended by Google's AI Overviews + answer engines like ChatGPT and Perplexity, it needs to be optimized with structured data, AI visibility files, and FAQ schema + help articles to teach AI systems how to answer your prospects' questions. AE Optimizer generates all of it for your business, and more — no developer, no agency, no $3,000/month retainer.
             </p>
 
             <div className="mt-8 flex flex-wrap items-center gap-3">
