@@ -15,7 +15,7 @@ import teamImg from "@/assets/team_members_schema.png.asset.json";
 import testimonialsImg from "@/assets/testimonials_and_reviews.png.asset.json";
 import schemaPagesImg from "@/assets/schema_ai_webpages.png.asset.json";
 import htmlAccordionImg from "@/assets/html_accordion_site_pages.png.asset.json";
-import helpArticlesSpeakable from "@/assets/help_articles_speakable.png.asset.json";
+
 import perPageCode from "@/assets/per_page_code.png.asset.json";
 import siteFilesRoot from "@/assets/site_files_root.png.asset.json";
 import aeMark from "@/assets/ae-mark.png.asset.json";
