@@ -361,6 +361,7 @@ function Home() {
       <EntitySection />
       <PricingCompare />
       <Pricing />
+      <FaqSection />
       <ArticlesTeaser />
       <Footer />
     </div>
