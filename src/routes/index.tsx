@@ -632,7 +632,7 @@ function ContentEngine() {
             The Content Engine
           </span>
           <h2 className="mt-4 font-display text-4xl font-semibold leading-tight text-foreground md:text-5xl">
-            18 ways AE Optimizer builds the content AI systems cite — and voice assistants read aloud.
+            18 Ways AE Optimizer Builds the Content AI Systems Cite — and Voice Assistants Read Aloud.
           </h2>
           <p className="mt-5 text-lg text-muted-foreground">
             AI search isn't a single channel. Google AI Overviews, ChatGPT, Perplexity, Gemini, Grok,
@@ -851,7 +851,7 @@ function Pricing() {
             Launch Special
           </span>
           <h2 className="mt-4 font-display text-4xl font-semibold text-foreground md:text-5xl">
-            Own your AI visibility. One payment. Additional generated content when you need it.
+            Own your AI visibility. One payment. Generate additional content when you need it.
           </h2>
           <p className="mt-5 text-lg text-muted-foreground">
             Pick your foundation. Every tier includes the full content engine — differences are in schema
@@ -1057,7 +1057,7 @@ function FaqSection() {
     },
     {
       q: "Is there a guarantee?",
-      a: "Yes — we offer a 14 day guarantee to get your website optimized, generate FAQs, help articles, etc., and that an AI crawlable website created that mirrors your information and points back to your website as your 'source of truth'. If AE Optimizer doesn't perform correctly, request support to step in and assist. If support can't help you upload your website AI visibility files, or get your AI crawlable website up and running, we will refund your purchase.",
+      a: "Yes — we offer a 14 day guarantee to get your website optimized, generate FAQs, help articles, and other AI-editable content, and that an AI crawlable website will be created that mirrors your information and points back to your website as your 'source of truth'. If AE Optimizer doesn't perform correctly, request support to step in and assist. If support can't help you upload your AI visibility files to your website, they can be uploaded to Github code for public AI crawling pointing to your website as the canonical source of truth, or if we can't get your AI crawlable website up and running, which we guarantee - we will refund your purchase.  However, we cannot guarantee a timeframe or what exact content will be picked up or.cited based on the content generated. Frankly, that would be impossible to guarantee.",
     },
   ];
   return (
