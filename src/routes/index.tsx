@@ -20,6 +20,7 @@ import htmlAccordionImg from "@/assets/html_accordion_site_pages.png.asset.json"
 
 import perPageCode from "@/assets/per_page_code.png.asset.json";
 import siteFilesRoot from "@/assets/site_files_root.png.asset.json";
+import statBasedContent from "@/assets/stat_based_content.png.asset.json";
 import aeLogo from "@/assets/ae-logo-blue.png.asset.json";
 import { ARTICLES } from "@/lib/articles";
 
