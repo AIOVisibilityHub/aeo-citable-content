@@ -855,7 +855,7 @@ function Pricing() {
           </h2>
           <p className="mt-5 text-lg text-muted-foreground">
             Pick your foundation. Every tier includes the full content engine — differences are in schema
-            volume and how many platforms mirror your entity.
+            volume and how many platforms mirror your entity. Even the DIY Foundation publishes an AI crawlable website for discovery by AI on Github. Other levels expand to 12 additional platforms, and growing.
           </p>
         </div>
 
