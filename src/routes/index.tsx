@@ -1,4 +1,3 @@
-
 import { createFileRoute, Link } from "@tanstack/react-router";
 import speakableSchema from "@/assets/speakable_schema.png.asset.json";
 import aiDistribution from "@/assets/ai-distribution.png.asset.json";
@@ -350,10 +349,10 @@ const TIERS = [
       "Github for code, GitHub Pages for AI crawlable website + Google-owned Kaggle, GitLab, Hugging Face, Kaggle, Codeberg, Sourcehut, Gitea, Zenodo, Internet Archive, Forgejo, OSF, Archive.org",
     variants: [
       { label: "Network 10", link: "https://buy.stripe.com/7sYbJ17tj0nH1jB41Jcs80h" },
-      { label: "Network 10", link: "https://buy.stripe.com/7sYbJ17tj0nH1jB41Jcs80h" },
       { label: "Network 25", link: "https://buy.stripe.com/8x2eVd00R7Q9bYf8hZcs80o" },
       { label: "Network 50", link: "https://buy.stripe.com/bJeeVdcNDgmF1jB55Ncs80m" },
       { label: "Network 100", link: "https://buy.stripe.com/7sY14n6pfdat5zR9m3cs80n" },
+      { label: "Network 250", link: "https://buy.stripe.com/4gM4gzaFv3zT8M3cyfcs80D" },
     ],
   },
 ];
