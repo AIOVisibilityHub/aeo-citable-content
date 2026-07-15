@@ -665,33 +665,37 @@ function ContentEngineItem({
 }) {
   const isEven = index % 2 === 0;
   const ref = useRef<HTMLElement | null>(null);
-  const [visible, setVisible] = useState(false);
+  const [entered, setEntered] = useState(false);
   useEffect(() => {
     const el = ref.current;
-    if (!el) return;
-    if (typeof IntersectionObserver === "undefined") {
-      setVisible(true);
+    if (!el || typeof IntersectionObserver === "undefined") {
+      setEntered(true);
       return;
     }
     const io = new IntersectionObserver(
       (entries) => {
         entries.forEach((e) => {
           if (e.isIntersecting) {
-            setVisible(true);
+            setEntered(true);
             io.disconnect();
           }
         });
       },
-      { rootMargin: "0px 0px -10% 0px", threshold: 0.08 },
+      { rootMargin: "0px 0px -5% 0px", threshold: 0.05 },
     );
     io.observe(el);
-    return () => io.disconnect();
+    // Safety fallback: guarantee visibility even if IO never fires
+    const t = window.setTimeout(() => setEntered(true), 1200);
+    return () => {
+      io.disconnect();
+      window.clearTimeout(t);
+    };
   }, []);
   return (
     <article
       ref={ref}
-      className={`border-t border-border/60 bg-[color:var(--surface)]/30 py-20 lg:py-28 transition-all duration-700 ease-out will-change-transform ${
-        visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+      className={`border-t border-border/60 bg-[color:var(--surface)]/30 py-20 lg:py-28 transition-all duration-700 ease-out ${
+        entered ? "opacity-100 translate-y-0" : "opacity-40 translate-y-4"
       }`}
     >
       <div className="mx-auto max-w-6xl px-6">
