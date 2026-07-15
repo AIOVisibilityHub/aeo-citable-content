@@ -361,6 +361,7 @@ function Home() {
       <EntitySection />
       <PricingCompare />
       <Pricing />
+      <FaqSection />
       <ArticlesTeaser />
       <Footer />
     </div>
@@ -378,7 +379,9 @@ function Nav() {
         <nav className="hidden gap-8 text-sm font-medium text-[color:var(--ink)]/70 md:flex">
           <a href="#story" className="hover:text-[color:var(--brand-blue)]">Why AEO</a>
           <a href="#engine" className="hover:text-[color:var(--brand-blue)]">Content Engine</a>
-          <a href="#network" className="hover:text-[color:var(--brand-blue)]">Authority Network</a>
+          <a href="#demo" className="hover:text-[color:var(--brand-blue)]">Demo</a>
+          <a href="#faq" className="hover:text-[color:var(--brand-blue)]">FAQs</a>
+          <Link to="/articles" className="hover:text-[color:var(--brand-blue)]">Blog</Link>
           <a href="#pricing" className="hover:text-[color:var(--brand-blue)]">Pricing</a>
         </nav>
         <a
@@ -437,7 +440,7 @@ function Hero() {
             </h1>
 
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-[color:var(--ink)]/75">
-              AE Optimizer builds the machine-readable layer your website is missing, so AI can discover, verify and recommend your business — on Google AI Overviews, ChatGPT, Perplexity, Gemini, Grok, Claude and DeepSeek.
+              For your business to be recommended by Google's AI Overviews and answer engines like ChatGPT and Perplexity, it needs structured data, AI visibility files, and FAQ + help content that teach AI how to answer your prospects' questions. AE Optimizer builds all of it for you — no developer, no agency, no $3,000/month retainer.
             </p>
 
             <div className="mt-8 flex flex-wrap items-center gap-3">
@@ -445,17 +448,16 @@ function Hero() {
                 href="#pricing"
                 className="group inline-flex items-center gap-2 rounded-lg bg-[color:var(--brand-blue)] px-6 py-3 text-base font-semibold text-[color:var(--cream)] shadow-[0_10px_30px_-10px_rgba(26,58,87,0.55)] transition hover:bg-[color:var(--brand-blue-light)]"
               >
-                Get AE Optimizer
+                Get AE Optimizer Now
                 <span aria-hidden className="transition group-hover:translate-x-0.5">→</span>
               </a>
-              <Link
-                to="/articles/$slug"
-                params={{ slug: "aeo-tools-guide" }}
+              <a
+                href="#demo"
                 className="group inline-flex items-center gap-2 rounded-lg border border-[color:var(--brand-blue)]/60 bg-[color:var(--cream)]/30 px-6 py-3 text-base font-semibold text-[color:var(--brand-blue)] transition hover:bg-[color:var(--cream)]/60"
               >
-                Read the AEO tools guide
+                Watch the Demo
                 <span aria-hidden className="transition group-hover:translate-x-0.5">→</span>
-              </Link>
+              </a>
             </div>
 
             <div className="mt-10 border-t border-[color:var(--ink)]/15 pt-6">
@@ -1016,5 +1018,66 @@ function Footer() {
         <p className="text-xs text-muted-foreground">© {new Date().getFullYear()} AE Optimizer.</p>
       </div>
     </footer>
+  );
+}
+
+function FaqSection() {
+  const faqs = [
+    {
+      q: "What exactly is Answer Engine Optimization (AEO)?",
+      a: "AEO is the process of structuring your website's data so AI answer engines like ChatGPT, Perplexity and Google AI Overviews can understand it, cite it, and recommend your business as the answer to user questions. By transforming your information into machine-readable schema files, your information is consumed by bots when they crawl within seconds.",
+    },
+    {
+      q: "Why can't AI just read my normal website?",
+      a: "Traditional websites are built for human readers with visual layouts, images and marketing copy. AI models rely on structured data (JSON-LD, schema, llms.txt, sitemaps) to understand entities, services and expertise. Without machine-readable files, AI cannot consume your information.",
+    },
+    {
+      q: "Do I need to be technical to use AE Optimizer?",
+      a: "No. You enter your URL, click generate, download the package, and follow the step-by-step video showing where to upload the files to the root directory of your website. If you get stuck, our support team can step in to help. To generate FAQs or help articles, or additional schema files, just click 'generate' or add topic keywords, hit the + sign to add it to the app, then click the generate button and wait for it to process. Sometimes it will take several minutes to complete the process.",
+    },
+    {
+      q: "Does this work with WordPress and html websites?",
+      a: "Yes. AE Optimizer generates standard, platform-agnostic AI visibility files for all websites no matter how they were created. They upload to any website root — WordPress, html, or custom-built sites. If you are being hosted by a company that does not allow adding your root files to your website's root directory, what we do is publish them into your GitHub code repository in the public files, so they represent your website, refer to your website as the 'truth of source' and canonical site which cures this issue.",
+    },
+    {
+      q: "How is this different from traditional SEO tools?",
+      a: "SEO tools help you rank in blue links. AE Optimizer makes your business information machine-readable so it can be pulled directly into AI-generated answers. The two are complementary — AEO also strengthens your traditional SEO.",
+    },
+    {
+      q: "How long until AI starts citing my site?",
+      a: "Most users see initial pickup in AI Overviews and 'People Also Ask' queries within 60–90 days after uploading the generated files, with meaningful visibility inside AI answer engines over 3–6 months, but it could be much sooner. It all depends on how quickly each of the answer engines' bots pick up your information, validate your business within itself and receives questions from prospects in your area.",
+    },
+    {
+      q: "Is there a guarantee?",
+      a: "Yes — we offer a 14 day guarantee to get your website optimized, generate FAQs, help articles, etc., and that an AI crawlable website created that mirrors your information and points back to your website as your 'source of truth'. If AE Optimizer doesn't perform correctly, request support to step in and assist. If support can't help you upload your website AI visibility files, or get your AI crawlable website up and running, we will refund your purchase.",
+    },
+  ];
+  return (
+    <section id="faq" className="border-t border-[color:var(--ink)]/10 py-24">
+      <div className="mx-auto max-w-3xl px-6 lg:px-10">
+        <div className="text-center">
+          <span className="text-[11px] font-semibold uppercase tracking-[0.22em] text-[color:var(--brand-blue)]">FAQ</span>
+          <h2 className="mt-3 font-display text-4xl font-semibold tracking-tight text-[color:var(--ink)] md:text-5xl">
+            Answers to common questions
+          </h2>
+        </div>
+        <div className="mt-10 space-y-3">
+          {faqs.map((f) => (
+            <details
+              key={f.q}
+              className="group rounded-xl border border-[color:var(--ink)]/15 bg-[color:var(--cream)]/40 open:border-[color:var(--brand-blue)]/50 open:bg-[color:var(--cream)]/70"
+            >
+              <summary className="flex cursor-pointer list-none items-center justify-between gap-6 px-6 py-5 font-semibold text-[color:var(--ink)]">
+                <span>{f.q}</span>
+                <span className="text-2xl text-[color:var(--brand-blue)] transition-transform group-open:rotate-45">
+                  +
+                </span>
+              </summary>
+              <div className="px-6 pb-6 leading-relaxed text-[color:var(--ink)]/75">{f.a}</div>
+            </details>
+          ))}
+        </div>
+      </div>
+    </section>
   );
 }
