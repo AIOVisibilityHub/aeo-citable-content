@@ -282,7 +282,6 @@ const CONTENT_ENGINE = [
 const ENGINES = ["Google AI Overviews", "ChatGPT", "Perplexity", "Google Gemini", "Grok", "Claude"];
 
 const CORE_FEATURES = [
-  "Single business profile",
   "Crawl unlimited pages on your site",
   "Website AI visibility files for root directory",
   "Per-page code with breadcrumbs & Speakable schema (for Voice Search)",
