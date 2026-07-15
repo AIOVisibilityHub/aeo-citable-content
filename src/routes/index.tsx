@@ -781,7 +781,15 @@ function EntitySection() {
 
         <div className="mx-auto mt-14 max-w-3xl">
           <figure className="overflow-hidden rounded-2xl border border-border bg-[color:var(--surface)] shadow-elevated">
-            <img src={aiDistribution.url} alt="AI distribution across an authority network" loading="lazy" className="w-full" />
+            <img
+              src={aiDistribution.url}
+              alt="AI distribution across an authority network"
+              width={1163}
+              height={1920}
+              loading="lazy"
+              decoding="async"
+              className="block h-auto w-full"
+            />
             <figcaption className="border-t border-border p-4 text-center text-sm text-muted-foreground">
               GitHub Pages leads, then GitLab, Hugging Face, Kaggle, Codeberg, Sourcehut, Gitea, Zenodo,
               Internet Archive, Forgejo, OSF, and Archive.org corroborate.
@@ -809,7 +817,15 @@ function PricingCompare() {
           </p>
         </div>
         <figure className="mt-10 overflow-hidden rounded-2xl border border-border bg-[color:var(--surface)] shadow-elevated">
-          <img src={priceComparison.url} alt="AE Optimizer price comparison vs competitors" loading="lazy" className="w-full" />
+          <img
+            src={priceComparison.url}
+            alt="AE Optimizer price comparison vs competitors"
+            width={1000}
+            height={1911}
+            loading="lazy"
+            decoding="async"
+            className="block h-auto w-full"
+          />
         </figure>
       </div>
     </section>
@@ -986,7 +1002,7 @@ function Footer() {
     <footer className="border-t border-border py-12">
       <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-6 md:flex-row">
         <div className="flex items-center gap-2">
-          <img src={aeLogo.url} alt="AE Optimizer" width={28} height={28} loading="lazy" className="h-7 w-7 object-contain" />
+          <img src={aeLogo.url} alt="AE Optimizer" width={28} height={28} loading="eager" decoding="async" className="h-7 w-7 object-contain" />
           <span className="font-display font-semibold">AE Optimizer</span>
         </div>
         <div className="flex items-center gap-6 text-sm">
