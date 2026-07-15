@@ -303,7 +303,7 @@ const TIERS = [
     price: "$247",
     strike: "$497",
     highlight: false,
-    tagline: "Start building AI visibility on the highest-trust platform online.",
+    tagline: "Start building AI visibility and publish on the highest-trusted site AI crawls.",
     link: "https://buy.stripe.com/aFa9AT7tj8Ud9Q77dVcs80f",
     counts: {
       faq: "75 FAQ schema files",
@@ -312,7 +312,7 @@ const TIERS = [
       paa: "25 People Also Ask research files",
     },
     network: "AI crawlable website on GitHub Pages",
-    upgradeNote: "Upgrade any time to publish across 12 additional platforms.",
+    upgradeNote: "Upgrade any time to publish across additional platforms.",
   },
   {
     name: "Authority Engine",
@@ -320,7 +320,7 @@ const TIERS = [
     strike: "$997",
     highlight: true,
     badge: "Most Popular",
-    tagline: "The full authority network — mirrored across the platforms AI already trusts.",
+    tagline: "The full authority network — mirrored across the platforms AI crawls for discovery.",
     link: "https://buy.stripe.com/fZu6oH5lbgmF6DV8hZcs80g",
     counts: {
       faq: "150 FAQ schema files",
@@ -337,7 +337,7 @@ const TIERS = [
     strike: "$1,997",
     highlight: false,
     badge: "Scale",
-    tagline: "Everything in Authority Engine at network scale — choose 10, 25, 50 or 100 business profiles.",
+    tagline: "Everything in Authority Engine — scale your network to 10, 25, 50 or 100 business profiles.",
     link: "https://buy.stripe.com/7sYbJ17tj0nH1jB41Jcs80h",
     counts: {
       faq: "300 FAQ schema files",
@@ -855,7 +855,7 @@ function Pricing() {
           </h2>
           <p className="mt-5 text-lg text-muted-foreground">
             Pick your foundation. Every tier includes the full content engine — differences are in schema
-            volume and how many platforms mirror your entity. Even the DIY Foundation publishes an AI crawlable website for discovery by AI on Github. Other levels expand to 12 additional platforms, and growing.
+            volume and how many platforms mirror your entity. DIY Foundation publishes an AI crawlable website for discovery by AI on Github. Upgrade to expand to all other additional platforms.  Need to generate more files?  There are options to generate more inside the app.
           </p>
         </div>
 
