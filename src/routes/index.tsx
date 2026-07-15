@@ -1,5 +1,4 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { useEffect, useRef, useState } from "react";
 import speakableSchema from "@/assets/speakable_schema.png.asset.json";
 import aiDistribution from "@/assets/ai-distribution.png.asset.json";
 import helpArticles from "@/assets/help_articles_speakable.png.asset.json";
@@ -23,6 +22,12 @@ import siteFilesRoot from "@/assets/site_files_root.png.asset.json";
 import statBasedContent from "@/assets/stat_based_content.png.asset.json";
 import aeLogo from "@/assets/ae-logo-blue.png.asset.json";
 import { ARTICLES } from "@/lib/articles";
+
+const imageAsset = (asset: { url: string }, width: number, height: number) => ({
+  image: asset.url,
+  imageWidth: width,
+  imageHeight: height,
+});
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -52,7 +57,7 @@ const CONTENT_ENGINE = [
   {
     tag: "01",
     title: "Foundation Site Files (Root Directory)",
-    image: siteFilesRoot.url,
+    ...imageAsset(siteFilesRoot, 1246, 537),
     imageAlt: "AE Optimizer AEO Site Files — root directory downloads including ai-data, ai-sitemap, robots, humans, security, publishing-manifest, source-provenance, knowledge graph, FAQs, AI Overview Q&A, long-form LLM context, entity, organization, locations, services, team, and more",
     headline: "Lay the AI-readable foundation before you optimize a single page.",
     description: [
@@ -64,7 +69,7 @@ const CONTENT_ENGINE = [
   {
     tag: "02",
     title: "Per-Page Schema Code",
-    image: perPageCode.url,
+    ...imageAsset(perPageCode, 1240, 350),
     imageAlt: "AE Optimizer Per Page Code — crawl any page or entire site to generate JSON-LD, AI citations, breadcrumbs, meta tags and Speakable schema",
     headline: "Give every page the structured data AI systems need to cite it in AI search and voice search.",
     description: [
@@ -76,7 +81,7 @@ const CONTENT_ENGINE = [
   {
     tag: "03",
     title: "Speakable Schema for Voice Search",
-    image: speakableSchema.url,
+    ...imageAsset(speakableSchema, 1344, 768),
     imageAlt: "Speakable Schema — voice search ready markup that tells Siri, Alexa, Google Assistant and Gemini which parts of your page to read aloud",
     headline: "Get read aloud by Siri, Alexa, Google Assistant and Google Gemini.",
     description: [
@@ -88,7 +93,7 @@ const CONTENT_ENGINE = [
   {
     tag: "04",
     title: "FAQs",
-    image: faqsImg.url,
+    ...imageAsset(faqsImg, 1225, 221),
     imageAlt: "AE Optimizer Research & Add FAQs interface with Speakable schema automatically included for voice assistants",
     headline: "Answer the questions your prospects are already typing — and asking out loud.",
     description: [
@@ -100,7 +105,7 @@ const CONTENT_ENGINE = [
   {
     tag: "05",
     title: "Competitive Question Gaps",
-    image: competitiveGapsImg.url,
+    ...imageAsset(competitiveGapsImg, 1237, 170),
     imageAlt: "AE Optimizer Competitive Question Gaps tool powered by Perplexity Sonar Pro",
     headline: "Find the questions competitors are too lazy to answer.",
     description: [
@@ -112,7 +117,7 @@ const CONTENT_ENGINE = [
   {
     tag: "06",
     title: "Unanswered Q&As for AI Overviews",
-    image: unansweredImg.url,
+    ...imageAsset(unansweredImg, 1225, 162),
     imageAlt: "AE Optimizer Google Unanswered Questions finder for AI Overviews and featured snippets",
     headline: "Target Google's unanswered questions before your competitors do.",
     description: [
@@ -125,7 +130,7 @@ const CONTENT_ENGINE = [
     tag: "07",
     title: "Help Articles",
     headline: "Publish help content AI wants to recommend — and voice assistants want to read.",
-    image: helpArticles.url,
+    ...imageAsset(helpArticles, 1225, 402),
     imageAlt: "AE Optimizer Help Articles with Speakable schema automatically included in every Article, HowTo and Q&A",
     description: [
       "Help articles are some of the most citable content formats on the internet because they're already built to answer. How-to, listicle, checklist, comparison, guide, mistakes to avoid, timeline, myth vs. fact — these are the shapes ChatGPT, Perplexity and Gemini lift answers from every day.",
@@ -136,7 +141,7 @@ const CONTENT_ENGINE = [
   {
     tag: "08",
     title: "Services + Cities Pages",
-    image: servicesImg.url,
+    ...imageAsset(servicesImg, 1222, 196),
     imageAlt: "AE Optimizer Services schema generator — one schema per service × city with Speakable schema for voice queries like '24-hour plumber near me'",
     headline: "Own local service intent across every city you serve — including voice.",
     description: [
@@ -148,7 +153,7 @@ const CONTENT_ENGINE = [
   {
     tag: "09",
     title: "Team Members Schema",
-    image: teamImg.url,
+    ...imageAsset(teamImg, 1250, 205),
     imageAlt: "AE Optimizer Team Members Person schema generator",
     headline: "Turn your people into trust signals.",
     description: [
@@ -160,7 +165,7 @@ const CONTENT_ENGINE = [
   {
     tag: "10",
     title: "Testimonials & Reviews",
-    image: testimonialsImg.url,
+    ...imageAsset(testimonialsImg, 1222, 482),
     imageAlt: "AE Optimizer Testimonials & Reviews aggregated from Google, Avvo, Yelp and more",
     headline: "Let third-party proof follow you into AI answers.",
     description: [
@@ -172,7 +177,7 @@ const CONTENT_ENGINE = [
   {
     tag: "11",
     title: "Schema Webpages",
-    image: schemaPagesImg.url,
+    ...imageAsset(schemaPagesImg, 1225, 162),
     imageAlt: "AE Optimizer Schema Web Pages generator — one AI-ready page per service × city",
     headline: "Ship full AI-optimized pages, not just fragments.",
     description: [
@@ -184,7 +189,7 @@ const CONTENT_ENGINE = [
   {
     tag: "12",
     title: "HTML Accordion Pages",
-    image: htmlAccordionImg.url,
+    ...imageAsset(htmlAccordionImg, 1241, 676),
     imageAlt: "AE Optimizer HTML Site Pages — ZIP-to-accordion converter with brand color matching",
     headline: "Turn hundreds of schema files into one human-readable page.",
     description: [
@@ -197,7 +202,7 @@ const CONTENT_ENGINE = [
     tag: "13",
     title: "Source-Backed Topic Research",
     headline: "Ground your content in sources AI already trusts.",
-    image: sourceBackedStats.url,
+    ...imageAsset(sourceBackedStats, 1246, 275),
     imageAlt: "Source-Backed Topic Research with citation-backed answers from reputable sources",
     description: [
       "Answer engines don't just want opinions; they want answers supported by recognized sources. AE Optimizer's source-backed research uses Perplexity Sonar Pro to generate citation-backed topic research grounded in industry standards, regulations, studies and expert guidance.",
@@ -209,7 +214,7 @@ const CONTENT_ENGINE = [
     tag: "14",
     title: "Stat-Based Content Mode",
     headline: "Anchor every article to a number AI Overviews want to quote.",
-    image: statBasedContent.url,
+    ...imageAsset(statBasedContent, 1252, 367),
     imageAlt: "Source-Backed Topic Research with Prioritize statistics & data points enabled",
     description: [
       "Toggle on 'Prioritize statistics & data points' and the Perplexity prompt shifts into stat-based content mode — demanding concrete stats, benchmarks, percentages and cited figures from reputable sources like BLS, CDC, industry reports and peer-reviewed studies.",
@@ -221,7 +226,7 @@ const CONTENT_ENGINE = [
     tag: "15",
     title: "Keyword Recommendations",
     headline: "Move from keyword guessing to intent targeting.",
-    image: keywordRecommendations.url,
+    ...imageAsset(keywordRecommendations, 1247, 432),
     imageAlt: "AE Optimizer Keyword Recommendations tool with intent and campaign type options",
     description: [
       "Keywords still matter — but the game has shifted from volume to intent. AE Optimizer generates high-intent keyword ideas tuned to the campaign you're actually running: PPC (Google Ads / Bing Ads), SEO content and blog posts, local SEO, landing page copy, social media ads, YouTube targeting, long-tail featured snippets, or a general mix.",
@@ -233,7 +238,7 @@ const CONTENT_ENGINE = [
     tag: "16",
     title: "15-Tool Authority Suite",
     headline: "Run a quarterly authority audit that keeps you current.",
-    image: authoritySuite.url,
+    ...imageAsset(authoritySuite, 1247, 746),
     imageAlt: "AE Optimizer 15-tool Authority Suite dashboard",
     description: [
       "Authority isn't a one-time event; it's a signal you maintain. The 15-Tool Authority Suite measures your AI visibility score, entity expertise, topic expansion opportunities, content gaps, E-E-A-T signals, trust signals, industry knowledge coverage and more.",
@@ -245,7 +250,7 @@ const CONTENT_ENGINE = [
     tag: "17",
     title: "Perplexity API Manager",
     headline: "Use the AI search engine that other answer engines also respect.",
-    image: perplexitySonar.url,
+    ...imageAsset(perplexitySonar, 1344, 768),
     imageAlt: "The Perplexity Sonar model family — Sonar, Sonar Pro, Sonar Reasoning, Sonar Reasoning Pro and Sonar Deep Research",
     description: [
       "Perplexity isn't just another answer engine — it's an AI search engine built on real-time web sources. That makes it both a destination and a research layer. AE Optimizer lets you bring your own Perplexity API key (roughly $10 every 3–6 months) and choose the exact model strength you need.",
@@ -257,7 +262,7 @@ const CONTENT_ENGINE = [
     tag: "18",
     title: "Publishing to the AI Authority Network",
     headline: "Build authority by publishing where AI bots already crawl.",
-    image: entityRepos.url,
+    ...imageAsset(entityRepos, 1536, 1536),
     imageAlt: "AE Optimizer distributing a business entity to 12 authority repositories",
     description: [
       "Great content that only lives on your website is a single point of failure. To build real authority in the age of AI, your business entity and structured data have to exist in the same places AI systems already trust and crawl — repeatedly, consistently, and in the exact machine-readable shape they prefer.",
@@ -664,39 +669,9 @@ function ContentEngineItem({
   index: number;
 }) {
   const isEven = index % 2 === 0;
-  const ref = useRef<HTMLElement | null>(null);
-  const [entered, setEntered] = useState(false);
-  useEffect(() => {
-    const el = ref.current;
-    if (!el || typeof IntersectionObserver === "undefined") {
-      setEntered(true);
-      return;
-    }
-    const io = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((e) => {
-          if (e.isIntersecting) {
-            setEntered(true);
-            io.disconnect();
-          }
-        });
-      },
-      { rootMargin: "0px 0px -5% 0px", threshold: 0.05 },
-    );
-    io.observe(el);
-    // Safety fallback: guarantee visibility even if IO never fires
-    const t = window.setTimeout(() => setEntered(true), 1200);
-    return () => {
-      io.disconnect();
-      window.clearTimeout(t);
-    };
-  }, []);
   return (
     <article
-      ref={ref}
-      className={`border-t border-border/60 bg-[color:var(--surface)]/30 py-20 lg:py-28 transition-all duration-700 ease-out ${
-        entered ? "opacity-100 translate-y-0" : "opacity-40 translate-y-4"
-      }`}
+      className="border-t border-border/60 bg-[color:var(--surface)]/30 py-20 lg:py-28"
     >
       <div className="mx-auto max-w-6xl px-6">
         <div
@@ -724,7 +699,15 @@ function ContentEngineItem({
           <div className={isEven ? "" : "lg:col-start-1"}>
             {item.image ? (
               <figure className="overflow-hidden rounded-2xl border border-border bg-[color:var(--surface)] shadow-elevated">
-                <img src={item.image} alt={item.imageAlt} loading="lazy" className="w-full" />
+                <img
+                  src={item.image}
+                  alt={item.imageAlt}
+                  width={item.imageWidth}
+                  height={item.imageHeight}
+                  loading={index < 3 ? "eager" : "lazy"}
+                  decoding="async"
+                  className="block h-auto w-full"
+                />
                 <figcaption className="border-t border-border px-4 py-3 text-center text-xs text-muted-foreground">
                   {item.imageAlt}
                 </figcaption>
@@ -798,7 +781,15 @@ function EntitySection() {
 
         <div className="mx-auto mt-14 max-w-3xl">
           <figure className="overflow-hidden rounded-2xl border border-border bg-[color:var(--surface)] shadow-elevated">
-            <img src={aiDistribution.url} alt="AI distribution across an authority network" loading="lazy" className="w-full" />
+            <img
+              src={aiDistribution.url}
+              alt="AI distribution across an authority network"
+              width={1163}
+              height={1920}
+              loading="lazy"
+              decoding="async"
+              className="block h-auto w-full"
+            />
             <figcaption className="border-t border-border p-4 text-center text-sm text-muted-foreground">
               GitHub Pages leads, then GitLab, Hugging Face, Kaggle, Codeberg, Sourcehut, Gitea, Zenodo,
               Internet Archive, Forgejo, OSF, and Archive.org corroborate.
@@ -826,7 +817,15 @@ function PricingCompare() {
           </p>
         </div>
         <figure className="mt-10 overflow-hidden rounded-2xl border border-border bg-[color:var(--surface)] shadow-elevated">
-          <img src={priceComparison.url} alt="AE Optimizer price comparison vs competitors" loading="lazy" className="w-full" />
+          <img
+            src={priceComparison.url}
+            alt="AE Optimizer price comparison vs competitors"
+            width={1000}
+            height={1911}
+            loading="lazy"
+            decoding="async"
+            className="block h-auto w-full"
+          />
         </figure>
       </div>
     </section>
@@ -1003,7 +1002,7 @@ function Footer() {
     <footer className="border-t border-border py-12">
       <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-6 md:flex-row">
         <div className="flex items-center gap-2">
-          <img src={aeLogo.url} alt="AE Optimizer" width={28} height={28} loading="lazy" className="h-7 w-7 object-contain" />
+          <img src={aeLogo.url} alt="AE Optimizer" width={28} height={28} loading="eager" decoding="async" className="h-7 w-7 object-contain" />
           <span className="font-display font-semibold">AE Optimizer</span>
         </div>
         <div className="flex items-center gap-6 text-sm">
