@@ -830,73 +830,78 @@ function PriceCard({ tier }: { tier: (typeof TIERS)[number] }) {
     <div
       className={`relative flex flex-col rounded-2xl border p-8 transition ${
         tier.highlight
-          ? "border-[color:var(--gold)] bg-[color:var(--surface-elevated)] shadow-gold"
-          : "border-border bg-[color:var(--surface)]"
+          ? "border-[color:var(--taupe)]/60 bg-[color:var(--brand-blue-light)] shadow-[0_30px_60px_-25px_rgba(15,36,56,0.6)]"
+          : "border-[color:var(--brand-blue-dark)] bg-[color:var(--brand-blue-dark)]"
       }`}
     >
       {tier.badge && (
-        <span className="absolute -top-3 left-1/2 -translate-x-1/2 rounded-full bg-[color:var(--gold)] px-3 py-1 text-xs font-bold uppercase tracking-widest text-primary-foreground">
+        <span className="absolute -top-3 left-1/2 -translate-x-1/2 rounded-full bg-[color:var(--taupe)] px-3 py-1 text-xs font-bold uppercase tracking-widest text-[color:var(--brand-blue-dark)]">
           {tier.badge}
         </span>
       )}
 
-      <h3 className="font-display text-2xl font-semibold text-foreground">{tier.name}</h3>
-      <p className="mt-2 min-h-[3rem] text-sm text-muted-foreground">{tier.tagline}</p>
+      <h3 className="font-display text-2xl font-semibold text-[color:var(--cream)]">{tier.name}</h3>
+      <p className="mt-2 min-h-[3rem] text-sm text-[color:var(--cream)]/70">{tier.tagline}</p>
 
       <div className="mt-6 flex items-baseline gap-3">
-        <span className="font-display text-5xl font-bold gold-gradient">{tier.price}</span>
-        <span className="text-lg text-muted-foreground line-through">{tier.strike}</span>
+        <span className="font-display text-5xl font-bold text-[color:var(--taupe-soft)]">{tier.price}</span>
+        <span className="text-lg text-[color:var(--cream)]/50 line-through">{tier.strike}</span>
       </div>
-      <span className="text-xs uppercase tracking-widest text-muted-foreground">One-time</span>
-
-      <a
-        href={tier.link}
-        target="_blank"
-        rel="noreferrer"
-        className={`mt-6 block rounded-lg px-4 py-3 text-center text-sm font-semibold transition ${
-          tier.highlight
-            ? "bg-[color:var(--gold)] text-primary-foreground hover:brightness-110"
-            : "border border-[color:var(--gold)] text-[color:var(--gold)] hover:bg-[color:var(--gold)] hover:text-primary-foreground"
-        }`}
-      >
-        Get {tier.name}
-      </a>
-
-      {tier.variants && (
-        <div className="mt-4 grid grid-cols-2 gap-2">
-          {tier.variants.slice(1).map((v) => (
-            <a
-              key={v.label}
-              href={v.link}
-              target="_blank"
-              rel="noreferrer"
-              className="rounded-md border border-border bg-[color:var(--surface)] px-3 py-2 text-center text-xs font-semibold text-foreground transition hover:border-[color:var(--gold)] hover:text-[color:var(--gold)]"
-            >
-              {v.label}
-            </a>
-          ))}
-        </div>
-      )}
+      <span className="text-xs uppercase tracking-widest text-[color:var(--cream)]/60">One-time</span>
 
       <ul className="mt-8 space-y-3 text-sm">
         <PriceFeature primary>{tier.counts.faq}</PriceFeature>
         <PriceFeature primary>{tier.counts.help}</PriceFeature>
         <PriceFeature primary>{tier.counts.unanswered}</PriceFeature>
         <PriceFeature primary>{tier.counts.paa}</PriceFeature>
-        <li className="pt-2 text-xs font-semibold uppercase tracking-widest text-[color:var(--gold)]">
+        <li className="pt-2 text-xs font-semibold uppercase tracking-widest text-[color:var(--taupe-soft)]">
           Authority Network
         </li>
         <PriceFeature>{tier.network}</PriceFeature>
         {tier.upgradeNote && (
-          <li className="text-xs italic text-muted-foreground">{tier.upgradeNote}</li>
+          <li className="text-xs italic text-[color:var(--cream)]/60">{tier.upgradeNote}</li>
         )}
-        <li className="pt-2 text-xs font-semibold uppercase tracking-widest text-[color:var(--gold)]">
+        <li className="pt-2 text-xs font-semibold uppercase tracking-widest text-[color:var(--taupe-soft)]">
           Everything included
         </li>
         {CORE_FEATURES.map((f) => (
           <PriceFeature key={f}>{f}</PriceFeature>
         ))}
       </ul>
+
+      {/* CTA at the bottom, after the features */}
+      <div className="mt-8 pt-6 border-t border-[color:var(--cream)]/10">
+        <a
+          href={tier.link}
+          target="_blank"
+          rel="noreferrer"
+          className={`group flex items-center justify-center gap-2 rounded-lg px-4 py-3 text-center text-sm font-semibold transition ${
+            tier.highlight
+              ? "bg-[color:var(--taupe)] text-[color:var(--brand-blue-dark)] hover:bg-[color:var(--taupe-soft)]"
+              : "bg-[color:var(--brand-blue-light)] text-[color:var(--cream)] hover:bg-[color:var(--brand-blue)]"
+          }`}
+        >
+          Get {tier.name}
+          <span aria-hidden className="transition group-hover:translate-x-0.5">→</span>
+        </a>
+
+        {tier.variants && (
+          <div className="mt-3 grid grid-cols-2 gap-2">
+            {tier.variants.slice(1).map((v) => (
+              <a
+                key={v.label}
+                href={v.link}
+                target="_blank"
+                rel="noreferrer"
+                className="group inline-flex items-center justify-center gap-1 rounded-md border border-[color:var(--cream)]/20 bg-[color:var(--brand-blue)]/40 px-3 py-2 text-center text-xs font-semibold text-[color:var(--cream)] transition hover:border-[color:var(--taupe)] hover:text-[color:var(--taupe-soft)]"
+              >
+                {v.label}
+                <span aria-hidden className="transition group-hover:translate-x-0.5">→</span>
+              </a>
+            ))}
+          </div>
+        )}
+      </div>
     </div>
   );
 }
@@ -904,8 +909,8 @@ function PriceCard({ tier }: { tier: (typeof TIERS)[number] }) {
 function PriceFeature({ children, primary }: { children: React.ReactNode; primary?: boolean }) {
   return (
     <li className="flex items-start gap-2">
-      <span className={`mt-1 h-1.5 w-1.5 shrink-0 rounded-full ${primary ? "bg-[color:var(--gold)]" : "bg-muted-foreground"}`} />
-      <span className={primary ? "text-foreground" : "text-muted-foreground"}>{children}</span>
+      <span className={`mt-1 h-1.5 w-1.5 shrink-0 rounded-full ${primary ? "bg-[color:var(--taupe-soft)]" : "bg-[color:var(--cream)]/40"}`} />
+      <span className={primary ? "text-[color:var(--cream)]" : "text-[color:var(--cream)]/70"}>{children}</span>
     </li>
   );
 }
