@@ -329,7 +329,7 @@ const TIERS = [
       paa: "50 People Also Ask research files",
     },
     network:
-      "GitHub Pages + GitLab, Hugging Face, Kaggle, Codeberg, Sourcehut, Gitea, Zenodo, Internet Archive, Forgejo, OSF, Archive.org",
+      "Github for code, GitHub Pages for AI crawlable website + GitLab, Hugging Face, Kaggle, Codeberg, Sourcehut, Gitea, Zenodo, Internet Archive, Forgejo, OSF, Archive.org",
   },
   {
     name: "Visibility Network 10",
