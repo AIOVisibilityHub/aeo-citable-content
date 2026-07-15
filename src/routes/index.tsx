@@ -1,3 +1,4 @@
+
 import { createFileRoute, Link } from "@tanstack/react-router";
 import speakableSchema from "@/assets/speakable_schema.png.asset.json";
 import aiDistribution from "@/assets/ai-distribution.png.asset.json";
@@ -287,7 +288,8 @@ const CORE_FEATURES = [
   "Per-page code with breadcrumbs & Speakable schema (for Voice Search)",
   "Instant HTML Accordion Web Pages (FAQs/Help Articles)",
   "Research Unanswered AI Overviews QAs + People Also Ask",
-  "Source-backed research + high-intent keywords research",
+  "Source-backed research + stat-based content",
+  "high-intent transactional keywords research", 
   "Choose from Perplexity Sonar or Sonar Reasoning Pro API",
   "15-tool Authority Suite (trust, expertise, gap analysis)",
   "Missed opportunities + Visibility gap analysis",
