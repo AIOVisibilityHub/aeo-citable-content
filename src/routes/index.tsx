@@ -357,23 +357,23 @@ function Home() {
 
 function Nav() {
   return (
-    <header className="sticky top-0 z-40 border-b border-border/60 backdrop-blur-md bg-background/70">
+    <header className="sticky top-0 z-40 backdrop-blur-md bg-transparent">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         <a href="#top" className="flex items-center gap-2.5">
           <img src={aeMark.url} alt="AE Optimizer" width={32} height={32} className="h-8 w-8 object-contain" />
-          <span className="font-display text-lg font-semibold tracking-tight">AE Optimizer</span>
+          <span className="font-display text-lg font-semibold tracking-tight text-[color:var(--ink)]">AE Optimizer</span>
         </a>
-        <nav className="hidden gap-8 text-sm text-muted-foreground md:flex">
-          <a href="#story" className="hover:text-foreground">Why AEO</a>
-          <a href="#engine" className="hover:text-foreground">Content Engine</a>
-          <a href="#network" className="hover:text-foreground">Authority Network</a>
-          <a href="#pricing" className="hover:text-foreground">Pricing</a>
+        <nav className="hidden gap-8 text-sm font-medium text-[color:var(--ink)]/70 md:flex">
+          <a href="#story" className="hover:text-[color:var(--brand-blue)]">Why AEO</a>
+          <a href="#engine" className="hover:text-[color:var(--brand-blue)]">Content Engine</a>
+          <a href="#network" className="hover:text-[color:var(--brand-blue)]">Authority Network</a>
+          <a href="#pricing" className="hover:text-[color:var(--brand-blue)]">Pricing</a>
         </nav>
         <a
           href="#pricing"
-          className="rounded-md bg-[color:var(--gold)] px-4 py-2 text-sm font-semibold text-primary-foreground shadow-gold transition hover:brightness-110"
+          className="inline-flex items-center gap-2 rounded-md bg-[color:var(--brand-blue)] px-4 py-2 text-sm font-semibold text-[color:var(--cream)] transition hover:bg-[color:var(--brand-blue-light)]"
         >
-          Get AE Optimizer →
+          Get started <span aria-hidden>→</span>
         </a>
       </div>
     </header>
@@ -382,59 +382,72 @@ function Nav() {
 
 function Hero() {
   return (
-    <section id="top" className="relative overflow-hidden border-b border-border/60">
-      <div className="absolute inset-0 grid-bg opacity-30" aria-hidden />
+    <section
+      id="top"
+      className="relative overflow-hidden -mt-[68px] pt-[68px]"
+      style={{
+        background:
+          "radial-gradient(1100px 620px at 18% 30%, #D9C29A 0%, #C2A97C 42%, #A88D5E 78%, #8C7448 100%)",
+      }}
+    >
+      {/* Dual ambient glows — taupe warmth + deep-blue accent */}
       <div
-        className="absolute -top-40 -left-40 h-[520px] w-[520px] rounded-full opacity-30 blur-3xl"
-        style={{ background: "radial-gradient(closest-side, var(--gold), transparent)" }}
+        className="pointer-events-none absolute -top-56 -left-40 h-[620px] w-[620px] rounded-full opacity-80 blur-3xl"
+        style={{ background: "radial-gradient(closest-side, #E6D2A6, transparent)" }}
         aria-hidden
       />
       <div
-        className="absolute -bottom-40 -right-40 h-[520px] w-[520px] rounded-full opacity-20 blur-3xl"
-        style={{ background: "radial-gradient(closest-side, var(--accent), transparent)" }}
+        className="pointer-events-none absolute -bottom-64 -right-40 h-[720px] w-[720px] rounded-full opacity-60 blur-3xl"
+        style={{ background: "radial-gradient(closest-side, #1A3A57, transparent 70%)" }}
+        aria-hidden
+      />
+      <div
+        className="pointer-events-none absolute top-1/3 left-1/2 h-[420px] w-[420px] -translate-x-1/2 rounded-full opacity-30 blur-3xl"
+        style={{ background: "radial-gradient(closest-side, #2A5178, transparent)" }}
         aria-hidden
       />
 
-      <div className="relative mx-auto max-w-7xl px-6 pt-16 pb-20 md:pt-24 md:pb-28">
+      <div className="relative mx-auto max-w-7xl px-6 pt-10 pb-24 md:pt-16 md:pb-32">
         <div className="grid items-center gap-12 lg:grid-cols-[1.05fr_1fr]">
           {/* LEFT — headline column */}
           <div>
-            <span className="inline-flex items-center gap-2 rounded-full border border-[color:var(--gold)]/40 bg-[color:var(--gold)]/10 px-3 py-1.5 text-[11px] font-medium uppercase tracking-[0.18em] text-[color:var(--gold)]">
-              <span className="h-1.5 w-1.5 rounded-full bg-[color:var(--gold)]" />
+            <span className="inline-flex items-center gap-2 rounded-full border border-[color:var(--brand-blue)]/40 bg-[color:var(--cream)]/40 px-3 py-1.5 text-[11px] font-semibold uppercase tracking-[0.18em] text-[color:var(--brand-blue)]">
+              <span className="h-1.5 w-1.5 rounded-full bg-[color:var(--brand-blue)]" />
               Answer Engine Optimization Software
             </span>
 
-            <h1 className="mt-6 font-display text-[2.75rem] font-semibold leading-[1.02] tracking-tight text-foreground sm:text-6xl lg:text-[4.25rem]">
+            <h1 className="mt-6 font-display text-[2.75rem] font-semibold leading-[1.02] tracking-tight text-[color:var(--ink)] sm:text-6xl lg:text-[4.25rem]">
               Get cited by{" "}
-              <span className="gold-gradient">Google AI Overviews</span>
-              <span className="block text-foreground/90">
+              <span style={{ color: "#8A6A2A" }}>Google AI Overviews</span>
+              <span className="block text-[color:var(--ink)]/90">
                 — then every answer engine after it.
               </span>
             </h1>
 
-            <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted-foreground">
-              For your business to be recommended by Google's AI Overviews + answer engines like ChatGPT and Perplexity, it needs to be optimized with structured data, AI visibility files, and FAQ schema + help articles to teach AI systems how to answer your prospects' questions. AE Optimizer generates all of it for your business, and more — no developer, no agency, no $3,000/month retainer.
+            <p className="mt-6 max-w-xl text-lg leading-relaxed text-[color:var(--ink)]/75">
+              AE Optimizer builds the machine-readable layer your website is missing, so AI can discover, verify and recommend your business — on Google AI Overviews, ChatGPT, Perplexity, Gemini, Grok, Claude and DeepSeek.
             </p>
 
             <div className="mt-8 flex flex-wrap items-center gap-3">
               <a
                 href="#pricing"
-                className="rounded-lg bg-[color:var(--gold)] px-6 py-3 text-base font-semibold text-primary-foreground shadow-gold transition hover:brightness-110"
+                className="group inline-flex items-center gap-2 rounded-lg bg-[color:var(--brand-blue)] px-6 py-3 text-base font-semibold text-[color:var(--cream)] shadow-[0_10px_30px_-10px_rgba(26,58,87,0.55)] transition hover:bg-[color:var(--brand-blue-light)]"
               >
                 Get AE Optimizer
+                <span aria-hidden className="transition group-hover:translate-x-0.5">→</span>
               </a>
               <Link
                 to="/articles/$slug"
                 params={{ slug: "aeo-tools-guide" }}
-                className="group inline-flex items-center gap-2 rounded-lg border border-border bg-[color:var(--surface-elevated)]/70 px-6 py-3 text-base font-semibold text-foreground transition hover:border-[color:var(--gold)]"
+                className="group inline-flex items-center gap-2 rounded-lg border border-[color:var(--brand-blue)]/60 bg-[color:var(--cream)]/30 px-6 py-3 text-base font-semibold text-[color:var(--brand-blue)] transition hover:bg-[color:var(--cream)]/60"
               >
-                Read the AEO Tools for Websites Guide
+                Read the AEO tools guide
                 <span aria-hidden className="transition group-hover:translate-x-0.5">→</span>
               </Link>
             </div>
 
-            <div className="mt-10 border-t border-border/60 pt-6">
-              <p className="text-[11px] uppercase tracking-[0.22em] text-muted-foreground">
+            <div className="mt-10 border-t border-[color:var(--ink)]/15 pt-6">
+              <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-[color:var(--ink)]/60">
                 Optimized for
               </p>
               <div className="mt-3 flex flex-wrap gap-2">
@@ -442,10 +455,10 @@ function Hero() {
                   <span
                     key={e}
                     className={
-                      "rounded-full border px-3 py-1 text-xs " +
+                      "rounded-full border px-3 py-1 text-xs font-medium " +
                       (i === 0
-                        ? "border-[color:var(--gold)]/60 bg-[color:var(--gold)]/10 text-[color:var(--gold)]"
-                        : "border-border text-muted-foreground")
+                        ? "border-[color:var(--brand-blue)] bg-[color:var(--brand-blue)] text-[color:var(--cream)]"
+                        : "border-[color:var(--brand-blue)]/40 text-[color:var(--ink)]/75")
                     }
                   >
                     {e}
@@ -455,24 +468,24 @@ function Hero() {
             </div>
           </div>
 
-          {/* RIGHT — video card */}
+          {/* RIGHT — video card (keep the blue) */}
           <div className="relative">
             <div
               className="absolute -inset-3 rounded-3xl opacity-70 blur-2xl"
               style={{
                 background:
-                  "linear-gradient(135deg, color-mix(in oklab, var(--gold) 35%, transparent), color-mix(in oklab, var(--accent) 30%, transparent))",
+                  "linear-gradient(135deg, rgba(26,58,87,0.55), rgba(42,81,120,0.35))",
               }}
               aria-hidden
             />
-            <div className="relative overflow-hidden rounded-2xl border border-border bg-[color:var(--surface)] shadow-elevated">
-              <div className="flex items-center justify-between border-b border-border/70 bg-[color:var(--surface-elevated)]/60 px-4 py-2.5">
+            <div className="relative overflow-hidden rounded-2xl border border-[color:var(--brand-blue)]/60 bg-[color:var(--brand-blue)] shadow-[0_30px_60px_-25px_rgba(15,36,56,0.6)]">
+              <div className="flex items-center justify-between border-b border-[color:var(--brand-blue-light)]/70 bg-[color:var(--brand-blue-dark)]/60 px-4 py-2.5">
                 <div className="flex items-center gap-1.5">
-                  <span className="h-2.5 w-2.5 rounded-full bg-[color:var(--gold)]/70" />
-                  <span className="h-2.5 w-2.5 rounded-full bg-muted-foreground/40" />
-                  <span className="h-2.5 w-2.5 rounded-full bg-muted-foreground/30" />
+                  <span className="h-2.5 w-2.5 rounded-full bg-[color:var(--taupe)]" />
+                  <span className="h-2.5 w-2.5 rounded-full bg-[color:var(--cream)]/40" />
+                  <span className="h-2.5 w-2.5 rounded-full bg-[color:var(--cream)]/30" />
                 </div>
-                <span className="text-[11px] uppercase tracking-[0.2em] text-muted-foreground">
+                <span className="text-[11px] uppercase tracking-[0.2em] text-[color:var(--cream)]/80">
                   Intro · 2 min
                 </span>
               </div>
@@ -495,12 +508,12 @@ function Hero() {
               ].map((s) => (
                 <div
                   key={s.v}
-                  className="rounded-xl border border-border bg-[color:var(--surface)]/70 px-3 py-3"
+                  className="rounded-xl border border-[color:var(--brand-blue-light)]/60 bg-[color:var(--brand-blue)] px-3 py-3"
                 >
-                  <div className="font-display text-2xl font-semibold text-[color:var(--gold)]">
+                  <div className="font-display text-2xl font-semibold text-[color:var(--taupe-soft)]">
                     {s.k}
                   </div>
-                  <div className="text-[11px] uppercase tracking-widest text-muted-foreground">
+                  <div className="text-[11px] uppercase tracking-widest text-[color:var(--cream)]/70">
                     {s.v}
                   </div>
                 </div>
@@ -515,11 +528,11 @@ function Hero() {
 
 function ProblemBand() {
   return (
-    <section className="border-y border-border bg-muted/60 py-10">
+    <section className="border-y border-[color:var(--brand-blue-dark)] bg-[color:var(--brand-blue)] py-10">
       <div className="mx-auto max-w-6xl px-6 text-center lg:px-10">
-        <p className="font-display text-xl italic leading-relaxed text-foreground/80 md:text-2xl">
+        <p className="font-display text-xl italic leading-relaxed text-[color:var(--cream)]/90 md:text-2xl">
           “When someone asks Google, ChatGPT or Perplexity for a recommendation in your industry —
-          <span className="text-gold">is your business in the answer?</span>”
+          <span className="text-[color:var(--taupe-soft)]"> is your business in the answer?</span>”
         </p>
       </div>
     </section>
@@ -817,73 +830,78 @@ function PriceCard({ tier }: { tier: (typeof TIERS)[number] }) {
     <div
       className={`relative flex flex-col rounded-2xl border p-8 transition ${
         tier.highlight
-          ? "border-[color:var(--gold)] bg-[color:var(--surface-elevated)] shadow-gold"
-          : "border-border bg-[color:var(--surface)]"
+          ? "border-[color:var(--taupe)]/60 bg-[color:var(--brand-blue-light)] shadow-[0_30px_60px_-25px_rgba(15,36,56,0.6)]"
+          : "border-[color:var(--brand-blue-dark)] bg-[color:var(--brand-blue-dark)]"
       }`}
     >
       {tier.badge && (
-        <span className="absolute -top-3 left-1/2 -translate-x-1/2 rounded-full bg-[color:var(--gold)] px-3 py-1 text-xs font-bold uppercase tracking-widest text-primary-foreground">
+        <span className="absolute -top-3 left-1/2 -translate-x-1/2 rounded-full bg-[color:var(--taupe)] px-3 py-1 text-xs font-bold uppercase tracking-widest text-[color:var(--brand-blue-dark)]">
           {tier.badge}
         </span>
       )}
 
-      <h3 className="font-display text-2xl font-semibold text-foreground">{tier.name}</h3>
-      <p className="mt-2 min-h-[3rem] text-sm text-muted-foreground">{tier.tagline}</p>
+      <h3 className="font-display text-2xl font-semibold text-[color:var(--cream)]">{tier.name}</h3>
+      <p className="mt-2 min-h-[3rem] text-sm text-[color:var(--cream)]/70">{tier.tagline}</p>
 
       <div className="mt-6 flex items-baseline gap-3">
-        <span className="font-display text-5xl font-bold gold-gradient">{tier.price}</span>
-        <span className="text-lg text-muted-foreground line-through">{tier.strike}</span>
+        <span className="font-display text-5xl font-bold text-[color:var(--taupe-soft)]">{tier.price}</span>
+        <span className="text-lg text-[color:var(--cream)]/50 line-through">{tier.strike}</span>
       </div>
-      <span className="text-xs uppercase tracking-widest text-muted-foreground">One-time</span>
-
-      <a
-        href={tier.link}
-        target="_blank"
-        rel="noreferrer"
-        className={`mt-6 block rounded-lg px-4 py-3 text-center text-sm font-semibold transition ${
-          tier.highlight
-            ? "bg-[color:var(--gold)] text-primary-foreground hover:brightness-110"
-            : "border border-[color:var(--gold)] text-[color:var(--gold)] hover:bg-[color:var(--gold)] hover:text-primary-foreground"
-        }`}
-      >
-        Get {tier.name}
-      </a>
-
-      {tier.variants && (
-        <div className="mt-4 grid grid-cols-2 gap-2">
-          {tier.variants.slice(1).map((v) => (
-            <a
-              key={v.label}
-              href={v.link}
-              target="_blank"
-              rel="noreferrer"
-              className="rounded-md border border-border bg-[color:var(--surface)] px-3 py-2 text-center text-xs font-semibold text-foreground transition hover:border-[color:var(--gold)] hover:text-[color:var(--gold)]"
-            >
-              {v.label}
-            </a>
-          ))}
-        </div>
-      )}
+      <span className="text-xs uppercase tracking-widest text-[color:var(--cream)]/60">One-time</span>
 
       <ul className="mt-8 space-y-3 text-sm">
         <PriceFeature primary>{tier.counts.faq}</PriceFeature>
         <PriceFeature primary>{tier.counts.help}</PriceFeature>
         <PriceFeature primary>{tier.counts.unanswered}</PriceFeature>
         <PriceFeature primary>{tier.counts.paa}</PriceFeature>
-        <li className="pt-2 text-xs font-semibold uppercase tracking-widest text-[color:var(--gold)]">
+        <li className="pt-2 text-xs font-semibold uppercase tracking-widest text-[color:var(--taupe-soft)]">
           Authority Network
         </li>
         <PriceFeature>{tier.network}</PriceFeature>
         {tier.upgradeNote && (
-          <li className="text-xs italic text-muted-foreground">{tier.upgradeNote}</li>
+          <li className="text-xs italic text-[color:var(--cream)]/60">{tier.upgradeNote}</li>
         )}
-        <li className="pt-2 text-xs font-semibold uppercase tracking-widest text-[color:var(--gold)]">
+        <li className="pt-2 text-xs font-semibold uppercase tracking-widest text-[color:var(--taupe-soft)]">
           Everything included
         </li>
         {CORE_FEATURES.map((f) => (
           <PriceFeature key={f}>{f}</PriceFeature>
         ))}
       </ul>
+
+      {/* CTA at the bottom, after the features */}
+      <div className="mt-8 pt-6 border-t border-[color:var(--cream)]/10">
+        <a
+          href={tier.link}
+          target="_blank"
+          rel="noreferrer"
+          className={`group flex items-center justify-center gap-2 rounded-lg px-4 py-3 text-center text-sm font-semibold transition ${
+            tier.highlight
+              ? "bg-[color:var(--taupe)] text-[color:var(--brand-blue-dark)] hover:bg-[color:var(--taupe-soft)]"
+              : "bg-[color:var(--brand-blue-light)] text-[color:var(--cream)] hover:bg-[color:var(--brand-blue)]"
+          }`}
+        >
+          Get {tier.name}
+          <span aria-hidden className="transition group-hover:translate-x-0.5">→</span>
+        </a>
+
+        {tier.variants && (
+          <div className="mt-3 grid grid-cols-2 gap-2">
+            {tier.variants.slice(1).map((v) => (
+              <a
+                key={v.label}
+                href={v.link}
+                target="_blank"
+                rel="noreferrer"
+                className="group inline-flex items-center justify-center gap-1 rounded-md border border-[color:var(--cream)]/20 bg-[color:var(--brand-blue)]/40 px-3 py-2 text-center text-xs font-semibold text-[color:var(--cream)] transition hover:border-[color:var(--taupe)] hover:text-[color:var(--taupe-soft)]"
+              >
+                {v.label}
+                <span aria-hidden className="transition group-hover:translate-x-0.5">→</span>
+              </a>
+            ))}
+          </div>
+        )}
+      </div>
     </div>
   );
 }
@@ -891,8 +909,8 @@ function PriceCard({ tier }: { tier: (typeof TIERS)[number] }) {
 function PriceFeature({ children, primary }: { children: React.ReactNode; primary?: boolean }) {
   return (
     <li className="flex items-start gap-2">
-      <span className={`mt-1 h-1.5 w-1.5 shrink-0 rounded-full ${primary ? "bg-[color:var(--gold)]" : "bg-muted-foreground"}`} />
-      <span className={primary ? "text-foreground" : "text-muted-foreground"}>{children}</span>
+      <span className={`mt-1 h-1.5 w-1.5 shrink-0 rounded-full ${primary ? "bg-[color:var(--taupe-soft)]" : "bg-[color:var(--cream)]/40"}`} />
+      <span className={primary ? "text-[color:var(--cream)]" : "text-[color:var(--cream)]/70"}>{children}</span>
     </li>
   );
 }
