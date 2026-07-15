@@ -669,39 +669,9 @@ function ContentEngineItem({
   index: number;
 }) {
   const isEven = index % 2 === 0;
-  const ref = useRef<HTMLElement | null>(null);
-  const [entered, setEntered] = useState(false);
-  useEffect(() => {
-    const el = ref.current;
-    if (!el || typeof IntersectionObserver === "undefined") {
-      setEntered(true);
-      return;
-    }
-    const io = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((e) => {
-          if (e.isIntersecting) {
-            setEntered(true);
-            io.disconnect();
-          }
-        });
-      },
-      { rootMargin: "0px 0px -5% 0px", threshold: 0.05 },
-    );
-    io.observe(el);
-    // Safety fallback: guarantee visibility even if IO never fires
-    const t = window.setTimeout(() => setEntered(true), 1200);
-    return () => {
-      io.disconnect();
-      window.clearTimeout(t);
-    };
-  }, []);
   return (
     <article
-      ref={ref}
-      className={`border-t border-border/60 bg-[color:var(--surface)]/30 py-20 lg:py-28 transition-all duration-700 ease-out ${
-        entered ? "opacity-100 translate-y-0" : "opacity-40 translate-y-4"
-      }`}
+      className="border-t border-border/60 bg-[color:var(--surface)]/30 py-20 lg:py-28"
     >
       <div className="mx-auto max-w-6xl px-6">
         <div
@@ -729,7 +699,15 @@ function ContentEngineItem({
           <div className={isEven ? "" : "lg:col-start-1"}>
             {item.image ? (
               <figure className="overflow-hidden rounded-2xl border border-border bg-[color:var(--surface)] shadow-elevated">
-                <img src={item.image} alt={item.imageAlt} loading="lazy" className="w-full" />
+                <img
+                  src={item.image}
+                  alt={item.imageAlt}
+                  width={item.imageWidth}
+                  height={item.imageHeight}
+                  loading={index < 3 ? "eager" : "lazy"}
+                  decoding="async"
+                  className="block h-auto w-full"
+                />
                 <figcaption className="border-t border-border px-4 py-3 text-center text-xs text-muted-foreground">
                   {item.imageAlt}
                 </figcaption>
