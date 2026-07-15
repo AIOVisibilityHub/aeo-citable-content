@@ -713,7 +713,7 @@ function ContentEngineItem({
                   alt={item.imageAlt}
                   width={item.imageWidth}
                   height={item.imageHeight}
-                  loading={index < 3 ? "eager" : "lazy"}
+                  loading="eager"
                   decoding="async"
                   className="block h-auto w-full"
                 />
@@ -795,7 +795,7 @@ function EntitySection() {
               alt="AI distribution across an authority network"
               width={1163}
               height={1920}
-              loading="lazy"
+              loading="eager"
               decoding="async"
               className="block h-auto w-full"
             />
@@ -831,7 +831,7 @@ function PricingCompare() {
             alt="AE Optimizer price comparison vs competitors"
             width={1000}
             height={1911}
-            loading="lazy"
+            loading="eager"
             decoding="async"
             className="block h-auto w-full"
           />
