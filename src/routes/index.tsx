@@ -367,7 +367,7 @@ function Nav() {
     <header className="sticky top-0 z-40 backdrop-blur-md bg-transparent">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         <a href="#top" className="flex items-center gap-2.5">
-          <img src={aeLogo.url} alt="AE Optimizer" width={32} height={32} className="h-8 w-8 object-contain" />
+          <img src={aeLogo.url} alt="AE Optimizer" width={32} height={32} loading="eager" decoding="async" fetchPriority="high" className="h-8 w-8 object-contain" />
           <span className="font-display text-lg font-semibold tracking-tight text-[color:var(--ink)]">AE Optimizer</span>
         </a>
         <nav className="hidden gap-8 text-sm font-medium text-[color:var(--ink)]/70 md:flex">
