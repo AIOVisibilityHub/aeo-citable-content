@@ -303,7 +303,7 @@ const TIERS = [
     price: "$247",
     strike: "$497",
     highlight: false,
-    tagline: "Start building AI visibility and publish on the highest-trusted site AI crawls.",
+    tagline: "Start building AI visibility and publish on the highest-trusted site AI crawls for discovery. Upgrade at any time, just pay the difference.",
     link: "https://buy.stripe.com/aFa9AT7tj8Ud9Q77dVcs80f",
     counts: {
       faq: "75 FAQ schema files",
@@ -855,7 +855,7 @@ function Pricing() {
           </h2>
           <p className="mt-5 text-lg text-muted-foreground">
             Pick your foundation. Every tier includes the full content engine — differences are in schema
-            volume and how many platforms mirror your entity. DIY Foundation publishes an AI crawlable website for discovery by AI on Github. Upgrade to expand to all other additional platforms.  Need to generate more files?  There are options to generate more inside the app.
+            volume and how many platforms mirror your entity. DIY Foundation publishes an AI crawlable website for discovery by AI on Github. Upgrade to expand to all platforms.  Need to generate more files?  Options to generate more one-time or monthly are inside the app.
           </p>
         </div>
 
