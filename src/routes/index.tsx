@@ -337,10 +337,10 @@ const TIERS = [
     strike: "$1,997",
     highlight: false,
     badge: "Scale",
-    tagline: "Everything in Authority Engine, at network scale — choose your city coverage.",
+    tagline: "Everything in Authority Engine, at network scale — choose from 10, 25, 50 or 100 business profiles.",
     link: "https://buy.stripe.com/7sYbJ17tj0nH1jB41Jcs80h",
     counts: {
-      profiles: "10 business profiles",
+      "10 business profiles",
       faq: "300 FAQ schema files",
       help: "100 Help Article schema files",
       unanswered: "100 Unanswered AI Overviews Q&A files",
