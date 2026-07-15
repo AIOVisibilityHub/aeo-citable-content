@@ -312,7 +312,7 @@ const TIERS = [
       paa: "25 People Also Ask research files",
     },
     network: "AI crawlable website on GitHub Pages",
-    upgradeNote: "Upgrade any time to publish across additional platforms.",
+    upgradeNote: "Upgrade any time to publish across all platforms.",
   },
   {
     name: "Authority Engine",
