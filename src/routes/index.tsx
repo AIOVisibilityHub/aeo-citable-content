@@ -18,7 +18,6 @@ import htmlAccordionImg from "@/assets/html_accordion_site_pages.png.asset.json"
 
 import perPageCode from "@/assets/per_page_code.png.asset.json";
 import siteFilesRoot from "@/assets/site_files_root.png.asset.json";
-import aeMark from "@/assets/ae-mark.png.asset.json";
 import { ARTICLES } from "@/lib/articles";
 
 export const Route = createFileRoute("/")({
@@ -360,7 +359,7 @@ function Nav() {
     <header className="sticky top-0 z-40 backdrop-blur-md bg-transparent">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         <a href="#top" className="flex items-center gap-2.5">
-          <img src={aeMark.url} alt="AE Optimizer" width={32} height={32} className="h-8 w-8 object-contain" />
+          <img src="/ae-optimizer-logo.svg" alt="AE Optimizer" width={32} height={32} className="h-8 w-8 object-contain" />
           <span className="font-display text-lg font-semibold tracking-tight text-[color:var(--ink)]">AE Optimizer</span>
         </a>
         <nav className="hidden gap-8 text-sm font-medium text-[color:var(--ink)]/70 md:flex">
@@ -964,7 +963,7 @@ function Footer() {
     <footer className="border-t border-border py-12">
       <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-6 md:flex-row">
         <div className="flex items-center gap-2">
-          <img src={aeMark.url} alt="AE Optimizer" width={28} height={28} loading="lazy" className="h-7 w-7 object-contain" />
+          <img src="/ae-optimizer-logo.svg" alt="AE Optimizer" width={28} height={28} loading="lazy" className="h-7 w-7 object-contain" />
           <span className="font-display font-semibold">AE Optimizer</span>
         </div>
         <div className="flex items-center gap-6 text-sm">
