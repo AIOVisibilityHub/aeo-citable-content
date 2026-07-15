@@ -1057,7 +1057,7 @@ function FaqSection() {
     },
     {
       q: "Is there a guarantee?",
-      a: "Yes — we offer a 14 day guarantee to get your website optimized, generate FAQs, help articles, and other AI-editable content, and that an AI crawlable website will be created that mirrors your information and points back to your website as your 'source of truth'. If AE Optimizer doesn't perform correctly, request support to step in and assist. If support can't help you upload your AI visibility files to your website, they can be uploaded to Github code for public AI crawling pointing to your website as the canonical source of truth, or if we can't get your AI crawlable website up and running, which we guarantee - we will refund your purchase.  However, we cannot guarantee a timeframe or what exact content will be picked up or.cited based on the content generated. Frankly, that would be impossible to guarantee.",
+      a: "Yes — we offer a 14 day guarantee to get your website optimized, generate FAQs, help articles, and other AI-editable content, and that an AI crawlable website will be created that mirrors your information and points back to your website as your 'source of truth'. If AE Optimizer doesn't perform correctly, request support to step in and assist. If support can't help you upload your AI visibility files to your website, they can be uploaded to Github code for public AI crawling pointing to your website as the canonical source of truth, or if we can't get your AI crawlable website up and running, which we guarantee - we will refund your purchase.  However, we cannot guarantee a timeframe or what exact content will be picked up or cited based on the content generated. Frankly, that would be impossible to guarantee.",
     },
   ];
   return (
