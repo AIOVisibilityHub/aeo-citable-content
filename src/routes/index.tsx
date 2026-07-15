@@ -209,6 +209,8 @@ const CONTENT_ENGINE = [
     tag: "14",
     title: "Stat-Based Content Mode",
     headline: "Anchor every article to a number AI Overviews want to quote.",
+    image: statBasedContent.url,
+    imageAlt: "Source-Backed Topic Research with Prioritize statistics & data points enabled",
     description: [
       "Toggle on 'Prioritize statistics & data points' and the Perplexity prompt shifts into stat-based content mode — demanding concrete stats, benchmarks, percentages and cited figures from reputable sources like BLS, CDC, industry reports and peer-reviewed studies.",
       "At least 60% of items will center on a specific statistic, which is exactly the kind of anchor AI Overviews, ChatGPT and Perplexity love to quote. A page that says '43% of…' with a real citation gets pulled into an AI answer far more often than a page that says 'many.'",
