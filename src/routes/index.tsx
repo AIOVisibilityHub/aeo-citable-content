@@ -23,11 +23,18 @@ import statBasedContent from "@/assets/stat_based_content.png.asset.json";
 import aeLogo from "@/assets/ae-logo-blue.png.asset.json";
 import { ARTICLES } from "@/lib/articles";
 
+const ASSET_HOST = "https://project--513f83bc-18cb-41a3-9de7-a0f1ae74bd9c.lovable.app";
+
+const assetUrl = (asset: { url: string }) =>
+  asset.url.startsWith("/__l5e/") ? `${ASSET_HOST}${asset.url}` : asset.url;
+
 const imageAsset = (asset: { url: string }, width: number, height: number) => ({
-  image: asset.url,
+  image: assetUrl(asset),
   imageWidth: width,
   imageHeight: height,
 });
+
+const aeLogoUrl = assetUrl(aeLogo);
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -373,7 +380,7 @@ function Nav() {
     <header className="sticky top-0 z-40 backdrop-blur-md bg-transparent">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         <a href="#top" className="flex items-center gap-2.5">
-          <img src={aeLogo.url} alt="AE Optimizer" width={32} height={32} loading="eager" decoding="async" fetchPriority="high" className="h-8 w-8 object-contain" />
+          <img src={aeLogoUrl} alt="AE Optimizer" width={32} height={32} loading="eager" decoding="async" fetchPriority="high" className="h-8 w-8 object-contain" />
           <span className="font-display text-lg font-semibold tracking-tight text-[color:var(--ink)]">AE Optimizer</span>
         </a>
         <nav className="hidden gap-8 text-sm font-medium text-[color:var(--ink)]/70 md:flex">
@@ -706,7 +713,7 @@ function ContentEngineItem({
                   alt={item.imageAlt}
                   width={item.imageWidth}
                   height={item.imageHeight}
-                  loading={index < 3 ? "eager" : "lazy"}
+                  loading="eager"
                   decoding="async"
                   className="block h-auto w-full"
                 />
@@ -784,11 +791,11 @@ function EntitySection() {
         <div className="mx-auto mt-14 max-w-3xl">
           <figure className="overflow-hidden rounded-2xl border border-border bg-[color:var(--surface)] shadow-elevated">
             <img
-              src={aiDistribution.url}
+              src={assetUrl(aiDistribution)}
               alt="AI distribution across an authority network"
               width={1163}
               height={1920}
-              loading="lazy"
+              loading="eager"
               decoding="async"
               className="block h-auto w-full"
             />
@@ -820,11 +827,11 @@ function PricingCompare() {
         </div>
         <figure className="mt-10 overflow-hidden rounded-2xl border border-border bg-[color:var(--surface)] shadow-elevated">
           <img
-            src={priceComparison.url}
+            src={assetUrl(priceComparison)}
             alt="AE Optimizer price comparison vs competitors"
             width={1000}
             height={1911}
-            loading="lazy"
+            loading="eager"
             decoding="async"
             className="block h-auto w-full"
           />
@@ -1004,7 +1011,7 @@ function Footer() {
     <footer className="border-t border-border py-12">
       <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-6 md:flex-row">
         <div className="flex items-center gap-2">
-          <img src={aeLogo.url} alt="AE Optimizer" width={28} height={28} loading="eager" decoding="async" className="h-7 w-7 object-contain" />
+          <img src={aeLogoUrl} alt="AE Optimizer" width={28} height={28} loading="eager" decoding="async" className="h-7 w-7 object-contain" />
           <span className="font-display font-semibold">AE Optimizer</span>
         </div>
         <div className="flex items-center gap-6 text-sm">
