@@ -20,6 +20,7 @@ import htmlAccordionImg from "@/assets/html_accordion_site_pages.png.asset.json"
 
 import perPageCode from "@/assets/per_page_code.png.asset.json";
 import siteFilesRoot from "@/assets/site_files_root.png.asset.json";
+import statBasedContent from "@/assets/stat_based_content.png.asset.json";
 import aeLogo from "@/assets/ae-logo-blue.png.asset.json";
 import { ARTICLES } from "@/lib/articles";
 
@@ -208,6 +209,8 @@ const CONTENT_ENGINE = [
     tag: "14",
     title: "Stat-Based Content Mode",
     headline: "Anchor every article to a number AI Overviews want to quote.",
+    image: statBasedContent.url,
+    imageAlt: "Source-Backed Topic Research with Prioritize statistics & data points enabled",
     description: [
       "Toggle on 'Prioritize statistics & data points' and the Perplexity prompt shifts into stat-based content mode — demanding concrete stats, benchmarks, percentages and cited figures from reputable sources like BLS, CDC, industry reports and peer-reviewed studies.",
       "At least 60% of items will center on a specific statistic, which is exactly the kind of anchor AI Overviews, ChatGPT and Perplexity love to quote. A page that says '43% of…' with a real citation gets pulled into an AI answer far more often than a page that says 'many.'",
@@ -364,7 +367,7 @@ function Nav() {
     <header className="sticky top-0 z-40 backdrop-blur-md bg-transparent">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         <a href="#top" className="flex items-center gap-2.5">
-          <img src={aeLogo.url} alt="AE Optimizer" width={32} height={32} className="h-8 w-8 object-contain" />
+          <img src={aeLogo.url} alt="AE Optimizer" width={32} height={32} loading="eager" decoding="async" fetchPriority="high" className="h-8 w-8 object-contain" />
           <span className="font-display text-lg font-semibold tracking-tight text-[color:var(--ink)]">AE Optimizer</span>
         </a>
         <nav className="hidden gap-8 text-sm font-medium text-[color:var(--ink)]/70 md:flex">
@@ -662,33 +665,37 @@ function ContentEngineItem({
 }) {
   const isEven = index % 2 === 0;
   const ref = useRef<HTMLElement | null>(null);
-  const [visible, setVisible] = useState(false);
+  const [entered, setEntered] = useState(false);
   useEffect(() => {
     const el = ref.current;
-    if (!el) return;
-    if (typeof IntersectionObserver === "undefined") {
-      setVisible(true);
+    if (!el || typeof IntersectionObserver === "undefined") {
+      setEntered(true);
       return;
     }
     const io = new IntersectionObserver(
       (entries) => {
         entries.forEach((e) => {
           if (e.isIntersecting) {
-            setVisible(true);
+            setEntered(true);
             io.disconnect();
           }
         });
       },
-      { rootMargin: "0px 0px -10% 0px", threshold: 0.08 },
+      { rootMargin: "0px 0px -5% 0px", threshold: 0.05 },
     );
     io.observe(el);
-    return () => io.disconnect();
+    // Safety fallback: guarantee visibility even if IO never fires
+    const t = window.setTimeout(() => setEntered(true), 1200);
+    return () => {
+      io.disconnect();
+      window.clearTimeout(t);
+    };
   }, []);
   return (
     <article
       ref={ref}
-      className={`border-t border-border/60 bg-[color:var(--surface)]/30 py-20 lg:py-28 transition-all duration-700 ease-out will-change-transform ${
-        visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+      className={`border-t border-border/60 bg-[color:var(--surface)]/30 py-20 lg:py-28 transition-all duration-700 ease-out ${
+        entered ? "opacity-100 translate-y-0" : "opacity-40 translate-y-4"
       }`}
     >
       <div className="mx-auto max-w-6xl px-6">
