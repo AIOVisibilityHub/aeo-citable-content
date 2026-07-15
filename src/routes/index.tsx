@@ -285,7 +285,7 @@ const CORE_FEATURES = [
   "Single business profile",
   "Crawl unlimited pages on your site",
   "Website AI visibility files for root directory",
-  "Per-page code with breadcrumbs & Speakable schema",
+  "Per-page code with breadcrumbs & Speakable schema (for Voice Search)",
   "Instant HTML Accordion Web Pages (FAQs/Help Articles)",
   "Research Unanswered AI Overviews QAs + People Also Ask",
   "Source-backed research + high-intent keywords research",
