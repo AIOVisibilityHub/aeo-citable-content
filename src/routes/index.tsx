@@ -329,7 +329,7 @@ const TIERS = [
       paa: "50 People Also Ask research files",
     },
     network:
-      "Github for code, GitHub Pages for AI crawlable website + GitLab, Hugging Face, Kaggle, Codeberg, Sourcehut, Gitea, Zenodo, Internet Archive, Forgejo, OSF, Archive.org",
+      "Github for code, GitHub Pages for AI crawlable website + Google-owned Kaggle, GitLab, Hugging Face, Codeberg, Sourcehut, Gitea, Zenodo, Internet Archive, Forgejo, OSF, Archive.org",
   },
   {
     name: "Visibility Network 10",
@@ -346,7 +346,7 @@ const TIERS = [
       paa: "100 People Also Ask research files",
     },
     network:
-      "GitHub Pages + GitLab, Hugging Face, Kaggle, Codeberg, Sourcehut, Gitea, Zenodo, Internet Archive, Forgejo, OSF, Archive.org",
+      "Github for code, GitHub Pages for AI crawlable website + Google-owned Kaggle, GitLab, Hugging Face, Kaggle, Codeberg, Sourcehut, Gitea, Zenodo, Internet Archive, Forgejo, OSF, Archive.org",
     variants: [
       { label: "Network 10", link: "https://buy.stripe.com/7sYbJ17tj0nH1jB41Jcs80h" },
       { label: "Network 10", link: "https://buy.stripe.com/7sYbJ17tj0nH1jB41Jcs80h" },
@@ -801,7 +801,7 @@ function EntitySection() {
               className="block h-auto w-full"
             />
             <figcaption className="border-t border-border p-4 text-center text-sm text-muted-foreground">
-              GitHub Pages leads, then GitLab, Hugging Face, Kaggle, Codeberg, Sourcehut, Gitea, Zenodo,
+              GitHub Pages leads, then Google-owned Kaggle, GitLab, Hugging Face, Codeberg, Sourcehut, Gitea, Zenodo,
               Internet Archive, Forgejo, OSF, and Archive.org corroborate.
             </figcaption>
           </figure>
