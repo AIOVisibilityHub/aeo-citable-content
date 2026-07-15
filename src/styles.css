@@ -50,11 +50,11 @@
   --cream: #F5EFE4;
 
   /* Site-wide taupe + deep blue palette */
-  --background: #E8D9B8;         /* taupe cream base */
+  --background: #C2A97C;         /* matches hero taupe base */
   --foreground: #17233A;         /* ink */
-  --surface: #EFE3C8;            /* lighter warm surface */
-  --surface-elevated: #F5EFE4;   /* cream */
-  --card: #F5EFE4;
+  --surface: #D9C29A;            /* hero glow taupe */
+  --surface-elevated: #E6D2A6;   /* warm hero highlight */
+  --card: #E6D2A6;
   --card-foreground: #17233A;
   --primary: #1A3A57;            /* brand blue */
   --primary-foreground: #F5EFE4;
@@ -76,7 +76,7 @@
 }
 
 .dark {
-  --background: #E8D9B8;
+  --background: #C2A97C;
   --foreground: #17233A;
 }
 
@@ -88,9 +88,10 @@
     color: var(--color-foreground);
     font-family: var(--font-sans);
     background-image:
-      radial-gradient(1100px 620px at 12% -8%, rgba(26,58,87,0.28), transparent 65%),
-      radial-gradient(900px 560px at 92% 8%, rgba(42,81,120,0.22), transparent 65%),
-      radial-gradient(700px 500px at 50% 110%, rgba(26,58,87,0.18), transparent 70%);
+      radial-gradient(1100px 620px at 18% 8%, #D9C29A 0%, #C2A97C 42%, #A88D5E 78%, #8C7448 100%),
+      radial-gradient(760px 560px at 88% 22%, rgba(26,58,87,0.34), transparent 70%),
+      radial-gradient(620px 460px at 48% 58%, rgba(42,81,120,0.18), transparent 68%),
+      linear-gradient(180deg, #C2A97C 0%, #B89D6E 48%, #C2A97C 100%);
     background-attachment: fixed;
   }
   h1, h2, h3 { font-family: var(--font-display); letter-spacing: -0.01em; }

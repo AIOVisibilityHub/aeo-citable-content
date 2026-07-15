@@ -30,9 +30,7 @@ function ThankYou() {
       <header className="sticky top-0 z-40 border-b border-border/60 backdrop-blur-md bg-background/70">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
           <Link to="/" className="flex items-center gap-2">
-            <div className="h-8 w-8 rounded-md bg-gradient-to-br from-[color:var(--gold)] to-[color:var(--gold-soft)] grid place-items-center text-primary-foreground font-display font-black">
-              Æ
-            </div>
+            <img src="/ae-optimizer-logo.svg" alt="AE Optimizer" width={32} height={32} className="h-8 w-8 object-contain" />
             <span className="font-display text-lg font-semibold tracking-tight">AE Optimizer</span>
           </Link>
         </div>
