@@ -332,7 +332,7 @@ const TIERS = [
       "GitHub Pages + GitLab, Hugging Face, Kaggle, Codeberg, Sourcehut, Gitea, Zenodo, Internet Archive, Forgejo, OSF, Archive.org",
   },
   {
-    name: "Visibility Network",
+    name: "Visibility Network 10",
     price: "$997",
     strike: "$1,997",
     highlight: false,
@@ -340,6 +340,7 @@ const TIERS = [
     tagline: "Everything in Authority Engine, at network scale — choose your city coverage.",
     link: "https://buy.stripe.com/7sYbJ17tj0nH1jB41Jcs80h",
     counts: {
+      profiles: "10 business profiles",
       faq: "300 FAQ schema files",
       help: "100 Help Article schema files",
       unanswered: "100 Unanswered AI Overviews Q&A files",
@@ -348,6 +349,7 @@ const TIERS = [
     network:
       "GitHub Pages + GitLab, Hugging Face, Kaggle, Codeberg, Sourcehut, Gitea, Zenodo, Internet Archive, Forgejo, OSF, Archive.org",
     variants: [
+      { label: "Network 10", link: "https://buy.stripe.com/7sYbJ17tj0nH1jB41Jcs80h" },
       { label: "Network 10", link: "https://buy.stripe.com/7sYbJ17tj0nH1jB41Jcs80h" },
       { label: "Network 25", link: "https://buy.stripe.com/8x2eVd00R7Q9bYf8hZcs80o" },
       { label: "Network 50", link: "https://buy.stripe.com/bJeeVdcNDgmF1jB55Ncs80m" },
@@ -447,7 +449,7 @@ function Hero() {
             </h1>
 
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-[color:var(--ink)]/75">
-              For your business to be recommended by Google's AI Overviews and answer engines like ChatGPT and Perplexity, it needs structured data, AI visibility files, and FAQ + help content that teach AI how to answer your prospects' questions. AE Optimizer builds all of it for you — no developer, no agency, no $3,000/month retainer.
+              For your business to be recommended by Google's AI Overviews and answer engines like ChatGPT and Perplexity, your website needs structured data, AI visibility files, and FAQ + help content that teach AI how to answer your prospects' questions. AE Optimizer builds all of it for you — no developer, no agency, no $3,000/month retainer.
             </p>
 
             <div className="mt-8 flex flex-wrap items-center gap-3">
@@ -970,7 +972,7 @@ function ArticlesTeaser() {
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-4">
           <div>
             <p className="text-xs uppercase tracking-widest text-[color:var(--gold)] font-semibold">
-              The AEO Buyer's Guide
+              AEO Tools for Websites - Guide
             </p>
             <h2 className="mt-2 text-3xl md:text-4xl font-semibold tracking-tight">
               How AE Optimizer compares in this category
@@ -1016,7 +1018,7 @@ function Footer() {
         </div>
         <div className="flex items-center gap-6 text-sm">
           <Link to="/articles" className="text-muted-foreground hover:text-foreground">
-            AEO Buyer's Guide
+            AEO Tools for Websites - Guide
           </Link>
           <p className="text-muted-foreground hidden md:block">
             Get Cited on Google AI Overviews · ChatGPT · Perplexity · Gemini · Grok · Claude · DeepSeek
