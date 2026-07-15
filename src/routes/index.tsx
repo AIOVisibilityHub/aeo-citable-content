@@ -75,6 +75,8 @@ const CONTENT_ENGINE = [
   {
     tag: "03",
     title: "Speakable Schema for Voice Search",
+    image: speakableSchema.url,
+    imageAlt: "Speakable Schema — voice search ready markup that tells Siri, Alexa, Google Assistant and Gemini which parts of your page to read aloud",
     headline: "Get read aloud by Siri, Alexa, Google Assistant and Google Gemini.",
     description: [
       "Voice search is where AI answers stop being read and start being spoken. Speakable schema tells voice assistants — Siri, Alexa, Google Assistant, Google Gemini, Bixby and Cortana — exactly which parts of your page they should read aloud when a user asks a question hands-free. Without it, voice engines guess (badly). With it, they quote you word-for-word.",
