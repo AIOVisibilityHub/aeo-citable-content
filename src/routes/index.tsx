@@ -273,8 +273,8 @@ const CONTENT_ENGINE = [
     imageAlt: "AE Optimizer distributing a business entity to 12 authority repositories",
     description: [
       "Great content that only lives on your website is a single point of failure. To build real authority in the age of AI, your business entity and structured data have to exist in the same places AI systems already trust and crawl — repeatedly, consistently, and in the exact machine-readable shape they prefer.",
-      "AE Optimizer publishes your entity to a 12-node authority network: GitHub Pages, GitLab, Hugging Face, Kaggle, Codeberg, Sourcehut, Gitea, Zenodo, Internet Archive, Forgejo, OSF and Archive.org. Each mirror corroborates the last, so when Google AI Overviews, ChatGPT, Perplexity, Gemini, Grok, Claude or DeepSeek encounter your name, they find the same facts everywhere they look.",
-      "This is the difference between hoping to be discovered and engineering discovery. Your website stays the canonical source of truth — and every other node reinforces it, quietly, on the platforms AI already reads.",
+      "AE Optimizer publishes your entity to a 12-node authority network: Github for code, GitHub Pages for AI crawlable website + GitLab, Hugging Face, Kaggle, Codeberg, Sourcehut, Gitea, Zenodo, Internet Archive, Forgejo, OSF and Archive.org. Each mirror corroborates the last, so when Google AI Overviews, ChatGPT, Perplexity, Gemini, Grok, Claude or DeepSeek encounter your name, they find the same facts everywhere they look.",
+      "This is the difference between hoping to be discovered and engineering discovery. Your website stays the canonical source of truth — and every other node reinforces it, quietly, on the platforms AI already crawls for new information.",
     ],
   },
 ];
