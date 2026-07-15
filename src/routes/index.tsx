@@ -439,7 +439,7 @@ function Hero() {
             </h1>
 
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-[color:var(--ink)]/75">
-              AE Optimizer builds the machine-readable layer your website is missing, so AI can discover, verify and recommend your business — on Google AI Overviews, ChatGPT, Perplexity, Gemini, Grok, Claude and DeepSeek.
+              For your business to be recommended by Google's AI Overviews and answer engines like ChatGPT and Perplexity, it needs structured data, AI visibility files, and FAQ + help content that teach AI how to answer your prospects' questions. AE Optimizer builds all of it for you — no developer, no agency, no $3,000/month retainer.
             </p>
 
             <div className="mt-8 flex flex-wrap items-center gap-3">
@@ -447,17 +447,16 @@ function Hero() {
                 href="#pricing"
                 className="group inline-flex items-center gap-2 rounded-lg bg-[color:var(--brand-blue)] px-6 py-3 text-base font-semibold text-[color:var(--cream)] shadow-[0_10px_30px_-10px_rgba(26,58,87,0.55)] transition hover:bg-[color:var(--brand-blue-light)]"
               >
-                Get AE Optimizer
+                Get AE Optimizer Now
                 <span aria-hidden className="transition group-hover:translate-x-0.5">→</span>
               </a>
-              <Link
-                to="/articles/$slug"
-                params={{ slug: "aeo-tools-guide" }}
+              <a
+                href="#demo"
                 className="group inline-flex items-center gap-2 rounded-lg border border-[color:var(--brand-blue)]/60 bg-[color:var(--cream)]/30 px-6 py-3 text-base font-semibold text-[color:var(--brand-blue)] transition hover:bg-[color:var(--cream)]/60"
               >
-                Read the AEO tools guide
+                Watch the Demo
                 <span aria-hidden className="transition group-hover:translate-x-0.5">→</span>
-              </Link>
+              </a>
             </div>
 
             <div className="mt-10 border-t border-[color:var(--ink)]/15 pt-6">
