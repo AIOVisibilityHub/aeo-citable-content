@@ -378,7 +378,9 @@ function Nav() {
         <nav className="hidden gap-8 text-sm font-medium text-[color:var(--ink)]/70 md:flex">
           <a href="#story" className="hover:text-[color:var(--brand-blue)]">Why AEO</a>
           <a href="#engine" className="hover:text-[color:var(--brand-blue)]">Content Engine</a>
-          <a href="#network" className="hover:text-[color:var(--brand-blue)]">Authority Network</a>
+          <a href="#demo" className="hover:text-[color:var(--brand-blue)]">Demo</a>
+          <a href="#faq" className="hover:text-[color:var(--brand-blue)]">FAQs</a>
+          <Link to="/articles" className="hover:text-[color:var(--brand-blue)]">Blog</Link>
           <a href="#pricing" className="hover:text-[color:var(--brand-blue)]">Pricing</a>
         </nav>
         <a
