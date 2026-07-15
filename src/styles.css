@@ -76,8 +76,8 @@
 }
 
 .dark {
-  --background: oklch(0.16 0.02 260);
-  --foreground: oklch(0.97 0.01 90);
+  --background: #E8D9B8;
+  --foreground: #17233A;
 }
 
 @layer base {
@@ -88,8 +88,9 @@
     color: var(--color-foreground);
     font-family: var(--font-sans);
     background-image:
-      radial-gradient(1200px 600px at 15% -10%, oklch(0.82 0.14 85 / 0.08), transparent 60%),
-      radial-gradient(900px 500px at 90% 10%, oklch(0.7 0.15 220 / 0.07), transparent 60%);
+      radial-gradient(1100px 620px at 12% -8%, rgba(26,58,87,0.28), transparent 65%),
+      radial-gradient(900px 560px at 92% 8%, rgba(42,81,120,0.22), transparent 65%),
+      radial-gradient(700px 500px at 50% 110%, rgba(26,58,87,0.18), transparent 70%);
     background-attachment: fixed;
   }
   h1, h2, h3 { font-family: var(--font-display); letter-spacing: -0.01em; }
