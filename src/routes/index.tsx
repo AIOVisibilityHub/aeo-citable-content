@@ -320,7 +320,7 @@ const TIERS = [
     strike: "$997",
     highlight: true,
     badge: "Most Popular",
-    tagline: "The full authority network — mirrored across the platforms AI crawls for discovery.",
+    tagline: "The full authority network — mirrored across the platforms AI crawls for discovery. $97 per extra profile one-time.",
     link: "https://buy.stripe.com/fZu6oH5lbgmF6DV8hZcs80g",
     counts: {
       faq: "150 FAQ schema files",
