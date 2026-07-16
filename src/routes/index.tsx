@@ -290,10 +290,10 @@ const CORE_FEATURES = [
   "Source-backed research + stat-based content",
   "high-intent transactional keywords research", 
   "Choose from Perplexity Sonar or Sonar Reasoning Pro API",
-  "15-tool Authority Suite (trust, expertise, gap analysis)",
+  "15-tool Authority Suite (trust, expertise, competitor gap analysis)",
   "Missed opportunities + Visibility gap analysis",
   "Assistance uploading website AI visibility files, if needed",
-  "Human support via email, video instructions & phone",
+  "Human support via email, video instructions & phone when you need it",
   "Option to generate add'l schema, as needed",
 ];
 
