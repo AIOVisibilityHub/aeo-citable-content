@@ -830,11 +830,11 @@ function PricingCompare() {
           <img
             src={assetUrl(priceComparison)}
             alt="AE Optimizer price comparison vs competitors"
-            width={500}
-            height={956}
+            width={750}
+            height={1433}
             loading="eager"
             decoding="async"
-            className="mx-auto block h-auto w-full max-w-[500px]"
+            className="mx-auto block h-auto w-full max-w-[750px]"
           />
         </figure>
       </div>
