@@ -136,12 +136,12 @@ const CONTENT_ENGINE = [
   {
     tag: "07",
     title: "Help Articles",
-    headline: "Publish help content AI wants to recommend — and voice assistants want to read.",
+    headline: "11 Formats to publish help content AI wants to recommend — and voice assistants want to read.",
     ...imageAsset(helpArticles, 1225, 402),
     imageAlt: "AE Optimizer Help Articles with Speakable schema automatically included in every Article, HowTo and Q&A",
     description: [
       "Help articles are some of the most citable content formats on the internet because they're already built to answer. How-to, listicle, checklist, comparison, guide, mistakes to avoid, timeline, myth vs. fact — these are the shapes ChatGPT, Perplexity and Gemini lift answers from every day.",
-      "AE Optimizer lets you choose the article type, then generates schema-ready output formatted for Google AI Overviews and answer engines. Speakable schema is automatically included in every Article, HowTo and Q&A so voice assistants can read the summary and steps aloud when someone asks hands-free.",
+      "AE Optimizer lets you choose the article type, without selecting an additional option, it generates schema-ready output formatted for Google AI Overviews and answer engines. Speakable schema is automatically included in every Article, HowTo and Q&A so voice assistants can read the summary and steps aloud when someone asks hands-free.",
       "When AI systems need a trustworthy explanation, they prefer a dedicated help article over a generic service page. This is how you become that preferred source across text, voice and answer engines.",
     ],
   },
@@ -441,9 +441,9 @@ function Hero() {
 
             <h1 className="mt-6 font-display text-[2.75rem] font-semibold leading-[1.02] tracking-tight text-[color:var(--ink)] sm:text-6xl lg:text-[4.25rem]">
               Get cited by{" "}
-              <span style={{ color: "#8A6A2A" }}>Google AI Overviews  — </span>
+              <span style={{ color: "#8A6A2A" }}>Google AI Overviews  — and</span>
               <span className="block text-[color:var(--ink)]/90">
-                {" "}and answer engines.
+                {" "}answer engines.
               </span>
             </h1>
 
