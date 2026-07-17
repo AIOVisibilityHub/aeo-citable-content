@@ -441,14 +441,14 @@ function Hero() {
 
             <h1 className="mt-6 font-display text-[2.75rem] font-semibold leading-[1.02] tracking-tight text-[color:var(--ink)] sm:text-6xl lg:text-[4.25rem]">
               Get cited by{" "}
-              <span style={{ color: "#8A6A2A" }}>Google AI Overviews  — Voice Search</span>
+              <span style={{ color: "#8A6A2A" }}>Google AI Overviews + Voice Search</span>
               <span className="block text-[color:var(--ink)]/90">
-                {" "}and AI answer engines.
+                {" "}+ AI answer engines.
               </span>
             </h1>
 
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-[color:var(--ink)]/75">
-              For your business to be recommended by Google's AI Overviews and answer engines like ChatGPT and Perplexity, your website needs structured data, AI visibility files, and FAQ + help content that teach AI how to answer your prospects' questions. AE Optimizer builds all of it for you — no developer, no agency, no $3,000/month retainer.
+              For your business to be recommended by Google's AI Overviews, Voice Search and Answer Engines like ChatGPT and Perplexity, your website needs structured data, AI visibility files, and FAQ + help content that teach AI how to answer your prospects' questions. AE Optimizer builds all of it for you — no developer, no agency, no $3,000/month retainer.
             </p>
 
             <div className="mt-8 flex flex-wrap items-center gap-3">
