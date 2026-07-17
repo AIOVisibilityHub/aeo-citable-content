@@ -441,9 +441,9 @@ function Hero() {
 
             <h1 className="mt-6 font-display text-[2.75rem] font-semibold leading-[1.02] tracking-tight text-[color:var(--ink)] sm:text-6xl lg:text-[4.25rem]">
               Get cited by{" "}
-              <span style={{ color: "#8A6A2A" }}>Google AI Overviews</span>
+              <span style={{ color: "#8A6A2A" }}>Google AI Overviews  — </span>
               <span className="block text-[color:var(--ink)]/90">
-                {" "} — and answer engines.
+                {" "}and answer engines.
               </span>
             </h1>
 
@@ -554,7 +554,7 @@ function ProblemBand() {
       <div className="mx-auto max-w-6xl px-6 text-center lg:px-10">
         <p className="font-display text-xl italic leading-relaxed text-[color:var(--cream)]/90 md:text-2xl">
           “When someone asks Google, ChatGPT or Perplexity for a recommendation in your industry —
-          <span className="text-[color:var(--taupe-soft)]"> is your business in the answer?</span>”
+          <span className="text-[color:var(--taupe-soft)]"> is your business in the written or spoken answer?</span>”
         </p>
       </div>
     </section>
