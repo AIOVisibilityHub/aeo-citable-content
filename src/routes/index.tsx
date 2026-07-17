@@ -443,7 +443,7 @@ function Hero() {
               Get cited by{" "}
               <span style={{ color: "#8A6A2A" }}>Google AI Overviews</span>
               <span className="block text-[color:var(--ink)]/90">
-                {" "}and answer engines.
+                {" "} — and answer engines.
               </span>
             </h1>
 
