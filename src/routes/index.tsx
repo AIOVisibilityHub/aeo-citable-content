@@ -441,9 +441,9 @@ function Hero() {
 
             <h1 className="mt-6 font-display text-[2.75rem] font-semibold leading-[1.02] tracking-tight text-[color:var(--ink)] sm:text-6xl lg:text-[4.25rem]">
               Get cited by{" "}
-              <span style={{ color: "#8A6A2A" }}>Google AI Overviews  — and</span>
+              <span style={{ color: "#8A6A2A" }}>Google AI Overviews  — Voice Search</span>
               <span className="block text-[color:var(--ink)]/90">
-                {" "}answer engines.
+                {" "}and AI answer engines.
               </span>
             </h1>
 
