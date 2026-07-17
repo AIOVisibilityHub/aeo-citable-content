@@ -878,7 +878,7 @@ function PriceCard({ tier }: { tier: (typeof TIERS)[number] }) {
     <div
       className={`relative flex flex-col rounded-2xl border p-8 transition ${
         tier.highlight
-          ? "border-[color:var(--taupe)]/60 bg-[color:var(--brand-blue-light)] shadow-[0_30px_60px_-25px_rgba(15,36,56,0.6)]"
+          ? "border-[color:var(--taupe)]/60 bg-[color:var(--brand-blue)] shadow-[0_30px_60px_-25px_rgba(15,36,56,0.6)]"
           : "border-[color:var(--brand-blue-dark)] bg-[color:var(--brand-blue-dark)]"
       }`}
     >
