@@ -2,17 +2,35 @@
 // Supports: ## headings, paragraphs, - bullet lists, **bold**, *italic*.
 import { Fragment, type ReactNode } from "react";
 
+function normalizeHref(href: string) {
+  return href.startsWith("/") ? `https://www.aeoptimizer.com${href}` : href;
+}
+
 function renderInline(text: string): ReactNode[] {
   const nodes: ReactNode[] = [];
-  // Tokenize **bold** and *italic*
-  const regex = /(\*\*[^*]+\*\*|\*[^*]+\*)/g;
+  // Tokenize links, **bold**, and *italic*.
+  const regex = /(\*\*\[[^\]]+\]\([^)]+\)\*\*|\[[^\]]+\]\([^)]+\)|\*\*[^*]+\*\*|\*[^*]+\*)/g;
   let last = 0;
   let match: RegExpExecArray | null;
   let key = 0;
   while ((match = regex.exec(text)) !== null) {
     if (match.index > last) nodes.push(text.slice(last, match.index));
     const tok = match[0];
-    if (tok.startsWith("**")) {
+    const boldLinkMatch = tok.match(/^\*\*\[([^\]]+)\]\(([^)]+)\)\*\*$/);
+    const linkMatch = tok.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
+    if (boldLinkMatch) {
+      nodes.push(
+        <a key={key++} href={normalizeHref(boldLinkMatch[2])} className="font-semibold text-[color:var(--gold)] underline-offset-4 hover:underline">
+          {boldLinkMatch[1]}
+        </a>
+      );
+    } else if (linkMatch) {
+      nodes.push(
+        <a key={key++} href={normalizeHref(linkMatch[2])} className="text-[color:var(--gold)] underline-offset-4 hover:underline">
+          {linkMatch[1]}
+        </a>
+      );
+    } else if (tok.startsWith("**")) {
       nodes.push(<strong key={key++} className="font-semibold text-foreground">{tok.slice(2, -2)}</strong>);
     } else {
       nodes.push(<em key={key++}>{tok.slice(1, -1)}</em>);
