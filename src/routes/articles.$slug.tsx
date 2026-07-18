@@ -18,6 +18,7 @@ export const Route = createFileRoute("/articles/$slug")({
       };
     }
     const { article } = loaderData;
+    const url = `https://aeoptimizer.com/articles/${article.slug}`;
     return {
       meta: [
         { title: `${article.title} — AE Optimizer` },
@@ -25,7 +26,31 @@ export const Route = createFileRoute("/articles/$slug")({
         { property: "og:title", content: article.title },
         { property: "og:description", content: article.description },
         { property: "og:type", content: "article" },
+        { property: "og:url", content: url },
         { name: "twitter:card", content: "summary_large_image" },
+      ],
+      links: [{ rel: "canonical", href: url }],
+      scripts: [
+        {
+          type: "application/ld+json",
+          children: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            headline: article.title,
+            description: article.description,
+            mainEntityOfPage: url,
+            url,
+            author: { "@type": "Organization", name: "AE Optimizer" },
+            publisher: {
+              "@type": "Organization",
+              name: "AE Optimizer",
+              logo: {
+                "@type": "ImageObject",
+                url: "https://aeoptimizer.com/logo.png",
+              },
+            },
+          }),
+        },
       ],
     };
   },
