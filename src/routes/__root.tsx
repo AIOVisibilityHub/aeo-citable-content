@@ -106,6 +106,43 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         href: "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400;1,600;1,700;1,800;1,900&family=Inter:wght@400;500;600;700&display=swap",
       },
     ],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Organization",
+              "@id": "https://aeoptimizer.com/#organization",
+              name: "AE Optimizer",
+              url: "https://aeoptimizer.com",
+              logo: "https://aeoptimizer.com/logo.png",
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://aeoptimizer.com/#website",
+              url: "https://aeoptimizer.com",
+              name: "AE Optimizer",
+              publisher: { "@id": "https://aeoptimizer.com/#organization" },
+            },
+            {
+              "@type": "SoftwareApplication",
+              name: "AE Optimizer",
+              applicationCategory: "BusinessApplication",
+              operatingSystem: "Web",
+              description:
+                "Answer Engine Optimization software that builds the structured data, AI visibility files, and FAQ + help content that get websites cited by Google AI Overviews, ChatGPT, Perplexity, Gemini, Grok, Claude and DeepSeek.",
+              offers: [
+                { "@type": "Offer", price: "247", priceCurrency: "USD", name: "AE Optimizer" },
+                { "@type": "Offer", price: "497", priceCurrency: "USD", name: "AIO Visibility Hub" },
+                { "@type": "Offer", price: "1497", priceCurrency: "USD", name: "AI Referrals Hub" },
+              ],
+            },
+          ],
+        }),
+      },
+    ],
   }),
   shellComponent: RootShell,
   component: RootComponent,
