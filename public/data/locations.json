@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-07-18T22:41:22.692Z",
+  "kind": "locations",
+  "total": 1,
+  "items": [
+    {
+      "url": "aeoptimizer.com",
+      "name": "AE Optimizer - AE Optimizer Office",
+      "@type": "LocalBusiness",
+      "address": {
+        "@type": "PostalAddress",
+        "postalCode": "90049",
+        "addressRegion": "CA",
+        "streetAddress": "11177 San Vicente Blvd",
+        "addressLocality": "Los Angeles"
+      },
+      "@context": "https://schema.org",
+      "telephone": "(213) 537-5613"
+    }
+  ]
+}
