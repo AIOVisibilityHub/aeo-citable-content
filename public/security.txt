@@ -1,0 +1,4 @@
+Contact: aeoptimizer.com/contact
+Expires: 2027-07-18T22:41:22.741Z
+Preferred-Languages: en
+Canonical: aeoptimizer.com/security.txt

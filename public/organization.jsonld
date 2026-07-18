@@ -1,0 +1,98 @@
+{
+  "url": "aeoptimizer.com",
+  "name": "AE Optimizer",
+  "@type": "Organization",
+  "email": "support@aeoptimizer.com",
+  "sameAs": [
+    "https://www.youtube.com/watch?v=7j0RyhGKwMg",
+    "https://www.youtube.com/channel/UCy1j-Cdj_-o07udzrh17UFw"
+  ],
+  "@context": "https://schema.org",
+  "telephone": "(213) 537-5613",
+  "areaServed": [
+    {
+      "name": "Los Angeles",
+      "@type": "City"
+    },
+    {
+      "name": "San Diego",
+      "@type": "City"
+    },
+    {
+      "name": "Austin",
+      "@type": "City"
+    },
+    {
+      "name": "Denver",
+      "@type": "City"
+    },
+    {
+      "name": "Salt Lake City",
+      "@type": "City"
+    },
+    {
+      "name": "Las Vegas",
+      "@type": "City"
+    },
+    {
+      "name": "San Francisco",
+      "@type": "City"
+    }
+  ],
+  "description": "AE Optimizer provides Answer Engine Optimization (AEO) software designed to make websites visible to AI platforms like ChatGPT, Perplexity, and Google AI Overviews. It generates structured data, AI visibility files, and optimized content, along with building an authority network across the web through AI distribution for entity recognition, helping businesses get cited by AI answer engines.",
+  "hasOfferCatalog": {
+    "name": "AE Optimizer Services",
+    "@type": "OfferCatalog",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "name": "Answer Engine Optimization (AEO) software",
+          "@type": "Service"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "name": "AI Visibility website optimization",
+          "@type": "Service"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "name": "Structured Data generation",
+          "@type": "Service"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "name": "Knowledge Graph and Entity File generation",
+          "@type": "Service"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "name": "AI-Crawlable Website Creation",
+          "@type": "Service"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "name": "Per-page JSON-LD website schema generation",
+          "@type": "Service"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "name": "AI citations generation",
+          "@type": "Service"
+        }
+      }
+    ]
+  }
+}

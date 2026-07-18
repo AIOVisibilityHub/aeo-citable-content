@@ -1,0 +1,7 @@
+/* TEAM */
+Entity: AE Optimizer
+Site: aeoptimizer.com
+
+/* SITE */
+Last update: 2026-07-18
+Standards: HTML5, JSON-LD, Schema.org
