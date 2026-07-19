@@ -553,8 +553,8 @@ function ProblemBand() {
     <section className="border-y border-[color:var(--brand-blue-dark)] bg-[color:var(--brand-blue)] py-10">
       <div className="mx-auto max-w-6xl px-6 text-center lg:px-10">
         <p className="font-display text-xl italic leading-relaxed text-[color:var(--cream)]/90 md:text-2xl">
-          “When someone asks Google, ChatGPT or Perplexity for a recommendation in your industry —
-          <span className="text-[color:var(--taupe-soft)]"> is your business in the written or spoken answer?</span>”
+          “We build an AI Authority Network across the exact databases that ChatGPT and Gemini use to find business recommendations —
+          <span className="text-[color:var(--taupe-soft)]"> and we force AI to cite your website as the definitive source of truth.</span>”
         </p>
       </div>
     </section>
