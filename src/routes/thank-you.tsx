@@ -60,24 +60,75 @@ function ThankYou() {
           </div>
 
           <h1 className="font-display text-4xl font-semibold leading-tight text-foreground md:text-5xl">
-            Thank you — we received your request.
+            Thank you.
           </h1>
 
           <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
-            Your AE Optimizer order is in our system. We will review the details and get back to you within{" "}
+            We received your request. We will review the details and get back to you within{" "}
             <span className="text-foreground">24 hours</span> to confirm your order and let you know the next steps.
           </p>
 
           <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
-            If you have any questions in the meantime, you can contact us anytime at{" "}
+            If you have any questions while you wait, reach us anytime at{" "}
             <a
               href="mailto:support@aeoptimizer.com"
-              className="font-semibold text-[color:var(--gold)] underline underline-offset-4 hover:brightness-110"
+              className="font-semibold text-[color:var(--brand-blue)] underline underline-offset-4 hover:brightness-110"
             >
               support@aeoptimizer.com
             </a>
             .
           </p>
+
+          <div className="mt-10 rounded-2xl border border-border bg-[color:var(--surface-elevated)]/60 p-6 text-left md:p-8">
+            <h2 className="font-display text-xl font-semibold text-foreground md:text-2xl">
+              First time signing up?
+            </h2>
+            <p className="mt-2 text-muted-foreground">
+              Follow these two steps while your account is being created so you are ready to go as soon as we activate it.
+            </p>
+
+            <ol className="mt-6 space-y-6 list-decimal pl-5 text-muted-foreground">
+              <li>
+                <strong className="text-foreground">Get a Perplexity API key for deep research.</strong>{" "}
+                Visit{" "}
+                <a
+                  href="https://console.perplexity.ai/auth/login?redirectUrl=%2F"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="font-semibold text-[color:var(--brand-blue)] underline underline-offset-4 hover:brightness-110"
+                >
+                  console.perplexity.ai
+                </a>{" "}
+                and sign in. Adding about $10 in API credit usually covers several months of normal use. We keep this cost separate from your AE Optimizer subscription because some users run a lot of deep research and others barely touch it. If we bundled it, we would have to raise prices for everyone.
+              </li>
+              <li>
+                <strong className="text-foreground">Create a GitHub account for publishing.</strong>{" "}
+                Go to{" "}
+                <a
+                  href="https://github.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="font-semibold text-[color:var(--brand-blue)] underline underline-offset-4 hover:brightness-110"
+                >
+                  github.com
+                </a>{" "}
+                and create your free account. Every AE Optimizer plan starts with an AI-crawlable website that points back to your main site as the source of truth. GitHub is where that site lives and publishes from.
+              </li>
+            </ol>
+
+            <p className="mt-6 text-muted-foreground">
+              Once you have these two pieces in place, you will be all set for the activation email we send you.
+            </p>
+          </div>
+
+          <div className="mt-6 rounded-2xl border border-border bg-[color:var(--surface-elevated)]/60 p-6 text-left md:p-8">
+            <h2 className="font-display text-xl font-semibold text-foreground md:text-2xl">
+              Upgrading or adding to your account?
+            </h2>
+            <p className="mt-2 text-muted-foreground">
+              We send this same confirmation to everyone because AE Optimizer customers come in at different stages. Some are brand-new and need a full account created. Others are already active and need a plan upgrade, additional one-time credits, or a new feature added behind the scenes. No matter which describes you, we have your request and will follow up with the exact next steps for your situation.
+            </p>
+          </div>
 
           <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
             <Link
