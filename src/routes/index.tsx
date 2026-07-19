@@ -448,7 +448,7 @@ function Hero() {
             </h1>
 
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-[color:var(--ink)]/75">
-              For your business to be recommended by Google's AI Overviews, Voice Search (Siri and Alexa) and Answer Engines (ChatGPT and Perplexity), your website needs structured data, AI visibility files, and FAQ + help content that teach AI how to answer your prospects' questions. AE Optimizer builds all of it for you — no developer, no agency, no $3,000/month retainer.
+              For your business to be recommended by Google's AI Overviews, Voice Search (Siri and Alexa) and Answer Engines (ChatGPT and Perplexity), your website needs structured data, AI visibility files, FAQs and help content that teach AI how to answer your prospects' questions. AE Optimizer builds all of it for you — no developer, no agency, no $3,000/month retainer.
             </p>
 
             <div className="mt-8 flex flex-wrap items-center gap-3">
