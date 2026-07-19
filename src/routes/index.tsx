@@ -784,8 +784,7 @@ function EntitySection() {
             Your website is the source of truth. We mirror it and distribute where AI crawls for discovery.
           </h2>
           <p className="mt-5 text-lg text-muted-foreground">
-            AE Optimizer distributes your structured entity data across 12 trusted repositories so AI can
-            discover, verify, and corroborate your business — no matter which engine your prospect chooses.
+            We build an AI Authority Network across the exact databases that ChatGPT and Gemini use, to force AI to cite your website as the definitive source of truth.
           </p>
         </div>
 
