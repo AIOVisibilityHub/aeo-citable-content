@@ -440,7 +440,7 @@ function Hero() {
             </span>
 
             <h1 className="mt-6 font-display text-[2.75rem] font-semibold leading-[1.02] tracking-tight text-[color:var(--ink)] sm:text-6xl lg:text-[4.25rem]">
-              Optimize Your Website to Get Cited by{" "}
+              Optimize Your Site to Get Cited by{" "}
               <span style={{ color: "#8A6A2A" }}>Google's Overviews,</span>
               <span className="block text-[color:var(--ink)]/90">
                 {" "}AI Voice + Answer Engines.
