@@ -9,8 +9,8 @@
       "position": 1,
       "item": {
         "url": "aeoptimizer.com",
-        "name": "AE Optimizer - AE Optimizer Office",
-        "@type": "LocalBusiness",
+        "name": "AE Optimizer",
+        "@type": "SoftwareApplication",
         "address": {
           "@type": "PostalAddress",
           "postalCode": "90049",
@@ -19,7 +19,11 @@
           "addressLocality": "Los Angeles"
         },
         "@context": "https://schema.org",
-        "telephone": "(213) 537-5613"
+        "telephone": "(213) 537-5613",
+        "areaServed": {
+          "name": "United States",
+          "@type": "Country"
+        }
       }
     }
   ]
