@@ -4,10 +4,12 @@
     {
       "url": "aeoptimizer.com",
       "name": "AE Optimizer",
-      "@type": "Organization",
+      "@type": "SoftwareApplication",
       "email": "support@aeoptimizer.com",
       "sameAs": [
-        "https://www.youtube.com/watch?v=7j0RyhGKwMg",
+        "https://www.linkedin.com/company/ae-optimizer/",
+        "https://x.com/AEOptimizer",
+        "https://github.com/aeoptimizer",
         "https://www.youtube.com/channel/UCy1j-Cdj_-o07udzrh17UFw"
       ],
       "@context": "https://schema.org",
