@@ -69,7 +69,7 @@ https://aeoptimizer.com/
 
 This repository powers a public AI-readable website:
 
-[https://aiovisibilityhub.github.io/ai-referrals-hub-ai-schemas/](https://aiovisibilityhub.github.io/ae-optimizer-ai-schemas-kj9q/)
+https://aiovisibilityhub.github.io/ae-optimizer-ai-schemas-kj9q
 
 ---
 
