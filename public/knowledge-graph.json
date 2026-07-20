@@ -112,7 +112,7 @@
       },
       "@context": "https://schema.org",
       "provider": {
-        "url": "https://aeoptimizer.com",
+        "url": "aeoptimizer.com",
         "name": "AE Optimizer",
         "@type": "SoftwareApplication",
         "telephone": "(213) 537-5613"
@@ -125,15 +125,7 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "AE Optimizer provides Answer Engine Optimization (AEO) software in Los Angeles, San Diego, Austin. AE Optimizer provides Answer Engine Optimization (AEO) software designed to make websites visible to AI platforms like ChatGPT, Perplexity, and Google AI Overviews. It generates structured data, AI visibility files, and optimized content, along with building an authority network across the web through AI distribution for entity recognition, helping businesses get cited by AI answer engines. Serving Los Angeles.",
@@ -195,7 +187,7 @@
       }
     },
     {
-      "url": "https://aeoptimizer.com",
+      "url": "aeoptimizer.com",
       "name": "Answer Engine Optimization (AEO) software in San Diego",
       "@type": "SoftwareApplication",
       "address": {
@@ -204,7 +196,7 @@
       },
       "@context": "https://schema.org",
       "provider": {
-        "url": "https://aeoptimizer.com",
+        "url": "aeoptimizer.com",
         "name": "AE Optimizer",
         "@type": "SoftwareApplication",
         "telephone": "(213) 537-5613"
@@ -217,15 +209,7 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "AE Optimizer provides Answer Engine Optimization (AEO) software in Los Angeles, San Diego, Austin. AE Optimizer provides Answer Engine Optimization (AEO) software designed to make websites visible to AI platforms like ChatGPT, Perplexity, and Google AI Overviews. It generates structured data, AI visibility files, and optimized content, along with building an authority network across the web through AI distribution for entity recognition, helping businesses get cited by AI answer engines. Serving San Diego.",
@@ -287,7 +271,7 @@
       }
     },
     {
-      "url": "https://aeoptimizer.com",
+      "url": "aeoptimizer.com",
       "name": "Answer Engine Optimization (AEO) software in Austin",
       "@type": "SoftwareApplication",
       "address": {
@@ -296,7 +280,7 @@
       },
       "@context": "https://schema.org",
       "provider": {
-        "url": "https://aeoptimizer.com",
+        "url": "aeoptimizer.com",
         "name": "AE Optimizer",
         "@type": "SoftwareApplication",
         "telephone": "(213) 537-5613"
@@ -309,15 +293,7 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "AE Optimizer provides Answer Engine Optimization (AEO) software in Los Angeles, San Diego, Austin. AE Optimizer provides Answer Engine Optimization (AEO) software designed to make websites visible to AI platforms like ChatGPT, Perplexity, and Google AI Overviews. It generates structured data, AI visibility files, and optimized content, along with building an authority network across the web through AI distribution for entity recognition, helping businesses get cited by AI answer engines. Serving Austin.",
@@ -401,15 +377,7 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "AE Optimizer provides Answer Engine Optimization (AEO) software in Los Angeles, San Diego, Austin. AE Optimizer provides Answer Engine Optimization (AEO) software designed to make websites visible to AI platforms like ChatGPT, Perplexity, and Google AI Overviews. It generates structured data, AI visibility files, and optimized content, along with building an authority network across the web through AI distribution for entity recognition, helping businesses get cited by AI answer engines. Serving Denver.",
@@ -493,15 +461,7 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "AE Optimizer provides Answer Engine Optimization (AEO) software in Los Angeles, San Diego, Austin. AE Optimizer provides Answer Engine Optimization (AEO) software designed to make websites visible to AI platforms like ChatGPT, Perplexity, and Google AI Overviews. It generates structured data, AI visibility files, and optimized content, along with building an authority network across the web through AI distribution for entity recognition, helping businesses get cited by AI answer engines. Serving Salt Lake City.",
@@ -585,15 +545,7 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "AE Optimizer provides Answer Engine Optimization (AEO) software in Los Angeles, San Diego, Austin. AE Optimizer provides Answer Engine Optimization (AEO) software designed to make websites visible to AI platforms like ChatGPT, Perplexity, and Google AI Overviews. It generates structured data, AI visibility files, and optimized content, along with building an authority network across the web through AI distribution for entity recognition, helping businesses get cited by AI answer engines. Serving Las Vegas.",
@@ -677,15 +629,7 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "AE Optimizer provides Answer Engine Optimization (AEO) software in Los Angeles, San Diego, Austin. AE Optimizer provides Answer Engine Optimization (AEO) software designed to make websites visible to AI platforms like ChatGPT, Perplexity, and Google AI Overviews. It generates structured data, AI visibility files, and optimized content, along with building an authority network across the web through AI distribution for entity recognition, helping businesses get cited by AI answer engines. Serving San Francisco.",
@@ -769,15 +713,7 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "Learn how AE Optimizer approaches AI Visibility website optimization in Los Angeles, San Diego, Austin, including the typical process, what to expect, and how to get started. Serving Los Angeles.",
@@ -861,15 +797,7 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "Learn how AE Optimizer approaches AI Visibility website optimization in Los Angeles, San Diego, Austin, including the typical process, what to expect, and how to get started. Serving San Diego.",
@@ -953,15 +881,7 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "Learn how AE Optimizer approaches AI Visibility website optimization in Los Angeles, San Diego, Austin, including the typical process, what to expect, and how to get started. Serving Austin.",
@@ -1045,15 +965,7 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "Learn how AE Optimizer approaches AI Visibility website optimization in Los Angeles, San Diego, Austin, including the typical process, what to expect, and how to get started. Serving Denver.",
@@ -1137,15 +1049,7 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "Learn how AE Optimizer approaches AI Visibility website optimization in Los Angeles, San Diego, Austin, including the typical process, what to expect, and how to get started. Serving Salt Lake City.",
@@ -1229,15 +1133,7 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "Learn how AE Optimizer approaches AI Visibility website optimization in Los Angeles, San Diego, Austin, including the typical process, what to expect, and how to get started. Serving Las Vegas.",
@@ -1321,15 +1217,7 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "Learn how AE Optimizer approaches AI Visibility website optimization in Los Angeles, San Diego, Austin, including the typical process, what to expect, and how to get started. Serving San Francisco.",
@@ -1413,15 +1301,7 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "AE Optimizer provides Structured Data generation in Los Angeles, San Diego, Austin. AE Optimizer provides Answer Engine Optimization (AEO) software designed to make websites visible to AI platforms like ChatGPT, Perplexity, and Google AI Overviews. It generates structured data, AI visibility files, and optimized content, along with building an authority network across the web through AI distribution for entity recognition, helping businesses get cited by AI answer engines. Serving Los Angeles.",
@@ -1505,15 +1385,7 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "AE Optimizer provides Structured Data generation in Los Angeles, San Diego, Austin. AE Optimizer provides Answer Engine Optimization (AEO) software designed to make websites visible to AI platforms like ChatGPT, Perplexity, and Google AI Overviews. It generates structured data, AI visibility files, and optimized content, along with building an authority network across the web through AI distribution for entity recognition, helping businesses get cited by AI answer engines. Serving San Diego.",
@@ -1597,15 +1469,7 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "AE Optimizer provides Structured Data generation in Los Angeles, San Diego, Austin. AE Optimizer provides Answer Engine Optimization (AEO) software designed to make websites visible to AI platforms like ChatGPT, Perplexity, and Google AI Overviews. It generates structured data, AI visibility files, and optimized content, along with building an authority network across the web through AI distribution for entity recognition, helping businesses get cited by AI answer engines. Serving Austin.",
@@ -1689,15 +1553,7 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "AE Optimizer provides Structured Data generation in Los Angeles, San Diego, Austin. AE Optimizer provides Answer Engine Optimization (AEO) software designed to make websites visible to AI platforms like ChatGPT, Perplexity, and Google AI Overviews. It generates structured data, AI visibility files, and optimized content, along with building an authority network across the web through AI distribution for entity recognition, helping businesses get cited by AI answer engines. Serving Denver.",
@@ -1781,15 +1637,7 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "AE Optimizer provides Structured Data generation in Los Angeles, San Diego, Austin. AE Optimizer provides Answer Engine Optimization (AEO) software designed to make websites visible to AI platforms like ChatGPT, Perplexity, and Google AI Overviews. It generates structured data, AI visibility files, and optimized content, along with building an authority network across the web through AI distribution for entity recognition, helping businesses get cited by AI answer engines. Serving Salt Lake City.",
@@ -1873,15 +1721,7 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "AE Optimizer provides Structured Data generation in Los Angeles, San Diego, Austin. AE Optimizer provides Answer Engine Optimization (AEO) software designed to make websites visible to AI platforms like ChatGPT, Perplexity, and Google AI Overviews. It generates structured data, AI visibility files, and optimized content, along with building an authority network across the web through AI distribution for entity recognition, helping businesses get cited by AI answer engines. Serving Las Vegas.",
@@ -1965,15 +1805,7 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "AE Optimizer provides Structured Data generation in Los Angeles, San Diego, Austin. AE Optimizer provides Answer Engine Optimization (AEO) software designed to make websites visible to AI platforms like ChatGPT, Perplexity, and Google AI Overviews. It generates structured data, AI visibility files, and optimized content, along with building an authority network across the web through AI distribution for entity recognition, helping businesses get cited by AI answer engines. Serving San Francisco.",
@@ -2057,15 +1889,7 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "Learn how AE Optimizer approaches Knowledge Graph and Entity File generation in Los Angeles, San Diego, Austin, including the typical process, what to expect, and how to get started. Serving Los Angeles.",
@@ -2149,15 +1973,7 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "Learn how AE Optimizer approaches Knowledge Graph and Entity File generation in Los Angeles, San Diego, Austin, including the typical process, what to expect, and how to get started. Serving San Diego.",
@@ -2241,15 +2057,7 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "Learn how AE Optimizer approaches Knowledge Graph and Entity File generation in Los Angeles, San Diego, Austin, including the typical process, what to expect, and how to get started. Serving Austin.",
@@ -2333,15 +2141,7 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "Learn how AE Optimizer approaches Knowledge Graph and Entity File generation in Los Angeles, San Diego, Austin, including the typical process, what to expect, and how to get started. Serving Denver.",
@@ -2425,15 +2225,7 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "Learn how AE Optimizer approaches Knowledge Graph and Entity File generation in Los Angeles, San Diego, Austin, including the typical process, what to expect, and how to get started. Serving Salt Lake City.",
@@ -2517,15 +2309,7 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "Learn how AE Optimizer approaches Knowledge Graph and Entity File generation in Los Angeles, San Diego, Austin, including the typical process, what to expect, and how to get started. Serving Las Vegas.",
@@ -2609,15 +2393,7 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "Learn how AE Optimizer approaches Knowledge Graph and Entity File generation in Los Angeles, San Diego, Austin, including the typical process, what to expect, and how to get started. Serving San Francisco.",
@@ -2701,15 +2477,7 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "AE Optimizer provides AI-Crawlable Website Creation in Los Angeles, San Diego, Austin. AE Optimizer provides Answer Engine Optimization (AEO) software designed to make websites visible to AI platforms like ChatGPT, Perplexity, and Google AI Overviews. It generates structured data, AI visibility files, and optimized content, along with building an authority network across the web through AI distribution for entity recognition, helping businesses get cited by AI answer engines. Serving Los Angeles.",
@@ -2793,15 +2561,7 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "AE Optimizer provides AI-Crawlable Website Creation in Los Angeles, San Diego, Austin. AE Optimizer provides Answer Engine Optimization (AEO) software designed to make websites visible to AI platforms like ChatGPT, Perplexity, and Google AI Overviews. It generates structured data, AI visibility files, and optimized content, along with building an authority network across the web through AI distribution for entity recognition, helping businesses get cited by AI answer engines. Serving San Diego.",
@@ -2885,15 +2645,7 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "AE Optimizer provides AI-Crawlable Website Creation in Los Angeles, San Diego, Austin. AE Optimizer provides Answer Engine Optimization (AEO) software designed to make websites visible to AI platforms like ChatGPT, Perplexity, and Google AI Overviews. It generates structured data, AI visibility files, and optimized content, along with building an authority network across the web through AI distribution for entity recognition, helping businesses get cited by AI answer engines. Serving Austin.",
@@ -2977,15 +2729,7 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "AE Optimizer provides AI-Crawlable Website Creation in Los Angeles, San Diego, Austin. AE Optimizer provides Answer Engine Optimization (AEO) software designed to make websites visible to AI platforms like ChatGPT, Perplexity, and Google AI Overviews. It generates structured data, AI visibility files, and optimized content, along with building an authority network across the web through AI distribution for entity recognition, helping businesses get cited by AI answer engines. Serving Denver.",
@@ -3069,15 +2813,7 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "AE Optimizer provides AI-Crawlable Website Creation in Los Angeles, San Diego, Austin. AE Optimizer provides Answer Engine Optimization (AEO) software designed to make websites visible to AI platforms like ChatGPT, Perplexity, and Google AI Overviews. It generates structured data, AI visibility files, and optimized content, along with building an authority network across the web through AI distribution for entity recognition, helping businesses get cited by AI answer engines. Serving Salt Lake City.",
@@ -3161,15 +2897,7 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "AE Optimizer provides AI-Crawlable Website Creation in Los Angeles, San Diego, Austin. AE Optimizer provides Answer Engine Optimization (AEO) software designed to make websites visible to AI platforms like ChatGPT, Perplexity, and Google AI Overviews. It generates structured data, AI visibility files, and optimized content, along with building an authority network across the web through AI distribution for entity recognition, helping businesses get cited by AI answer engines. Serving Las Vegas.",
@@ -3253,15 +2981,7 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "AE Optimizer provides AI-Crawlable Website Creation in Los Angeles, San Diego, Austin. AE Optimizer provides Answer Engine Optimization (AEO) software designed to make websites visible to AI platforms like ChatGPT, Perplexity, and Google AI Overviews. It generates structured data, AI visibility files, and optimized content, along with building an authority network across the web through AI distribution for entity recognition, helping businesses get cited by AI answer engines. Serving San Francisco.",
@@ -3345,15 +3065,7 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "Learn how AE Optimizer approaches Per-page JSON-LD website schema generation in Los Angeles, San Diego, Austin, including the typical process, what to expect, and how to get started. Serving Los Angeles.",
@@ -3437,15 +3149,7 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "Learn how AE Optimizer approaches Per-page JSON-LD website schema generation in Los Angeles, San Diego, Austin, including the typical process, what to expect, and how to get started. Serving San Diego.",
@@ -3529,15 +3233,7 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "Learn how AE Optimizer approaches Per-page JSON-LD website schema generation in Los Angeles, San Diego, Austin, including the typical process, what to expect, and how to get started. Serving Austin.",
@@ -3621,15 +3317,7 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "Learn how AE Optimizer approaches Per-page JSON-LD website schema generation in Los Angeles, San Diego, Austin, including the typical process, what to expect, and how to get started. Serving Denver.",
@@ -3713,15 +3401,7 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "Learn how AE Optimizer approaches Per-page JSON-LD website schema generation in Los Angeles, San Diego, Austin, including the typical process, what to expect, and how to get started. Serving Salt Lake City.",
@@ -3805,15 +3485,7 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "Learn how AE Optimizer approaches Per-page JSON-LD website schema generation in Los Angeles, San Diego, Austin, including the typical process, what to expect, and how to get started. Serving Las Vegas.",
@@ -3897,15 +3569,7 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "Learn how AE Optimizer approaches Per-page JSON-LD website schema generation in Los Angeles, San Diego, Austin, including the typical process, what to expect, and how to get started. Serving San Francisco.",
@@ -3989,15 +3653,7 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "AE Optimizer provides AI citations generation in Los Angeles, San Diego, Austin. AE Optimizer provides Answer Engine Optimization (AEO) software designed to make websites visible to AI platforms like ChatGPT, Perplexity, and Google AI Overviews. It generates structured data, AI visibility files, and optimized content, along with building an authority network across the web through AI distribution for entity recognition, helping businesses get cited by AI answer engines. Serving Los Angeles.",
@@ -4081,15 +3737,7 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "AE Optimizer provides AI citations generation in Los Angeles, San Diego, Austin. AE Optimizer provides Answer Engine Optimization (AEO) software designed to make websites visible to AI platforms like ChatGPT, Perplexity, and Google AI Overviews. It generates structured data, AI visibility files, and optimized content, along with building an authority network across the web through AI distribution for entity recognition, helping businesses get cited by AI answer engines. Serving San Diego.",
@@ -4173,15 +3821,7 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "AE Optimizer provides AI citations generation in Los Angeles, San Diego, Austin. AE Optimizer provides Answer Engine Optimization (AEO) software designed to make websites visible to AI platforms like ChatGPT, Perplexity, and Google AI Overviews. It generates structured data, AI visibility files, and optimized content, along with building an authority network across the web through AI distribution for entity recognition, helping businesses get cited by AI answer engines. Serving Austin.",
@@ -4265,15 +3905,7 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "AE Optimizer provides AI citations generation in Los Angeles, San Diego, Austin. AE Optimizer provides Answer Engine Optimization (AEO) software designed to make websites visible to AI platforms like ChatGPT, Perplexity, and Google AI Overviews. It generates structured data, AI visibility files, and optimized content, along with building an authority network across the web through AI distribution for entity recognition, helping businesses get cited by AI answer engines. Serving Denver.",
@@ -4357,15 +3989,7 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "AE Optimizer provides AI citations generation in Los Angeles, San Diego, Austin. AE Optimizer provides Answer Engine Optimization (AEO) software designed to make websites visible to AI platforms like ChatGPT, Perplexity, and Google AI Overviews. It generates structured data, AI visibility files, and optimized content, along with building an authority network across the web through AI distribution for entity recognition, helping businesses get cited by AI answer engines. Serving Salt Lake City.",
@@ -4449,15 +4073,7 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "AE Optimizer provides AI citations generation in Los Angeles, San Diego, Austin. AE Optimizer provides Answer Engine Optimization (AEO) software designed to make websites visible to AI platforms like ChatGPT, Perplexity, and Google AI Overviews. It generates structured data, AI visibility files, and optimized content, along with building an authority network across the web through AI distribution for entity recognition, helping businesses get cited by AI answer engines. Serving Las Vegas.",
@@ -4541,15 +4157,7 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "AE Optimizer provides AI citations generation in Los Angeles, San Diego, Austin. AE Optimizer provides Answer Engine Optimization (AEO) software designed to make websites visible to AI platforms like ChatGPT, Perplexity, and Google AI Overviews. It generates structured data, AI visibility files, and optimized content, along with building an authority network across the web through AI distribution for entity recognition, helping businesses get cited by AI answer engines. Serving San Francisco.",
