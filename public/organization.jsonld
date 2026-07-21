@@ -1,14 +1,18 @@
 {
   "url": "aeoptimizer.com",
   "name": "AE Optimizer",
-  "@type": "Organization",
+  "@type": "SoftwareApplication",
   "email": "support@aeoptimizer.com",
   "sameAs": [
-    "https://www.youtube.com/watch?v=7j0RyhGKwMg",
-    "https://www.youtube.com/channel/UCy1j-Cdj_-o07udzrh17UFw"
-  ],
+        "https://www.linkedin.com/company/ae-optimizer/",
+        "https://x.com/AEOptimizer",
+        "https://github.com/aeoptimizer",
+        "https://aiovisibilityhub.github.io/ae-optimizer-ai-schemas-kj9q",
+        "https://www.crunchbase.com/organization/ae-optimizer",
+        "https://www.youtube.com/channel/UCy1j-Cdj_-o07udzrh17UFw"
+     ],
   "@context": "https://schema.org",
-  "telephone": "(213) 537-5613",
+  "telephone": "(800) 770-2171",
   "areaServed": [
     { "name": "Los Angeles", "@type": "City" },
     { "name": "San Diego", "@type": "City" },
