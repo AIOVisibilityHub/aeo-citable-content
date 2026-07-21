@@ -9,7 +9,9 @@
     "Knowledge Graph and Entity File generation",
     "AI-Crawlable Website Creation",
     "Per-page JSON-LD website schema generation",
-    "AI citations generation",
+    "AI citations generation"
+  ],
+  "keywordTargets": [
     "answer engine optimization for websites voice search",
     "voice search optimization",
     "how to optimize for voice search",
@@ -40,7 +42,7 @@
     "voice search for lawyers",
     "voice search for local SEO",
     "Google Now voice assistant",
-    "Cortana voice search  ",
+    "Cortana voice search",
     "AEO strategy",
     "AEO best practices",
     "how to optimize for answer engines",
@@ -82,8 +84,6 @@
     "local AEO",
     "AEO for local businesses",
     "voice search and AEO",
-    "voice assistant optimization",
-    "speakable schema",
     "how to get cited by Siri",
     "how to get mentioned by Alexa",
     "voice search optimization for local business"
@@ -95,7 +95,7 @@
     "Denver",
     "Salt Lake City",
     "Las Vegas",
-    "San Francisco ",
+    "San Francisco",
     "Atlanta",
     "Washington D.C.",
     "Columbus",
@@ -149,60 +149,116 @@
       {
         "name": "San Francisco",
         "@type": "City"
+      },
+      {
+        "name": "Atlanta",
+        "@type": "City"
+      },
+      {
+        "name": "Washington D.C.",
+        "@type": "City"
+      },
+      {
+        "name": "Columbus",
+        "@type": "City"
+      },
+      {
+        "name": "Boulder",
+        "@type": "City"
+      },
+      {
+        "name": "Pittsburgh",
+        "@type": "City"
+      },
+      {
+        "name": "Burlington",
+        "@type": "City"
+      },
+      {
+        "name": "Minneapolis",
+        "@type": "City"
+      },
+      {
+        "name": "Portland",
+        "@type": "City"
+      },
+      {
+        "name": "Seattle",
+        "@type": "City"
+      },
+      {
+        "name": "San Jose",
+        "@type": "City"
+      },
+      {
+        "name": "Boston",
+        "@type": "City"
+      },
+      {
+        "name": "Dallas-Fort Worth",
+        "@type": "City"
+      },
+      {
+        "name": "New York",
+        "@type": "City"
+      },
+      {
+        "name": "United States",
+        "@type": "Country"
       }
     ],
     "description": "AE Optimizer provides Answer Engine Optimization (AEO) software designed to make websites visible to AI platforms like ChatGPT, Perplexity, and Google AI Overviews. It generates structured data, AI visibility files, and optimized content, along with building an authority network across the web through AI distribution for entity recognition, helping businesses get cited by AI answer engines.",
     "hasOfferCatalog": {
-      "name": "AE Optimizer Services",
+      "name": "AE Optimizer Software",
       "@type": "OfferCatalog",
       "itemListElement": [
         {
           "@type": "Offer",
           "itemOffered": {
             "name": "Answer Engine Optimization (AEO) software",
-            "@type": "Service"
+            "@type": "SoftwareApplication"
           }
         },
         {
           "@type": "Offer",
           "itemOffered": {
             "name": "AI Visibility website optimization",
-            "@type": "Service"
+            "@type": "SoftwareApplication"
           }
         },
         {
           "@type": "Offer",
           "itemOffered": {
             "name": "Structured Data generation",
-            "@type": "Service"
+            "@type": "SoftwareApplication"
           }
         },
         {
           "@type": "Offer",
           "itemOffered": {
             "name": "Knowledge Graph and Entity File generation",
-            "@type": "Service"
+            "@type": "SoftwareApplication"
           }
         },
         {
           "@type": "Offer",
           "itemOffered": {
             "name": "AI-Crawlable Website Creation",
-            "@type": "Service"
+            "@type": "SoftwareApplication"
           }
         },
         {
           "@type": "Offer",
           "itemOffered": {
             "name": "Per-page JSON-LD website schema generation",
-            "@type": "Service"
+            "@type": "SoftwareApplication"
           }
         },
         {
           "@type": "Offer",
           "itemOffered": {
             "name": "AI citations generation",
-            "@type": "Service"
+            "@type": "SoftwareApplication"
           }
         }
       ]
