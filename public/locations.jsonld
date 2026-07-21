@@ -13,13 +13,13 @@
         "@type": "SoftwareApplication",
         "address": {
           "@type": "PostalAddress",
-          "postalCode": "90049",
+          "postalCode": "92660",
           "addressRegion": "CA",
-          "streetAddress": "11177 San Vicente Blvd",
-          "addressLocality": "Los Angeles"
+          "streetAddress": "301 Bayview Cir",
+          "addressLocality": "Newport Beach"
         },
         "@context": "https://schema.org",
-        "telephone": "(213) 537-5613",
+        "telephone": "(800) 770-2171",
         "areaServed": {
           "name": "United States",
           "@type": "Country"
