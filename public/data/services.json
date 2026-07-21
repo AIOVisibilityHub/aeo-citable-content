@@ -6,7 +6,7 @@
     {
       "url": "aeoptimizer.com",
       "name": "Answer Engine Optimization (AEO) software in Los Angeles",
-      "@type": "ProfessionalService",
+      "@type": "SoftwareApplication",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Los Angeles"
@@ -15,7 +15,7 @@
       "provider": {
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
-        "@type": "ProfessionalService",
+        "@type": "SoftwareApplication",
         "telephone": "(213) 537-5613"
       },
       "telephone": "(213) 537-5613",
@@ -26,70 +26,62 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "AE Optimizer provides Answer Engine Optimization (AEO) software in Los Angeles, San Diego, Austin. AE Optimizer provides Answer Engine Optimization (AEO) software designed to make websites visible to AI platforms like ChatGPT, Perplexity, and Google AI Overviews. It generates structured data, AI visibility files, and optimized content, along with building an authority network across the web through AI distribution for entity recognition, helping businesses get cited by AI answer engines. Serving Los Angeles.",
       "serviceType": "Answer Engine Optimization — Answer Engine Optimization (AEO) software",
       "hasOfferCatalog": {
-        "name": "Answer Engine Optimization Services",
+        "name": "Answer Engine Optimization Software",
         "@type": "OfferCatalog",
         "itemListElement": [
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Answer Engine Optimization (AEO) software",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI Visibility website optimization",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Structured Data generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Knowledge Graph and Entity File generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI-Crawlable Website Creation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Per-page JSON-LD website schema generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI citations generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           }
         ]
@@ -98,7 +90,7 @@
     {
       "url": "aeoptimizer.com",
       "name": "Answer Engine Optimization (AEO) software in San Diego",
-      "@type": "ProfessionalService",
+      "@type": "SoftwareApplication",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "San Diego"
@@ -107,7 +99,7 @@
       "provider": {
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
-        "@type": "ProfessionalService",
+        "@type": "SoftwareApplication",
         "telephone": "(213) 537-5613"
       },
       "telephone": "(213) 537-5613",
@@ -118,70 +110,62 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "AE Optimizer provides Answer Engine Optimization (AEO) software in Los Angeles, San Diego, Austin. AE Optimizer provides Answer Engine Optimization (AEO) software designed to make websites visible to AI platforms like ChatGPT, Perplexity, and Google AI Overviews. It generates structured data, AI visibility files, and optimized content, along with building an authority network across the web through AI distribution for entity recognition, helping businesses get cited by AI answer engines. Serving San Diego.",
       "serviceType": "Answer Engine Optimization — Answer Engine Optimization (AEO) software",
       "hasOfferCatalog": {
-        "name": "Answer Engine Optimization Services",
+        "name": "Answer Engine Optimization Software",
         "@type": "OfferCatalog",
         "itemListElement": [
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Answer Engine Optimization (AEO) software",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI Visibility website optimization",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Structured Data generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Knowledge Graph and Entity File generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI-Crawlable Website Creation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Per-page JSON-LD website schema generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI citations generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           }
         ]
@@ -190,7 +174,7 @@
     {
       "url": "aeoptimizer.com",
       "name": "Answer Engine Optimization (AEO) software in Austin",
-      "@type": "ProfessionalService",
+      "@type": "SoftwareApplication",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Austin"
@@ -199,7 +183,7 @@
       "provider": {
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
-        "@type": "ProfessionalService",
+        "@type": "SoftwareApplication",
         "telephone": "(213) 537-5613"
       },
       "telephone": "(213) 537-5613",
@@ -210,70 +194,62 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "AE Optimizer provides Answer Engine Optimization (AEO) software in Los Angeles, San Diego, Austin. AE Optimizer provides Answer Engine Optimization (AEO) software designed to make websites visible to AI platforms like ChatGPT, Perplexity, and Google AI Overviews. It generates structured data, AI visibility files, and optimized content, along with building an authority network across the web through AI distribution for entity recognition, helping businesses get cited by AI answer engines. Serving Austin.",
       "serviceType": "Answer Engine Optimization — Answer Engine Optimization (AEO) software",
       "hasOfferCatalog": {
-        "name": "Answer Engine Optimization Services",
+        "name": "Answer Engine Optimization Software",
         "@type": "OfferCatalog",
         "itemListElement": [
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Answer Engine Optimization (AEO) software",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI Visibility website optimization",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Structured Data generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Knowledge Graph and Entity File generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI-Crawlable Website Creation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Per-page JSON-LD website schema generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI citations generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           }
         ]
@@ -282,7 +258,7 @@
     {
       "url": "aeoptimizer.com",
       "name": "Answer Engine Optimization (AEO) software in Denver",
-      "@type": "ProfessionalService",
+      "@type": "SoftwareApplication",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Denver"
@@ -291,7 +267,7 @@
       "provider": {
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
-        "@type": "ProfessionalService",
+        "@type": "SoftwareApplication",
         "telephone": "(213) 537-5613"
       },
       "telephone": "(213) 537-5613",
@@ -302,70 +278,62 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "AE Optimizer provides Answer Engine Optimization (AEO) software in Los Angeles, San Diego, Austin. AE Optimizer provides Answer Engine Optimization (AEO) software designed to make websites visible to AI platforms like ChatGPT, Perplexity, and Google AI Overviews. It generates structured data, AI visibility files, and optimized content, along with building an authority network across the web through AI distribution for entity recognition, helping businesses get cited by AI answer engines. Serving Denver.",
       "serviceType": "Answer Engine Optimization — Answer Engine Optimization (AEO) software",
       "hasOfferCatalog": {
-        "name": "Answer Engine Optimization Services",
+        "name": "Answer Engine Optimization Software",
         "@type": "OfferCatalog",
         "itemListElement": [
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Answer Engine Optimization (AEO) software",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI Visibility website optimization",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Structured Data generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Knowledge Graph and Entity File generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI-Crawlable Website Creation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Per-page JSON-LD website schema generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI citations generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           }
         ]
@@ -374,7 +342,7 @@
     {
       "url": "aeoptimizer.com",
       "name": "Answer Engine Optimization (AEO) software in Salt Lake City",
-      "@type": "ProfessionalService",
+      "@type": "SoftwareApplication",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Salt Lake City"
@@ -383,7 +351,7 @@
       "provider": {
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
-        "@type": "ProfessionalService",
+        "@type": "SoftwareApplication",
         "telephone": "(213) 537-5613"
       },
       "telephone": "(213) 537-5613",
@@ -394,70 +362,62 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "AE Optimizer provides Answer Engine Optimization (AEO) software in Los Angeles, San Diego, Austin. AE Optimizer provides Answer Engine Optimization (AEO) software designed to make websites visible to AI platforms like ChatGPT, Perplexity, and Google AI Overviews. It generates structured data, AI visibility files, and optimized content, along with building an authority network across the web through AI distribution for entity recognition, helping businesses get cited by AI answer engines. Serving Salt Lake City.",
       "serviceType": "Answer Engine Optimization — Answer Engine Optimization (AEO) software",
       "hasOfferCatalog": {
-        "name": "Answer Engine Optimization Services",
+        "name": "Answer Engine Optimization Software",
         "@type": "OfferCatalog",
         "itemListElement": [
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Answer Engine Optimization (AEO) software",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI Visibility website optimization",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Structured Data generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Knowledge Graph and Entity File generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI-Crawlable Website Creation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Per-page JSON-LD website schema generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI citations generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           }
         ]
@@ -466,7 +426,7 @@
     {
       "url": "aeoptimizer.com",
       "name": "Answer Engine Optimization (AEO) software in Las Vegas",
-      "@type": "ProfessionalService",
+      "@type": "SoftwareApplication",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Las Vegas"
@@ -475,7 +435,7 @@
       "provider": {
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
-        "@type": "ProfessionalService",
+        "@type": "SoftwareApplication",
         "telephone": "(213) 537-5613"
       },
       "telephone": "(213) 537-5613",
@@ -486,70 +446,62 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "AE Optimizer provides Answer Engine Optimization (AEO) software in Los Angeles, San Diego, Austin. AE Optimizer provides Answer Engine Optimization (AEO) software designed to make websites visible to AI platforms like ChatGPT, Perplexity, and Google AI Overviews. It generates structured data, AI visibility files, and optimized content, along with building an authority network across the web through AI distribution for entity recognition, helping businesses get cited by AI answer engines. Serving Las Vegas.",
       "serviceType": "Answer Engine Optimization — Answer Engine Optimization (AEO) software",
       "hasOfferCatalog": {
-        "name": "Answer Engine Optimization Services",
+        "name": "Answer Engine Optimization Software",
         "@type": "OfferCatalog",
         "itemListElement": [
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Answer Engine Optimization (AEO) software",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI Visibility website optimization",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Structured Data generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Knowledge Graph and Entity File generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI-Crawlable Website Creation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Per-page JSON-LD website schema generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI citations generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           }
         ]
@@ -558,7 +510,7 @@
     {
       "url": "aeoptimizer.com",
       "name": "Answer Engine Optimization (AEO) software in San Francisco",
-      "@type": "ProfessionalService",
+      "@type": "SoftwareApplication",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "San Francisco"
@@ -567,7 +519,7 @@
       "provider": {
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
-        "@type": "ProfessionalService",
+        "@type": "SoftwareApplication",
         "telephone": "(213) 537-5613"
       },
       "telephone": "(213) 537-5613",
@@ -578,70 +530,62 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "AE Optimizer provides Answer Engine Optimization (AEO) software in Los Angeles, San Diego, Austin. AE Optimizer provides Answer Engine Optimization (AEO) software designed to make websites visible to AI platforms like ChatGPT, Perplexity, and Google AI Overviews. It generates structured data, AI visibility files, and optimized content, along with building an authority network across the web through AI distribution for entity recognition, helping businesses get cited by AI answer engines. Serving San Francisco.",
       "serviceType": "Answer Engine Optimization — Answer Engine Optimization (AEO) software",
       "hasOfferCatalog": {
-        "name": "Answer Engine Optimization Services",
+        "name": "Answer Engine Optimization Software",
         "@type": "OfferCatalog",
         "itemListElement": [
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Answer Engine Optimization (AEO) software",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI Visibility website optimization",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Structured Data generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Knowledge Graph and Entity File generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI-Crawlable Website Creation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Per-page JSON-LD website schema generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI citations generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           }
         ]
@@ -650,7 +594,7 @@
     {
       "url": "aeoptimizer.com",
       "name": "AI Visibility website optimization Services in Los Angeles",
-      "@type": "ProfessionalService",
+      "@type": "SoftwareApplication",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Los Angeles"
@@ -659,7 +603,7 @@
       "provider": {
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
-        "@type": "ProfessionalService",
+        "@type": "SoftwareApplication",
         "telephone": "(213) 537-5613"
       },
       "telephone": "(213) 537-5613",
@@ -670,70 +614,62 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "Learn how AE Optimizer approaches AI Visibility website optimization in Los Angeles, San Diego, Austin, including the typical process, what to expect, and how to get started. Serving Los Angeles.",
       "serviceType": "Answer Engine Optimization — AI Visibility website optimization",
       "hasOfferCatalog": {
-        "name": "Answer Engine Optimization Services",
+        "name": "Answer Engine Optimization Software",
         "@type": "OfferCatalog",
         "itemListElement": [
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Answer Engine Optimization (AEO) software",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI Visibility website optimization",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Structured Data generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Knowledge Graph and Entity File generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI-Crawlable Website Creation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Per-page JSON-LD website schema generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI citations generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           }
         ]
@@ -742,7 +678,7 @@
     {
       "url": "aeoptimizer.com",
       "name": "AI Visibility website optimization Services in San Diego",
-      "@type": "ProfessionalService",
+      "@type": "SoftwareApplication",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "San Diego"
@@ -751,7 +687,7 @@
       "provider": {
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
-        "@type": "ProfessionalService",
+        "@type": "SoftwareApplication",
         "telephone": "(213) 537-5613"
       },
       "telephone": "(213) 537-5613",
@@ -762,70 +698,62 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "Learn how AE Optimizer approaches AI Visibility website optimization in Los Angeles, San Diego, Austin, including the typical process, what to expect, and how to get started. Serving San Diego.",
       "serviceType": "Answer Engine Optimization — AI Visibility website optimization",
       "hasOfferCatalog": {
-        "name": "Answer Engine Optimization Services",
+        "name": "Answer Engine Optimization Software",
         "@type": "OfferCatalog",
         "itemListElement": [
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Answer Engine Optimization (AEO) software",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI Visibility website optimization",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Structured Data generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Knowledge Graph and Entity File generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI-Crawlable Website Creation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Per-page JSON-LD website schema generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI citations generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           }
         ]
@@ -834,7 +762,7 @@
     {
       "url": "aeoptimizer.com",
       "name": "AI Visibility website optimization Services in Austin",
-      "@type": "ProfessionalService",
+      "@type": "SoftwareApplication",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Austin"
@@ -843,7 +771,7 @@
       "provider": {
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
-        "@type": "ProfessionalService",
+        "@type": "SoftwareApplication",
         "telephone": "(213) 537-5613"
       },
       "telephone": "(213) 537-5613",
@@ -854,70 +782,62 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "Learn how AE Optimizer approaches AI Visibility website optimization in Los Angeles, San Diego, Austin, including the typical process, what to expect, and how to get started. Serving Austin.",
       "serviceType": "Answer Engine Optimization — AI Visibility website optimization",
       "hasOfferCatalog": {
-        "name": "Answer Engine Optimization Services",
+        "name": "Answer Engine Optimization Software",
         "@type": "OfferCatalog",
         "itemListElement": [
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Answer Engine Optimization (AEO) software",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI Visibility website optimization",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Structured Data generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Knowledge Graph and Entity File generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI-Crawlable Website Creation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Per-page JSON-LD website schema generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI citations generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           }
         ]
@@ -926,7 +846,7 @@
     {
       "url": "aeoptimizer.com",
       "name": "AI Visibility website optimization Services in Denver",
-      "@type": "ProfessionalService",
+      "@type": "SoftwareApplication",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Denver"
@@ -935,7 +855,7 @@
       "provider": {
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
-        "@type": "ProfessionalService",
+        "@type": "SoftwareApplication",
         "telephone": "(213) 537-5613"
       },
       "telephone": "(213) 537-5613",
@@ -946,70 +866,62 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "Learn how AE Optimizer approaches AI Visibility website optimization in Los Angeles, San Diego, Austin, including the typical process, what to expect, and how to get started. Serving Denver.",
       "serviceType": "Answer Engine Optimization — AI Visibility website optimization",
       "hasOfferCatalog": {
-        "name": "Answer Engine Optimization Services",
+        "name": "Answer Engine Optimization Software",
         "@type": "OfferCatalog",
         "itemListElement": [
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Answer Engine Optimization (AEO) software",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI Visibility website optimization",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Structured Data generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Knowledge Graph and Entity File generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI-Crawlable Website Creation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Per-page JSON-LD website schema generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI citations generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           }
         ]
@@ -1018,7 +930,7 @@
     {
       "url": "aeoptimizer.com",
       "name": "AI Visibility website optimization Services in Salt Lake City",
-      "@type": "ProfessionalService",
+      "@type": "SoftwareApplication",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Salt Lake City"
@@ -1027,7 +939,7 @@
       "provider": {
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
-        "@type": "ProfessionalService",
+        "@type": "SoftwareApplication",
         "telephone": "(213) 537-5613"
       },
       "telephone": "(213) 537-5613",
@@ -1038,70 +950,62 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "Learn how AE Optimizer approaches AI Visibility website optimization in Los Angeles, San Diego, Austin, including the typical process, what to expect, and how to get started. Serving Salt Lake City.",
       "serviceType": "Answer Engine Optimization — AI Visibility website optimization",
       "hasOfferCatalog": {
-        "name": "Answer Engine Optimization Services",
+        "name": "Answer Engine Optimization Software",
         "@type": "OfferCatalog",
         "itemListElement": [
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Answer Engine Optimization (AEO) software",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI Visibility website optimization",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Structured Data generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Knowledge Graph and Entity File generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI-Crawlable Website Creation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Per-page JSON-LD website schema generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI citations generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           }
         ]
@@ -1110,7 +1014,7 @@
     {
       "url": "aeoptimizer.com",
       "name": "AI Visibility website optimization Services in Las Vegas",
-      "@type": "ProfessionalService",
+      "@type": "SoftwareApplication",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Las Vegas"
@@ -1119,7 +1023,7 @@
       "provider": {
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
-        "@type": "ProfessionalService",
+        "@type": "SoftwareApplication",
         "telephone": "(213) 537-5613"
       },
       "telephone": "(213) 537-5613",
@@ -1130,70 +1034,62 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "Learn how AE Optimizer approaches AI Visibility website optimization in Los Angeles, San Diego, Austin, including the typical process, what to expect, and how to get started. Serving Las Vegas.",
       "serviceType": "Answer Engine Optimization — AI Visibility website optimization",
       "hasOfferCatalog": {
-        "name": "Answer Engine Optimization Services",
+        "name": "Answer Engine Optimization Software",
         "@type": "OfferCatalog",
         "itemListElement": [
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Answer Engine Optimization (AEO) software",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI Visibility website optimization",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Structured Data generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Knowledge Graph and Entity File generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI-Crawlable Website Creation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Per-page JSON-LD website schema generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI citations generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           }
         ]
@@ -1202,7 +1098,7 @@
     {
       "url": "aeoptimizer.com",
       "name": "AI Visibility website optimization Services in San Francisco",
-      "@type": "ProfessionalService",
+      "@type": "SoftwareApplication",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "San Francisco"
@@ -1211,7 +1107,7 @@
       "provider": {
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
-        "@type": "ProfessionalService",
+        "@type": "SoftwareApplication",
         "telephone": "(213) 537-5613"
       },
       "telephone": "(213) 537-5613",
@@ -1222,70 +1118,62 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "Learn how AE Optimizer approaches AI Visibility website optimization in Los Angeles, San Diego, Austin, including the typical process, what to expect, and how to get started. Serving San Francisco.",
       "serviceType": "Answer Engine Optimization — AI Visibility website optimization",
       "hasOfferCatalog": {
-        "name": "Answer Engine Optimization Services",
+        "name": "Answer Engine Optimization Software",
         "@type": "OfferCatalog",
         "itemListElement": [
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Answer Engine Optimization (AEO) software",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI Visibility website optimization",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Structured Data generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Knowledge Graph and Entity File generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI-Crawlable Website Creation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Per-page JSON-LD website schema generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI citations generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           }
         ]
@@ -1294,7 +1182,7 @@
     {
       "url": "aeoptimizer.com",
       "name": "Answer Engine Optimization: Structured Data generation in Los Angeles",
-      "@type": "ProfessionalService",
+      "@type": "SoftwareApplication",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Los Angeles"
@@ -1303,7 +1191,7 @@
       "provider": {
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
-        "@type": "ProfessionalService",
+        "@type": "SoftwareApplication",
         "telephone": "(213) 537-5613"
       },
       "telephone": "(213) 537-5613",
@@ -1314,70 +1202,62 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "AE Optimizer provides Structured Data generation in Los Angeles, San Diego, Austin. AE Optimizer provides Answer Engine Optimization (AEO) software designed to make websites visible to AI platforms like ChatGPT, Perplexity, and Google AI Overviews. It generates structured data, AI visibility files, and optimized content, along with building an authority network across the web through AI distribution for entity recognition, helping businesses get cited by AI answer engines. Serving Los Angeles.",
       "serviceType": "Answer Engine Optimization — Structured Data generation",
       "hasOfferCatalog": {
-        "name": "Answer Engine Optimization Services",
+        "name": "Answer Engine Optimization Software",
         "@type": "OfferCatalog",
         "itemListElement": [
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Answer Engine Optimization (AEO) software",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI Visibility website optimization",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Structured Data generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Knowledge Graph and Entity File generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI-Crawlable Website Creation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Per-page JSON-LD website schema generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI citations generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           }
         ]
@@ -1386,7 +1266,7 @@
     {
       "url": "aeoptimizer.com",
       "name": "Answer Engine Optimization: Structured Data generation in San Diego",
-      "@type": "ProfessionalService",
+      "@type": "SoftwareApplication",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "San Diego"
@@ -1395,7 +1275,7 @@
       "provider": {
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
-        "@type": "ProfessionalService",
+        "@type": "SoftwareApplication",
         "telephone": "(213) 537-5613"
       },
       "telephone": "(213) 537-5613",
@@ -1406,70 +1286,62 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "AE Optimizer provides Structured Data generation in Los Angeles, San Diego, Austin. AE Optimizer provides Answer Engine Optimization (AEO) software designed to make websites visible to AI platforms like ChatGPT, Perplexity, and Google AI Overviews. It generates structured data, AI visibility files, and optimized content, along with building an authority network across the web through AI distribution for entity recognition, helping businesses get cited by AI answer engines. Serving San Diego.",
       "serviceType": "Answer Engine Optimization — Structured Data generation",
       "hasOfferCatalog": {
-        "name": "Answer Engine Optimization Services",
+        "name": "Answer Engine Optimization Software",
         "@type": "OfferCatalog",
         "itemListElement": [
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Answer Engine Optimization (AEO) software",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI Visibility website optimization",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Structured Data generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Knowledge Graph and Entity File generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI-Crawlable Website Creation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Per-page JSON-LD website schema generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI citations generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           }
         ]
@@ -1478,7 +1350,7 @@
     {
       "url": "aeoptimizer.com",
       "name": "Answer Engine Optimization: Structured Data generation in Austin",
-      "@type": "ProfessionalService",
+      "@type": "SoftwareApplication",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Austin"
@@ -1487,7 +1359,7 @@
       "provider": {
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
-        "@type": "ProfessionalService",
+        "@type": "SoftwareApplication",
         "telephone": "(213) 537-5613"
       },
       "telephone": "(213) 537-5613",
@@ -1498,70 +1370,62 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "AE Optimizer provides Structured Data generation in Los Angeles, San Diego, Austin. AE Optimizer provides Answer Engine Optimization (AEO) software designed to make websites visible to AI platforms like ChatGPT, Perplexity, and Google AI Overviews. It generates structured data, AI visibility files, and optimized content, along with building an authority network across the web through AI distribution for entity recognition, helping businesses get cited by AI answer engines. Serving Austin.",
       "serviceType": "Answer Engine Optimization — Structured Data generation",
       "hasOfferCatalog": {
-        "name": "Answer Engine Optimization Services",
+        "name": "Answer Engine Optimization Software",
         "@type": "OfferCatalog",
         "itemListElement": [
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Answer Engine Optimization (AEO) software",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI Visibility website optimization",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Structured Data generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Knowledge Graph and Entity File generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI-Crawlable Website Creation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Per-page JSON-LD website schema generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI citations generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           }
         ]
@@ -1570,7 +1434,7 @@
     {
       "url": "aeoptimizer.com",
       "name": "Answer Engine Optimization: Structured Data generation in Denver",
-      "@type": "ProfessionalService",
+      "@type": "SoftwareApplication",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Denver"
@@ -1579,7 +1443,7 @@
       "provider": {
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
-        "@type": "ProfessionalService",
+        "@type": "SoftwareApplication",
         "telephone": "(213) 537-5613"
       },
       "telephone": "(213) 537-5613",
@@ -1590,70 +1454,62 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "AE Optimizer provides Structured Data generation in Los Angeles, San Diego, Austin. AE Optimizer provides Answer Engine Optimization (AEO) software designed to make websites visible to AI platforms like ChatGPT, Perplexity, and Google AI Overviews. It generates structured data, AI visibility files, and optimized content, along with building an authority network across the web through AI distribution for entity recognition, helping businesses get cited by AI answer engines. Serving Denver.",
       "serviceType": "Answer Engine Optimization — Structured Data generation",
       "hasOfferCatalog": {
-        "name": "Answer Engine Optimization Services",
+        "name": "Answer Engine Optimization Software",
         "@type": "OfferCatalog",
         "itemListElement": [
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Answer Engine Optimization (AEO) software",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI Visibility website optimization",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Structured Data generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Knowledge Graph and Entity File generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI-Crawlable Website Creation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Per-page JSON-LD website schema generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI citations generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           }
         ]
@@ -1662,7 +1518,7 @@
     {
       "url": "aeoptimizer.com",
       "name": "Answer Engine Optimization: Structured Data generation in Salt Lake City",
-      "@type": "ProfessionalService",
+      "@type": "SoftwareApplication",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Salt Lake City"
@@ -1671,7 +1527,7 @@
       "provider": {
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
-        "@type": "ProfessionalService",
+        "@type": "SoftwareApplication",
         "telephone": "(213) 537-5613"
       },
       "telephone": "(213) 537-5613",
@@ -1682,70 +1538,62 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "AE Optimizer provides Structured Data generation in Los Angeles, San Diego, Austin. AE Optimizer provides Answer Engine Optimization (AEO) software designed to make websites visible to AI platforms like ChatGPT, Perplexity, and Google AI Overviews. It generates structured data, AI visibility files, and optimized content, along with building an authority network across the web through AI distribution for entity recognition, helping businesses get cited by AI answer engines. Serving Salt Lake City.",
       "serviceType": "Answer Engine Optimization — Structured Data generation",
       "hasOfferCatalog": {
-        "name": "Answer Engine Optimization Services",
+        "name": "Answer Engine Optimization Software",
         "@type": "OfferCatalog",
         "itemListElement": [
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Answer Engine Optimization (AEO) software",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI Visibility website optimization",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Structured Data generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Knowledge Graph and Entity File generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI-Crawlable Website Creation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Per-page JSON-LD website schema generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI citations generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           }
         ]
@@ -1754,7 +1602,7 @@
     {
       "url": "aeoptimizer.com",
       "name": "Answer Engine Optimization: Structured Data generation in Las Vegas",
-      "@type": "ProfessionalService",
+      "@type": "SoftwareApplication",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Las Vegas"
@@ -1763,7 +1611,7 @@
       "provider": {
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
-        "@type": "ProfessionalService",
+        "@type": "SoftwareApplication",
         "telephone": "(213) 537-5613"
       },
       "telephone": "(213) 537-5613",
@@ -1774,70 +1622,62 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "AE Optimizer provides Structured Data generation in Los Angeles, San Diego, Austin. AE Optimizer provides Answer Engine Optimization (AEO) software designed to make websites visible to AI platforms like ChatGPT, Perplexity, and Google AI Overviews. It generates structured data, AI visibility files, and optimized content, along with building an authority network across the web through AI distribution for entity recognition, helping businesses get cited by AI answer engines. Serving Las Vegas.",
       "serviceType": "Answer Engine Optimization — Structured Data generation",
       "hasOfferCatalog": {
-        "name": "Answer Engine Optimization Services",
+        "name": "Answer Engine Optimization Software",
         "@type": "OfferCatalog",
         "itemListElement": [
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Answer Engine Optimization (AEO) software",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI Visibility website optimization",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Structured Data generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Knowledge Graph and Entity File generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI-Crawlable Website Creation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Per-page JSON-LD website schema generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI citations generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           }
         ]
@@ -1846,7 +1686,7 @@
     {
       "url": "aeoptimizer.com",
       "name": "Answer Engine Optimization: Structured Data generation in San Francisco",
-      "@type": "ProfessionalService",
+      "@type": "SoftwareApplication",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "San Francisco"
@@ -1855,7 +1695,7 @@
       "provider": {
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
-        "@type": "ProfessionalService",
+        "@type": "SoftwareApplication",
         "telephone": "(213) 537-5613"
       },
       "telephone": "(213) 537-5613",
@@ -1866,70 +1706,62 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "AE Optimizer provides Structured Data generation in Los Angeles, San Diego, Austin. AE Optimizer provides Answer Engine Optimization (AEO) software designed to make websites visible to AI platforms like ChatGPT, Perplexity, and Google AI Overviews. It generates structured data, AI visibility files, and optimized content, along with building an authority network across the web through AI distribution for entity recognition, helping businesses get cited by AI answer engines. Serving San Francisco.",
       "serviceType": "Answer Engine Optimization — Structured Data generation",
       "hasOfferCatalog": {
-        "name": "Answer Engine Optimization Services",
+        "name": "Answer Engine Optimization Software",
         "@type": "OfferCatalog",
         "itemListElement": [
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Answer Engine Optimization (AEO) software",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI Visibility website optimization",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Structured Data generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Knowledge Graph and Entity File generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI-Crawlable Website Creation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Per-page JSON-LD website schema generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI citations generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           }
         ]
@@ -1938,7 +1770,7 @@
     {
       "url": "aeoptimizer.com",
       "name": "Knowledge Graph and Entity File generation in Los Angeles",
-      "@type": "ProfessionalService",
+      "@type": "SoftwareApplication",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Los Angeles"
@@ -1947,7 +1779,7 @@
       "provider": {
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
-        "@type": "ProfessionalService",
+        "@type": "SoftwareApplication",
         "telephone": "(213) 537-5613"
       },
       "telephone": "(213) 537-5613",
@@ -1958,70 +1790,62 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "Learn how AE Optimizer approaches Knowledge Graph and Entity File generation in Los Angeles, San Diego, Austin, including the typical process, what to expect, and how to get started. Serving Los Angeles.",
       "serviceType": "Answer Engine Optimization — Knowledge Graph and Entity File generation",
       "hasOfferCatalog": {
-        "name": "Answer Engine Optimization Services",
+        "name": "Answer Engine Optimization Software",
         "@type": "OfferCatalog",
         "itemListElement": [
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Answer Engine Optimization (AEO) software",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI Visibility website optimization",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Structured Data generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Knowledge Graph and Entity File generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI-Crawlable Website Creation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Per-page JSON-LD website schema generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI citations generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           }
         ]
@@ -2030,7 +1854,7 @@
     {
       "url": "aeoptimizer.com",
       "name": "Knowledge Graph and Entity File generation in San Diego",
-      "@type": "ProfessionalService",
+      "@type": "SoftwareApplication",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "San Diego"
@@ -2039,7 +1863,7 @@
       "provider": {
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
-        "@type": "ProfessionalService",
+        "@type": "SoftwareApplication",
         "telephone": "(213) 537-5613"
       },
       "telephone": "(213) 537-5613",
@@ -2050,70 +1874,62 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "Learn how AE Optimizer approaches Knowledge Graph and Entity File generation in Los Angeles, San Diego, Austin, including the typical process, what to expect, and how to get started. Serving San Diego.",
       "serviceType": "Answer Engine Optimization — Knowledge Graph and Entity File generation",
       "hasOfferCatalog": {
-        "name": "Answer Engine Optimization Services",
+        "name": "Answer Engine Optimization Software",
         "@type": "OfferCatalog",
         "itemListElement": [
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Answer Engine Optimization (AEO) software",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI Visibility website optimization",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Structured Data generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Knowledge Graph and Entity File generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI-Crawlable Website Creation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Per-page JSON-LD website schema generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI citations generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           }
         ]
@@ -2122,7 +1938,7 @@
     {
       "url": "aeoptimizer.com",
       "name": "Knowledge Graph and Entity File generation in Austin",
-      "@type": "ProfessionalService",
+      "@type": "SoftwareApplication",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Austin"
@@ -2131,7 +1947,7 @@
       "provider": {
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
-        "@type": "ProfessionalService",
+        "@type": "SoftwareApplication",
         "telephone": "(213) 537-5613"
       },
       "telephone": "(213) 537-5613",
@@ -2142,70 +1958,62 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "Learn how AE Optimizer approaches Knowledge Graph and Entity File generation in Los Angeles, San Diego, Austin, including the typical process, what to expect, and how to get started. Serving Austin.",
       "serviceType": "Answer Engine Optimization — Knowledge Graph and Entity File generation",
       "hasOfferCatalog": {
-        "name": "Answer Engine Optimization Services",
+        "name": "Answer Engine Optimization Software",
         "@type": "OfferCatalog",
         "itemListElement": [
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Answer Engine Optimization (AEO) software",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI Visibility website optimization",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Structured Data generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Knowledge Graph and Entity File generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI-Crawlable Website Creation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Per-page JSON-LD website schema generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI citations generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           }
         ]
@@ -2214,7 +2022,7 @@
     {
       "url": "aeoptimizer.com",
       "name": "Knowledge Graph and Entity File generation in Denver",
-      "@type": "ProfessionalService",
+      "@type": "SoftwareApplication",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Denver"
@@ -2223,7 +2031,7 @@
       "provider": {
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
-        "@type": "ProfessionalService",
+        "@type": "SoftwareApplication",
         "telephone": "(213) 537-5613"
       },
       "telephone": "(213) 537-5613",
@@ -2234,70 +2042,62 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "Learn how AE Optimizer approaches Knowledge Graph and Entity File generation in Los Angeles, San Diego, Austin, including the typical process, what to expect, and how to get started. Serving Denver.",
       "serviceType": "Answer Engine Optimization — Knowledge Graph and Entity File generation",
       "hasOfferCatalog": {
-        "name": "Answer Engine Optimization Services",
+        "name": "Answer Engine Optimization Software",
         "@type": "OfferCatalog",
         "itemListElement": [
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Answer Engine Optimization (AEO) software",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI Visibility website optimization",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Structured Data generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Knowledge Graph and Entity File generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI-Crawlable Website Creation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Per-page JSON-LD website schema generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI citations generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           }
         ]
@@ -2306,7 +2106,7 @@
     {
       "url": "aeoptimizer.com",
       "name": "Knowledge Graph and Entity File generation in Salt Lake City",
-      "@type": "ProfessionalService",
+      "@type": "SoftwareApplication",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Salt Lake City"
@@ -2315,7 +2115,7 @@
       "provider": {
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
-        "@type": "ProfessionalService",
+        "@type": "SoftwareApplication",
         "telephone": "(213) 537-5613"
       },
       "telephone": "(213) 537-5613",
@@ -2326,70 +2126,62 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "Learn how AE Optimizer approaches Knowledge Graph and Entity File generation in Los Angeles, San Diego, Austin, including the typical process, what to expect, and how to get started. Serving Salt Lake City.",
       "serviceType": "Answer Engine Optimization — Knowledge Graph and Entity File generation",
       "hasOfferCatalog": {
-        "name": "Answer Engine Optimization Services",
+        "name": "Answer Engine Optimization Software",
         "@type": "OfferCatalog",
         "itemListElement": [
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Answer Engine Optimization (AEO) software",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI Visibility website optimization",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Structured Data generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Knowledge Graph and Entity File generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI-Crawlable Website Creation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Per-page JSON-LD website schema generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI citations generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           }
         ]
@@ -2398,7 +2190,7 @@
     {
       "url": "aeoptimizer.com",
       "name": "Knowledge Graph and Entity File generation in Las Vegas",
-      "@type": "ProfessionalService",
+      "@type": "SoftwareApplication",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Las Vegas"
@@ -2407,7 +2199,7 @@
       "provider": {
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
-        "@type": "ProfessionalService",
+        "@type": "SoftwareApplication",
         "telephone": "(213) 537-5613"
       },
       "telephone": "(213) 537-5613",
@@ -2418,70 +2210,62 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "Learn how AE Optimizer approaches Knowledge Graph and Entity File generation in Los Angeles, San Diego, Austin, including the typical process, what to expect, and how to get started. Serving Las Vegas.",
       "serviceType": "Answer Engine Optimization — Knowledge Graph and Entity File generation",
       "hasOfferCatalog": {
-        "name": "Answer Engine Optimization Services",
+        "name": "Answer Engine Optimization Software",
         "@type": "OfferCatalog",
         "itemListElement": [
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Answer Engine Optimization (AEO) software",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI Visibility website optimization",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Structured Data generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Knowledge Graph and Entity File generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI-Crawlable Website Creation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Per-page JSON-LD website schema generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI citations generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           }
         ]
@@ -2490,7 +2274,7 @@
     {
       "url": "aeoptimizer.com",
       "name": "Knowledge Graph and Entity File generation in San Francisco",
-      "@type": "ProfessionalService",
+      "@type": "SoftwareApplication",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "San Francisco"
@@ -2499,7 +2283,7 @@
       "provider": {
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
-        "@type": "ProfessionalService",
+        "@type": "SoftwareApplication",
         "telephone": "(213) 537-5613"
       },
       "telephone": "(213) 537-5613",
@@ -2510,70 +2294,62 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "Learn how AE Optimizer approaches Knowledge Graph and Entity File generation in Los Angeles, San Diego, Austin, including the typical process, what to expect, and how to get started. Serving San Francisco.",
       "serviceType": "Answer Engine Optimization — Knowledge Graph and Entity File generation",
       "hasOfferCatalog": {
-        "name": "Answer Engine Optimization Services",
+        "name": "Answer Engine Optimization Software",
         "@type": "OfferCatalog",
         "itemListElement": [
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Answer Engine Optimization (AEO) software",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI Visibility website optimization",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Structured Data generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Knowledge Graph and Entity File generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI-Crawlable Website Creation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Per-page JSON-LD website schema generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI citations generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           }
         ]
@@ -2582,7 +2358,7 @@
     {
       "url": "aeoptimizer.com",
       "name": "AI-Crawlable Website Creation Services in Los Angeles",
-      "@type": "ProfessionalService",
+      "@type": "SoftwareApplication",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Los Angeles"
@@ -2591,7 +2367,7 @@
       "provider": {
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
-        "@type": "ProfessionalService",
+        "@type": "SoftwareApplication",
         "telephone": "(213) 537-5613"
       },
       "telephone": "(213) 537-5613",
@@ -2602,70 +2378,62 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "AE Optimizer provides AI-Crawlable Website Creation in Los Angeles, San Diego, Austin. AE Optimizer provides Answer Engine Optimization (AEO) software designed to make websites visible to AI platforms like ChatGPT, Perplexity, and Google AI Overviews. It generates structured data, AI visibility files, and optimized content, along with building an authority network across the web through AI distribution for entity recognition, helping businesses get cited by AI answer engines. Serving Los Angeles.",
       "serviceType": "Answer Engine Optimization — AI-Crawlable Website Creation",
       "hasOfferCatalog": {
-        "name": "Answer Engine Optimization Services",
+        "name": "Answer Engine Optimization Software",
         "@type": "OfferCatalog",
         "itemListElement": [
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Answer Engine Optimization (AEO) software",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI Visibility website optimization",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Structured Data generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Knowledge Graph and Entity File generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI-Crawlable Website Creation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Per-page JSON-LD website schema generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI citations generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           }
         ]
@@ -2674,7 +2442,7 @@
     {
       "url": "aeoptimizer.com",
       "name": "AI-Crawlable Website Creation Services in San Diego",
-      "@type": "ProfessionalService",
+      "@type": "SoftwareApplication",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "San Diego"
@@ -2683,7 +2451,7 @@
       "provider": {
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
-        "@type": "ProfessionalService",
+        "@type": "SoftwareApplication",
         "telephone": "(213) 537-5613"
       },
       "telephone": "(213) 537-5613",
@@ -2694,70 +2462,62 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "AE Optimizer provides AI-Crawlable Website Creation in Los Angeles, San Diego, Austin. AE Optimizer provides Answer Engine Optimization (AEO) software designed to make websites visible to AI platforms like ChatGPT, Perplexity, and Google AI Overviews. It generates structured data, AI visibility files, and optimized content, along with building an authority network across the web through AI distribution for entity recognition, helping businesses get cited by AI answer engines. Serving San Diego.",
       "serviceType": "Answer Engine Optimization — AI-Crawlable Website Creation",
       "hasOfferCatalog": {
-        "name": "Answer Engine Optimization Services",
+        "name": "Answer Engine Optimization Software",
         "@type": "OfferCatalog",
         "itemListElement": [
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Answer Engine Optimization (AEO) software",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI Visibility website optimization",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Structured Data generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Knowledge Graph and Entity File generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI-Crawlable Website Creation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Per-page JSON-LD website schema generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI citations generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           }
         ]
@@ -2766,7 +2526,7 @@
     {
       "url": "aeoptimizer.com",
       "name": "AI-Crawlable Website Creation Services in Austin",
-      "@type": "ProfessionalService",
+      "@type": "SoftwareApplication",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Austin"
@@ -2775,7 +2535,7 @@
       "provider": {
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
-        "@type": "ProfessionalService",
+        "@type": "SoftwareApplication",
         "telephone": "(213) 537-5613"
       },
       "telephone": "(213) 537-5613",
@@ -2786,70 +2546,62 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "AE Optimizer provides AI-Crawlable Website Creation in Los Angeles, San Diego, Austin. AE Optimizer provides Answer Engine Optimization (AEO) software designed to make websites visible to AI platforms like ChatGPT, Perplexity, and Google AI Overviews. It generates structured data, AI visibility files, and optimized content, along with building an authority network across the web through AI distribution for entity recognition, helping businesses get cited by AI answer engines. Serving Austin.",
       "serviceType": "Answer Engine Optimization — AI-Crawlable Website Creation",
       "hasOfferCatalog": {
-        "name": "Answer Engine Optimization Services",
+        "name": "Answer Engine Optimization Software",
         "@type": "OfferCatalog",
         "itemListElement": [
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Answer Engine Optimization (AEO) software",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI Visibility website optimization",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Structured Data generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Knowledge Graph and Entity File generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI-Crawlable Website Creation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Per-page JSON-LD website schema generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI citations generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           }
         ]
@@ -2858,7 +2610,7 @@
     {
       "url": "aeoptimizer.com",
       "name": "AI-Crawlable Website Creation Services in Denver",
-      "@type": "ProfessionalService",
+      "@type": "SoftwareApplication",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Denver"
@@ -2867,7 +2619,7 @@
       "provider": {
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
-        "@type": "ProfessionalService",
+        "@type": "SoftwareApplication",
         "telephone": "(213) 537-5613"
       },
       "telephone": "(213) 537-5613",
@@ -2878,70 +2630,62 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "AE Optimizer provides AI-Crawlable Website Creation in Los Angeles, San Diego, Austin. AE Optimizer provides Answer Engine Optimization (AEO) software designed to make websites visible to AI platforms like ChatGPT, Perplexity, and Google AI Overviews. It generates structured data, AI visibility files, and optimized content, along with building an authority network across the web through AI distribution for entity recognition, helping businesses get cited by AI answer engines. Serving Denver.",
       "serviceType": "Answer Engine Optimization — AI-Crawlable Website Creation",
       "hasOfferCatalog": {
-        "name": "Answer Engine Optimization Services",
+        "name": "Answer Engine Optimization Software",
         "@type": "OfferCatalog",
         "itemListElement": [
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Answer Engine Optimization (AEO) software",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI Visibility website optimization",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Structured Data generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Knowledge Graph and Entity File generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI-Crawlable Website Creation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Per-page JSON-LD website schema generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI citations generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           }
         ]
@@ -2950,7 +2694,7 @@
     {
       "url": "aeoptimizer.com",
       "name": "AI-Crawlable Website Creation Services in Salt Lake City",
-      "@type": "ProfessionalService",
+      "@type": "SoftwareApplication",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Salt Lake City"
@@ -2959,7 +2703,7 @@
       "provider": {
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
-        "@type": "ProfessionalService",
+        "@type": "SoftwareApplication",
         "telephone": "(213) 537-5613"
       },
       "telephone": "(213) 537-5613",
@@ -2970,70 +2714,62 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "AE Optimizer provides AI-Crawlable Website Creation in Los Angeles, San Diego, Austin. AE Optimizer provides Answer Engine Optimization (AEO) software designed to make websites visible to AI platforms like ChatGPT, Perplexity, and Google AI Overviews. It generates structured data, AI visibility files, and optimized content, along with building an authority network across the web through AI distribution for entity recognition, helping businesses get cited by AI answer engines. Serving Salt Lake City.",
       "serviceType": "Answer Engine Optimization — AI-Crawlable Website Creation",
       "hasOfferCatalog": {
-        "name": "Answer Engine Optimization Services",
+        "name": "Answer Engine Optimization Software",
         "@type": "OfferCatalog",
         "itemListElement": [
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Answer Engine Optimization (AEO) software",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI Visibility website optimization",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Structured Data generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Knowledge Graph and Entity File generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI-Crawlable Website Creation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Per-page JSON-LD website schema generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI citations generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           }
         ]
@@ -3042,7 +2778,7 @@
     {
       "url": "aeoptimizer.com",
       "name": "AI-Crawlable Website Creation Services in Las Vegas",
-      "@type": "ProfessionalService",
+      "@type": "SoftwareApplication",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Las Vegas"
@@ -3051,7 +2787,7 @@
       "provider": {
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
-        "@type": "ProfessionalService",
+        "@type": "SoftwareApplication",
         "telephone": "(213) 537-5613"
       },
       "telephone": "(213) 537-5613",
@@ -3062,70 +2798,62 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "AE Optimizer provides AI-Crawlable Website Creation in Los Angeles, San Diego, Austin. AE Optimizer provides Answer Engine Optimization (AEO) software designed to make websites visible to AI platforms like ChatGPT, Perplexity, and Google AI Overviews. It generates structured data, AI visibility files, and optimized content, along with building an authority network across the web through AI distribution for entity recognition, helping businesses get cited by AI answer engines. Serving Las Vegas.",
       "serviceType": "Answer Engine Optimization — AI-Crawlable Website Creation",
       "hasOfferCatalog": {
-        "name": "Answer Engine Optimization Services",
+        "name": "Answer Engine Optimization Software",
         "@type": "OfferCatalog",
         "itemListElement": [
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Answer Engine Optimization (AEO) software",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI Visibility website optimization",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Structured Data generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Knowledge Graph and Entity File generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI-Crawlable Website Creation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Per-page JSON-LD website schema generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI citations generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           }
         ]
@@ -3134,7 +2862,7 @@
     {
       "url": "aeoptimizer.com",
       "name": "AI-Crawlable Website Creation Services in San Francisco",
-      "@type": "ProfessionalService",
+      "@type": "SoftwareApplication",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "San Francisco"
@@ -3143,7 +2871,7 @@
       "provider": {
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
-        "@type": "ProfessionalService",
+        "@type": "SoftwareApplication",
         "telephone": "(213) 537-5613"
       },
       "telephone": "(213) 537-5613",
@@ -3154,70 +2882,62 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "AE Optimizer provides AI-Crawlable Website Creation in Los Angeles, San Diego, Austin. AE Optimizer provides Answer Engine Optimization (AEO) software designed to make websites visible to AI platforms like ChatGPT, Perplexity, and Google AI Overviews. It generates structured data, AI visibility files, and optimized content, along with building an authority network across the web through AI distribution for entity recognition, helping businesses get cited by AI answer engines. Serving San Francisco.",
       "serviceType": "Answer Engine Optimization — AI-Crawlable Website Creation",
       "hasOfferCatalog": {
-        "name": "Answer Engine Optimization Services",
+        "name": "Answer Engine Optimization Software",
         "@type": "OfferCatalog",
         "itemListElement": [
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Answer Engine Optimization (AEO) software",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI Visibility website optimization",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Structured Data generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Knowledge Graph and Entity File generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI-Crawlable Website Creation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Per-page JSON-LD website schema generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI citations generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           }
         ]
@@ -3226,7 +2946,7 @@
     {
       "url": "aeoptimizer.com",
       "name": "Answer Engine Optimization: Per-page JSON-LD website schema generation in Los Angeles",
-      "@type": "ProfessionalService",
+      "@type": "SoftwareApplication",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Los Angeles"
@@ -3235,7 +2955,7 @@
       "provider": {
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
-        "@type": "ProfessionalService",
+        "@type": "SoftwareApplication",
         "telephone": "(213) 537-5613"
       },
       "telephone": "(213) 537-5613",
@@ -3246,70 +2966,62 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "Learn how AE Optimizer approaches Per-page JSON-LD website schema generation in Los Angeles, San Diego, Austin, including the typical process, what to expect, and how to get started. Serving Los Angeles.",
       "serviceType": "Answer Engine Optimization — Per-page JSON-LD website schema generation",
       "hasOfferCatalog": {
-        "name": "Answer Engine Optimization Services",
+        "name": "Answer Engine Optimization Software",
         "@type": "OfferCatalog",
         "itemListElement": [
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Answer Engine Optimization (AEO) software",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI Visibility website optimization",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Structured Data generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Knowledge Graph and Entity File generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI-Crawlable Website Creation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Per-page JSON-LD website schema generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI citations generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           }
         ]
@@ -3318,7 +3030,7 @@
     {
       "url": "aeoptimizer.com",
       "name": "Answer Engine Optimization: Per-page JSON-LD website schema generation in San Diego",
-      "@type": "ProfessionalService",
+      "@type": "SoftwareApplication",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "San Diego"
@@ -3327,7 +3039,7 @@
       "provider": {
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
-        "@type": "ProfessionalService",
+        "@type": "SoftwareApplication",
         "telephone": "(213) 537-5613"
       },
       "telephone": "(213) 537-5613",
@@ -3338,70 +3050,62 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "Learn how AE Optimizer approaches Per-page JSON-LD website schema generation in Los Angeles, San Diego, Austin, including the typical process, what to expect, and how to get started. Serving San Diego.",
       "serviceType": "Answer Engine Optimization — Per-page JSON-LD website schema generation",
       "hasOfferCatalog": {
-        "name": "Answer Engine Optimization Services",
+        "name": "Answer Engine Optimization Software",
         "@type": "OfferCatalog",
         "itemListElement": [
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Answer Engine Optimization (AEO) software",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI Visibility website optimization",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Structured Data generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Knowledge Graph and Entity File generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI-Crawlable Website Creation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Per-page JSON-LD website schema generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI citations generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           }
         ]
@@ -3410,7 +3114,7 @@
     {
       "url": "aeoptimizer.com",
       "name": "Answer Engine Optimization: Per-page JSON-LD website schema generation in Austin",
-      "@type": "ProfessionalService",
+      "@type": "SoftwareApplication",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Austin"
@@ -3419,7 +3123,7 @@
       "provider": {
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
-        "@type": "ProfessionalService",
+        "@type": "SoftwareApplication",
         "telephone": "(213) 537-5613"
       },
       "telephone": "(213) 537-5613",
@@ -3430,70 +3134,62 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "Learn how AE Optimizer approaches Per-page JSON-LD website schema generation in Los Angeles, San Diego, Austin, including the typical process, what to expect, and how to get started. Serving Austin.",
       "serviceType": "Answer Engine Optimization — Per-page JSON-LD website schema generation",
       "hasOfferCatalog": {
-        "name": "Answer Engine Optimization Services",
+        "name": "Answer Engine Optimization Software",
         "@type": "OfferCatalog",
         "itemListElement": [
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Answer Engine Optimization (AEO) software",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI Visibility website optimization",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Structured Data generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Knowledge Graph and Entity File generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI-Crawlable Website Creation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Per-page JSON-LD website schema generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI citations generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           }
         ]
@@ -3502,7 +3198,7 @@
     {
       "url": "aeoptimizer.com",
       "name": "Answer Engine Optimization: Per-page JSON-LD website schema generation in Denver",
-      "@type": "ProfessionalService",
+      "@type": "SoftwareApplication",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Denver"
@@ -3511,7 +3207,7 @@
       "provider": {
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
-        "@type": "ProfessionalService",
+        "@type": "SoftwareApplication",
         "telephone": "(213) 537-5613"
       },
       "telephone": "(213) 537-5613",
@@ -3522,70 +3218,62 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "Learn how AE Optimizer approaches Per-page JSON-LD website schema generation in Los Angeles, San Diego, Austin, including the typical process, what to expect, and how to get started. Serving Denver.",
       "serviceType": "Answer Engine Optimization — Per-page JSON-LD website schema generation",
       "hasOfferCatalog": {
-        "name": "Answer Engine Optimization Services",
+        "name": "Answer Engine Optimization Software",
         "@type": "OfferCatalog",
         "itemListElement": [
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Answer Engine Optimization (AEO) software",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI Visibility website optimization",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Structured Data generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Knowledge Graph and Entity File generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI-Crawlable Website Creation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Per-page JSON-LD website schema generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI citations generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           }
         ]
@@ -3594,7 +3282,7 @@
     {
       "url": "aeoptimizer.com",
       "name": "Answer Engine Optimization: Per-page JSON-LD website schema generation in Salt Lake City",
-      "@type": "ProfessionalService",
+      "@type": "SoftwareApplication",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Salt Lake City"
@@ -3603,7 +3291,7 @@
       "provider": {
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
-        "@type": "ProfessionalService",
+        "@type": "SoftwareApplication",
         "telephone": "(213) 537-5613"
       },
       "telephone": "(213) 537-5613",
@@ -3614,70 +3302,62 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "Learn how AE Optimizer approaches Per-page JSON-LD website schema generation in Los Angeles, San Diego, Austin, including the typical process, what to expect, and how to get started. Serving Salt Lake City.",
       "serviceType": "Answer Engine Optimization — Per-page JSON-LD website schema generation",
       "hasOfferCatalog": {
-        "name": "Answer Engine Optimization Services",
+        "name": "Answer Engine Optimization Software",
         "@type": "OfferCatalog",
         "itemListElement": [
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Answer Engine Optimization (AEO) software",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI Visibility website optimization",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Structured Data generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Knowledge Graph and Entity File generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI-Crawlable Website Creation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Per-page JSON-LD website schema generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI citations generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           }
         ]
@@ -3686,7 +3366,7 @@
     {
       "url": "aeoptimizer.com",
       "name": "Answer Engine Optimization: Per-page JSON-LD website schema generation in Las Vegas",
-      "@type": "ProfessionalService",
+      "@type": "SoftwareApplication",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Las Vegas"
@@ -3695,7 +3375,7 @@
       "provider": {
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
-        "@type": "ProfessionalService",
+        "@type": "SoftwareApplication",
         "telephone": "(213) 537-5613"
       },
       "telephone": "(213) 537-5613",
@@ -3706,70 +3386,62 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "Learn how AE Optimizer approaches Per-page JSON-LD website schema generation in Los Angeles, San Diego, Austin, including the typical process, what to expect, and how to get started. Serving Las Vegas.",
       "serviceType": "Answer Engine Optimization — Per-page JSON-LD website schema generation",
       "hasOfferCatalog": {
-        "name": "Answer Engine Optimization Services",
+        "name": "Answer Engine Optimization Software",
         "@type": "OfferCatalog",
         "itemListElement": [
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Answer Engine Optimization (AEO) software",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI Visibility website optimization",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Structured Data generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Knowledge Graph and Entity File generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI-Crawlable Website Creation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Per-page JSON-LD website schema generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI citations generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           }
         ]
@@ -3778,7 +3450,7 @@
     {
       "url": "aeoptimizer.com",
       "name": "Answer Engine Optimization: Per-page JSON-LD website schema generation in San Francisco",
-      "@type": "ProfessionalService",
+      "@type": "SoftwareApplication",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "San Francisco"
@@ -3787,7 +3459,7 @@
       "provider": {
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
-        "@type": "ProfessionalService",
+        "@type": "SoftwareApplication",
         "telephone": "(213) 537-5613"
       },
       "telephone": "(213) 537-5613",
@@ -3798,70 +3470,62 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "Learn how AE Optimizer approaches Per-page JSON-LD website schema generation in Los Angeles, San Diego, Austin, including the typical process, what to expect, and how to get started. Serving San Francisco.",
       "serviceType": "Answer Engine Optimization — Per-page JSON-LD website schema generation",
       "hasOfferCatalog": {
-        "name": "Answer Engine Optimization Services",
+        "name": "Answer Engine Optimization Software",
         "@type": "OfferCatalog",
         "itemListElement": [
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Answer Engine Optimization (AEO) software",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI Visibility website optimization",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Structured Data generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Knowledge Graph and Entity File generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI-Crawlable Website Creation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Per-page JSON-LD website schema generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI citations generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           }
         ]
@@ -3870,7 +3534,7 @@
     {
       "url": "aeoptimizer.com",
       "name": "AI citations generation in Los Angeles",
-      "@type": "ProfessionalService",
+      "@type": "SoftwareApplication",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Los Angeles"
@@ -3879,7 +3543,7 @@
       "provider": {
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
-        "@type": "ProfessionalService",
+        "@type": "SoftwareApplication",
         "telephone": "(213) 537-5613"
       },
       "telephone": "(213) 537-5613",
@@ -3890,70 +3554,62 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "AE Optimizer provides AI citations generation in Los Angeles, San Diego, Austin. AE Optimizer provides Answer Engine Optimization (AEO) software designed to make websites visible to AI platforms like ChatGPT, Perplexity, and Google AI Overviews. It generates structured data, AI visibility files, and optimized content, along with building an authority network across the web through AI distribution for entity recognition, helping businesses get cited by AI answer engines. Serving Los Angeles.",
       "serviceType": "Answer Engine Optimization — AI citations generation",
       "hasOfferCatalog": {
-        "name": "Answer Engine Optimization Services",
+        "name": "Answer Engine Optimization Software",
         "@type": "OfferCatalog",
         "itemListElement": [
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Answer Engine Optimization (AEO) software",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI Visibility website optimization",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Structured Data generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Knowledge Graph and Entity File generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI-Crawlable Website Creation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Per-page JSON-LD website schema generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI citations generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           }
         ]
@@ -3962,7 +3618,7 @@
     {
       "url": "aeoptimizer.com",
       "name": "AI citations generation in San Diego",
-      "@type": "ProfessionalService",
+      "@type": "SoftwareApplication",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "San Diego"
@@ -3971,7 +3627,7 @@
       "provider": {
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
-        "@type": "ProfessionalService",
+        "@type": "SoftwareApplication",
         "telephone": "(213) 537-5613"
       },
       "telephone": "(213) 537-5613",
@@ -3982,70 +3638,62 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "AE Optimizer provides AI citations generation in Los Angeles, San Diego, Austin. AE Optimizer provides Answer Engine Optimization (AEO) software designed to make websites visible to AI platforms like ChatGPT, Perplexity, and Google AI Overviews. It generates structured data, AI visibility files, and optimized content, along with building an authority network across the web through AI distribution for entity recognition, helping businesses get cited by AI answer engines. Serving San Diego.",
       "serviceType": "Answer Engine Optimization — AI citations generation",
       "hasOfferCatalog": {
-        "name": "Answer Engine Optimization Services",
+        "name": "Answer Engine Optimization Software",
         "@type": "OfferCatalog",
         "itemListElement": [
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Answer Engine Optimization (AEO) software",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI Visibility website optimization",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Structured Data generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Knowledge Graph and Entity File generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI-Crawlable Website Creation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Per-page JSON-LD website schema generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI citations generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           }
         ]
@@ -4054,7 +3702,7 @@
     {
       "url": "aeoptimizer.com",
       "name": "AI citations generation in Austin",
-      "@type": "ProfessionalService",
+      "@type": "SoftwareApplication",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Austin"
@@ -4063,7 +3711,7 @@
       "provider": {
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
-        "@type": "ProfessionalService",
+        "@type": "SoftwareApplication",
         "telephone": "(213) 537-5613"
       },
       "telephone": "(213) 537-5613",
@@ -4074,70 +3722,62 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "AE Optimizer provides AI citations generation in Los Angeles, San Diego, Austin. AE Optimizer provides Answer Engine Optimization (AEO) software designed to make websites visible to AI platforms like ChatGPT, Perplexity, and Google AI Overviews. It generates structured data, AI visibility files, and optimized content, along with building an authority network across the web through AI distribution for entity recognition, helping businesses get cited by AI answer engines. Serving Austin.",
       "serviceType": "Answer Engine Optimization — AI citations generation",
       "hasOfferCatalog": {
-        "name": "Answer Engine Optimization Services",
+        "name": "Answer Engine Optimization Software",
         "@type": "OfferCatalog",
         "itemListElement": [
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Answer Engine Optimization (AEO) software",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI Visibility website optimization",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Structured Data generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Knowledge Graph and Entity File generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI-Crawlable Website Creation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Per-page JSON-LD website schema generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI citations generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           }
         ]
@@ -4146,7 +3786,7 @@
     {
       "url": "aeoptimizer.com",
       "name": "AI citations generation in Denver",
-      "@type": "ProfessionalService",
+      "@type": "SoftwareApplication",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Denver"
@@ -4155,7 +3795,7 @@
       "provider": {
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
-        "@type": "ProfessionalService",
+        "@type": "SoftwareApplication",
         "telephone": "(213) 537-5613"
       },
       "telephone": "(213) 537-5613",
@@ -4166,70 +3806,62 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "AE Optimizer provides AI citations generation in Los Angeles, San Diego, Austin. AE Optimizer provides Answer Engine Optimization (AEO) software designed to make websites visible to AI platforms like ChatGPT, Perplexity, and Google AI Overviews. It generates structured data, AI visibility files, and optimized content, along with building an authority network across the web through AI distribution for entity recognition, helping businesses get cited by AI answer engines. Serving Denver.",
       "serviceType": "Answer Engine Optimization — AI citations generation",
       "hasOfferCatalog": {
-        "name": "Answer Engine Optimization Services",
+        "name": "Answer Engine Optimization Software",
         "@type": "OfferCatalog",
         "itemListElement": [
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Answer Engine Optimization (AEO) software",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI Visibility website optimization",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Structured Data generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Knowledge Graph and Entity File generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI-Crawlable Website Creation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Per-page JSON-LD website schema generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI citations generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           }
         ]
@@ -4238,7 +3870,7 @@
     {
       "url": "aeoptimizer.com",
       "name": "AI citations generation in Salt Lake City",
-      "@type": "ProfessionalService",
+      "@type": "SoftwareApplication",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Salt Lake City"
@@ -4247,7 +3879,7 @@
       "provider": {
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
-        "@type": "ProfessionalService",
+        "@type": "SoftwareApplication",
         "telephone": "(213) 537-5613"
       },
       "telephone": "(213) 537-5613",
@@ -4258,70 +3890,62 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "AE Optimizer provides AI citations generation in Los Angeles, San Diego, Austin. AE Optimizer provides Answer Engine Optimization (AEO) software designed to make websites visible to AI platforms like ChatGPT, Perplexity, and Google AI Overviews. It generates structured data, AI visibility files, and optimized content, along with building an authority network across the web through AI distribution for entity recognition, helping businesses get cited by AI answer engines. Serving Salt Lake City.",
       "serviceType": "Answer Engine Optimization — AI citations generation",
       "hasOfferCatalog": {
-        "name": "Answer Engine Optimization Services",
+        "name": "Answer Engine Optimization Software",
         "@type": "OfferCatalog",
         "itemListElement": [
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Answer Engine Optimization (AEO) software",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI Visibility website optimization",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Structured Data generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Knowledge Graph and Entity File generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI-Crawlable Website Creation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Per-page JSON-LD website schema generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI citations generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           }
         ]
@@ -4330,7 +3954,7 @@
     {
       "url": "aeoptimizer.com",
       "name": "AI citations generation in Las Vegas",
-      "@type": "ProfessionalService",
+      "@type": "SoftwareApplication",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Las Vegas"
@@ -4339,7 +3963,7 @@
       "provider": {
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
-        "@type": "ProfessionalService",
+        "@type": "SoftwareApplication",
         "telephone": "(213) 537-5613"
       },
       "telephone": "(213) 537-5613",
@@ -4350,70 +3974,62 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "AE Optimizer provides AI citations generation in Los Angeles, San Diego, Austin. AE Optimizer provides Answer Engine Optimization (AEO) software designed to make websites visible to AI platforms like ChatGPT, Perplexity, and Google AI Overviews. It generates structured data, AI visibility files, and optimized content, along with building an authority network across the web through AI distribution for entity recognition, helping businesses get cited by AI answer engines. Serving Las Vegas.",
       "serviceType": "Answer Engine Optimization — AI citations generation",
       "hasOfferCatalog": {
-        "name": "Answer Engine Optimization Services",
+        "name": "Answer Engine Optimization Software",
         "@type": "OfferCatalog",
         "itemListElement": [
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Answer Engine Optimization (AEO) software",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI Visibility website optimization",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Structured Data generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Knowledge Graph and Entity File generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI-Crawlable Website Creation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Per-page JSON-LD website schema generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI citations generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           }
         ]
@@ -4422,7 +4038,7 @@
     {
       "url": "aeoptimizer.com",
       "name": "AI citations generation in San Francisco",
-      "@type": "ProfessionalService",
+      "@type": "SoftwareApplication",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "San Francisco"
@@ -4431,7 +4047,7 @@
       "provider": {
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
-        "@type": "ProfessionalService",
+        "@type": "SoftwareApplication",
         "telephone": "(213) 537-5613"
       },
       "telephone": "(213) 537-5613",
@@ -4442,70 +4058,62 @@
         },
         {
           "name": "United States",
-          "@type": "City"
-        },
-        {
-          "name": "National",
-          "@type": "City"
-        },
-        {
-          "name": "Nationwide",
-          "@type": "City"
+          "@type": "Country"
         }
       ],
       "description": "AE Optimizer provides AI citations generation in Los Angeles, San Diego, Austin. AE Optimizer provides Answer Engine Optimization (AEO) software designed to make websites visible to AI platforms like ChatGPT, Perplexity, and Google AI Overviews. It generates structured data, AI visibility files, and optimized content, along with building an authority network across the web through AI distribution for entity recognition, helping businesses get cited by AI answer engines. Serving San Francisco.",
       "serviceType": "Answer Engine Optimization — AI citations generation",
       "hasOfferCatalog": {
-        "name": "Answer Engine Optimization Services",
+        "name": "Answer Engine Optimization Software",
         "@type": "OfferCatalog",
         "itemListElement": [
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Answer Engine Optimization (AEO) software",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI Visibility website optimization",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Structured Data generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Knowledge Graph and Entity File generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI-Crawlable Website Creation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "Per-page JSON-LD website schema generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "name": "AI citations generation",
-              "@type": "Service"
+              "@type": "SoftwareApplication"
             }
           }
         ]
