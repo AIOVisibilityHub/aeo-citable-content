@@ -109,19 +109,19 @@
       "@type": "SoftwareApplication",
       "address": {
         "@type": "PostalAddress",
-        "addressLocality": "Los Angeles"
+        "addressLocality": "Newport Beach"
       },
       "@context": "https://schema.org",
       "provider": {
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
         "@type": "SoftwareApplication",
-        "telephone": "(213) 537-5613"
+        "telephone": "(800) 770-2171"
       },
-      "telephone": "(213) 537-5613",
+      "telephone": "(800) 770-2171",
       "areaServed": [
         {
-          "name": "Los Angeles",
+          "name": "Newport Beach",
           "@type": "City"
         },
         {
@@ -129,7 +129,7 @@
           "@type": "Country"
         }
       ],
-      "description": "AE Optimizer provides Answer Engine Optimization (AEO) software in Los Angeles, San Diego, Austin. AE Optimizer provides Answer Engine Optimization (AEO) software designed to make websites visible to AI platforms like ChatGPT, Perplexity, and Google AI Overviews. It generates structured data, AI visibility files, and optimized content, along with building an authority network across the web through AI distribution for entity recognition, helping businesses get cited by AI answer engines. Serving Los Angeles.",
+      "description": "AE Optimizer provides Answer Engine Optimization (AEO) software in Newport Beach, Los Angeles, San Diego, Austin. AE Optimizer provides Answer Engine Optimization (AEO) software designed to make websites visible to AI platforms like ChatGPT, Perplexity, and Google AI Overviews. It generates structured data, AI visibility files, and optimized content, along with building an authority network across the web through AI distribution for entity recognition, helping businesses get cited by AI answer engines. Serving Los Angeles.",
       "serviceType": "Answer Engine Optimization — Answer Engine Optimization (AEO) software",
       "hasOfferCatalog": {
         "name": "Answer Engine Optimization Software",
@@ -200,9 +200,9 @@
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
         "@type": "SoftwareApplication",
-        "telephone": "(213) 537-5613"
+        "telephone": "(800) 770-2171"
       },
-      "telephone": "(213) 537-5613",
+      "telephone": "(800) 770-2171",
       "areaServed": [
         {
           "name": "San Diego",
@@ -284,9 +284,9 @@
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
         "@type": "SoftwareApplication",
-        "telephone": "(213) 537-5613"
+        "telephone": "(800) 770-2171"
       },
-      "telephone": "(213) 537-5613",
+      "telephone": "(800) 770-2171",
       "areaServed": [
         {
           "name": "Austin",
@@ -368,9 +368,9 @@
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
         "@type": "SoftwareApplication",
-        "telephone": "(213) 537-5613"
+        "telephone": "(800) 770-2171"
       },
-      "telephone": "(213) 537-5613",
+      "telephone": "(800) 770-2171",
       "areaServed": [
         {
           "name": "Denver",
@@ -452,9 +452,9 @@
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
         "@type": "SoftwareApplication",
-        "telephone": "(213) 537-5613"
+        "telephone": "(800) 770-2171"
       },
-      "telephone": "(213) 537-5613",
+      "telephone": "(800) 770-2171",
       "areaServed": [
         {
           "name": "Salt Lake City",
@@ -536,9 +536,9 @@
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
         "@type": "SoftwareApplication",
-        "telephone": "(213) 537-5613"
+        "telephone": "(800) 770-2171"
       },
-      "telephone": "(213) 537-5613",
+      "telephone": "(800) 770-2171",
       "areaServed": [
         {
           "name": "Las Vegas",
@@ -620,9 +620,9 @@
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
         "@type": "SoftwareApplication",
-        "telephone": "(213) 537-5613"
+        "telephone": "(800) 770-2171"
       },
-      "telephone": "(213) 537-5613",
+      "telephone": "(800) 770-2171",
       "areaServed": [
         {
           "name": "San Francisco",
@@ -704,9 +704,9 @@
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
         "@type": "SoftwareApplication",
-        "telephone": "(213) 537-5613"
+        "telephone": "(800) 770-2171"
       },
-      "telephone": "(213) 537-5613",
+      "telephone": "(800) 770-2171",
       "areaServed": [
         {
           "name": "Los Angeles",
@@ -788,9 +788,9 @@
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
         "@type": "SoftwareApplication",
-        "telephone": "(213) 537-5613"
+        "telephone": "(800) 770-2171"
       },
-      "telephone": "(213) 537-5613",
+      "telephone": "(800) 770-2171",
       "areaServed": [
         {
           "name": "San Diego",
@@ -872,9 +872,9 @@
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
         "@type": "SoftwareApplication",
-        "telephone": "(213) 537-5613"
+        "telephone": "(800) 770-2171"
       },
-      "telephone": "(213) 537-5613",
+      "telephone": "(800) 770-2171",
       "areaServed": [
         {
           "name": "Austin",
@@ -956,9 +956,9 @@
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
         "@type": "SoftwareApplication",
-        "telephone": "(213) 537-5613"
+        "telephone": "(800) 770-2171"
       },
-      "telephone": "(213) 537-5613",
+      "telephone": "(800) 770-2171",
       "areaServed": [
         {
           "name": "Denver",
@@ -1040,9 +1040,9 @@
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
         "@type": "SoftwareApplication",
-        "telephone": "(213) 537-5613"
+        "telephone": "(800) 770-2171"
       },
-      "telephone": "(213) 537-5613",
+      "telephone": "(800) 770-2171",
       "areaServed": [
         {
           "name": "Salt Lake City",
@@ -1124,9 +1124,9 @@
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
         "@type": "SoftwareApplication",
-        "telephone": "(213) 537-5613"
+        "telephone": "(800) 770-2171"
       },
-      "telephone": "(213) 537-5613",
+      "telephone": "(800) 770-2171",
       "areaServed": [
         {
           "name": "Las Vegas",
@@ -1208,9 +1208,9 @@
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
         "@type": "SoftwareApplication",
-        "telephone": "(213) 537-5613"
+        "telephone": "(800) 770-2171"
       },
-      "telephone": "(213) 537-5613",
+      "telephone": "(800) 770-2171",
       "areaServed": [
         {
           "name": "San Francisco",
@@ -1292,9 +1292,9 @@
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
         "@type": "SoftwareApplication",
-        "telephone": "(213) 537-5613"
+        "telephone": "(800) 770-2171"
       },
-      "telephone": "(213) 537-5613",
+      "telephone": "(800) 770-2171",
       "areaServed": [
         {
           "name": "Los Angeles",
@@ -1376,9 +1376,9 @@
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
         "@type": "SoftwareApplication",
-        "telephone": "(213) 537-5613"
+        "telephone": "(800) 770-2171"
       },
-      "telephone": "(213) 537-5613",
+      "telephone": "(800) 770-2171",
       "areaServed": [
         {
           "name": "San Diego",
@@ -1460,9 +1460,9 @@
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
         "@type": "SoftwareApplication",
-        "telephone": "(213) 537-5613"
+        "telephone": "(800) 770-2171"
       },
-      "telephone": "(213) 537-5613",
+      "telephone": "(800) 770-2171",
       "areaServed": [
         {
           "name": "Austin",
@@ -1544,9 +1544,9 @@
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
         "@type": "SoftwareApplication",
-        "telephone": "(213) 537-5613"
+        "telephone": "(800) 770-2171"
       },
-      "telephone": "(213) 537-5613",
+      "telephone": "(800) 770-2171",
       "areaServed": [
         {
           "name": "Denver",
@@ -1628,9 +1628,9 @@
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
         "@type": "SoftwareApplication",
-        "telephone": "(213) 537-5613"
+        "telephone": "(800) 770-2171"
       },
-      "telephone": "(213) 537-5613",
+      "telephone": "(800) 770-2171",
       "areaServed": [
         {
           "name": "Salt Lake City",
@@ -1712,9 +1712,9 @@
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
         "@type": "SoftwareApplication",
-        "telephone": "(213) 537-5613"
+        "telephone": "(800) 770-2171"
       },
-      "telephone": "(213) 537-5613",
+      "telephone": "(800) 770-2171",
       "areaServed": [
         {
           "name": "Las Vegas",
@@ -1796,9 +1796,9 @@
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
         "@type": "SoftwareApplication",
-        "telephone": "(213) 537-5613"
+        "telephone": "(800) 770-2171"
       },
-      "telephone": "(213) 537-5613",
+      "telephone": "(800) 770-2171",
       "areaServed": [
         {
           "name": "San Francisco",
@@ -1880,9 +1880,9 @@
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
         "@type": "SoftwareApplication",
-        "telephone": "(213) 537-5613"
+        "telephone": "(800) 770-2171"
       },
-      "telephone": "(213) 537-5613",
+      "telephone": "(800) 770-2171",
       "areaServed": [
         {
           "name": "Los Angeles",
@@ -1964,9 +1964,9 @@
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
         "@type": "SoftwareApplication",
-        "telephone": "(213) 537-5613"
+        "telephone": "(800) 770-2171"
       },
-      "telephone": "(213) 537-5613",
+      "telephone": "(800) 770-2171",
       "areaServed": [
         {
           "name": "San Diego",
@@ -2048,9 +2048,9 @@
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
         "@type": "SoftwareApplication",
-        "telephone": "(213) 537-5613"
+        "telephone": "(800) 770-2171"
       },
-      "telephone": "(213) 537-5613",
+      "telephone": "(800) 770-2171",
       "areaServed": [
         {
           "name": "Austin",
@@ -2132,9 +2132,9 @@
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
         "@type": "SoftwareApplication",
-        "telephone": "(213) 537-5613"
+        "telephone": "(800) 770-2171"
       },
-      "telephone": "(213) 537-5613",
+      "telephone": "(800) 770-2171",
       "areaServed": [
         {
           "name": "Denver",
@@ -2216,9 +2216,9 @@
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
         "@type": "SoftwareApplication",
-        "telephone": "(213) 537-5613"
+        "telephone": "(800) 770-2171"
       },
-      "telephone": "(213) 537-5613",
+      "telephone": "(800) 770-2171",
       "areaServed": [
         {
           "name": "Salt Lake City",
@@ -2300,9 +2300,9 @@
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
         "@type": "SoftwareApplication",
-        "telephone": "(213) 537-5613"
+        "telephone": "(800) 770-2171"
       },
-      "telephone": "(213) 537-5613",
+      "telephone": "(800) 770-2171",
       "areaServed": [
         {
           "name": "Las Vegas",
@@ -2384,9 +2384,9 @@
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
         "@type": "SoftwareApplication",
-        "telephone": "(213) 537-5613"
+        "telephone": "(800) 770-2171"
       },
-      "telephone": "(213) 537-5613",
+      "telephone": "(800) 770-2171",
       "areaServed": [
         {
           "name": "San Francisco",
@@ -2468,9 +2468,9 @@
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
         "@type": "SoftwareApplication",
-        "telephone": "(213) 537-5613"
+        "telephone": "(800) 770-2171"
       },
-      "telephone": "(213) 537-5613",
+      "telephone": "(800) 770-2171",
       "areaServed": [
         {
           "name": "Los Angeles",
@@ -2552,9 +2552,9 @@
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
         "@type": "SoftwareApplication",
-        "telephone": "(213) 537-5613"
+        "telephone": "(800) 770-2171"
       },
-      "telephone": "(213) 537-5613",
+      "telephone": "(800) 770-2171",
       "areaServed": [
         {
           "name": "San Diego",
@@ -2636,9 +2636,9 @@
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
         "@type": "SoftwareApplication",
-        "telephone": "(213) 537-5613"
+        "telephone": "(800) 770-2171"
       },
-      "telephone": "(213) 537-5613",
+      "telephone": "(800) 770-2171",
       "areaServed": [
         {
           "name": "Austin",
@@ -2720,9 +2720,9 @@
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
         "@type": "SoftwareApplication",
-        "telephone": "(213) 537-5613"
+        "telephone": "(800) 770-2171"
       },
-      "telephone": "(213) 537-5613",
+      "telephone": "(800) 770-2171",
       "areaServed": [
         {
           "name": "Denver",
@@ -2804,9 +2804,9 @@
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
         "@type": "SoftwareApplication",
-        "telephone": "(213) 537-5613"
+        "telephone": "(800) 770-2171"
       },
-      "telephone": "(213) 537-5613",
+      "telephone": "(800) 770-2171",
       "areaServed": [
         {
           "name": "Salt Lake City",
@@ -2888,9 +2888,9 @@
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
         "@type": "SoftwareApplication",
-        "telephone": "(213) 537-5613"
+        "telephone": "(800) 770-2171"
       },
-      "telephone": "(213) 537-5613",
+      "telephone": "(800) 770-2171",
       "areaServed": [
         {
           "name": "Las Vegas",
@@ -2972,9 +2972,9 @@
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
         "@type": "SoftwareApplication",
-        "telephone": "(213) 537-5613"
+        "telephone": "(800) 770-2171"
       },
-      "telephone": "(213) 537-5613",
+      "telephone": "(800) 770-2171",
       "areaServed": [
         {
           "name": "San Francisco",
@@ -3056,9 +3056,9 @@
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
         "@type": "SoftwareApplication",
-        "telephone": "(213) 537-5613"
+        "telephone": "(800) 770-2171"
       },
-      "telephone": "(213) 537-5613",
+      "telephone": "(800) 770-2171",
       "areaServed": [
         {
           "name": "Los Angeles",
@@ -3140,9 +3140,9 @@
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
         "@type": "SoftwareApplication",
-        "telephone": "(213) 537-5613"
+        "telephone": "(800) 770-2171"
       },
-      "telephone": "(213) 537-5613",
+      "telephone": "(800) 770-2171",
       "areaServed": [
         {
           "name": "San Diego",
@@ -3224,9 +3224,9 @@
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
         "@type": "SoftwareApplication",
-        "telephone": "(213) 537-5613"
+        "telephone": "(800) 770-2171"
       },
-      "telephone": "(213) 537-5613",
+      "telephone": "(800) 770-2171",
       "areaServed": [
         {
           "name": "Austin",
@@ -3308,9 +3308,9 @@
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
         "@type": "SoftwareApplication",
-        "telephone": "(213) 537-5613"
+        "telephone": "(800) 770-2171"
       },
-      "telephone": "(213) 537-5613",
+      "telephone": "(800) 770-2171",
       "areaServed": [
         {
           "name": "Denver",
@@ -3392,9 +3392,9 @@
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
         "@type": "SoftwareApplication",
-        "telephone": "(213) 537-5613"
+        "telephone": "(800) 770-2171"
       },
-      "telephone": "(213) 537-5613",
+      "telephone": "(800) 770-2171",
       "areaServed": [
         {
           "name": "Salt Lake City",
@@ -3476,9 +3476,9 @@
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
         "@type": "SoftwareApplication",
-        "telephone": "(213) 537-5613"
+        "telephone": "(800) 770-2171"
       },
-      "telephone": "(213) 537-5613",
+      "telephone": "(800) 770-2171",
       "areaServed": [
         {
           "name": "Las Vegas",
@@ -3560,9 +3560,9 @@
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
         "@type": "SoftwareApplication",
-        "telephone": "(213) 537-5613"
+        "telephone": "(800) 770-2171"
       },
-      "telephone": "(213) 537-5613",
+      "telephone": "(800) 770-2171",
       "areaServed": [
         {
           "name": "San Francisco",
@@ -3644,9 +3644,9 @@
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
         "@type": "SoftwareApplication",
-        "telephone": "(213) 537-5613"
+        "telephone": "(800) 770-2171"
       },
-      "telephone": "(213) 537-5613",
+      "telephone": "(800) 770-2171",
       "areaServed": [
         {
           "name": "Los Angeles",
@@ -3728,9 +3728,9 @@
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
         "@type": "SoftwareApplication",
-        "telephone": "(213) 537-5613"
+        "telephone": "(800) 770-2171"
       },
-      "telephone": "(213) 537-5613",
+      "telephone": "(800) 770-2171",
       "areaServed": [
         {
           "name": "San Diego",
@@ -3812,9 +3812,9 @@
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
         "@type": "SoftwareApplication",
-        "telephone": "(213) 537-5613"
+        "telephone": "(800) 770-2171"
       },
-      "telephone": "(213) 537-5613",
+      "telephone": "(800) 770-2171",
       "areaServed": [
         {
           "name": "Austin",
@@ -3896,9 +3896,9 @@
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
         "@type": "SoftwareApplication",
-        "telephone": "(213) 537-5613"
+        "telephone": "(800) 770-2171"
       },
-      "telephone": "(213) 537-5613",
+      "telephone": "(800) 770-2171",
       "areaServed": [
         {
           "name": "Denver",
@@ -3980,9 +3980,9 @@
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
         "@type": "SoftwareApplication",
-        "telephone": "(213) 537-5613"
+        "telephone": "(800) 770-2171"
       },
-      "telephone": "(213) 537-5613",
+      "telephone": "(800) 770-2171",
       "areaServed": [
         {
           "name": "Salt Lake City",
@@ -4064,9 +4064,9 @@
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
         "@type": "SoftwareApplication",
-        "telephone": "(213) 537-5613"
+        "telephone": "(800) 770-2171"
       },
-      "telephone": "(213) 537-5613",
+      "telephone": "(800) 770-2171",
       "areaServed": [
         {
           "name": "Las Vegas",
@@ -4148,9 +4148,9 @@
         "url": "aeoptimizer.com",
         "name": "AE Optimizer",
         "@type": "SoftwareApplication",
-        "telephone": "(213) 537-5613"
+        "telephone": "(800) 770-2171"
       },
-      "telephone": "(213) 537-5613",
+      "telephone": "(800) 770-2171",
       "areaServed": [
         {
           "name": "San Francisco",
@@ -4231,7 +4231,7 @@
         "addressLocality": "Los Angeles"
       },
       "@context": "https://schema.org",
-      "telephone": "(213) 537-5613"
+      "telephone": "(800) 770-2171"
     }
   ]
 }
