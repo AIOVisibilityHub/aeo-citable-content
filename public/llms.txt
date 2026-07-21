@@ -16,8 +16,6 @@ AE Optimizer publishes structured AI-readable data for discovery and recommendat
 - AI-Crawlable Website Creation
 - Per-page JSON-LD website schema generation
 - AI citations generation
-## Keyword Targets
-Topics and search terms AE Optimizer's content is optimized to be cited for — not standalone offerings.
 - answer engine optimization for websites voice search
 - voice search optimization
 - how to optimize for voice search
