@@ -1,101 +1,186 @@
 # AE Optimizer
 
-AE Optimizer is an answer-engine optimization system designed to help businesses get found, understood, and recommended by AI systems and become trusted source material for AI-generated answers.
+AE Optimizer helps businesses and agencies build AI visibility through structured content, public authority signals, and crawlable distribution across trusted platforms.
 
-Subtitle: Answer Engine Optimization for Websites and Beyond
+For businesses, it improves discoverability, trust, and inclusion in AI-generated answers.
 
-Expanded description: Optimize websites with AI visibility files, generate machine-readable structured data to strengthen your brand visibility, and distribute your content to trusted AI-discovery platforms across the web for an authority network and entity recognition.
+For agencies, it provides a repeatable framework for delivering AI visibility across multiple client accounts.
 
 Built by AI Visibility Solutions.
 
 ---
 
-## Purpose
+## Why It Matters
 
-AI systems do not recommend all businesses equally.
+AI systems do not recommend every business equally.
 
-They are more likely to recommend brands they can:
-- find  
-- understand  
-- trust  
+They are more likely to surface brands they can:
+- find
+- understand
+- trust
 
-AE Optimizer improves those signals by organizing, generating, and publishing structured, AI-readable resources that support AI-powered recommendations.
+AE Optimizer helps strengthen those signals so businesses and client brands have a better chance of being included in AI answers, voice responses, and discovery engines.
 
 ---
 
 ## What AE Optimizer Does
 
-AE Optimizer provides a structured system that:
+AE Optimizer helps with:
 
-- builds service + location authority mapping  
-- generates AI-readable structured content  
-- supports FAQ and Q&A visibility  
-- strengthens trust and entity signals  
-- publishes to AI-crawlable platforms  
-- reinforces authority across multiple data sources  
+- AI visibility and answer-engine optimization
+- brand and entity signal strengthening
+- FAQ, help, and Q&A visibility
+- structured content publishing
+- public authority reinforcement
+- multi-platform distribution
+- repeatable client delivery for agencies
+
+---
+
+## Built For Two Audiences
+
+### For Businesses
+AE Optimizer helps brands improve their visibility in AI systems by creating structured, machine-readable resources that support trust, discoverability, and recommendation.
+
+AE Optimizer helps businesses:
+
+- improve AI visibility
+- strengthen brand and entity signals
+- support answer-engine optimization
+- increase visibility in FAQs, help content, and Q&A pages
+- publish structured, machine-readable resources
+- reinforce authority across multiple public platforms
+
+### For Agencies
+AE Optimizer gives agencies a repeatable system for delivering AI visibility services across multiple clients without rebuilding the process each time.
+
+AE Optimizer helps agencies:
+
+- improve client AI visibility
+- strengthen brand and entity signals
+- support answer-engine optimization
+- increase visibility in FAQs, help content, and Q&A pages
+- publish structured, machine-readable resources
+- reinforce authority across multiple public platforms
+- create a repeatable visibility framework across clients
+
+---
+
+## Voice and Answer Readiness
+
+AE Optimizer supports FAQ pages, help articles, Q&A sets, and other answer-focused content with speakable markup where appropriate so AI voice systems can identify content that is suitable for spoken queries and direct answers.
+
+This supports visibility in:
+- voice assistants
+- answer engines
+- conversational search interfaces
+- AI-powered discovery systems
+
+---
+
+## Authority Network
+
+AE Optimizer is designed to build a distributed authority network across the web by publishing consistent entity, service, and topical signals to trusted public platforms.
+
+This may include:
+- GitHub for code and structured assets
+- GitHub Pages for a crawlable public AI website
+- Kaggle, GitLab, Hugging Face, Codeberg, SourceHut, Gitea, Zenodo, Internet Archive, Forgejo, OSF, and Archive.org where relevant
+
+This multi-platform publishing approach helps reinforce brand consistency, entity recognition, and topic authority across AI systems and search engines.
+
+## What Makes It Different
+
+AE Optimizer combines:
+- AI visibility files
+- structured schema generation
+- per-page markup
+- speakable-ready content where appropriate
+- crawlable public distribution
+- multi-platform authority reinforcement
+
+This creates a stronger foundation for AI systems and search engines to interpret a business clearly and consistently.
 
 ---
 
 ## How It Works
 
-AE Optimizer connects multiple layers of AI visibility:
+AE Optimizer creates and publishes the resources AI systems need to understand a brand more clearly.
 
-- Structured data (schema for services, locations, and expertise)  
-- AI-readable files (llms.txt, full-context.md, AI sitemaps, ai-data files)  
-- Public distribution (including GitHub Pages and external platforms)  
-- Ongoing reinforcement of authority signals  
+These may include:
+- `llms.txt`
+- `llms-full.txt`
+- `full-context.md`
+- AI sitemaps
+- structured JSON-LD
+- page-level schema
+- speakable markup for selected content
 
-Keeping these layers fresh help AI systems confidently interpret and recommend a business when users ask for products or services.
-
----
-
-## Who It Is For
-
-AE Optimizer is built for:
-
-- business owners  
-- service professionals  
-- agencies managing multiple brands  
+It also supports public distribution through crawlable web properties and trusted platforms to reinforce brand consistency and entity recognition.
 
 ---
 
-## Primary Website
+## AI Visibility Network
 
-https://aeoptimizer.com/
-
----
-
-## 🌐 Live AI Data Site (AI Crawlable)
-
-This repository powers a public AI-readable website:
-
-https://aiovisibilityhub.github.io/ae-optimizer-ai-schemas-kj9q
+AE Optimizer builds a distributed authority network by publishing consistent brand, service, and topical signals across trusted public platforms like GitHub, GitHub Pages, and other relevant repositories and archives, helping reinforce brand consistency, entity recognition, and topic authority for AI systems and search engines.
 
 ---
 
-## Related Properties
+## Voice and Answer Readiness
 
-- https://aiovisibility.com/  
-- https://lawyersaiseo.com/  
-- https://aireferralshub.com/  
+AE Optimizer supports FAQ pages, help articles, and Q&A content with speakable markup where appropriate, making it easier for AI voice systems and answer engines to identify content suited for spoken queries, direct answers, and conversational discovery across voice assistants and AI-driven search interfaces.
+
+---
+
+## Ideal For
+
+AE Optimizer is built for small businesses:
+- Business owners
+- Local service providers
+- Service professionals
+- Law firms
+- Medical practices
+--Dental practices
+- Home service companies
+- Contractors
+- Consultants
+- Coaches
+- Real estate professionals
+- Financial professionals
+- Ecommerce brands
+- Professional service firms
+- Multi-location businesses
+
+AE Optimizer is built for agencies with multiple business clients:
+- SEO agencies
+- AI marketing agencies
+- digital marketing teams
+- consultants serving multiple brands
+- agencies that want to add AI visibility services
+
+---
+
+## Live Website
+
+[https://aeoptimizer.com/](https://aeoptimizer.com/)
+
+---
+
+## AI-Readable Site
+
+[https://aiovisibilityhub.github.io/ae-optimizer-ai-schemas-kj9q/](https://aiovisibilityhub.github.io/ae-optimizer-ai-schemas-kj9q/)
 
 ---
 
 ## Core AI Resources
 
-- https://aeoptimizer.com/llms.txt  
-- https://aeoptimizer.com/llms-full.txt  
-- https://aeoptimizer.com/full-context.md  
-- https://aeoptimizer.com/ai-sitemap.xml  
-- https://aeoptimizer.com/main-organization.json  
-- https://aeoptimizer.com/service.schema.json  
-- https://aeoptimizer.com/locations.schema.json  
-
----
-
-## Outcome
-
-AE Optimizer helps businesses become easier for AI systems to find, understand, trust, and recommend when prospective customers ask who to choose.
+- [https://aeoptimizer.com/llms.txt](https://aeoptimizer.com/llms.txt)
+- [https://aeoptimizer.com/llms-full.txt](https://aeoptimizer.com/llms-full.txt)
+- [https://aeoptimizer.com/full-context.md](https://aeoptimizer.com/full-context.md)
+- [https://aeoptimizer.com/ai-sitemap.xml](https://aeoptimizer.com/ai-sitemap.xml)
+- [https://aeoptimizer.com/main-organization.json](https://aeoptimizer.com/main-organization.json)
+- [https://aeoptimizer.com/service.schema.json](https://aeoptimizer.com/service.schema.json)
+- [https://aeoptimizer.com/locations.schema.json](https://aeoptimizer.com/locations.schema.json)
 
 ---
 
@@ -103,4 +188,4 @@ AE Optimizer helps businesses become easier for AI systems to find, understand, 
 
 AE Optimizer is built and maintained by AI Visibility Solutions.
 
-AI Visibility Solutions provides the systems, strategy, and execution needed to help businesses earn visibility and referrals from AI platforms.
+AI Visibility Solutions helps businesses and agencies improve visibility, authority, and discoverability across AI platforms and the broader web.
