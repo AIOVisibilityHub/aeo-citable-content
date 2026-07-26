@@ -1,4 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
+import { useState } from "react";
 import speakableSchema from "@/assets/speakable_schema.png.asset.json";
 import aiDistribution from "@/assets/ai-distribution.png.asset.json";
 import helpArticles from "@/assets/help_articles_speakable.png.asset.json";
@@ -297,7 +298,7 @@ const CORE_FEATURES = [
   "Option to generate add'l schema, as needed",
 ];
 
-const TIERS = [
+const ONETIME_TIERS = [
   {
     name: "DIY Foundation",
     price: "$247",
@@ -332,13 +333,13 @@ const TIERS = [
       "Github for code, GitHub Pages for AI crawlable website + Google-owned Kaggle, GitLab, Hugging Face, Codeberg, Sourcehut, Gitea, Zenodo, Internet Archive, Forgejo, OSF, Archive.org",
   },
   {
-    name: "Visibility Network 10",
-    price: "$997",
-    strike: "$1,997",
+    name: "Authority Max",
+    price: "$747",
+    strike: "$1,497",
     highlight: false,
-    badge: "Scale",
-    tagline: "Everything in Authority Engine — scale your network to 10, 25, 50 or 100 business profiles. Upgrade at any time, just pay the difference.",
-    link: "https://buy.stripe.com/7sYbJ17tj0nH1jB41Jcs80h",
+    badge: "Max Output",
+    tagline: "Everything in Authority Engine at maximum generation capacity — 300 FAQs and 100 Help Articles for one (1) business profile. The same output previously reserved for our Agency 10 tier.",
+    link: "https://buy.stripe.com/8x2cN500R7Q9e6naq7cs80J",
     counts: {
       faq: "300 FAQ schema files",
       help: "100 Help Article schema files",
@@ -346,16 +347,76 @@ const TIERS = [
       paa: "100 People Also Ask research files",
     },
     network:
-      "Github for code, GitHub Pages for AI crawlable website + Google-owned Kaggle, GitLab, Hugging Face, Kaggle, Codeberg, Sourcehut, Gitea, Zenodo, Internet Archive, Forgejo, OSF, Archive.org",
-    variants: [
-      { label: "Network 10", link: "https://buy.stripe.com/7sYbJ17tj0nH1jB41Jcs80h" },
-      { label: "Network 25", link: "https://buy.stripe.com/8x2eVd00R7Q9bYf8hZcs80o" },
-      { label: "Network 50", link: "https://buy.stripe.com/bJeeVdcNDgmF1jB55Ncs80m" },
-      { label: "Network 100", link: "https://buy.stripe.com/7sY14n6pfdat5zR9m3cs80n" },
-      { label: "Network 250", link: "https://buy.stripe.com/4gM4gzaFv3zT8M3cyfcs80D" },
-    ],
+      "Github for code, GitHub Pages for AI crawlable website + Google-owned Kaggle, GitLab, Hugging Face, Codeberg, Sourcehut, Gitea, Zenodo, Internet Archive, Forgejo, OSF, Archive.org",
   },
 ];
+
+const MONTHLY_TIERS = [
+  {
+    name: "DIY Foundation",
+    price: "$97",
+    strike: null as string | null,
+    highlight: false,
+    tagline: "Start building AI visibility and publish on the highest-trusted site AI crawls for discovery. Fresh credits every 30 days.",
+    link: "https://buy.stripe.com/9B6aEXdRHgmFd2jbubcs80K",
+    counts: {
+      faq: "75 FAQ schema files / month",
+      help: "25 Help Article schema files / month",
+      unanswered: "25 Unanswered AI Overviews Q&A files / month",
+      paa: "25 People Also Ask research files / month",
+    },
+    network: "AI crawlable website on GitHub Pages",
+    upgradeNote: "Upgrade any time to publish across all platforms.",
+  },
+  {
+    name: "Authority Engine",
+    price: "$147",
+    strike: null as string | null,
+    highlight: true,
+    badge: "Most Popular",
+    tagline: "The full authority network — mirrored across the platforms AI crawls for discovery. Fresh credits every 30 days.",
+    link: "https://buy.stripe.com/14A9AT14Vdat2nFgOvcs80L",
+    counts: {
+      faq: "150 FAQ schema files / month",
+      help: "50 Help Article schema files / month",
+      unanswered: "50 Unanswered AI Overviews Q&A files / month",
+      paa: "50 People Also Ask research files / month",
+    },
+    network:
+      "Github for code, GitHub Pages for AI crawlable website + Google-owned Kaggle, GitLab, Hugging Face, Codeberg, Sourcehut, Gitea, Zenodo, Internet Archive, Forgejo, OSF, Archive.org",
+  },
+  {
+    name: "Authority Max",
+    price: "$247",
+    strike: null as string | null,
+    highlight: false,
+    badge: "Max Output",
+    tagline: "Maximum monthly generation for one (1) business profile — 300 FAQs and 100 Help Articles refreshed every 30 days.",
+    link: "https://buy.stripe.com/fZuaEXfZP1rL6DVgOvcs80M",
+    counts: {
+      faq: "300 FAQ schema files / month",
+      help: "100 Help Article schema files / month",
+      unanswered: "100 Unanswered AI Overviews Q&A files / month",
+      paa: "100 People Also Ask research files / month",
+    },
+    network:
+      "Github for code, GitHub Pages for AI crawlable website + Google-owned Kaggle, GitLab, Hugging Face, Codeberg, Sourcehut, Gitea, Zenodo, Internet Archive, Forgejo, OSF, Archive.org",
+  },
+];
+
+type Tier = {
+  name: string;
+  price: string;
+  strike: string | null;
+  highlight: boolean;
+  badge?: string;
+  tagline: string;
+  link: string;
+  counts: { faq: string; help: string; unanswered: string; paa: string };
+  network: string;
+  upgradeNote?: string;
+};
+
 
 function Home() {
   return (
@@ -843,6 +904,8 @@ function PricingCompare() {
 }
 
 function Pricing() {
+  const [mode, setMode] = useState<"monthly" | "onetime">("monthly");
+  const tiers = mode === "monthly" ? MONTHLY_TIERS : ONETIME_TIERS;
   return (
     <section id="pricing" className="border-t border-border bg-[color:var(--surface)]/40 py-24">
       <div className="mx-auto max-w-7xl px-6">
@@ -851,19 +914,53 @@ function Pricing() {
             Launch Special
           </span>
           <h2 className="mt-4 font-display text-4xl font-semibold text-foreground md:text-5xl">
-            Own your AI visibility. One payment. Generate additional content when you need it.
+            Choose the path that fits: pay monthly, or pay once and own it.
           </h2>
           <p className="mt-5 text-lg text-muted-foreground">
-            Pick your foundation. Every tier includes the full content engine — differences are in schema
-            volume and how many platforms mirror your entity. DIY Foundation publishes an AI crawlable website for discovery by AI on Github. Upgrade to expand to all platforms.  Need to generate more files?  Options to generate more when you need it.
+            Every tier includes the full content engine — differences are in schema volume and how many
+            platforms mirror your entity. Upgrade or top up any time.
           </p>
         </div>
 
-        <div className="mt-14 grid gap-6 lg:grid-cols-3">
-          {TIERS.map((t) => (
-            <PriceCard key={t.name} tier={t} />
+        {/* Tabs */}
+        <div className="mx-auto mt-10 flex w-full max-w-md items-center rounded-full border border-[color:var(--brand-blue-dark)]/40 bg-[color:var(--brand-blue-dark)]/20 p-1">
+          {([
+            { k: "monthly", label: "Pay Monthly" },
+            { k: "onetime", label: "Pay Once & Own" },
+          ] as const).map((t) => (
+            <button
+              key={t.k}
+              type="button"
+              onClick={() => setMode(t.k)}
+              className={`flex-1 rounded-full px-4 py-2 text-sm font-semibold transition ${
+                mode === t.k
+                  ? "bg-[color:var(--brand-blue)] text-[color:var(--cream)]"
+                  : "text-[color:var(--ink)]/70 hover:text-[color:var(--ink)]"
+              }`}
+            >
+              {t.label}
+            </button>
           ))}
         </div>
+
+        <p className="mx-auto mt-6 max-w-2xl text-center text-sm text-muted-foreground">
+          {mode === "monthly"
+            ? "Build your momentum with monthly AI layering. Get fresh credits every 30 days."
+            : "Buy the software. Own the infrastructure. No forced subscriptions."}
+        </p>
+
+        <div className="mt-10 grid gap-6 lg:grid-cols-3">
+          {tiers.map((t) => (
+            <PriceCard key={t.name} tier={t} mode={mode} />
+          ))}
+        </div>
+
+        {mode === "onetime" && (
+          <ul className="mx-auto mt-8 max-w-2xl space-y-2 text-center text-sm text-muted-foreground">
+            <li>• Top-up credits and monthly refresh options available.</li>
+            <li>• See upgrade options inside the app.</li>
+          </ul>
+        )}
 
         <p className="mt-10 text-center text-sm text-muted-foreground">
           Launch pricing ends without notice. Questions? Email, video walkthroughs, and phone support included.
@@ -873,7 +970,7 @@ function Pricing() {
   );
 }
 
-function PriceCard({ tier }: { tier: (typeof TIERS)[number] }) {
+function PriceCard({ tier, mode }: { tier: Tier; mode: "monthly" | "onetime" }) {
   return (
     <div
       className={`relative flex flex-col rounded-2xl border p-8 transition ${
@@ -893,9 +990,13 @@ function PriceCard({ tier }: { tier: (typeof TIERS)[number] }) {
 
       <div className="mt-6 flex items-baseline gap-3">
         <span className="font-display text-5xl font-bold text-[color:var(--taupe-soft)]">{tier.price}</span>
-        <span className="text-lg text-[color:var(--cream)]/50 line-through">{tier.strike}</span>
+        {tier.strike && (
+          <span className="text-lg text-[color:var(--cream)]/50 line-through">{tier.strike}</span>
+        )}
       </div>
-      <span className="text-xs uppercase tracking-widest text-[color:var(--cream)]/60">One-time</span>
+      <span className="text-xs uppercase tracking-widest text-[color:var(--cream)]/60">
+        {mode === "monthly" ? "Per month" : "One-time"}
+      </span>
 
       <ul className="mt-8 space-y-3 text-sm">
         <PriceFeature primary>{tier.counts.faq}</PriceFeature>
@@ -932,27 +1033,11 @@ function PriceCard({ tier }: { tier: (typeof TIERS)[number] }) {
           Get {tier.name}
           <span aria-hidden className="transition group-hover:translate-x-0.5">→</span>
         </a>
-
-        {tier.variants && (
-          <div className="mt-3 grid grid-cols-2 gap-2">
-            {tier.variants.slice(1).map((v) => (
-              <a
-                key={v.label}
-                href={v.link}
-                target="_blank"
-                rel="noreferrer"
-                className="group inline-flex items-center justify-center gap-1 rounded-md border border-[color:var(--cream)]/20 bg-[color:var(--brand-blue)]/40 px-3 py-2 text-center text-xs font-semibold text-[color:var(--cream)] transition hover:border-[color:var(--taupe)] hover:text-[color:var(--taupe-soft)]"
-              >
-                {v.label}
-                <span aria-hidden className="transition group-hover:translate-x-0.5">→</span>
-              </a>
-            ))}
-          </div>
-        )}
       </div>
     </div>
   );
 }
+
 
 function PriceFeature({ children, primary }: { children: React.ReactNode; primary?: boolean }) {
   return (
