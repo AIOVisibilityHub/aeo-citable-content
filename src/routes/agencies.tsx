@@ -233,9 +233,9 @@ function AgenciesPage() {
           </p>
           <div className="mt-10 grid gap-6 md:grid-cols-3">
             {[
-              { label: "Your Monthly Cost", value: "~$50", sub: "per client or less" },
-              { label: "Your MSRP", value: "$299 – $500", sub: "per client / month" },
-              { label: "Your Profit", value: "$250 – $450", sub: "per client / month" },
+              { label: "Your Monthly Cost", value: "~$50", sub: "per profile or less" },
+              { label: "Your MSRP", value: "$299 – $500", sub: "per profile / month" },
+              { label: "Your Profit", value: "$250 – $450", sub: "per profile / month" },
             ].map((s) => (
               <div key={s.label} className="rounded-2xl border border-border/60 bg-[color:var(--surface-elevated)]/60 p-6">
                 <div className="text-xs uppercase tracking-widest text-[color:var(--ink)]/60">{s.label}</div>
