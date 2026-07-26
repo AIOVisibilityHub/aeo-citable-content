@@ -542,17 +542,17 @@ function AgenciesPage() {
               {
                 n: "1",
                 h: "Mirror",
-                b: "Your client’s business facts, services, locations, FAQs, and structured data get published across all 12 nodes.",
+                b: "Your business facts, services, locations, FAQs, and structured data get published across all 12 nodes.",
               },
               {
                 n: "2",
                 h: "Canonical",
-                b: "Every node points back to your client’s real website with canonical tags — the mirror is validation, the site is the source.",
+                b: "Every node points back to your real website with canonical tags — the mirror is validation, the site is the source.",
               },
               {
                 n: "3",
                 h: "Cite",
-                b: "AI systems crawl the citadels, confirm the facts match, and start recommending and citing your client’s website as the authority.",
+                b: "AI systems crawl the citadels, confirm the facts match, and start recommending and citing your business’s website as the authority.",
               },
             ].map((s) => (
               <div key={s.n} className="rounded-2xl border border-border/60 bg-[color:var(--surface-elevated)]/70 p-6">
@@ -565,7 +565,7 @@ function AgenciesPage() {
 
           <p className="mx-auto mt-10 max-w-3xl text-center text-[color:var(--ink)]/75 leading-relaxed">
             That’s the Citation Loop: 12 high-trust nodes, one Source of Truth, and an AI ecosystem that finds it
-            impossible to ignore your client.
+            impossible to ignore your business.
           </p>
         </div>
       </section>
