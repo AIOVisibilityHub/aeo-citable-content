@@ -596,10 +596,10 @@ function AgenciesPage() {
       <section className="border-t border-border/50 py-20">
         <div className="mx-auto max-w-3xl px-6 text-center">
           <h2 className="font-display text-3xl font-semibold text-[color:var(--ink)] md:text-4xl">
-            Ready to dominate the AI search landscape for your clients?
+            Ready to dominate the AI search landscape for your business?
           </h2>
           <p className="mt-4 text-[color:var(--ink)]/75">
-            Join the agencies using AE Optimizer to turn AI disruption into their most profitable service line.
+            Join the agencies using AE Optimizer to turn AI disruption into their most profitable business line.
           </p>
           <a
             href="#agency-pricing"
