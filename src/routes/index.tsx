@@ -298,7 +298,7 @@ const CORE_FEATURES = [
   "Option to generate add'l schema, as needed",
 ];
 
-const TIERS = [
+const ONETIME_TIERS = [
   {
     name: "DIY Foundation",
     price: "$247",
@@ -333,13 +333,13 @@ const TIERS = [
       "Github for code, GitHub Pages for AI crawlable website + Google-owned Kaggle, GitLab, Hugging Face, Codeberg, Sourcehut, Gitea, Zenodo, Internet Archive, Forgejo, OSF, Archive.org",
   },
   {
-    name: "Visibility Network 10",
-    price: "$997",
-    strike: "$1,997",
+    name: "Authority Max",
+    price: "$747",
+    strike: "$1,497",
     highlight: false,
-    badge: "Scale",
-    tagline: "Everything in Authority Engine — scale your network to 10, 25, 50 or 100 business profiles. Upgrade at any time, just pay the difference.",
-    link: "https://buy.stripe.com/7sYbJ17tj0nH1jB41Jcs80h",
+    badge: "Max Output",
+    tagline: "Everything in Authority Engine at maximum generation capacity — 300 FAQs and 100 Help Articles for one (1) business profile. The same output previously reserved for our Agency 10 tier.",
+    link: "https://buy.stripe.com/8x2cN500R7Q9e6naq7cs80J",
     counts: {
       faq: "300 FAQ schema files",
       help: "100 Help Article schema files",
@@ -347,16 +347,76 @@ const TIERS = [
       paa: "100 People Also Ask research files",
     },
     network:
-      "Github for code, GitHub Pages for AI crawlable website + Google-owned Kaggle, GitLab, Hugging Face, Kaggle, Codeberg, Sourcehut, Gitea, Zenodo, Internet Archive, Forgejo, OSF, Archive.org",
-    variants: [
-      { label: "Network 10", link: "https://buy.stripe.com/7sYbJ17tj0nH1jB41Jcs80h" },
-      { label: "Network 25", link: "https://buy.stripe.com/8x2eVd00R7Q9bYf8hZcs80o" },
-      { label: "Network 50", link: "https://buy.stripe.com/bJeeVdcNDgmF1jB55Ncs80m" },
-      { label: "Network 100", link: "https://buy.stripe.com/7sY14n6pfdat5zR9m3cs80n" },
-      { label: "Network 250", link: "https://buy.stripe.com/4gM4gzaFv3zT8M3cyfcs80D" },
-    ],
+      "Github for code, GitHub Pages for AI crawlable website + Google-owned Kaggle, GitLab, Hugging Face, Codeberg, Sourcehut, Gitea, Zenodo, Internet Archive, Forgejo, OSF, Archive.org",
   },
 ];
+
+const MONTHLY_TIERS = [
+  {
+    name: "DIY Foundation",
+    price: "$97",
+    strike: null as string | null,
+    highlight: false,
+    tagline: "Start building AI visibility and publish on the highest-trusted site AI crawls for discovery. Fresh credits every 30 days.",
+    link: "https://buy.stripe.com/9B6aEXdRHgmFd2jbubcs80K",
+    counts: {
+      faq: "75 FAQ schema files / month",
+      help: "25 Help Article schema files / month",
+      unanswered: "25 Unanswered AI Overviews Q&A files / month",
+      paa: "25 People Also Ask research files / month",
+    },
+    network: "AI crawlable website on GitHub Pages",
+    upgradeNote: "Upgrade any time to publish across all platforms.",
+  },
+  {
+    name: "Authority Engine",
+    price: "$147",
+    strike: null as string | null,
+    highlight: true,
+    badge: "Most Popular",
+    tagline: "The full authority network — mirrored across the platforms AI crawls for discovery. Fresh credits every 30 days.",
+    link: "https://buy.stripe.com/14A9AT14Vdat2nFgOvcs80L",
+    counts: {
+      faq: "150 FAQ schema files / month",
+      help: "50 Help Article schema files / month",
+      unanswered: "50 Unanswered AI Overviews Q&A files / month",
+      paa: "50 People Also Ask research files / month",
+    },
+    network:
+      "Github for code, GitHub Pages for AI crawlable website + Google-owned Kaggle, GitLab, Hugging Face, Codeberg, Sourcehut, Gitea, Zenodo, Internet Archive, Forgejo, OSF, Archive.org",
+  },
+  {
+    name: "Authority Max",
+    price: "$247",
+    strike: null as string | null,
+    highlight: false,
+    badge: "Max Output",
+    tagline: "Maximum monthly generation for one (1) business profile — 300 FAQs and 100 Help Articles refreshed every 30 days.",
+    link: "https://buy.stripe.com/fZuaEXfZP1rL6DVgOvcs80M",
+    counts: {
+      faq: "300 FAQ schema files / month",
+      help: "100 Help Article schema files / month",
+      unanswered: "100 Unanswered AI Overviews Q&A files / month",
+      paa: "100 People Also Ask research files / month",
+    },
+    network:
+      "Github for code, GitHub Pages for AI crawlable website + Google-owned Kaggle, GitLab, Hugging Face, Codeberg, Sourcehut, Gitea, Zenodo, Internet Archive, Forgejo, OSF, Archive.org",
+  },
+];
+
+type Tier = {
+  name: string;
+  price: string;
+  strike: string | null;
+  highlight: boolean;
+  badge?: string;
+  tagline: string;
+  link: string;
+  counts: { faq: string; help: string; unanswered: string; paa: string };
+  network: string;
+  upgradeNote?: string;
+};
+
 
 function Home() {
   return (
