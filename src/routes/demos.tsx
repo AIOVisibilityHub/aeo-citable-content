@@ -71,8 +71,9 @@ function DemosPage() {
     <main className="min-h-screen bg-background">
       <header className="border-b border-border">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-6">
-          <Link to="/" className="font-display text-xl font-semibold text-foreground">
-            AE Optimizer
+          <Link to="/" className="flex items-center gap-2.5">
+            <img src={aeLogoUrl} alt="AE Optimizer" width={32} height={32} loading="eager" decoding="async" fetchPriority="high" className="h-8 w-8 object-contain" />
+            <span className="font-display text-xl font-semibold text-foreground">AE Optimizer</span>
           </Link>
           <nav className="flex items-center gap-6 text-sm text-muted-foreground">
             <Link to="/" className="hover:text-[color:var(--brand-blue)]">Home</Link>
