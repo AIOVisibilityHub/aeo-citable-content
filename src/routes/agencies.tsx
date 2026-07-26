@@ -259,7 +259,7 @@ function AgenciesPage() {
             <p className="mt-4 text-[color:var(--ink)]/75">
               Scale your agency’s AI department on your own terms. Pick the Ownership Plan to pay once and own the
               infrastructure, or the Momentum Plan for monthly credit refreshes and ongoing growth. All tiers include
-              300 FAQs / 100 Help Articles per client per month and the full 12-Node Authority Network.
+              300 FAQs / 100 Help Articles per profile per month and the full 12-Node Authority Network.
             </p>
           </div>
 
@@ -283,7 +283,7 @@ function AgenciesPage() {
 
           <p className="mx-auto mt-6 max-w-3xl text-center text-sm text-[color:var(--ink)]/70">
             {plan === "momentum"
-              ? "Best for agencies scaling fast who want a fresh batch of 300 FAQs / 100 Articles per client every single month."
+              ? "Best for agencies scaling fast who want a fresh batch of 300 FAQs / 100 Articles per profile every single month."
               : "Best for established agencies who want to buy the asset outright and pay only for occasional top-ups as needed."}
           </p>
 
