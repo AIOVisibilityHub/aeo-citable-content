@@ -38,19 +38,19 @@ type Tier = {
 };
 
 const MOMENTUM_TIERS: Tier[] = [
-  { name: "Network 10", price: "$497", capacity: "Up to 10 Clients", perClient: "$49.70 / client", url: "https://buy.stripe.com/5kQaEX7tjdatgevaq7cs80E" },
-  { name: "Network 25", price: "$997", capacity: "Up to 25 Clients", perClient: "$39.88 / client", url: "https://buy.stripe.com/8x2dR93d31rLd2j69Rcs80F" },
-  { name: "Network 50", price: "$1,747", capacity: "Up to 50 Clients", perClient: "$34.94 / client", url: "https://buy.stripe.com/5kQ3cv00Rb2l6DV2XFcs80G", featured: true },
-  { name: "Network 100", price: "$2,997", capacity: "Up to 100 Clients", perClient: "$29.97 / client", url: "https://buy.stripe.com/cNiaEX4h7eex5zRcyfcs80H" },
-  { name: "Network 250", price: "$5,997", capacity: "Up to 250 Clients", perClient: "$23.98 / client", url: "https://buy.stripe.com/eVqaEXeVL1rL8M3gOvcs80I" },
+  { name: "Network 10", price: "$497", capacity: "Up to 10 Profiles", perClient: "$49.70 / profile", url: "https://buy.stripe.com/5kQaEX7tjdatgevaq7cs80E" },
+  { name: "Network 25", price: "$997", capacity: "Up to 25 Profiles", perClient: "$39.88 / profile", url: "https://buy.stripe.com/8x2dR93d31rLd2j69Rcs80F" },
+  { name: "Network 50", price: "$1,747", capacity: "Up to 50 Profiles", perClient: "$34.94 / profile", url: "https://buy.stripe.com/5kQ3cv00Rb2l6DV2XFcs80G", featured: true },
+  { name: "Network 100", price: "$2,997", capacity: "Up to 100 Profiles", perClient: "$29.97 / profile", url: "https://buy.stripe.com/cNiaEX4h7eex5zRcyfcs80H" },
+  { name: "Network 250", price: "$5,997", capacity: "Up to 250 Profiles", perClient: "$23.98 / profile", url: "https://buy.stripe.com/eVqaEXeVL1rL8M3gOvcs80I" },
 ];
 
 const OWNERSHIP_TIERS: Tier[] = [
-  { name: "Network 10", price: "$997", capacity: "Up to 10 Clients", url: "https://buy.stripe.com/7sYbJ17tj0nH1jB41Jcs80h" },
-  { name: "Network 25", price: "$2,497", capacity: "Up to 25 Clients", url: "https://buy.stripe.com/8x2eVd00R7Q9bYf8hZcs80o" },
-  { name: "Network 50", price: "$4,997", capacity: "Up to 50 Clients", url: "https://buy.stripe.com/bJeeVdcNDgmF1jB55Ncs80m", featured: true },
-  { name: "Network 100", price: "$9,997", capacity: "Up to 100 Clients", url: "https://buy.stripe.com/7sY14n6pfdat5zR9m3cs80n" },
-  { name: "Network 250", price: "$24,997", capacity: "Up to 250 Clients", url: "https://buy.stripe.com/4gM4gzaFv3zT8M3cyfcs80D" },
+  { name: "Network 10", price: "$997", capacity: "Up to 10 Profiles", url: "https://buy.stripe.com/7sYbJ17tj0nH1jB41Jcs80h" },
+  { name: "Network 25", price: "$2,497", capacity: "Up to 25 Profiles", url: "https://buy.stripe.com/8x2eVd00R7Q9bYf8hZcs80o" },
+  { name: "Network 50", price: "$4,997", capacity: "Up to 50 Profiles", url: "https://buy.stripe.com/bJeeVdcNDgmF1jB55Ncs80m", featured: true },
+  { name: "Network 100", price: "$9,997", capacity: "Up to 100 Profiles", url: "https://buy.stripe.com/7sY14n6pfdat5zR9m3cs80n" },
+  { name: "Network 250", price: "$24,997", capacity: "Up to 250 Profiles", url: "https://buy.stripe.com/4gM4gzaFv3zT8M3cyfcs80D" },
 ];
 
 const PILLARS = [
