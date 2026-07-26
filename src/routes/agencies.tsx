@@ -142,11 +142,11 @@ function AgenciesPage() {
               Turn AI Visibility Into a New Agency Revenue Stream
             </h1>
             <p className="mt-6 text-lg leading-relaxed text-[color:var(--ink)]/75 md:text-xl">
-              Help your clients show up in Google AI Overviews, ChatGPT, and Perplexity with a system built to improve
+              Help your business show up in Google AI Overviews, ChatGPT, and Perplexity with a system built to improve
               citations, authority signals, and AI-ready content structure.
             </p>
             <p className="mt-4 text-base leading-relaxed text-[color:var(--ink)]/70 md:text-lg">
-              AE Optimizer helps agencies build the technical infrastructure clients need — with machine-readable
+              AE Optimizer helps your agency build the technical infrastructure your business needs — with machine-readable
               content, structured citations, and repeatable monthly output.
             </p>
             <div className="mt-8 flex flex-wrap justify-center gap-3">
@@ -173,9 +173,9 @@ function AgenciesPage() {
           <div>
             <h2 className="font-display text-2xl font-semibold text-[color:var(--ink)] md:text-3xl">The Problem</h2>
             <p className="mt-4 text-base leading-relaxed text-[color:var(--ink)]/75">
-              Traditional SEO is losing visible territory to AI answers. If you’re still selling only keywords and
-              backlinks, you’re solving yesterday’s problem. When Google AI Overviews take up the entire “above the
-              fold,” your clients’ organic clicks disappear. Meanwhile, they’re already asking:{" "}
+              Traditional SEO is losing visible territory to AI answers. If your business still relies only on keywords
+              and backlinks, you’re solving yesterday’s problem. When Google AI Overviews take up the entire “above the
+              fold,” your business’s organic clicks disappear. Meanwhile, your prospects are already asking:{" "}
               <em className="text-[color:var(--ink)]">“How do we show up in ChatGPT?”</em>
             </p>
           </div>
@@ -184,9 +184,9 @@ function AgenciesPage() {
               The Solution: Active AEO Infrastructure
             </h2>
             <p className="mt-4 text-base leading-relaxed text-[color:var(--ink)]/75">
-              AE Optimizer gives your agency an active AI visibility system, not a passive dashboard. Instead of just
+              AE Optimizer gives your business an active AI visibility system, not a passive dashboard. Instead of just
               monitoring mentions, you generate the files, citations, and content structures AI engines can actually
-              read. Every agency seat includes super-powered generation capacity for client fulfillment — a premium
+              read. Every agency seat includes super-powered generation capacity for your fulfillment — a premium
               service with low overhead and strong margins.
             </p>
           </div>
