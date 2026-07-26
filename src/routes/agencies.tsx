@@ -56,31 +56,31 @@ const OWNERSHIP_TIERS: Tier[] = [
 const PILLARS = [
   {
     n: "01",
-    title: "We Engineer Trust via “Data Citadels”",
-    body: "AI systems don’t trust small business websites — they trust the datasets they were trained on. We mirror your client’s business facts onto high-trust repositories like GitHub, Kaggle, and Hugging Face, all pointing back to the client’s main site as the Canonical Source of Truth. You aren’t just optimizing a site; you are vouching for it on the platforms AI already crawls.",
+    title: "We Build Trust Infrastructure, Not Just Rankings",
+    body: "Most AEO agencies still chase keywords and backlinks. AE Optimizer builds Data Citadels — a network of high-trust AI citations that positions your business as the canonical authority in your market. You aren’t renting visibility; you’re building infrastructure that makes AI engines trust your business first.",
     aside:
-      "A Data Citadel is your client’s AI trust stack — a tightly organized network of pages, files, and signals that makes their business look like the clearest, most reliable source in the market. It’s the infrastructure that helps your client become the business AI engines trust first.",
+      "A Data Citadel is your business’s AI trust stack — a tightly organized network of pages, files, and signals that makes your agency look like the clearest, most reliable source in the market.",
   },
   {
     n: "02",
-    title: "Active Generation vs. Passive Monitoring",
-    body: "Most AEO tools observe. They tell you whether a client was mentioned or cited, but they don’t create the assets that influence those outcomes. AE Optimizer builds visibility — generating structured data, FAQ content, supporting knowledge pages, and AI-friendly site files designed to make a business easier to interpret, cite, and recommend.",
+    title: "We Generate Assets, Not Just Reports",
+    body: "Traditional AEO tools observe and report. They tell you what happened, but they don’t produce the files that influence what happens next. AE Optimizer generates the actual structured data, FAQ content, knowledge pages, and AI-friendly site files that make your business easier to interpret, cite, and recommend.",
     aside:
-      "Instead of handing your clients a dashboard full of charts, you give them a system that produces the actual content and signals AI engines can use. You’re not just watching the market change — you’re helping shape the data AI sees.",
+      "Instead of handing you a dashboard full of charts, we give you a system that produces the actual content and signals AI engines can use. You’re not just watching the market change — you’re helping shape the data AI sees.",
   },
   {
     n: "03",
-    title: "AI Voice: Speakable Content Layer",
-    body: "Most websites are written for humans only. AE Optimizer builds an AI Voice layer into your client’s site so their expertise is structured for AI systems to read, interpret, and reuse. Every page schema, FAQ block, Help article, and Q&A section is formatted with Speakable-style markup so key sections are easier to identify, quote, and surface.",
+    title: "We Build Recurring Revenue, Not One-Time Audits",
+    body: "Most AEO agencies sell audits that end at delivery. AE Optimizer is a monthly production engine — 300 FAQ schemas, 100 Help Articles, and ongoing AI Overview research every single month. That means your business gets predictable, repeatable deliverables that turn AI visibility into a true revenue stream.",
     aside:
-      "The result is a site that does more than rank — it speaks in a format AI can process. For agencies, that means you’re delivering a smarter content system built for the next generation of search.",
+      "That’s what lets your business package AI visibility as a premium monthly offer, deliver measurable output, and grow on recurring revenue instead of one-off projects.",
   },
   {
     n: "04",
-    title: "The “Double Horsepower” Agency Seat",
-    body: "Solo owners get a tool. Agencies get a production engine. Every agency seat is super-charged with a much larger monthly generation allowance — including 300 FAQs and 100 Help Articles per client — so your team can support ongoing fulfillment without hitting a wall after setup.",
+    title: "We Give You Margins, Not Just Tool Access",
+    body: "Most AEO agencies charge $3,000–$5,000/month retainers and still outsource the work. AE Optimizer gives you wholesale production capacity at a fraction of the cost — so your business keeps the margin, owns the deliverables, and controls the customer relationship.",
     aside:
-      "That’s what lets you package AE Optimizer as a premium monthly offer, deliver measurable output, and keep clients on a recurring plan instead of a one-and-done project.",
+      "That’s the difference between selling someone else’s labor and owning a profit-generating system inside your own agency.",
   },
 ];
 
