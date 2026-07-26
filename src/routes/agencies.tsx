@@ -198,7 +198,7 @@ function AgenciesPage() {
         <div className="mx-auto max-w-6xl px-6">
           <div className="mx-auto max-w-3xl text-center">
             <h2 className="font-display text-3xl font-semibold text-[color:var(--ink)] md:text-4xl">
-              Four things that make AE Optimizer different for agencies
+              How AE Optimizer is different from other AEO agencies
             </h2>
           </div>
           <div className="mt-12 grid gap-8 md:grid-cols-2">
