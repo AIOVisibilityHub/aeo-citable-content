@@ -431,6 +431,7 @@ function Home() {
       <EntitySection />
       <PricingCompare />
       <Pricing />
+      <AuthorityNetworkSection />
       <FaqSection />
       <ArticlesTeaser />
       <Footer />
