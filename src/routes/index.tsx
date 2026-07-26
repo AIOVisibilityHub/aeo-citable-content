@@ -390,6 +390,7 @@ function Nav() {
           <a href="#demo" className="hover:text-[color:var(--brand-blue)]">Demo</a>
           <a href="#faq" className="hover:text-[color:var(--brand-blue)]">FAQs</a>
           <Link to="/articles" className="hover:text-[color:var(--brand-blue)]">Blog</Link>
+          <Link to="/agencies" className="hover:text-[color:var(--brand-blue)]">Agencies</Link>
           <a href="#pricing" className="hover:text-[color:var(--brand-blue)]">Pricing</a>
         </nav>
         <a
