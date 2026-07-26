@@ -901,7 +901,7 @@ function DemoSection() {
             to="/demos"
             className="group inline-flex items-center gap-2 rounded-lg bg-[color:var(--brand-blue)] px-8 py-4 text-lg font-semibold text-[color:var(--cream)] shadow-[0_10px_30px_-10px_rgba(26,58,87,0.55)] transition hover:bg-[color:var(--brand-blue-light)]"
           >
-            Watch a demo for main features
+            Watch a walkthrough demo for each feature
             <span aria-hidden="true" className="transition group-hover:translate-x-1">→</span>
           </Link>
         </div>
