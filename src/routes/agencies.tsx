@@ -346,10 +346,85 @@ function AgenciesPage() {
             ))}
           </div>
 
-          <ul className="mx-auto mt-8 max-w-3xl space-y-2 text-sm text-[color:var(--ink)]/70">
-            <li>• Top-up credits and monthly refresh options available.</li>
-            <li>• See upgrade options inside the app.</li>
-          </ul>
+          {/* Every tier includes */}
+          <div className="mx-auto mt-14 max-w-6xl rounded-3xl border border-border/60 bg-[color:var(--surface-elevated)]/70 p-8 md:p-10">
+            <div className="text-center">
+              <span className="inline-flex items-center rounded-full border border-[color:var(--brand-blue)]/30 bg-[color:var(--brand-blue)]/10 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-[color:var(--brand-blue)]">
+                Every Tier Includes
+              </span>
+              <h3 className="mt-4 font-display text-2xl md:text-3xl font-semibold text-[color:var(--ink)]">
+                One toolkit. Every client. No feature gating.
+              </h3>
+              <p className="mx-auto mt-3 max-w-2xl text-sm text-[color:var(--ink)]/70">
+                Whether you run 10 clients or 250, every seat in every tier gets the full production engine and the
+                full Authority Network. You scale capacity, not capability.
+              </p>
+            </div>
+
+            <div className="mt-8 grid gap-8 md:grid-cols-2">
+              {/* Per-client monthly capacity */}
+              <div className="rounded-2xl border border-border/60 bg-background/60 p-6">
+                <div className="text-xs font-semibold uppercase tracking-widest text-[color:var(--brand-blue)]">
+                  Per-Client Monthly Capacity
+                </div>
+                <ul className="mt-4 space-y-2 text-sm text-[color:var(--ink)]/85">
+                  <li>• 300 FAQ schema files / month</li>
+                  <li>• 100 Help Article schema files / month</li>
+                  <li>• 100 Unanswered AI Overviews Q&A files / month</li>
+                  <li>• 100 People Also Ask research files / month</li>
+                  <li>• Crawl unlimited pages on your client’s site</li>
+                </ul>
+              </div>
+
+              {/* Authority network */}
+              <div className="rounded-2xl border border-border/60 bg-background/60 p-6">
+                <div className="text-xs font-semibold uppercase tracking-widest text-[color:var(--brand-blue)]">
+                  Full AI Authority Network
+                </div>
+                <p className="mt-4 text-sm text-[color:var(--ink)]/85">
+                  Automated mirroring across every node — no add-ons, no upsells:
+                </p>
+                <p className="mt-3 text-sm text-[color:var(--ink)]/75">
+                  GitHub (code) · GitHub Pages (AI-crawlable website) · Google-owned Kaggle · GitLab · Hugging Face ·
+                  Codeberg · Sourcehut · Gitea · Zenodo · Internet Archive · Forgejo · OSF · Archive.org
+                </p>
+              </div>
+
+              {/* Generation & schema */}
+              <div className="rounded-2xl border border-border/60 bg-background/60 p-6">
+                <div className="text-xs font-semibold uppercase tracking-widest text-[color:var(--brand-blue)]">
+                  Generation & Schema
+                </div>
+                <ul className="mt-4 space-y-2 text-sm text-[color:var(--ink)]/85">
+                  <li>• Website AI visibility files for the root directory</li>
+                  <li>• Per-page code with breadcrumbs & Speakable schema (for Voice Search)</li>
+                  <li>• Instant HTML Accordion web pages (FAQs / Help Articles)</li>
+                  <li>• Research Unanswered AI Overviews Q&As + People Also Ask</li>
+                  <li>• Source-backed research + stat-based content</li>
+                  <li>• High-intent transactional keyword research</li>
+                </ul>
+              </div>
+
+              {/* Intelligence & support */}
+              <div className="rounded-2xl border border-border/60 bg-background/60 p-6">
+                <div className="text-xs font-semibold uppercase tracking-widest text-[color:var(--brand-blue)]">
+                  Intelligence & Support
+                </div>
+                <ul className="mt-4 space-y-2 text-sm text-[color:var(--ink)]/85">
+                  <li>• Choose from Perplexity Sonar or Sonar Reasoning Pro API</li>
+                  <li>• 15-tool Authority Suite (trust, expertise, competitor gap analysis)</li>
+                  <li>• Missed opportunities + visibility gap analysis</li>
+                  <li>• Assistance uploading website AI visibility files, if needed</li>
+                  <li>• Human support via email, video instructions & phone when you need it</li>
+                </ul>
+              </div>
+            </div>
+
+            <ul className="mx-auto mt-8 max-w-3xl space-y-2 text-center text-sm text-[color:var(--ink)]/70">
+              <li>Top-up credits and monthly refresh options available.</li>
+              <li>See upgrade options inside the app.</li>
+            </ul>
+          </div>
         </div>
       </section>
 
