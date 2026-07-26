@@ -353,26 +353,26 @@ function AgenciesPage() {
                 Every Tier Includes
               </span>
               <h3 className="mt-4 font-display text-2xl md:text-3xl font-semibold text-[color:var(--ink)]">
-                One toolkit. Every client. No feature gating.
+                One toolkit. Every profile. No feature gating.
               </h3>
               <p className="mx-auto mt-3 max-w-2xl text-sm text-[color:var(--ink)]/70">
-                Whether you run 10 clients or 250, every seat in every tier gets the full production engine and the
+                Whether you run 10 profiles or 250, every seat in every tier gets the full production engine and the
                 full Authority Network. You scale capacity, not capability.
               </p>
             </div>
 
             <div className="mt-8 grid gap-8 md:grid-cols-2">
-              {/* Per-client monthly capacity */}
+              {/* Per-profile monthly capacity */}
               <div className="rounded-2xl border border-border/60 bg-background/60 p-6">
                 <div className="text-xs font-semibold uppercase tracking-widest text-[color:var(--brand-blue)]">
-                  Per-Client Monthly Capacity
+                  Per-Profile Monthly Capacity
                 </div>
                 <ul className="mt-4 space-y-2 text-sm text-[color:var(--ink)]/85">
                   <li>• 300 FAQ schema files / month</li>
                   <li>• 100 Help Article schema files / month</li>
                   <li>• 100 Unanswered AI Overviews Q&A files / month</li>
                   <li>• 100 People Also Ask research files / month</li>
-                  <li>• Crawl unlimited pages on your client’s site</li>
+                  <li>• Crawl unlimited pages on each business profile</li>
                 </ul>
               </div>
 
