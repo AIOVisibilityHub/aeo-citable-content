@@ -476,17 +476,17 @@ function AgenciesPage() {
                   Instant Trust Transfer
                 </div>
                 <h3 className="mt-2 font-display text-2xl font-semibold text-[color:var(--ink)] md:text-3xl">
-                  Why we mirror your clients on high-trust Data Citadels
+                  Why we mirror your business on high-trust Data Citadels
                 </h3>
                 <p className="mt-4 text-[color:var(--ink)]/80 leading-relaxed">
                   AI systems trust developer and research platforms — GitHub, Kaggle, Hugging Face, the Internet Archive
-                  — far more than they trust a 5-page WordPress site with a stock theme. We mirror your client’s data
-                  there to force AI systems to validate and cite them as the local authority.
+                  — far more than they trust a 5-page WordPress site with a stock theme. We mirror your business’s data
+                  there to force AI systems to validate and cite you as the local authority.
                 </p>
                 <p className="mt-4 text-[color:var(--ink)]/80 leading-relaxed">
-                  Because every mirror uses <strong>Canonical Tags</strong> pointing back to your client’s website, the
+                  Because every mirror uses <strong>Canonical Tags</strong> pointing back to your business’s website, the
                   AI sees the GitHub / Kaggle / Archive data, trusts it immediately, and gives all the credit and
-                  citations to your client’s main site. It’s a VIP pass to the front of the AI crawling line.
+                  citations to your main site. It’s a VIP pass to the front of the AI crawling line.
                 </p>
               </div>
               <div className="rounded-xl border border-[color:var(--brand-blue)]/25 bg-[color:var(--cream)]/60 p-6">
@@ -495,10 +495,10 @@ function AgenciesPage() {
                 </div>
                 <blockquote className="mt-3 border-l-2 border-[color:var(--brand-blue)]/60 pl-4 text-[color:var(--ink)]/85 italic leading-relaxed">
                   “Most small business websites are invisible to AI because they’re buried behind bad code or slow
-                  servers. AI doesn’t want to dig. We take your client’s business facts and mirror them onto GitHub — a
-                  platform ChatGPT and Gemini treat as a Data Citadel — and canonical-tag everything back to their
-                  site. The AI sees the GitHub data, trusts it immediately, and gives all the citation credit to your
-                  client. It’s a VIP pass to the front of the AI crawling line.”
+                  servers. AI doesn’t want to dig. We take your business facts and mirror them onto GitHub — a platform
+                  ChatGPT and Gemini treat as a Data Citadel — and canonical-tag everything back to your site. The AI
+                  sees the GitHub data, trusts it immediately, and gives all the citation credit to your business. It’s
+                  a VIP pass to the front of the AI crawling line.”
                 </blockquote>
               </div>
             </div>
