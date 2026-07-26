@@ -83,7 +83,7 @@ function DemosPage() {
             Feature walkthroughs
           </span>
           <h1 className="mt-4 font-display text-4xl font-semibold text-foreground md:text-5xl">
-            A demo for each main feature of AE Optimizer.
+            A demo for each main feature of the AE Optimizer Software
           </h1>
           <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
             Short, focused walkthrough videos of each of the main features so you can see exactly how each part of AE Optimizer works and how simple it is before you sign up.
