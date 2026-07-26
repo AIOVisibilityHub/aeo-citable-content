@@ -12,13 +12,13 @@ export const Route = createFileRoute("/agencies")({
       {
         name: "description",
         content:
-          "Turn AI visibility into a new agency revenue stream. Wholesale AEO pricing, white-label Data Citadels, and production-scale generation for 10–250 business profiles.",
+          "Turn AI visibility into a new agency revenue stream. Wholesale AEO pricing, white-label Data Citadels, and production-scale generation for 10–250 clients.",
       },
       { property: "og:title", content: "AE Optimizer for Agencies — Wholesale AEO Pricing" },
       {
         property: "og:description",
         content:
-          "Help your business show up in Google AI Overviews, ChatGPT, and Perplexity. Agency seats with maximum generation capacity, 12-node Authority Network, and 90% margins.",
+          "Help your clients show up in Google AI Overviews, ChatGPT, and Perplexity. Agency seats with maximum generation capacity, 12-node Authority Network, and 90% margins.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -38,68 +38,68 @@ type Tier = {
 };
 
 const MOMENTUM_TIERS: Tier[] = [
-  { name: "Network 10", price: "$497", capacity: "Up to 10 Profiles", perClient: "$49.70 / profile", url: "https://buy.stripe.com/5kQaEX7tjdatgevaq7cs80E" },
-  { name: "Network 25", price: "$997", capacity: "Up to 25 Profiles", perClient: "$39.88 / profile", url: "https://buy.stripe.com/8x2dR93d31rLd2j69Rcs80F" },
-  { name: "Network 50", price: "$1,747", capacity: "Up to 50 Profiles", perClient: "$34.94 / profile", url: "https://buy.stripe.com/5kQ3cv00Rb2l6DV2XFcs80G", featured: true },
-  { name: "Network 100", price: "$2,997", capacity: "Up to 100 Profiles", perClient: "$29.97 / profile", url: "https://buy.stripe.com/cNiaEX4h7eex5zRcyfcs80H" },
-  { name: "Network 250", price: "$5,997", capacity: "Up to 250 Profiles", perClient: "$23.98 / profile", url: "https://buy.stripe.com/eVqaEXeVL1rL8M3gOvcs80I" },
+  { name: "Network 10", price: "$497", capacity: "Up to 10 Clients", perClient: "$49.70 / client", url: "https://buy.stripe.com/5kQaEX7tjdatgevaq7cs80E" },
+  { name: "Network 25", price: "$997", capacity: "Up to 25 Clients", perClient: "$39.88 / client", url: "https://buy.stripe.com/8x2dR93d31rLd2j69Rcs80F" },
+  { name: "Network 50", price: "$1,747", capacity: "Up to 50 Clients", perClient: "$34.94 / client", url: "https://buy.stripe.com/5kQ3cv00Rb2l6DV2XFcs80G", featured: true },
+  { name: "Network 100", price: "$2,997", capacity: "Up to 100 Clients", perClient: "$29.97 / client", url: "https://buy.stripe.com/cNiaEX4h7eex5zRcyfcs80H" },
+  { name: "Network 250", price: "$5,997", capacity: "Up to 250 Clients", perClient: "$23.98 / client", url: "https://buy.stripe.com/eVqaEXeVL1rL8M3gOvcs80I" },
 ];
 
 const OWNERSHIP_TIERS: Tier[] = [
-  { name: "Network 10", price: "$997", capacity: "Up to 10 Profiles", url: "https://buy.stripe.com/7sYbJ17tj0nH1jB41Jcs80h" },
-  { name: "Network 25", price: "$2,497", capacity: "Up to 25 Profiles", url: "https://buy.stripe.com/8x2eVd00R7Q9bYf8hZcs80o" },
-  { name: "Network 50", price: "$4,997", capacity: "Up to 50 Profiles", url: "https://buy.stripe.com/bJeeVdcNDgmF1jB55Ncs80m", featured: true },
-  { name: "Network 100", price: "$9,997", capacity: "Up to 100 Profiles", url: "https://buy.stripe.com/7sY14n6pfdat5zR9m3cs80n" },
-  { name: "Network 250", price: "$24,997", capacity: "Up to 250 Profiles", url: "https://buy.stripe.com/4gM4gzaFv3zT8M3cyfcs80D" },
+  { name: "Network 10", price: "$997", capacity: "Up to 10 Clients", url: "https://buy.stripe.com/7sYbJ17tj0nH1jB41Jcs80h" },
+  { name: "Network 25", price: "$2,497", capacity: "Up to 25 Clients", url: "https://buy.stripe.com/8x2eVd00R7Q9bYf8hZcs80o" },
+  { name: "Network 50", price: "$4,997", capacity: "Up to 50 Clients", url: "https://buy.stripe.com/bJeeVdcNDgmF1jB55Ncs80m", featured: true },
+  { name: "Network 100", price: "$9,997", capacity: "Up to 100 Clients", url: "https://buy.stripe.com/7sY14n6pfdat5zR9m3cs80n" },
+  { name: "Network 250", price: "$24,997", capacity: "Up to 250 Clients", url: "https://buy.stripe.com/4gM4gzaFv3zT8M3cyfcs80D" },
 ];
 
 const PILLARS = [
   {
     n: "01",
-    title: "We Build Trust Infrastructure, Not Just Rankings",
-    body: "Most AEO agencies still chase keywords and backlinks. AE Optimizer builds Data Citadels — a network of high-trust AI citations that positions your business as the canonical authority in your market. You aren’t renting visibility; you’re building infrastructure that makes AI engines trust your business first.",
+    title: "We Engineer Trust via “Data Citadels”",
+    body: "AI systems don’t trust small business websites — they trust the datasets they were trained on. We mirror your client’s business facts onto high-trust repositories like GitHub, Kaggle, and Hugging Face, all pointing back to the client’s main site as the Canonical Source of Truth. You aren’t just optimizing a site; you are vouching for it on the platforms AI already crawls.",
     aside:
-      "A Data Citadel is your business’s AI trust stack — a tightly organized network of pages, files, and signals that makes your agency look like the clearest, most reliable source in the market.",
+      "A Data Citadel is your client’s AI trust stack — a tightly organized network of pages, files, and signals that makes their business look like the clearest, most reliable source in the market. It’s the infrastructure that helps your client become the business AI engines trust first.",
   },
   {
     n: "02",
-    title: "We Generate Assets, Not Just Reports",
-    body: "Traditional AEO tools observe and report. They tell you what happened, but they don’t produce the files that influence what happens next. AE Optimizer generates the actual structured data, FAQ content, knowledge pages, and AI-friendly site files that make your business easier to interpret, cite, and recommend.",
+    title: "Active Generation vs. Passive Monitoring",
+    body: "Most AEO tools observe. They tell you whether a client was mentioned or cited, but they don’t create the assets that influence those outcomes. AE Optimizer builds visibility — generating structured data, FAQ content, supporting knowledge pages, and AI-friendly site files designed to make a business easier to interpret, cite, and recommend.",
     aside:
-      "Instead of handing you a dashboard full of charts, we give you a system that produces the actual content and signals AI engines can use. You’re not just watching the market change — you’re helping shape the data AI sees.",
+      "Instead of handing your clients a dashboard full of charts, you give them a system that produces the actual content and signals AI engines can use. You’re not just watching the market change — you’re helping shape the data AI sees.",
   },
   {
     n: "03",
-    title: "We Build Recurring Revenue, Not One-Time Audits",
-    body: "Most AEO agencies sell audits that end at delivery. AE Optimizer is a monthly production engine — 300 FAQ schemas, 100 Help Articles, and ongoing AI Overview research every single month. That means your business gets predictable, repeatable deliverables that turn AI visibility into a true revenue stream.",
+    title: "AI Voice: Speakable Content Layer",
+    body: "Most websites are written for humans only. AE Optimizer builds an AI Voice layer into your client’s site so their expertise is structured for AI systems to read, interpret, and reuse. Every page schema, FAQ block, Help article, and Q&A section is formatted with Speakable-style markup so key sections are easier to identify, quote, and surface.",
     aside:
-      "That’s what lets your business package AI visibility as a premium monthly offer, deliver measurable output, and grow on recurring revenue instead of one-off projects.",
+      "The result is a site that does more than rank — it speaks in a format AI can process. For agencies, that means you’re delivering a smarter content system built for the next generation of search.",
   },
   {
     n: "04",
-    title: "We Give You Margins, Not Just Tool Access",
-    body: "Most AEO agencies charge $3,000–$5,000/month retainers and still outsource the work. AE Optimizer gives you wholesale production capacity at a fraction of the cost — so your business keeps the margin, owns the deliverables, and controls the customer relationship.",
+    title: "The “Double Horsepower” Agency Seat",
+    body: "Solo owners get a tool. Agencies get a production engine. Every agency seat is super-charged with a much larger monthly generation allowance — including 300 FAQs and 100 Help Articles per client — so your team can support ongoing fulfillment without hitting a wall after setup.",
     aside:
-      "That’s the difference between selling someone else’s labor and owning a profit-generating system inside your own agency.",
+      "That’s what lets you package AE Optimizer as a premium monthly offer, deliver measurable output, and keep clients on a recurring plan instead of a one-and-done project.",
   },
 ];
 
 const AGENCY_FAQS = [
   {
     q: "Is this White-Label?",
-    a: "Yes. You manage the software and provide the reports to your customers. The data mirror on GitHub and other repos refers to your business as the Source of Truth, not us. You own the relationship and the monthly revenue.",
+    a: "Yes. You manage the software and provide the reports to your clients. The data mirror on GitHub and other repos refers to your client as the Source of Truth, not us. You own the relationship and the monthly revenue.",
   },
   {
     q: "Do you manage the software for us?",
-    a: "No. This is a DIY technical engine. Your team enters the customer’s URL, chooses the topics, and clicks Generate. We handle the complex schema coding, GitHub mirroring, and AI research — you handle the customer relationship.",
+    a: "No. This is a DIY technical engine. Your team enters the client’s URL, chooses the topics, and clicks Generate. We handle the complex schema coding, GitHub mirroring, and AI research — you handle the client.",
   },
   {
     q: "Why GitHub?",
-    a: "GitHub is a Data Citadel — one of the most trusted datasets in the world for AI training. By mirroring your business’s data and publishing an AI-crawlable website on GitHub Pages, with schema files stored in a crawlable GitHub repository, you place your business in the VIP lane for AI discovery.",
+    a: "GitHub is a Data Citadel — one of the most trusted datasets in the world for AI training. By mirroring your client’s data and publishing an AI-crawlable website on GitHub Pages, with schema files stored in a crawlable GitHub repository, you place your client in the VIP lane for AI discovery.",
   },
   {
-    q: "What happens if a customer cancels?",
-    a: "You can swap that seat to a new customer immediately. The Data Citadel we built for the previous customer remains theirs as a gesture of high-trust, but new content generation stops. We recommend not deleting a profile until you are sure the customer isn’t coming back — or until you’re ready to replace them with another business.",
+    q: "What happens if a client cancels?",
+    a: "You can swap that seat to a new client immediately. The Data Citadel we built for the previous client remains theirs as a gesture of high-trust, but new content generation stops. We recommend not deleting a profile until you are sure the client isn’t coming back — or until you’re ready to replace them with another business.",
   },
 ];
 
@@ -142,11 +142,11 @@ function AgenciesPage() {
               Turn AI Visibility Into a New Agency Revenue Stream
             </h1>
             <p className="mt-6 text-lg leading-relaxed text-[color:var(--ink)]/75 md:text-xl">
-              Help your business show up in Google AI Overviews, ChatGPT, and Perplexity with a system built to improve
+              Help your clients show up in Google AI Overviews, ChatGPT, and Perplexity with a system built to improve
               citations, authority signals, and AI-ready content structure.
             </p>
             <p className="mt-4 text-base leading-relaxed text-[color:var(--ink)]/70 md:text-lg">
-              AE Optimizer helps your agency build the technical infrastructure your business needs — with machine-readable
+              AE Optimizer helps agencies build the technical infrastructure clients need — with machine-readable
               content, structured citations, and repeatable monthly output.
             </p>
             <div className="mt-8 flex flex-wrap justify-center gap-3">
@@ -173,9 +173,9 @@ function AgenciesPage() {
           <div>
             <h2 className="font-display text-2xl font-semibold text-[color:var(--ink)] md:text-3xl">The Problem</h2>
             <p className="mt-4 text-base leading-relaxed text-[color:var(--ink)]/75">
-              Traditional SEO is losing visible territory to AI answers. If your business still relies only on keywords
-              and backlinks, you’re solving yesterday’s problem. When Google AI Overviews take up the entire “above the
-              fold,” your business’s organic clicks disappear. Meanwhile, your prospects are already asking:{" "}
+              Traditional SEO is losing visible territory to AI answers. If you’re still selling only keywords and
+              backlinks, you’re solving yesterday’s problem. When Google AI Overviews take up the entire “above the
+              fold,” your clients’ organic clicks disappear. Meanwhile, they’re already asking:{" "}
               <em className="text-[color:var(--ink)]">“How do we show up in ChatGPT?”</em>
             </p>
           </div>
@@ -184,9 +184,9 @@ function AgenciesPage() {
               The Solution: Active AEO Infrastructure
             </h2>
             <p className="mt-4 text-base leading-relaxed text-[color:var(--ink)]/75">
-              AE Optimizer gives your business an active AI visibility system, not a passive dashboard. Instead of just
+              AE Optimizer gives your agency an active AI visibility system, not a passive dashboard. Instead of just
               monitoring mentions, you generate the files, citations, and content structures AI engines can actually
-              read. Every agency seat includes super-powered generation capacity for your fulfillment — a premium
+              read. Every agency seat includes super-powered generation capacity for client fulfillment — a premium
               service with low overhead and strong margins.
             </p>
           </div>
@@ -198,7 +198,7 @@ function AgenciesPage() {
         <div className="mx-auto max-w-6xl px-6">
           <div className="mx-auto max-w-3xl text-center">
             <h2 className="font-display text-3xl font-semibold text-[color:var(--ink)] md:text-4xl">
-              How AE Optimizer is different from other AEO agencies
+              Four things that make AE Optimizer different for agencies
             </h2>
           </div>
           <div className="mt-12 grid gap-8 md:grid-cols-2">
@@ -233,9 +233,9 @@ function AgenciesPage() {
           </p>
           <div className="mt-10 grid gap-6 md:grid-cols-3">
             {[
-              { label: "Your Monthly Cost", value: "~$50", sub: "per profile or less" },
-              { label: "Your MSRP", value: "$299 – $500", sub: "per profile / month" },
-              { label: "Your Profit", value: "$250 – $450", sub: "per profile / month" },
+              { label: "Your Monthly Cost", value: "~$50", sub: "per client or less" },
+              { label: "Your MSRP", value: "$299 – $500", sub: "per client / month" },
+              { label: "Your Profit", value: "$250 – $450", sub: "per client / month" },
             ].map((s) => (
               <div key={s.label} className="rounded-2xl border border-border/60 bg-[color:var(--surface-elevated)]/60 p-6">
                 <div className="text-xs uppercase tracking-widest text-[color:var(--ink)]/60">{s.label}</div>
@@ -259,7 +259,7 @@ function AgenciesPage() {
             <p className="mt-4 text-[color:var(--ink)]/75">
               Scale your agency’s AI department on your own terms. Pick the Ownership Plan to pay once and own the
               infrastructure, or the Momentum Plan for monthly credit refreshes and ongoing growth. All tiers include
-              300 FAQs / 100 Help Articles per profile per month and the full 12-Node Authority Network.
+              300 FAQs / 100 Help Articles per client per month and the full 12-Node Authority Network.
             </p>
           </div>
 
@@ -283,7 +283,7 @@ function AgenciesPage() {
 
           <p className="mx-auto mt-6 max-w-3xl text-center text-sm text-[color:var(--ink)]/70">
             {plan === "momentum"
-              ? "Best for agencies scaling fast who want a fresh batch of 300 FAQs / 100 Articles per profile every single month."
+              ? "Best for agencies scaling fast who want a fresh batch of 300 FAQs / 100 Articles per client every single month."
               : "Best for established agencies who want to buy the asset outright and pay only for occasional top-ups as needed."}
           </p>
 
@@ -353,26 +353,26 @@ function AgenciesPage() {
                 Every Tier Includes
               </span>
               <h3 className="mt-4 font-display text-2xl md:text-3xl font-semibold text-[color:var(--ink)]">
-                One toolkit. Every profile. No feature gating.
+                One toolkit. Every client. No feature gating.
               </h3>
               <p className="mx-auto mt-3 max-w-2xl text-sm text-[color:var(--ink)]/70">
-                Whether you run 10 profiles or 250, every seat in every tier gets the full production engine and the
+                Whether you run 10 clients or 250, every seat in every tier gets the full production engine and the
                 full Authority Network. You scale capacity, not capability.
               </p>
             </div>
 
             <div className="mt-8 grid gap-8 md:grid-cols-2">
-              {/* Per-profile monthly capacity */}
+              {/* Per-client monthly capacity */}
               <div className="rounded-2xl border border-border/60 bg-background/60 p-6">
                 <div className="text-xs font-semibold uppercase tracking-widest text-[color:var(--brand-blue)]">
-                  Per-Profile Monthly Capacity
+                  Per-Client Monthly Capacity
                 </div>
                 <ul className="mt-4 space-y-2 text-sm text-[color:var(--ink)]/85">
                   <li>• 300 FAQ schema files / month</li>
                   <li>• 100 Help Article schema files / month</li>
                   <li>• 100 Unanswered AI Overviews Q&A files / month</li>
                   <li>• 100 People Also Ask research files / month</li>
-                  <li>• Crawl unlimited pages on each business profile</li>
+                  <li>• Crawl unlimited pages on your client’s site</li>
                 </ul>
               </div>
 
@@ -439,7 +439,7 @@ function AgenciesPage() {
               The AI Authority Network: 12 Nodes of Global Trust
             </h2>
             <p className="mt-5 text-lg text-[color:var(--ink)]/80 leading-relaxed">
-              We don’t just hope AI finds your business. We put your data where AI already lives — mirroring your
+              We don’t just hope AI finds your clients. We put their data where AI already lives — mirroring their
               business entity across the exact platforms ChatGPT, Gemini, Claude, Perplexity, and Grok were trained on
               and continue to crawl for “the truth.”
             </p>
@@ -450,15 +450,15 @@ function AgenciesPage() {
             {[
               {
                 h: "AI models were trained on GitHub",
-                b: "ChatGPT, Gemini, and Claude were built on top of GitHub. It’s one of the cleanest, most trusted, most heavily crawled datasets in the world. Publishing your business’s facts there puts you inside the training-grade data layer — not outside it hoping to be noticed.",
+                b: "ChatGPT, Gemini, and Claude were built on top of GitHub. It’s one of the cleanest, most trusted, most heavily crawled datasets in the world. Publishing your client’s facts there puts them inside the training-grade data layer — not outside it hoping to be noticed.",
               },
               {
                 h: "Canonical authority transfer",
-                b: "A local business website usually has low domain authority. We mirror your business data across high-trust Data Citadels and canonical-tag every mirror back to your real website. AI systems treat the mirror as validation and credit your business’s site as the Source of Truth.",
+                b: "A local service site (an HVAC, a law firm, a clinic) usually has low domain authority. We mirror their business data across high-trust Data Citadels and canonical-tag every mirror back to their real website. AI systems treat the mirror as validation and credit the client’s site as the Source of Truth.",
               },
               {
                 h: "Bypassing technical blockers",
-                b: "Many businesses live on Squarespace, Wix, GoDaddy, or locked CMSs that won’t let you upload AI root files or custom schema. GitHub Pages becomes an AI-crawlable satellite site for your business — the bots find the structured data on a high-trust server, then follow the canonical link straight back to you.",
+                b: "Many clients live on Squarespace, Wix, GoDaddy, or locked CMSs that won’t let you upload AI root files or custom schema. GitHub Pages becomes an AI-crawlable satellite site for them — the bots find the structured data on a high-trust server, then follow the canonical link straight back to the client.",
               },
             ].map((c) => (
               <div key={c.h} className="rounded-2xl border border-border/60 bg-[color:var(--surface-elevated)]/70 p-6">
@@ -476,17 +476,17 @@ function AgenciesPage() {
                   Instant Trust Transfer
                 </div>
                 <h3 className="mt-2 font-display text-2xl font-semibold text-[color:var(--ink)] md:text-3xl">
-                  Why we mirror your business on high-trust Data Citadels
+                  Why we mirror your clients on high-trust Data Citadels
                 </h3>
                 <p className="mt-4 text-[color:var(--ink)]/80 leading-relaxed">
                   AI systems trust developer and research platforms — GitHub, Kaggle, Hugging Face, the Internet Archive
-                  — far more than they trust a 5-page WordPress site with a stock theme. We mirror your business’s data
-                  there to force AI systems to validate and cite you as the local authority.
+                  — far more than they trust a 5-page WordPress site with a stock theme. We mirror your client’s data
+                  there to force AI systems to validate and cite them as the local authority.
                 </p>
                 <p className="mt-4 text-[color:var(--ink)]/80 leading-relaxed">
-                  Because every mirror uses <strong>Canonical Tags</strong> pointing back to your business’s website, the
+                  Because every mirror uses <strong>Canonical Tags</strong> pointing back to your client’s website, the
                   AI sees the GitHub / Kaggle / Archive data, trusts it immediately, and gives all the credit and
-                  citations to your main site. It’s a VIP pass to the front of the AI crawling line.
+                  citations to your client’s main site. It’s a VIP pass to the front of the AI crawling line.
                 </p>
               </div>
               <div className="rounded-xl border border-[color:var(--brand-blue)]/25 bg-[color:var(--cream)]/60 p-6">
@@ -495,10 +495,10 @@ function AgenciesPage() {
                 </div>
                 <blockquote className="mt-3 border-l-2 border-[color:var(--brand-blue)]/60 pl-4 text-[color:var(--ink)]/85 italic leading-relaxed">
                   “Most small business websites are invisible to AI because they’re buried behind bad code or slow
-                  servers. AI doesn’t want to dig. We take your business facts and mirror them onto GitHub — a platform
-                  ChatGPT and Gemini treat as a Data Citadel — and canonical-tag everything back to your site. The AI
-                  sees the GitHub data, trusts it immediately, and gives all the citation credit to your business. It’s
-                  a VIP pass to the front of the AI crawling line.”
+                  servers. AI doesn’t want to dig. We take your client’s business facts and mirror them onto GitHub — a
+                  platform ChatGPT and Gemini treat as a Data Citadel — and canonical-tag everything back to their
+                  site. The AI sees the GitHub data, trusts it immediately, and gives all the citation credit to your
+                  client. It’s a VIP pass to the front of the AI crawling line.”
                 </blockquote>
               </div>
             </div>
@@ -507,11 +507,11 @@ function AgenciesPage() {
           {/* 12 Nodes */}
           <div className="mt-14">
             <h3 className="font-display text-2xl font-semibold text-[color:var(--ink)] md:text-3xl">
-              The 12 nodes, and what each one does for your business
+              The 12 nodes, and what each one does for your client
             </h3>
             <p className="mt-3 max-w-3xl text-[color:var(--ink)]/75 leading-relaxed">
               Every agency tier includes automated mirroring across the full network. Each node plays a specific role in
-              the Citation Loop — and every node canonical-tags back to your business’s website as the Source of Truth.
+              the Citation Loop — and every node canonical-tags back to your client’s website as the Source of Truth.
             </p>
             <div className="mt-8 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
               {[
@@ -522,10 +522,10 @@ function AgenciesPage() {
                 { h: "GitLab", b: "Second-largest developer platform. Broadens the trust surface beyond GitHub." },
                 { h: "Codeberg", b: "European open-source repo. Adds regional and Fediverse trust signals." },
                 { h: "Sourcehut", b: "Minimalist, heavily indexed developer repo trusted by AI crawlers." },
-                { h: "Gitea", b: "Federated Git host — extends your business’s footprint across the open web." },
-                { h: "Internet Archive", b: "Permanent, timestamped snapshots. Anchors your business’s facts in history." },
+                { h: "Gitea", b: "Federated Git host — extends your client’s footprint across the open web." },
+                { h: "Internet Archive", b: "Permanent, timestamped snapshots. Anchors your client’s facts in history." },
                 { h: "Archive.org data", b: "Structured data endpoints AI models pull from for grounded answers." },
-                { h: "Zenodo (CERN)", b: "Research-grade DOI publishing. Academic-tier trust for your business’s data." },
+                { h: "Zenodo (CERN)", b: "Research-grade DOI publishing. Academic-tier trust for your client’s data." },
                 { h: "OSF + Forgejo", b: "Open Science Framework + Forgejo — research and federated Git citadels." },
               ].map((n) => (
                 <div key={n.h} className="rounded-xl border border-border/60 bg-[color:var(--surface-elevated)]/70 p-5">
@@ -542,17 +542,17 @@ function AgenciesPage() {
               {
                 n: "1",
                 h: "Mirror",
-                b: "Your business facts, services, locations, FAQs, and structured data get published across all 12 nodes.",
+                b: "Your client’s business facts, services, locations, FAQs, and structured data get published across all 12 nodes.",
               },
               {
                 n: "2",
                 h: "Canonical",
-                b: "Every node points back to your real website with canonical tags — the mirror is validation, the site is the source.",
+                b: "Every node points back to your client’s real website with canonical tags — the mirror is validation, the site is the source.",
               },
               {
                 n: "3",
                 h: "Cite",
-                b: "AI systems crawl the citadels, confirm the facts match, and start recommending and citing your business’s website as the authority.",
+                b: "AI systems crawl the citadels, confirm the facts match, and start recommending and citing your client’s website as the authority.",
               },
             ].map((s) => (
               <div key={s.n} className="rounded-2xl border border-border/60 bg-[color:var(--surface-elevated)]/70 p-6">
@@ -565,7 +565,7 @@ function AgenciesPage() {
 
           <p className="mx-auto mt-10 max-w-3xl text-center text-[color:var(--ink)]/75 leading-relaxed">
             That’s the Citation Loop: 12 high-trust nodes, one Source of Truth, and an AI ecosystem that finds it
-            impossible to ignore your business.
+            impossible to ignore your client.
           </p>
         </div>
       </section>
@@ -596,10 +596,10 @@ function AgenciesPage() {
       <section className="border-t border-border/50 py-20">
         <div className="mx-auto max-w-3xl px-6 text-center">
           <h2 className="font-display text-3xl font-semibold text-[color:var(--ink)] md:text-4xl">
-            Ready to dominate the AI search landscape for your business?
+            Ready to dominate the AI search landscape for your clients?
           </h2>
           <p className="mt-4 text-[color:var(--ink)]/75">
-            Join the agencies using AE Optimizer to turn AI disruption into their most profitable business line.
+            Join the agencies using AE Optimizer to turn AI disruption into their most profitable service line.
           </p>
           <a
             href="#agency-pricing"
