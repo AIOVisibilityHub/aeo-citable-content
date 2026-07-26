@@ -1,4 +1,9 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
+import aeLogo from "@/assets/ae-logo-blue.png.asset.json";
+
+const ASSET_HOST = "https://project--513f83bc-18cb-41a3-9de7-a0f1ae74bd9c.lovable.app";
+const aeLogoUrl = aeLogo.url.startsWith("/__l5e/") ? `${ASSET_HOST}${aeLogo.url}` : aeLogo.url;
+
 
 export const Route = createFileRoute("/demos")({
   head: () => ({
