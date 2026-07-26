@@ -685,6 +685,71 @@ function IntroStory() {
   );
 }
 
+function DifferentiatorsSection() {
+  const PILLARS = [
+    {
+      n: "01",
+      title: "We Build the Infrastructure, Not Just Rankings",
+      body: "Most SEO and AEO services chase keywords and backlinks. AE Optimizer builds a Data Citadel — a machine-readable layer of structured data, schema, and AI visibility files that positions your business as the canonical source Google AI Overviews, ChatGPT, Perplexity, Gemini, Grok, Claude and DeepSeek trust first.",
+      aside:
+        "A Data Citadel is your business’s AI trust stack — the organized network of files, pages, and signals that makes your business look like the clearest, most reliable source in your market.",
+    },
+    {
+      n: "02",
+      title: "We Generate Assets, Not Just Reports",
+      body: "Traditional tools observe and report. They tell you what happened, but they don’t produce the files that influence what happens next. AE Optimizer generates the actual FAQ schema, help articles, site files, and citations that make your business easier to interpret, cite, and recommend.",
+      aside:
+        "Instead of handing you a dashboard full of charts, we give you a system that produces the actual content and signals AI engines can use. You’re not just watching search change — you’re shaping the data AI sees.",
+    },
+    {
+      n: "03",
+      title: "You Own It, You’re Not Locked In",
+      body: "Most agencies lock you into $3,000–$5,000/month retainers and still outsource the work. AE Optimizer lets you pay once and own the infrastructure, or pay monthly for fresh credits. Either way, the assets belong to your business.",
+      aside:
+        "That’s the difference between renting visibility every month and owning a permanent AI citation layer that keeps working for your business.",
+    },
+    {
+      n: "04",
+      title: "No Developer, No Agency Required",
+      body: "AE Optimizer is built for business owners, not technical teams. You enter your URL, click generate, download the package, and follow the simple upload instructions. We handle the complex schema coding and AI research — you handle running your business.",
+      aside:
+        "You get the output of a full-service AEO agency without the retainer, the back-and-forth, or the need to hire a developer.",
+    },
+  ];
+
+  return (
+    <section id="difference" className="border-t border-border bg-[color:var(--surface)]/40 py-24">
+      <div className="mx-auto max-w-6xl px-6">
+        <div className="mx-auto max-w-3xl text-center">
+          <span className="text-xs font-medium uppercase tracking-widest text-[color:var(--gold)]">
+            Why us
+          </span>
+          <h2 className="mt-4 font-display text-4xl font-semibold leading-tight text-foreground md:text-5xl">
+            How AE Optimizer is different from other AEO agencies and tools
+          </h2>
+        </div>
+        <div className="mt-14 grid gap-8 md:grid-cols-2">
+          {PILLARS.map((p) => (
+            <article
+              key={p.n}
+              className="rounded-2xl border border-border bg-[color:var(--surface-elevated)]/60 p-8"
+            >
+              <div className="text-xs font-semibold tracking-widest text-[color:var(--brand-blue)]">{p.n}</div>
+              <h3 className="mt-3 font-display text-xl font-semibold text-foreground md:text-2xl">
+                {p.title}
+              </h3>
+              <p className="mt-4 leading-relaxed text-muted-foreground">{p.body}</p>
+              <p className="mt-4 border-l-2 border-[color:var(--brand-blue)]/40 pl-4 text-sm italic text-muted-foreground/80">
+                {p.aside}
+              </p>
+            </article>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
 function ContentEngine() {
   return (
     <section id="engine" className="relative border-t border-border bg-[color:var(--surface)]/40">
