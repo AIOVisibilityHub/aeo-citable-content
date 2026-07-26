@@ -896,6 +896,14 @@ function DemoSection() {
             />
           </div>
         </div>
+        <div className="mt-6 text-center">
+          <Link
+            to="/demos"
+            className="inline-flex items-center gap-2 text-sm font-medium text-[color:var(--brand-blue)] underline-offset-4 hover:underline"
+          >
+            Watch a demo for every feature →
+          </Link>
+        </div>
       </div>
     </section>
   );
