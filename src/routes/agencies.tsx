@@ -354,36 +354,144 @@ function AgenciesPage() {
       </section>
 
       {/* Authority Network */}
-      <section className="border-y border-border/50 bg-[color:var(--ink-soft)]/40 py-16">
-        <div className="mx-auto max-w-5xl px-6">
-          <h2 className="font-display text-3xl font-semibold text-[color:var(--ink)] md:text-4xl">
-            The AI Authority Network: 12 Nodes of Global Trust
-          </h2>
-          <p className="mt-4 text-[color:var(--ink)]/75 leading-relaxed">
-            We don’t stop at GitHub, and we don’t just hope AI finds your clients. We engineer discovery by mirroring
-            their business entity across the exact platforms AI bots crawl for “The Truth.” Every Agency Tier includes
-            automated mirroring across our 12-node network, all pointing back to your client’s website as the Canonical
-            Source of Truth — creating a Citation Loop that AI systems find impossible to ignore.
-          </p>
-          <div className="mt-8 grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+      <section className="border-y border-border/50 bg-[color:var(--ink-soft)]/40 py-20">
+        <div className="mx-auto max-w-6xl px-6">
+          <div className="mx-auto max-w-3xl text-center">
+            <span className="inline-flex items-center rounded-full border border-[color:var(--brand-blue)]/30 bg-[color:var(--brand-blue)]/10 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-[color:var(--brand-blue)]">
+              The core of the offer
+            </span>
+            <h2 className="mt-4 font-display text-3xl font-semibold text-[color:var(--ink)] md:text-5xl">
+              The AI Authority Network: 12 Nodes of Global Trust
+            </h2>
+            <p className="mt-5 text-lg text-[color:var(--ink)]/80 leading-relaxed">
+              We don’t just hope AI finds your clients. We put their data where AI already lives — mirroring their
+              business entity across the exact platforms ChatGPT, Gemini, Claude, Perplexity, and Grok were trained on
+              and continue to crawl for “the truth.”
+            </p>
+          </div>
+
+          {/* The Why */}
+          <div className="mt-14 grid gap-6 md:grid-cols-3">
             {[
-              { h: "Foundation", b: "GitHub & GitHub Pages — the primary AI training ground." },
-              { h: "Data Hubs", b: "Kaggle (Google-owned) & Hugging Face." },
-              { h: "Global Repos", b: "GitLab, Codeberg, Sourcehut, and Gitea." },
-              { h: "Permanent Archives", b: "Internet Archive, Archive.org, and Zenodo." },
-              { h: "Research Nodes", b: "OSF (Open Science Framework) and Forgejo." },
-            ].map((n) => (
-              <div
-                key={n.h}
-                className="rounded-xl border border-border/60 bg-[color:var(--surface-elevated)]/60 p-5"
-              >
-                <div className="text-xs font-semibold uppercase tracking-widest text-[color:var(--brand-blue)]">
-                  {n.h}
-                </div>
-                <p className="mt-2 text-sm text-[color:var(--ink)]/80">{n.b}</p>
+              {
+                h: "AI models were trained on GitHub",
+                b: "ChatGPT, Gemini, and Claude were built on top of GitHub. It’s one of the cleanest, most trusted, most heavily crawled datasets in the world. Publishing your client’s facts there puts them inside the training-grade data layer — not outside it hoping to be noticed.",
+              },
+              {
+                h: "Canonical authority transfer",
+                b: "A local service site (an HVAC, a law firm, a clinic) usually has low domain authority. We mirror their business data across high-trust Data Citadels and canonical-tag every mirror back to their real website. AI systems treat the mirror as validation and credit the client’s site as the Source of Truth.",
+              },
+              {
+                h: "Bypassing technical blockers",
+                b: "Many clients live on Squarespace, Wix, GoDaddy, or locked CMSs that won’t let you upload AI root files or custom schema. GitHub Pages becomes an AI-crawlable satellite site for them — the bots find the structured data on a high-trust server, then follow the canonical link straight back to the client.",
+              },
+            ].map((c) => (
+              <div key={c.h} className="rounded-2xl border border-border/60 bg-[color:var(--surface-elevated)]/70 p-6">
+                <h3 className="font-display text-lg font-semibold text-[color:var(--ink)] md:text-xl">{c.h}</h3>
+                <p className="mt-3 text-[color:var(--ink)]/75 leading-relaxed">{c.b}</p>
               </div>
             ))}
           </div>
+
+          {/* Instant Trust Transfer */}
+          <div className="mt-14 rounded-2xl border border-[color:var(--brand-blue)]/25 bg-[color:var(--brand-blue)]/[0.06] p-8 md:p-10">
+            <div className="grid gap-8 md:grid-cols-[1.1fr_1fr]">
+              <div>
+                <div className="text-xs font-semibold uppercase tracking-widest text-[color:var(--brand-blue)]">
+                  Instant Trust Transfer
+                </div>
+                <h3 className="mt-2 font-display text-2xl font-semibold text-[color:var(--ink)] md:text-3xl">
+                  Why we mirror your clients on high-trust Data Citadels
+                </h3>
+                <p className="mt-4 text-[color:var(--ink)]/80 leading-relaxed">
+                  AI systems trust developer and research platforms — GitHub, Kaggle, Hugging Face, the Internet Archive
+                  — far more than they trust a 5-page WordPress site with a stock theme. We mirror your client’s data
+                  there to force AI systems to validate and cite them as the local authority.
+                </p>
+                <p className="mt-4 text-[color:var(--ink)]/80 leading-relaxed">
+                  Because every mirror uses <strong>Canonical Tags</strong> pointing back to your client’s website, the
+                  AI sees the GitHub / Kaggle / Archive data, trusts it immediately, and gives all the credit and
+                  citations to your client’s main site. It’s a VIP pass to the front of the AI crawling line.
+                </p>
+              </div>
+              <div className="rounded-xl border border-[color:var(--brand-blue)]/25 bg-[color:var(--cream)]/60 p-6">
+                <div className="text-xs font-semibold uppercase tracking-widest text-[color:var(--brand-blue)]">
+                  How to phrase it to the agency owner
+                </div>
+                <blockquote className="mt-3 border-l-2 border-[color:var(--brand-blue)]/60 pl-4 text-[color:var(--ink)]/85 italic leading-relaxed">
+                  “Most small business websites are invisible to AI because they’re buried behind bad code or slow
+                  servers. AI doesn’t want to dig. We take your client’s business facts and mirror them onto GitHub — a
+                  platform ChatGPT and Gemini treat as a Data Citadel — and canonical-tag everything back to their
+                  site. The AI sees the GitHub data, trusts it immediately, and gives all the citation credit to your
+                  client. It’s a VIP pass to the front of the AI crawling line.”
+                </blockquote>
+              </div>
+            </div>
+          </div>
+
+          {/* 12 Nodes */}
+          <div className="mt-14">
+            <h3 className="font-display text-2xl font-semibold text-[color:var(--ink)] md:text-3xl">
+              The 12 nodes, and what each one does for your client
+            </h3>
+            <p className="mt-3 max-w-3xl text-[color:var(--ink)]/75 leading-relaxed">
+              Every agency tier includes automated mirroring across the full network. Each node plays a specific role in
+              the Citation Loop — and every node canonical-tags back to your client’s website as the Source of Truth.
+            </p>
+            <div className="mt-8 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+              {[
+                { h: "GitHub", b: "The primary AI training ground. The core Data Citadel for LLM trust." },
+                { h: "GitHub Pages", b: "AI-crawlable satellite site — bypasses Wix/Squarespace/GoDaddy limitations." },
+                { h: "Kaggle", b: "Google-owned data platform. Signals structured, dataset-grade authority." },
+                { h: "Hugging Face", b: "The dataset hub of the modern AI ecosystem. Deep LLM crawl footprint." },
+                { h: "GitLab", b: "Second-largest developer platform. Broadens the trust surface beyond GitHub." },
+                { h: "Codeberg", b: "European open-source repo. Adds regional and Fediverse trust signals." },
+                { h: "Sourcehut", b: "Minimalist, heavily indexed developer repo trusted by AI crawlers." },
+                { h: "Gitea", b: "Federated Git host — extends your client’s footprint across the open web." },
+                { h: "Internet Archive", b: "Permanent, timestamped snapshots. Anchors your client’s facts in history." },
+                { h: "Archive.org data", b: "Structured data endpoints AI models pull from for grounded answers." },
+                { h: "Zenodo (CERN)", b: "Research-grade DOI publishing. Academic-tier trust for your client’s data." },
+                { h: "OSF + Forgejo", b: "Open Science Framework + Forgejo — research and federated Git citadels." },
+              ].map((n) => (
+                <div key={n.h} className="rounded-xl border border-border/60 bg-[color:var(--surface-elevated)]/70 p-5">
+                  <div className="font-display text-lg font-semibold text-[color:var(--ink)]">{n.h}</div>
+                  <p className="mt-2 text-sm text-[color:var(--ink)]/75 leading-relaxed">{n.b}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Citation Loop */}
+          <div className="mt-14 grid gap-6 md:grid-cols-3">
+            {[
+              {
+                n: "1",
+                h: "Mirror",
+                b: "Your client’s business facts, services, locations, FAQs, and structured data get published across all 12 nodes.",
+              },
+              {
+                n: "2",
+                h: "Canonical",
+                b: "Every node points back to your client’s real website with canonical tags — the mirror is validation, the site is the source.",
+              },
+              {
+                n: "3",
+                h: "Cite",
+                b: "AI systems crawl the citadels, confirm the facts match, and start recommending and citing your client’s website as the authority.",
+              },
+            ].map((s) => (
+              <div key={s.n} className="rounded-2xl border border-border/60 bg-[color:var(--surface-elevated)]/70 p-6">
+                <div className="font-display text-4xl font-semibold text-[color:var(--brand-blue)]">{s.n}</div>
+                <div className="mt-2 font-display text-xl font-semibold text-[color:var(--ink)]">{s.h}</div>
+                <p className="mt-2 text-[color:var(--ink)]/75 leading-relaxed">{s.b}</p>
+              </div>
+            ))}
+          </div>
+
+          <p className="mx-auto mt-10 max-w-3xl text-center text-[color:var(--ink)]/75 leading-relaxed">
+            That’s the Citation Loop: 12 high-trust nodes, one Source of Truth, and an AI ecosystem that finds it
+            impossible to ignore your client.
+          </p>
         </div>
       </section>
 
