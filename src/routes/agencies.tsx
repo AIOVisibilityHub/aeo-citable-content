@@ -439,7 +439,7 @@ function AgenciesPage() {
               The AI Authority Network: 12 Nodes of Global Trust
             </h2>
             <p className="mt-5 text-lg text-[color:var(--ink)]/80 leading-relaxed">
-              We don’t just hope AI finds your clients. We put their data where AI already lives — mirroring their
+              We don’t just hope AI finds your business. We put your data where AI already lives — mirroring your
               business entity across the exact platforms ChatGPT, Gemini, Claude, Perplexity, and Grok were trained on
               and continue to crawl for “the truth.”
             </p>
