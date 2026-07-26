@@ -40,7 +40,7 @@ const DEMOS: Demo[] = [
       "Walks you through how to generate FAQs and add custom topics.",
   },
   {
-    title: "Unanswered Q&As",
+    title: "Research Unanswered Q&As",
     description:
       "Walks you through how to generate unanswered Q&As that qualify for Google's AI Overviews & snippets.",
   },
