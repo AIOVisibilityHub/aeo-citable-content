@@ -87,19 +87,19 @@ const PILLARS = [
 const AGENCY_FAQS = [
   {
     q: "Is this White-Label?",
-    a: "Yes. You manage the software and provide the reports to your clients. The data mirror on GitHub and other repos refers to your client as the Source of Truth, not us. You own the relationship and the monthly revenue.",
+    a: "Yes. You manage the software and provide the reports to your customers. The data mirror on GitHub and other repos refers to your business as the Source of Truth, not us. You own the relationship and the monthly revenue.",
   },
   {
     q: "Do you manage the software for us?",
-    a: "No. This is a DIY technical engine. Your team enters the client’s URL, chooses the topics, and clicks Generate. We handle the complex schema coding, GitHub mirroring, and AI research — you handle the client.",
+    a: "No. This is a DIY technical engine. Your team enters the customer’s URL, chooses the topics, and clicks Generate. We handle the complex schema coding, GitHub mirroring, and AI research — you handle the customer relationship.",
   },
   {
     q: "Why GitHub?",
-    a: "GitHub is a Data Citadel — one of the most trusted datasets in the world for AI training. By mirroring your client’s data and publishing an AI-crawlable website on GitHub Pages, with schema files stored in a crawlable GitHub repository, you place your client in the VIP lane for AI discovery.",
+    a: "GitHub is a Data Citadel — one of the most trusted datasets in the world for AI training. By mirroring your business’s data and publishing an AI-crawlable website on GitHub Pages, with schema files stored in a crawlable GitHub repository, you place your business in the VIP lane for AI discovery.",
   },
   {
-    q: "What happens if a client cancels?",
-    a: "You can swap that seat to a new client immediately. The Data Citadel we built for the previous client remains theirs as a gesture of high-trust, but new content generation stops. We recommend not deleting a profile until you are sure the client isn’t coming back — or until you’re ready to replace them with another business.",
+    q: "What happens if a customer cancels?",
+    a: "You can swap that seat to a new customer immediately. The Data Citadel we built for the previous customer remains theirs as a gesture of high-trust, but new content generation stops. We recommend not deleting a profile until you are sure the customer isn’t coming back — or until you’re ready to replace them with another business.",
   },
 ];
 
