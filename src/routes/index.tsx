@@ -425,6 +425,7 @@ function Home() {
       <Hero />
       <ProblemBand />
       <IntroStory />
+      <DifferentiatorsSection />
       <ContentEngine />
       <DemoSection />
       <EntitySection />
