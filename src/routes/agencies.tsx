@@ -12,13 +12,13 @@ export const Route = createFileRoute("/agencies")({
       {
         name: "description",
         content:
-          "Turn AI visibility into a new agency revenue stream. Wholesale AEO pricing, white-label Data Citadels, and production-scale generation for 10–250 clients.",
+          "Turn AI visibility into a new agency revenue stream. Wholesale AEO pricing, white-label Data Citadels, and production-scale generation for 10–250 business profiles.",
       },
       { property: "og:title", content: "AE Optimizer for Agencies — Wholesale AEO Pricing" },
       {
         property: "og:description",
         content:
-          "Help your clients show up in Google AI Overviews, ChatGPT, and Perplexity. Agency seats with maximum generation capacity, 12-node Authority Network, and 90% margins.",
+          "Help your business show up in Google AI Overviews, ChatGPT, and Perplexity. Agency seats with maximum generation capacity, 12-node Authority Network, and 90% margins.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
