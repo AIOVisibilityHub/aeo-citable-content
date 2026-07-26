@@ -507,11 +507,11 @@ function AgenciesPage() {
           {/* 12 Nodes */}
           <div className="mt-14">
             <h3 className="font-display text-2xl font-semibold text-[color:var(--ink)] md:text-3xl">
-              The 12 nodes, and what each one does for your client
+              The 12 nodes, and what each one does for your business
             </h3>
             <p className="mt-3 max-w-3xl text-[color:var(--ink)]/75 leading-relaxed">
               Every agency tier includes automated mirroring across the full network. Each node plays a specific role in
-              the Citation Loop — and every node canonical-tags back to your client’s website as the Source of Truth.
+              the Citation Loop — and every node canonical-tags back to your business’s website as the Source of Truth.
             </p>
             <div className="mt-8 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
               {[
@@ -522,10 +522,10 @@ function AgenciesPage() {
                 { h: "GitLab", b: "Second-largest developer platform. Broadens the trust surface beyond GitHub." },
                 { h: "Codeberg", b: "European open-source repo. Adds regional and Fediverse trust signals." },
                 { h: "Sourcehut", b: "Minimalist, heavily indexed developer repo trusted by AI crawlers." },
-                { h: "Gitea", b: "Federated Git host — extends your client’s footprint across the open web." },
-                { h: "Internet Archive", b: "Permanent, timestamped snapshots. Anchors your client’s facts in history." },
+                { h: "Gitea", b: "Federated Git host — extends your business’s footprint across the open web." },
+                { h: "Internet Archive", b: "Permanent, timestamped snapshots. Anchors your business’s facts in history." },
                 { h: "Archive.org data", b: "Structured data endpoints AI models pull from for grounded answers." },
-                { h: "Zenodo (CERN)", b: "Research-grade DOI publishing. Academic-tier trust for your client’s data." },
+                { h: "Zenodo (CERN)", b: "Research-grade DOI publishing. Academic-tier trust for your business’s data." },
                 { h: "OSF + Forgejo", b: "Open Science Framework + Forgejo — research and federated Git citadels." },
               ].map((n) => (
                 <div key={n.h} className="rounded-xl border border-border/60 bg-[color:var(--surface-elevated)]/70 p-5">
