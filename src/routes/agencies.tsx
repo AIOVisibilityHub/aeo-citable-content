@@ -450,15 +450,15 @@ function AgenciesPage() {
             {[
               {
                 h: "AI models were trained on GitHub",
-                b: "ChatGPT, Gemini, and Claude were built on top of GitHub. It’s one of the cleanest, most trusted, most heavily crawled datasets in the world. Publishing your client’s facts there puts them inside the training-grade data layer — not outside it hoping to be noticed.",
+                b: "ChatGPT, Gemini, and Claude were built on top of GitHub. It’s one of the cleanest, most trusted, most heavily crawled datasets in the world. Publishing your business’s facts there puts you inside the training-grade data layer — not outside it hoping to be noticed.",
               },
               {
                 h: "Canonical authority transfer",
-                b: "A local service site (an HVAC, a law firm, a clinic) usually has low domain authority. We mirror their business data across high-trust Data Citadels and canonical-tag every mirror back to their real website. AI systems treat the mirror as validation and credit the client’s site as the Source of Truth.",
+                b: "A local business website usually has low domain authority. We mirror your business data across high-trust Data Citadels and canonical-tag every mirror back to your real website. AI systems treat the mirror as validation and credit your business’s site as the Source of Truth.",
               },
               {
                 h: "Bypassing technical blockers",
-                b: "Many clients live on Squarespace, Wix, GoDaddy, or locked CMSs that won’t let you upload AI root files or custom schema. GitHub Pages becomes an AI-crawlable satellite site for them — the bots find the structured data on a high-trust server, then follow the canonical link straight back to the client.",
+                b: "Many businesses live on Squarespace, Wix, GoDaddy, or locked CMSs that won’t let you upload AI root files or custom schema. GitHub Pages becomes an AI-crawlable satellite site for your business — the bots find the structured data on a high-trust server, then follow the canonical link straight back to you.",
               },
             ].map((c) => (
               <div key={c.h} className="rounded-2xl border border-border/60 bg-[color:var(--surface-elevated)]/70 p-6">
