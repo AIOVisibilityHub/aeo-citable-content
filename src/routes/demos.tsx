@@ -86,7 +86,7 @@ function DemosPage() {
             A demo walkthrough for each feature.
           </h1>
           <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
-            Short, focused walkthroughs so you can see exactly how each part of AE Optimizer works before you sign up.
+            Short, focused walkthrough videos of each of the main features so you can see exactly how each part of AE Optimizer works and how simple it is before you sign up.
           </p>
         </div>
 
