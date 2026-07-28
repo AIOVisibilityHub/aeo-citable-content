@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import speakableSchema from "@/assets/speakable_schema.png.asset.json";
 import aiDistribution from "@/assets/ai-distribution.png.asset.json";
 import helpArticles from "@/assets/help_articles_speakable.png.asset.json";
@@ -36,6 +36,31 @@ const imageAsset = (asset: { url: string }, width: number, height: number) => ({
 });
 
 const aeLogoUrl = assetUrl(aeLogo);
+
+function WistiaPlayer({ mediaId, aspect }: { mediaId: string; aspect: string }) {
+  useEffect(() => {
+    const srcs = [
+      "https://fast.wistia.com/player.js",
+      `https://fast.wistia.com/embed/${mediaId}.js`,
+    ];
+    srcs.forEach((src) => {
+      if (document.querySelector(`script[src="${src}"]`)) return;
+      const s = document.createElement("script");
+      s.src = src;
+      s.async = true;
+      if (src.endsWith(`${mediaId}.js`)) s.type = "module";
+      document.head.appendChild(s);
+    });
+  }, [mediaId]);
+  return (
+    <div
+      className="h-full w-full"
+      dangerouslySetInnerHTML={{
+        __html: `<wistia-player media-id="${mediaId}" aspect="${aspect}" style="display:block;width:100%;height:100%"></wistia-player>`,
+      }}
+    />
+  );
+}
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -575,14 +600,8 @@ function Hero() {
                   Intro · 2 min
                 </span>
               </div>
-              <div className="aspect-video">
-                <iframe
-                  className="h-full w-full"
-                  src="https://www.youtube.com/embed/7j0RyhGKwMg"
-                  title="AE Optimizer intro"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                />
+              <div style={{ aspectRatio: "1.5841584158415842" }} className="w-full">
+                <WistiaPlayer mediaId="o9j058aexm" aspect="1.5841584158415842" />
               </div>
             </div>
 
