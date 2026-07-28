@@ -911,14 +911,8 @@ function DemoSection() {
           </h2>
         </div>
         <div className="mt-10 overflow-hidden rounded-2xl border border-border bg-[color:var(--surface)] shadow-elevated">
-          <div className="aspect-video">
-            <iframe
-              className="h-full w-full"
-              src="https://www.youtube.com/embed/21yuaC8N8K8"
-              title="AE Optimizer demo"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            />
+          <div style={{ aspectRatio: "1.5841584158415842" }} className="w-full">
+            <WistiaPlayer mediaId="o9j058aexm" aspect="1.5841584158415842" />
           </div>
         </div>
         <div className="mt-8 text-center">
