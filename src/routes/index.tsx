@@ -898,6 +898,53 @@ function ContentEngineItem({
   );
 }
 
+const DEMO_CHAPTERS = [
+  { time: "0:40", seconds: 40, label: "How to Create a Business Profile" },
+  { time: "2:14", seconds: 134, label: "Edit Your Business Profile" },
+  { time: "3:44", seconds: 224, label: "AEO Site (Visibility) Files" },
+  { time: "4:57", seconds: 297, label: "Per Page Code *Includes Speakable" },
+  { time: "6:38", seconds: 398, label: "Generating FAQs *Includes Speakable" },
+  { time: "9:06", seconds: 546, label: "Unanswered Questions in AI Overviews" },
+  { time: "9:54", seconds: 594, label: "Help Articles *Includes Speakable" },
+  { time: "10:32", seconds: 632, label: "Services Schemas *Includes Speakable" },
+  { time: "10:42", seconds: 642, label: "Testimonials Research" },
+  { time: "10:53", seconds: 653, label: "Schema Web Pages" },
+  { time: "11:07", seconds: 667, label: "HTML Accordion-Style Pages" },
+  { time: "12:16", seconds: 736, label: "Source-Backed / Stat-Based Research" },
+  { time: "12:46", seconds: 766, label: "People Also Ask Research" },
+  { time: "13:21", seconds: 801, label: "Keyword Expansion *Under 10 competitors" },
+  { time: "13:50", seconds: 830, label: "Competitive Gap/High Intent Opportunities" },
+  { time: "14:01", seconds: 841, label: "Missed Opportunities Analysis" },
+  { time: "14:08", seconds: 848, label: "15-Tool Authority Suite" },
+  { time: "14:33", seconds: 873, label: "Publishing to GitHub Pages" },
+  { time: "15:10", seconds: 910, label: "AI Crawlable Website" },
+  { time: "17:12", seconds: 1032, label: "AI-Data (Included in AEO Site Files)" },
+  { time: "18:20", seconds: 1100, label: "Mirror Trust/Credibility of GitHub" },
+  { time: "19:20", seconds: 1160, label: "Questions? Contact Support" },
+];
+
+function seekWistia(seconds: number) {
+  const player = document.querySelector("wistia-player") as any;
+  if (!player) return;
+  try {
+    if (typeof player.time === "function") {
+      player.time(seconds);
+    }
+    if (typeof player.play === "function") {
+      player.play();
+    }
+  } catch {
+    const wq = (window as any)._wq || [];
+    wq.push({
+      id: "o9j058aexm",
+      onReady: (video: any) => {
+        video.time(seconds);
+        video.play();
+      },
+    });
+  }
+}
+
 function DemoSection() {
   return (
     <section id="demo" className="relative py-24">
@@ -915,19 +962,33 @@ function DemoSection() {
             <WistiaPlayer mediaId="o9j058aexm" aspect="1.5841584158415842" />
           </div>
         </div>
-        <div className="mt-8 text-center">
-          <Link
-            to="/demos"
-            className="group inline-flex items-center gap-2 rounded-lg bg-[color:var(--brand-blue)] px-8 py-4 text-lg font-semibold text-[color:var(--cream)] shadow-[0_10px_30px_-10px_rgba(26,58,87,0.55)] transition hover:bg-[color:var(--brand-blue-light)]"
-          >
-            Watch a walkthrough demo for each feature
-            <span aria-hidden="true" className="transition group-hover:translate-x-1">→</span>
-          </Link>
+        <div className="mt-8 rounded-2xl border border-border bg-[color:var(--surface)] p-6 shadow-elevated md:p-8">
+          <p className="mb-5 text-center text-sm font-medium uppercase tracking-widest text-[color:var(--gold)]">
+            Jump to a specific topic
+          </p>
+          <div className="grid gap-3 md:grid-cols-2">
+            {DEMO_CHAPTERS.map((chapter) => (
+              <button
+                key={chapter.seconds}
+                type="button"
+                onClick={() => seekWistia(chapter.seconds)}
+                className="group flex items-start gap-3 rounded-xl border border-border bg-background/60 p-3 text-left transition hover:border-[color:var(--brand-blue)] hover:bg-[color:var(--brand-blue)]/10"
+              >
+                <span className="mt-0.5 inline-flex shrink-0 items-center justify-center rounded-md bg-[color:var(--gold)]/10 px-2 py-1 text-xs font-semibold text-[color:var(--gold)]">
+                  {chapter.time}
+                </span>
+                <span className="text-sm font-medium leading-snug text-foreground group-hover:text-[color:var(--brand-blue)]">
+                  {chapter.label}
+                </span>
+              </button>
+            ))}
+          </div>
         </div>
       </div>
     </section>
   );
 }
+
 
 function EntitySection() {
   return (
