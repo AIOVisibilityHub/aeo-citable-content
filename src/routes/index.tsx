@@ -37,6 +37,31 @@ const imageAsset = (asset: { url: string }, width: number, height: number) => ({
 
 const aeLogoUrl = assetUrl(aeLogo);
 
+function WistiaPlayer({ mediaId, aspect }: { mediaId: string; aspect: string }) {
+  useEffect(() => {
+    const srcs = [
+      "https://fast.wistia.com/player.js",
+      `https://fast.wistia.com/embed/${mediaId}.js`,
+    ];
+    srcs.forEach((src) => {
+      if (document.querySelector(`script[src="${src}"]`)) return;
+      const s = document.createElement("script");
+      s.src = src;
+      s.async = true;
+      if (src.endsWith(`${mediaId}.js`)) s.type = "module";
+      document.head.appendChild(s);
+    });
+  }, [mediaId]);
+  return (
+    <div
+      className="h-full w-full"
+      dangerouslySetInnerHTML={{
+        __html: `<wistia-player media-id="${mediaId}" aspect="${aspect}" style="display:block;width:100%;height:100%"></wistia-player>`,
+      }}
+    />
+  );
+}
+
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
