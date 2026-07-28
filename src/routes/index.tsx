@@ -600,8 +600,14 @@ function Hero() {
                   Intro · 2 min
                 </span>
               </div>
-              <div style={{ aspectRatio: "1.5841584158415842" }} className="w-full">
-                <WistiaPlayer mediaId="o9j058aexm" aspect="1.5841584158415842" />
+              <div className="aspect-video w-full">
+                <iframe
+                  className="h-full w-full"
+                  src="https://www.youtube.com/embed/7j0RyhGKwMg"
+                  title="AE Optimizer intro"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
               </div>
             </div>
 
