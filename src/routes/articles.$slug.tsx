@@ -86,6 +86,8 @@ function ArticlePage() {
   const kindLabel =
     article.kind === "aeo-tools-guide"
       ? "AEO Tools for Websites Guide"
+      : article.kind === "product"
+        ? "Inside AE Optimizer"
       : article.kind === "fundamentals"
         ? "AEO Fundamentals"
         : "AEO Buyer's Guide";

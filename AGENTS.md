@@ -8,3 +8,5 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+- Store new long-form product articles as Markdown in `src/content`, imported into the shared article registry; this keeps editorial content readable while reusing article pages and sitemap discovery.
