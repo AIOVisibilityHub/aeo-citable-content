@@ -1,5 +1,11 @@
 // Auto-generated article content
 import softwareOverview from '@/content/aeo-and-geo-software.md?raw';
+import articleCampaigns from '@/content/article-campaigns.md?raw';
+import socialSharing from '@/content/social-sharing.md?raw';
+import resourceLibrary from '@/content/ai-resource-library-publishing.md?raw';
+import campaignScreenshot from '@/assets/article_campaigns.png.asset.json';
+import socialScreenshot from '@/assets/social_sharing.png.asset.json';
+import libraryScreenshot from '@/assets/ai_resource_library.png.asset.json';
 
 export type ArticleKind = 'aeo-tools-guide' | 'fundamentals' | 'listicle' | 'product';
 
@@ -9,9 +15,34 @@ export type Article = {
   description: string;
   body: string;
   kind: ArticleKind;
+  screenshot?: { src: string; alt: string };
 };
 
 export const ARTICLES: Article[] = [
+  {
+    slug: 'article-campaigns',
+    title: 'How AE Optimizer Article Campaigns Turn Resources into Platform-Specific Content',
+    description: 'A walkthrough of platform selection, editorial angles, draft controls, and publishing articles that link back to your AI Resource Library.',
+    body: articleCampaigns,
+    kind: 'product',
+    screenshot: { src: campaignScreenshot.url, alt: 'AE Optimizer Article Campaigns: syndication platforms, suggested formats, suitability labels, and drafting controls.' },
+  },
+  {
+    slug: 'social-sharing',
+    title: 'How AE Optimizer Social Sharing Turns Published Articles into Useful Social Drafts',
+    description: 'How social drafts, resource links, channel settings, and manual review connect published articles with shorter posts and replies.',
+    body: socialSharing,
+    kind: 'product',
+    screenshot: { src: socialScreenshot.url, alt: 'AE Optimizer Social Sharing: Generate drafts, the published-article prerequisite, and channel controls.' },
+  },
+  {
+    slug: 'ai-resource-library-publishing',
+    title: 'How AE Optimizer Publishes Your AI Resource Library Across Platforms',
+    description: 'How publishing credentials, a canonical library address, and connected publishing destinations make business resources available beyond your main website.',
+    body: resourceLibrary,
+    kind: 'product',
+    screenshot: { src: libraryScreenshot.url, alt: 'AE Optimizer AI Resource Library: Publish Everything, Canonical Source URL, and seven publishing destinations.' },
+  },
   {
     slug: 'ae-optimizer-aeo-and-geo-software',
     title: 'AE Optimizer: AEO and GEO Software for AI Search Visibility',

@@ -6,6 +6,7 @@ import {
   useRouter,
   HeadContent,
   Scripts,
+  type ErrorComponentProps,
 } from "@tanstack/react-router";
 import { useEffect, type ReactNode } from "react";
 
@@ -34,7 +35,7 @@ function NotFoundComponent() {
   );
 }
 
-function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
+function ErrorComponent({ error, reset }: ErrorComponentProps) {
   console.error(error);
   const router = useRouter();
   useEffect(() => {
@@ -90,8 +91,6 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:title", content: "AE Optimizer — Answer Engine Optimization for Google AI Overviews, ChatGPT, Perplexity & More" },
       { property: "og:description", content: "AE Optimizer builds the machine-readable layer your website needs to get picked up by Google AI Overviews, ChatGPT, Perplexity, Gemini, Grok, Claude and DeepSeek — plus organic search." },
       { name: "twitter:description", content: "AE Optimizer builds the machine-readable layer your website needs to get picked up by Google AI Overviews, ChatGPT, Perplexity, Gemini, Grok, Claude and DeepSeek — plus organic search." },
-      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a79cb21b-0081-4994-8d34-3bae64165db2/id-preview-e3fc4e68--513f83bc-18cb-41a3-9de7-a0f1ae74bd9c.lovable.app-1783891952912.png" },
-      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a79cb21b-0081-4994-8d34-3bae64165db2/id-preview-e3fc4e68--513f83bc-18cb-41a3-9de7-a0f1ae74bd9c.lovable.app-1783891952912.png" },
     ],
     links: [
       {

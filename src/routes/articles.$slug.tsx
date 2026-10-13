@@ -73,7 +73,7 @@ export const Route = createFileRoute("/articles/$slug")({
 function ArticlePage() {
   const { article } = Route.useLoaderData();
   const isGuide = article.slug === GUIDE_SLUG;
-  const guide = ARTICLES.find((a) => a.slug === GUIDE_SLUG)!;
+   const guide = ARTICLES.find((a) => a.slug === GUIDE_SLUG);
 
   const sameKind: Article[] = ARTICLES.filter(
     (a) => a.slug !== article.slug && a.kind === article.kind && a.slug !== GUIDE_SLUG,
@@ -110,6 +110,12 @@ function ArticlePage() {
           </h1>
           <p className="mt-4 text-lg text-muted-foreground">{article.description}</p>
 
+          {article.screenshot && (
+            <figure className="mt-8">
+              <img src={article.screenshot.src} alt={article.screenshot.alt} className="block h-auto w-full rounded-lg border border-border" />
+            </figure>
+          )}
+
           <div className="mt-10">
             <Markdown source={article.body} />
           </div>
@@ -131,7 +137,7 @@ function ArticlePage() {
           </div>
         </article>
 
-        {!isGuide && (
+        {!isGuide && guide && (
           <section className="mt-16 rounded-xl border border-border bg-card p-6">
             <p className="text-xs uppercase tracking-widest text-muted-foreground font-semibold">
               AEO Tools for Websites Guide
