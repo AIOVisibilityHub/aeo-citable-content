@@ -10,3 +10,4 @@
 <!-- LOVABLE:END -->
 
 - Store new long-form product articles as Markdown in `src/content`, imported into the shared article registry; this keeps editorial content readable while reusing article pages and sitemap discovery.
+- Keep optional article screenshots in the shared article registry as asset pointers and render them through the shared article page; this preserves one layout for illustrated walkthroughs.
