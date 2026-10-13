@@ -41,6 +41,7 @@ function ArticlesIndex() {
   const guide = ARTICLES.find((a) => a.slug === GUIDE_SLUG)!;
   const fundamentals = ARTICLES.filter((a) => a.kind === "fundamentals");
   const listicles = ARTICLES.filter((a) => a.kind === "listicle");
+  const productArticles = ARTICLES.filter((a) => a.kind === "product");
 
   return (
     <div className="min-h-screen bg-background">
@@ -53,6 +54,13 @@ function ArticlesIndex() {
           Plain-English guides to answer engine optimization: the AEO Tools for Websites Guide, fundamentals
           explainers, and a full 2026 buyer's guide to AEO and AI visibility tools.
         </p>
+
+        <section className="mt-14">
+          <h2 className="text-xl font-semibold text-foreground">Inside AE Optimizer</h2>
+          <div className="mt-6 grid gap-5 md:grid-cols-2">
+            {productArticles.map((a) => <Card key={a.slug} {...a} />)}
+          </div>
+        </section>
 
         <section className="mt-14">
           <p className="text-xs uppercase tracking-widest text-[color:var(--gold)] font-semibold">

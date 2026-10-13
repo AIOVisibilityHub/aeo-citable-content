@@ -1,5 +1,7 @@
 // Auto-generated article content
-export type ArticleKind = 'aeo-tools-guide' | 'fundamentals' | 'listicle';
+import softwareOverview from '@/content/aeo-and-geo-software.md?raw';
+
+export type ArticleKind = 'aeo-tools-guide' | 'fundamentals' | 'listicle' | 'product';
 
 export type Article = {
   slug: string;
@@ -10,6 +12,13 @@ export type Article = {
 };
 
 export const ARTICLES: Article[] = [
+  {
+    slug: 'ae-optimizer-aeo-and-geo-software',
+    title: 'AE Optimizer: AEO and GEO Software for AI Search Visibility',
+    description: 'How AE Optimizer combines your business’s voice, local content, structured data, and visibility monitoring for Google AI Overviews and AI search.',
+    body: softwareOverview,
+    kind: 'product',
+  },
   {
     "slug": "aeo-tools-guide",
     "title": "Website Optimization for Answer Engines: The Complete AEO Guide",
