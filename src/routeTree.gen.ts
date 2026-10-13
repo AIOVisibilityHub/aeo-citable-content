@@ -9,27 +9,17 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
-import { Route as IndexRouteImport } from './routes/index'
-import { Route as AgenciesRouteImport } from './routes/agencies'
-import { Route as DemosRouteImport } from './routes/demos'
-import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
 import { Route as ThankYouRouteImport } from './routes/thank-you'
+import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
+import { Route as DemosRouteImport } from './routes/demos'
+import { Route as AgenciesRouteImport } from './routes/agencies'
+import { Route as IndexRouteImport } from './routes/index'
 import { Route as ArticlesIndexRouteImport } from './routes/articles.index'
 import { Route as ArticlesSlugRouteImport } from './routes/articles.$slug'
 
-const IndexRoute = IndexRouteImport.update({
-  id: '/',
-  path: '/',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const AgenciesRoute = AgenciesRouteImport.update({
-  id: '/agencies',
-  path: '/agencies',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const DemosRoute = DemosRouteImport.update({
-  id: '/demos',
-  path: '/demos',
+const ThankYouRoute = ThankYouRouteImport.update({
+  id: '/thank-you',
+  path: '/thank-you',
   getParentRoute: () => rootRouteImport,
 } as any)
 const SitemapDotxmlRoute = SitemapDotxmlRouteImport.update({
@@ -37,9 +27,19 @@ const SitemapDotxmlRoute = SitemapDotxmlRouteImport.update({
   path: '/sitemap.xml',
   getParentRoute: () => rootRouteImport,
 } as any)
-const ThankYouRoute = ThankYouRouteImport.update({
-  id: '/thank-you',
-  path: '/thank-you',
+const DemosRoute = DemosRouteImport.update({
+  id: '/demos',
+  path: '/demos',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AgenciesRoute = AgenciesRouteImport.update({
+  id: '/agencies',
+  path: '/agencies',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const IndexRoute = IndexRouteImport.update({
+  id: '/',
+  path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ArticlesIndexRoute = ArticlesIndexRouteImport.update({
@@ -123,25 +123,11 @@ export interface RootRouteChildren {
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
-    '/': {
-      id: '/'
-      path: '/'
-      fullPath: '/'
-      preLoaderRoute: typeof IndexRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/agencies': {
-      id: '/agencies'
-      path: '/agencies'
-      fullPath: '/agencies'
-      preLoaderRoute: typeof AgenciesRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/demos': {
-      id: '/demos'
-      path: '/demos'
-      fullPath: '/demos'
-      preLoaderRoute: typeof DemosRouteImport
+    '/thank-you': {
+      id: '/thank-you'
+      path: '/thank-you'
+      fullPath: '/thank-you'
+      preLoaderRoute: typeof ThankYouRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/sitemap.xml': {
@@ -151,11 +137,25 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof SitemapDotxmlRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/thank-you': {
-      id: '/thank-you'
-      path: '/thank-you'
-      fullPath: '/thank-you'
-      preLoaderRoute: typeof ThankYouRouteImport
+    '/demos': {
+      id: '/demos'
+      path: '/demos'
+      fullPath: '/demos'
+      preLoaderRoute: typeof DemosRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/agencies': {
+      id: '/agencies'
+      path: '/agencies'
+      fullPath: '/agencies'
+      preLoaderRoute: typeof AgenciesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/': {
+      id: '/'
+      path: '/'
+      fullPath: '/'
+      preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/articles/': {
