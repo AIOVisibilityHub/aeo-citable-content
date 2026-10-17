@@ -3,6 +3,8 @@ import softwareOverview from '@/content/aeo-and-geo-software.md?raw';
 import articleCampaigns from '@/content/article-campaigns.md?raw';
 import socialSharing from '@/content/social-sharing.md?raw';
 import resourceLibrary from '@/content/ai-resource-library-publishing.md?raw';
+import chatgptRecommend from '@/content/chatgpt-recommend-local-business.md?raw';
+import businessDetailsWrong from '@/content/ai-business-details-wrong.md?raw';
 import campaignScreenshot from '@/assets/article_campaigns.png.asset.json';
 import socialScreenshot from '@/assets/social_sharing.png.asset.json';
 import libraryScreenshot from '@/assets/ai_resource_library.png.asset.json';
@@ -49,6 +51,20 @@ export const ARTICLES: Article[] = [
     description: 'How AE Optimizer combines your business’s voice, local content, structured data, and visibility monitoring for Google AI Overviews and AI search.',
     body: softwareOverview,
     kind: 'product',
+  },
+  {
+    slug: 'chatgpt-recommend-local-business',
+    title: 'Why Doesn’t ChatGPT Recommend My Local Business, Even Though It Ranks on Google?',
+    description: 'Why a strong Google ranking doesn’t guarantee an AI recommendation — and how to check sources, question wording, and your business information.',
+    body: chatgptRecommend,
+    kind: 'fundamentals',
+  },
+  {
+    slug: 'ai-business-details-wrong',
+    title: 'AI Has My Business Details Wrong. How Do I Check and Correct Them?',
+    description: 'A step-by-step process for recording AI errors, finding the source, updating your website and profiles, and rechecking with clear location context.',
+    body: businessDetailsWrong,
+    kind: 'fundamentals',
   },
   {
     "slug": "aeo-tools-guide",
