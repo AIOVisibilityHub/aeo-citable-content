@@ -53,6 +53,20 @@ export const ARTICLES: Article[] = [
     kind: 'product',
   },
   {
+    slug: 'chatgpt-recommend-local-business',
+    title: 'Why Doesn’t ChatGPT Recommend My Local Business, Even Though It Ranks on Google?',
+    description: 'Why a strong Google ranking doesn’t guarantee an AI recommendation — and how to check sources, question wording, and your business information.',
+    body: chatgptRecommend,
+    kind: 'fundamentals',
+  },
+  {
+    slug: 'ai-business-details-wrong',
+    title: 'AI Has My Business Details Wrong. How Do I Check and Correct Them?',
+    description: 'A step-by-step process for recording AI errors, finding the source, updating your website and profiles, and rechecking with clear location context.',
+    body: businessDetailsWrong,
+    kind: 'fundamentals',
+  },
+  {
     "slug": "aeo-tools-guide",
     "title": "Website Optimization for Answer Engines: The Complete AEO Guide",
     "description": "The complete plain-English guide to answer engine optimization \u2014 visibility files, structured data, question-based content, and technical distribution.",
