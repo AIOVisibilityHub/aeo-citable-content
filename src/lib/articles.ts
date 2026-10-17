@@ -3,6 +3,8 @@ import softwareOverview from '@/content/aeo-and-geo-software.md?raw';
 import articleCampaigns from '@/content/article-campaigns.md?raw';
 import socialSharing from '@/content/social-sharing.md?raw';
 import resourceLibrary from '@/content/ai-resource-library-publishing.md?raw';
+import chatgptRecommend from '@/content/chatgpt-recommend-local-business.md?raw';
+import businessDetailsWrong from '@/content/ai-business-details-wrong.md?raw';
 import campaignScreenshot from '@/assets/article_campaigns.png.asset.json';
 import socialScreenshot from '@/assets/social_sharing.png.asset.json';
 import libraryScreenshot from '@/assets/ai_resource_library.png.asset.json';
